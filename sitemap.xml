@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://linuximpact.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://linuximpact.com/</loc>
+</url>
+<url>
+<loc>https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/kde-desktop-showing-system-monitor-and-open-folder-1024x575.jpg</image:loc>
+<image:title><![CDATA[kde desktop showing system monitor and open folder]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538.jpg</image:loc>
+<image:title><![CDATA[ubuntu with Xfce deskop and various open applications]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/gnome-desktop-with-ubuntu-1024x538.jpg</image:loc>
+<image:title><![CDATA[gnome desktop with ubuntu]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/lxde-desktop-showing-neofetch-1024x638.jpg</image:loc>
+<image:title><![CDATA[lxde desktop showing neofetch]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/elementary-os-pantheon-desktop-environments-1024x642.jpg</image:loc>
+<image:title><![CDATA[elementary os pantheon desktop environments]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/30/deepin-desktop-showing-files-and-settings.jpg</image:loc>
+<image:title><![CDATA[deepin desktop showing files and settings]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/about/</loc>
+<lastmod>2023-11-10T12:40:47+00:00</lastmod>
+</url>
+<url>
+<loc>https://linuximpact.com/cheap-portable-retro-gaming-with-a-hated-handheld/</loc>
+<lastmod>2023-11-10T13:36:46+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/mk-on-leapster-gs.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/coke-game-gear-1024x518.jpg</image:loc>
+<image:title><![CDATA[A red sega Game gear with Coca Cola Branding]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/pink-leapster-1024x512.jpg</image:loc>
+<image:title><![CDATA[A small boy wearing headphones with a pink Leapster. A parent watches on. ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/leapster-gs-page-1024x505.jpg</image:loc>
+<image:title><![CDATA[official Leapfrog sales page for the Leapster GS showing the official MRSP of $9.99]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/turning-on-the-leapster-1024x469.jpg</image:loc>
+<image:title><![CDATA[A grimy leapster GS with fingers positioned in an awkward way]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/37/mk-leapster-1024x512.jpg</image:loc>
+<image:title><![CDATA[A fight between Cyrax and Reptile in Ultimate Mortal Kombat 3 on the Leapster GS]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/deploy-photoprism-and-host-your-own-google-photos-alternative/</loc>
+<lastmod>2023-11-10T12:44:13+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/26/a-person-looking-through-a-photo-album.jpg</image:loc>
+<image:title><![CDATA[Hands placing pictures in an album]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/26/photoprism-default-view-1024x533.jpg</image:loc>
+<image:title><![CDATA[photoprism default view]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/discover-your-most-used-linux-commands-with-muc/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/36/word-cloud.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/36/typing-hands-1024x512.jpg</image:loc>
+<image:title><![CDATA[hands typing on a laptop keyboard]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/36/muc-output-1024x489.jpg</image:loc>
+<image:title><![CDATA[Linux terminal showing muc output with percentages and a bar graph]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/</loc>
+<lastmod>2023-11-10T13:37:14+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/27/girl-on-bed.jpg</image:loc>
+<image:title><![CDATA[A girl lying on a bed wearing a stripy jumper. she has one eye open]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/27/Teenager-Using-Her-Laptop-1024x512.jpg</image:loc>
+<image:title><![CDATA[Teenager Using Her Laptop]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/27/configure-a-new-group-in-pihole-admin-interface-1024x341.jpg</image:loc>
+<image:title><![CDATA[configure a new group in pihole admin interface]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-check-your-linux-kernel-version/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/29/woman-checking-linux-kernel-version-on-a-laptop.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/29/man-and-womand-looking-perplexed-at-a-laptop-1024x512.jpg</image:loc>
+<image:title><![CDATA[man and woman looking perplexed at a laptop]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/29/neofetch-showing-linux-kernel-version-1024x512.jpg</image:loc>
+<image:title><![CDATA[neofetch showing linux kernel version]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/29/output-of-uname-r-showing-kernel-version.jpg</image:loc>
+<image:title><![CDATA[output of uname -r showing kernel version]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-choose-the-best-domain-name-for-your-next-project/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/17/choose_best_domain_name_header_image-1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/17/technology_tld.jpg</image:loc>
+<image:title><![CDATA[.technology.tld as stylised art]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/17/domain_names_easy_to_remember.jpg</image:loc>
+<image:title><![CDATA[A man with glasses, clutching his head]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/17/domain_names_should_be_descriptive.jpg</image:loc>
+<image:title><![CDATA[greenhouse and gardening accesories]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-get-a-free-domain-name-to-use-with-your-new-web-project/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/15/get_a_free_domain_name.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/15/register-a-domain-with-freenom-1024x508.jpg</image:loc>
+<image:title><![CDATA[register a domain name with freenom]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/15/freenom-selection-dialogue-1024x182.jpg</image:loc>
+<image:title><![CDATA[freenom selection dialogue]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-install-and-configure-nginx-on-ubuntu/</loc>
+<lastmod>2023-11-10T12:45:03+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/22/engine-block.jpg</image:loc>
+<image:title><![CDATA[A running engine]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/22/install_nginx_on_ubuntu-1024x380.jpg</image:loc>
+<image:title><![CDATA[A linux terminal showing output for sudo apt install nginx]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/22/nginx_default_html_page-1024x534.jpg</image:loc>
+<image:title><![CDATA[The default nginx HTML page]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/22/certbot-1024x667.jpg</image:loc>
+<image:title><![CDATA[certbot wizard in an Ubuntu terminal]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/</loc>
+<lastmod>2023-11-10T12:39:49+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/38/docked.jpg</image:loc>
+<image:title><![CDATA[A cabin cruiser docked next to a pier at sunrise]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/38/flaming-shipwreck-1024x512.jpg</image:loc>
+<image:title><![CDATA[A sailing boat on file at a dock. The dock is also on fire]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/38/docker-compose-releases-1-1024x453.jpg</image:loc>
+<image:title><![CDATA[Assets section of the docker-compose releases page showing linux packages]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-run-wordpress-on-an-old-laptop-or-pc/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/21/old_computer_can_be_wordpress_server.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/21/mariadb-secue-install.jpg</image:loc>
+<image:title><![CDATA[Linux erminal during mariadb secure install ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/21/wordpress-installation-wizard.jpg</image:loc>
+<image:title><![CDATA[Wordpress installation wizard and database details]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/31/woman-using-tgpt-on-a-laptop.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/31/install-tgpt-with-go-1024x439.jpg</image:loc>
+<image:title><![CDATA[terminal output for installing tgpt with go]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/31/tgpt-in-interactive-mode-1024x636.jpg</image:loc>
+<image:title><![CDATA[tgpt in interactive mode showing a haiku about dogs and one about cats]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/</loc>
+<lastmod>2023-11-10T13:36:55+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/35/a-selection-of-polaroid-photos-with-the-immich-logo.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/35/immich-web-interface-1-1024x513.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/35/google-photos-web-interface-1024x514.jpg</image:loc>
+<image:title><![CDATA[google photos web interface showing nags and images from 2020 ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/35/immich-map-view-zoomed-in-on-Cyprus-1024x515.jpg</image:loc>
+<image:title><![CDATA[immich map view zoomed in on Cyprus]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/35/immich-timeline-showing-three-tagged-dogs-1024x613.jpg</image:loc>
+<image:title><![CDATA[immich timeline showing three tagged dogs]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/install-immich-on-a-raspberry-pi-and-replace-google-photos/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/32/woman-in-jeans-using-immich-on-a-tablet.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/32/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455.jpg</image:loc>
+<image:title><![CDATA[raspberry pi os imager with raspberry pi os lite (64 bit) highlighted]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/32/immich-web-interface-1024x514.jpg</image:loc>
+<image:title><![CDATA[immich web interface showing memories and photos from today]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/woman-sitting-by-the-window-with-a-laptop-1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/bird-on-barbed-wire-against-a-blue-sky-1024x512.jpg</image:loc>
+<image:title><![CDATA[sunbird on barbed wire against a blue sky]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512.jpg</image:loc>
+<image:title><![CDATA[stationary man on a scooter with a crowd moving around him]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/man-peeking-through-ventian-blinds-through-a-window-1024x512.jpg</image:loc>
+<image:title><![CDATA[man peeking through ventian blinds through a window]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/baby-using-a-laptop-1024x512.jpg</image:loc>
+<image:title><![CDATA[baby using a laptop]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/brightly-coloured-packages-1024x512.jpg</image:loc>
+<image:title><![CDATA[brightly coloured packages]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/man-wearing-a-balaclava-1024x512.jpg</image:loc>
+<image:title><![CDATA[man wearing a balaclava.jpg]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/28/two-pieces-of-toast-in-a-toaster.jpg</image:loc>
+<image:title><![CDATA[two pieces of toast in a toaster]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/34/a-delicious-plate-of-food.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/34/nextcloud_cookbook_default_view-1024x571.jpg</image:loc>
+<image:title><![CDATA[Nextcloud cookbook showing multiple recipes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/34/mealie_default-home_page-1024x564.jpg</image:loc>
+<image:title><![CDATA[The mealie app showing a bunch of tasty recipes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/34/mealie_self_hosted_meal_planner-1-1024x572.jpg</image:loc>
+<image:title><![CDATA[The mealie meal planner with recipes for five days]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/34/tandoor_recipes_default_interface-1024x578.jpg</image:loc>
+<image:title><![CDATA[Tandoor recipes on a black background]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/</loc>
+<lastmod>2023-11-10T13:36:37+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/40/colossal-ibm.jpg</image:loc>
+<image:title><![CDATA[Colossal cave adventure displayed on cool retro term. Blurry white writing on a glitchy background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/40/pdp-10-1-1024x512.jpg</image:loc>
+<image:title><![CDATA[a wall-sized computer with blinking lights and huge tape reels]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/40/colossal-cave-bear-1024x512.jpg</image:loc>
+<image:title><![CDATA[A large 3d bear with a collar and chain]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/40/collosal-cave-retro-1-1024x512.jpg</image:loc>
+<image:title><![CDATA[collosal cave adventure played using cool-retro-term on a 1980s style amber terminal]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/protect-your-inbox-from-spam-and-online-threats/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/a-row-of-mailboxes.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/halfords_offers_digital_receipts.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/garbage-junk-mail-1024x512.jpg</image:loc>
+<image:title><![CDATA[Envelopes and letters in a green garbage bin]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/temporary_email_protects_your_real_address.jpg</image:loc>
+<image:title><![CDATA[Empty inbox of a temporary email address]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/gmail-anonymous-men-1024x512.jpg</image:loc>
+<image:title><![CDATA[masked men in suits overlaid with the Gmail logo]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/set_up_namecheap_catchall_address-1024x210.jpg</image:loc>
+<image:title><![CDATA[Set up email forwarding with namecheap]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/masked-clowns-1-1024x512.jpg</image:loc>
+<image:title><![CDATA[Three men with clown masks, wearng a variety of costumes and hats]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/33/anonaddy_splash_screen-1024x359.jpg</image:loc>
+<image:title><![CDATA[a screenshot of the anonaddy interface with the words: Anonymous email forwarding]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/24/frustrated-man-with-a-laptop-and-eyes-closed.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/24/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509.jpg</image:loc>
+<image:title><![CDATA[multiple exposure image of an angry person screaming through several mouths]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/24/pip-install-thefuck-1024x497.jpg</image:loc>
+<image:title><![CDATA[Installing thefuck on Linux using pip]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/24/use-thefuck-to-correct-a-permission-error-1024x536.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/24/correct-ping-command-with-thefuck-1024x546.jpg</image:loc>
+<image:title><![CDATA[correcting ping command with thefuck]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/</loc>
+<lastmod>2023-11-10T12:39:11+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/39/bill-bailey-ibm-dos-cool-retro-term.jpg</image:loc>
+<image:title><![CDATA[A scruffy Jack russel displayed on a glitchy terminal]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/39/a1200-1024x512.jpg</image:loc>
+<image:title><![CDATA[Amiga 1200 with a CRT monitor playing Bomb Jack]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/39/crt-settings-1024x449.jpg</image:loc>
+<image:title><![CDATA[Screen split vertically into two. cool-retro-term on the left, with the setings menu on the right]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/39/colossal-ibm-1024x512.jpg</image:loc>
+<image:title><![CDATA[colossal cave adventure on cool retro term with an emulated black and white IBM screen]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/</loc>
+<lastmod>2023-11-10T13:37:58+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/10/spidey.jpg</image:loc>
+<image:title><![CDATA[Spiderman reading a paperback, perched under a brick arch]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/10/library-stacks-stuffed-with-books-1024x512.jpg</image:loc>
+<image:title><![CDATA[library stacks stuffed with books]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/10/audiobookshelf-default-view-1024x473.jpg</image:loc>
+<image:title><![CDATA[audiobookshelf default view]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/10/audiobookshelf_android.png</image:loc>
+<image:title><![CDATA[Three audiobookshelf screens on android]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/self-hosted-recipe-managers-to-make-cooking-a-joy/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/pojkes.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/chef-carefully-preparing-a-dish-1024x512.jpg</image:loc>
+<image:title><![CDATA[chef carefully preparing a dish]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/tandoor-recipe-manager-1024x518.jpg</image:loc>
+<image:title><![CDATA[Tandoor recipe manager]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/tandoor-meal-plan-1024x517.jpg</image:loc>
+<image:title><![CDATA[tandoor meal plan]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/recipesage-recipe-manager-1024x516.jpg</image:loc>
+<image:title><![CDATA[recipesage recipe manager]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/25/mealie-recipe-manager-1024x514.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/the-best-linux-system-monitors-to-help-manage-resources/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/18/btop.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/18/top-1024x758-1.jpg</image:loc>
+<image:title><![CDATA[Black and white basic top monitor]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/18/htop-1024x563-1.jpg</image:loc>
+<image:title><![CDATA[Top system monitor on Linux]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/18/btop-1024x286.jpg</image:loc>
+<image:title><![CDATA[btop system monitor]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/these-5-tricks-will-improve-your-internet-speed/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/14/internet-router.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/14/wifi-router.jpg</image:loc>
+<image:title><![CDATA[router on a yellow background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/14/living-room.jpg</image:loc>
+<image:title><![CDATA[living room with couch facing a large TV]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/14/your-ISP-can-cause-slow-internet.jpg</image:loc>
+<image:title><![CDATA[large telecom tower]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/14/Ethernet-cable.jpg</image:loc>
+<image:title><![CDATA[coiled patch cable]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/these-are-the-biggest-security-threats-in-2023/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/19/hacked_laptop.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/19/man-wearing-hoodie-looking-at-computer-1024x512.jpg</image:loc>
+<image:title><![CDATA[man wearing hoodie looking at computer]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/19/black-and-white-spy-drinking-whisky-1024x512.jpg</image:loc>
+<image:title><![CDATA[black and white spy drinking whisky.jpg]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/19/missiles-1024x512.jpg</image:loc>
+<image:title><![CDATA[Missiles on a ship]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/16/ubuntu_installation.jpg</image:loc>
+<image:title><![CDATA[Ubuntu installation wizard]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/16/apache2_ubuntu_default_page.jpg</image:loc>
+<image:title><![CDATA[default Apache start page]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/uninstall-adobe-reader-and-use-your-browser-pdf-reader-instead/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/20/adobe-reader-on-a-laptop.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/20/The-giver-PDF-in-Chrome-1024x561.jpg</image:loc>
+<image:title><![CDATA[The Giver PDF in Chrome]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/20/firefox-pdf-reader-1024x559.jpg</image:loc>
+<image:title><![CDATA[firefox PDF reader showing The Giver]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/you-should-try-these-4-awesome-linux-distros-which-arent-ubuntu/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/23/different-linux-desktops.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/23/kali-1024x638.jpg</image:loc>
+<image:title><![CDATA[Kali Linux desktop with start menu and wallpape chooser open. ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/23/regolith_linux-1024x576.jpg</image:loc>
+<image:title><![CDATA[The Regolith Linux desktop with a stylised crow wallpaper and the Rofi menu]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/23/kde_neon-1024x614.jpg</image:loc>
+<image:title><![CDATA[The KDE Neon desktop with wallpaper showing a child looking at a large tree]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/23/manjaro-1024x639.jpg</image:loc>
+<image:title><![CDATA[manjaro Linux desktop with start menu and file explorer open]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/you-shouldnt-buy-a-smart-tv-here-are-5-reasons-why-not/</loc>
+<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/2/couple-watching-a-smart-tv.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/2/obselete-and-broken-TV.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/2/smart-tv-bad-for-privacy.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/2/tv-remote-control.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/2/firestick.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>
