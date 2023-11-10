@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-10T13:36:55+00:00</updated>
+    <updated>2023-11-10T17:35:50+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Gaming"/>
             <category term="CLI"/>
 
-        <updated>2023-11-10T13:36:37+00:00</updated>
+        <updated>2023-11-10T16:56:31+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/40/colossal-ibm.jpg" alt="Colossal cave adventure displayed on cool retro term. Blurry white writing on a glitchy background" />
@@ -96,7 +96,7 @@
 <p>Open a terminal, then download and extract the latest archive:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>wget https://github.com/troglobit/adventure/releases/download/v4.2/advent-4.2.tar.gztar xvf advent-4.2.tar.gz</code></pre>
+<pre class="wp-block-code"><code>wget <a href="https://github.com/troglobit/adventure/releases/download/v4.2/advent-4.2.tar.gz">https://github.com/troglobit/adventure/releases/download/v4.2/advent-4.2.tar.gz</a><br>tar xvf advent-4.2.tar.gz</code></pre>
 <p><!-- /wp:code --></p>
 <p><!-- wp:paragraph --></p>
 <p>This will create a new directory within your home directory. Move into it:</p>
@@ -111,7 +111,7 @@
 <p>Build <em>Adventure</em> with:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>./configuremake</code></pre>
+<pre class="wp-block-code"><code>./configure<br>make</code></pre>
 <p><!-- /wp:code --></p>
 <p><!-- wp:paragraph --></p>
 <p>The game will install to<strong> /usr/local/bin</strong>, and the documents will end up in<strong> /usr/local/share</strong>.</p>
@@ -203,7 +203,7 @@
             <category term="Software"/>
             <category term="CLI"/>
 
-        <updated>2023-11-10T12:39:11+00:00</updated>
+        <updated>2023-11-10T17:33:26+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/39/bill-bailey-ibm-dos-cool-retro-term.jpg" alt="A scruffy Jack russel displayed on a glitchy terminal" />
@@ -274,13 +274,13 @@
 <p>Make it executable with:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo chmod +x https://github.com/Swordfish90/cool-retro-term/releases/download/continuous/Cool_Retro_Term-dac2b4f-x86_64.AppImage</code></pre>
+<pre class="wp-block-code"><code>sudo chmod +x cool-retro-term/releases/download/continuous/Cool_Retro_Term-dac2b4f-x86_64.AppImage</code></pre>
 <p><!-- /wp:code --></p>
 <p><!-- wp:paragraph --></p>
 <p>...and launch with:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>./https://github.com/Swordfish90/cool-retro-term/releases/download/continuous/Cool_Retro_Term-dac2b4f-x86_64.AppImage</code></pre>
+<pre class="wp-block-code"><code>./Cool_Retro_Term-dac2b4f-x86_64.AppImage</code></pre>
 <p><!-- /wp:code --></p>
 <p><!-- wp:heading --></p>
 <h2 id="h-fine-tune-your-of-vintage-computing-terminal-experience" class="wp-block-heading">Fine-tune your vintage computing terminal experience</h2>
@@ -339,7 +339,7 @@
             <category term="Software"/>
             <category term="CLI"/>
 
-        <updated>2023-11-10T12:39:49+00:00</updated>
+        <updated>2023-11-10T16:57:30+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/38/docked.jpg" alt="A cabin cruiser docked next to a pier at sunrise" />
@@ -377,13 +377,13 @@
 <p>Docker is available in the standard repositories, and there are rarely any breaking changes from the most recent version (at least we've never heard of any ). To install Docker on any Debian derived system, open a terminal, and enter</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>sudo apt install docker.io</p>
+<p><code>sudo apt install docker.io</code></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Docker runs as a privileged daemon, with root powers. You'll need to add your user to the Docker group in order to summon it:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>sudo usermod -aG docker your_username</p>
+<p><code>sudo usermod -aG docker your_username</code></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Now log out and back in again for the changes to take effect</p>
@@ -470,7 +470,7 @@
             <category term="Gaming"/>
             <category term="DIY"/>
 
-        <updated>2023-11-10T13:36:46+00:00</updated>
+        <updated>2023-11-10T17:35:50+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/37/mk-on-leapster-gs.jpg" alt="" />
@@ -578,7 +578,7 @@
 <p>Downloading and unzipping the latest release into the sshflash directory:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>wget https://github.com/mac2612/retroleap/releases/download/v2.0.0-alpha10/retroleap_v2.0.0-alpha10.zipunzip retroleap_v2.0.0-alpha10.ziprm retroleap_v2.0.0-alpha10.zip</code></pre>
+<pre class="wp-block-code"><code>wget <a href="https://github.com/mac2612/retroleap/releases/download/v2.0.0-alpha10/retroleap_v2.0.0-alpha10.zip">https://github.com/mac2612/retroleap/releases/download/v2.0.0-alpha10/retroleap_v2.0.0-alpha10.zip</a><br><br>unzip retroleap_v2.0.0-alpha10.zip<br><br>rm retroleap_v2.0.0-alpha10.zip</code></pre>
 <p><!-- /wp:code --></p>
 <p><!-- wp:image {"id":359,"sizeSlug":"large","linkDestination":"none"} --></p>
 <figure class="wp-block-image size-large"><figure class="wp-image-359"><img loading="lazy"  src="https://linuximpact.com/media/posts/37/turning-on-the-leapster-1024x469.jpg" alt="A grimy leapster GS with fingers positioned in an awkward way" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-xs.jpg 300w ,https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-sm.jpg 480w ,https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-md.jpg 768w ,https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-lg.jpg 1024w ,https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-xl.jpg 1360w ,https://linuximpact.com/media/posts/37/responsive/turning-on-the-leapster-1024x469-2xl.jpg 1600w"></figure>
@@ -817,40 +817,6 @@
 <p>
 <!-- /wp:paragraph --></p>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>About</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/about/"/>
-        <id>https://linuximpact.com/about/</id>
-
-        <updated>2023-11-10T12:40:47+00:00</updated>
-            <summary>
-                <![CDATA[
-                    Linux Impact is a website dedicated to useful, interesting, and informative articles about Linux, self-hosting, and open-source software. In these virtual pages, you'll find everything from Raspberry Pis to AI. If it isn't here, drop us a line and let us know: editor@linuximpact.com Linux Impact&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><!-- wp:paragraph --></p>
-<p>Linux Impact is a website dedicated to useful, interesting, and informative articles about Linux, self-hosting, and open-source software.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In these virtual pages, you'll find everything from Raspberry Pis to AI. If it isn't here, drop us a line and let us know: editor@linuximpact.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Linux Impact is a member of the Amazon affiliate program, and we may get commissions for purchases made through links in articles.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
@@ -1951,6 +1917,223 @@
 <!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>In the meantime, enjoy it while it lasts.</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>6 Awesome Linux Desktop Environments you should try today</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/"/>
+        <id>https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/</id>
+        <media:content url="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" medium="image" />
+            <category term="Tips"/>
+            <category term="Linux"/>
+
+        <updated>2023-11-10T11:17:44+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" alt="" />
+                    The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" class="type:primaryImage" alt="" /></p>
+                <p><!-- wp:paragraph --></p>
+<p>The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are six of the best:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="kde-plasma">KDE Plasma</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":261,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-261"><img loading="lazy" src="https://linuximpact.com/media/posts/30/kde-desktop-showing-system-monitor-and-open-folder-1024x575.jpg" alt="kde desktop showing system monitor and open folder"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Plasma is a gorgeous desktop environment from KDE, offering good looks, and a huge amount of functionality, and customisation.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Using Plasma is simple. It's easy to navigate, and comes with an intuitive application launcher menu with apps organised into categories, and extensive documentation. You can add frequently used programs to the taskbar, and you can quickly and easiliy manage some common settings from the system tray.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Plasma comes with a plethora of tools from KDE built in, including KRunner (an app to search, carry out functions, and run commands quickly), a hot-key activated drop-down terminal, and more Qt-derived goodness.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Arguably, the best thing about Plasma is the built-in customisations available. While all desktop environment support customisation, with Plasma, it's simple to make a fabulous looking desktop, which is completely unique, and which looks great.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Just about everything can be tailored to your needs with a couple of mouse clicks, and without needing to open the settings menu.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>For more profound customisation, the "appearance" section of the settings menu allows you to change the entire theme, application styles, colours, window decorations, fonts, icons, cursors, splash screens, boot screens, and more.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="xfce">Xfce</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":258,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-258"><img loading="lazy" src="https://linuximpact.com/media/posts/30/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538.jpg" alt="ubuntu with Xfce deskop and various open applications"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Xfce one of the most widely used desktop environments, and has a well-deserved reputation for low resource use, while maintaining a premium look and feel.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>With a stylised mouse as its logo, Xfce is instantly recognisable out of the box, but can be customised to look and behave however you want.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Unlike KDE Plasma, Xfce doesn't come with snazzy, resource hungry desktop animations, so is more suitable for use on lower-specced and older machines.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Xfce has a solid and deserved reputation as a stable and fast desktop environment, and ships with an array of useful default applications. These include the Thunar file manager, with which you can easily navigate your filesystem and carry out file operations; the Xfce4-terminal; and the ristretto image viewer.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Xfce doesn't have default apps for everything, and gives you the freedom to choose the best calendar, email client, photo library manager, music player, and more.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>All of the included apps are blazingly fast to launch, and fast to use. If speed and efficiency in a good-looking DE are important to you, Xfce is the one to choose.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="gnome">GNOME</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":257,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-257"><img loading="lazy" src="https://linuximpact.com/media/posts/30/gnome-desktop-with-ubuntu-1024x538.jpg" alt="gnome desktop with ubuntu"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>GNOME is the default desktop environment of several Linux distributions including Debian, Ubuntu, Fedora, and RHEL. This is largely due to its lack of customisation options, meaning that it's more difficult to break. Its funding model, and backing by major non-profits means that it's unlikely to go away any time soon.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Consistency is key to the GNOME experience, and you're almost guaranteed a simplified and streamlined workflow, without having to worry about how it works, open the hood to fiddle with settings.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>GNOME is now in its third decade, and is continually innovating to be faster, more efficient, and better looking.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you're coming from Windows, you may find GNOME a bit of a shock. Linux is a different OS, and GNOME makes it feel like one.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The system menu opens full screen, but you'll find it easy to use after just a few sessions. GNOME system apps are sensible, and the DE comes with everything you need to maximise productivity.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="lxde">LXDE</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":264,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-264"><img loading="lazy" src="https://linuximpact.com/media/posts/30/lxde-desktop-showing-neofetch-1024x638.jpg" alt="lxde desktop showing neofetch"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>LXDE is a super-lightweight desktop environment, with an absolute focus on low resource usage. Regardless what hardware you're using, LXDE can run basic operations as if it was brand new.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This doesn't mean that LXDE sacrifices good looks, and with care, your LXDE desktop can be quite beautiful.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>As you'd expect, LXDE comes with a system tray, task bar, and menu, but with its emphasis on elegant simplicity there isn't much extra to distract you.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In our test, LXDE desktop on top of a standard Ubuntu install consumed only around 250MB of memory.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="pantheon">Pantheon</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":265,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-265"><img loading="lazy" src="https://linuximpact.com/media/posts/30/elementary-os-pantheon-desktop-environments-1024x642.jpg" alt="elementary os pantheon desktop environments"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you're coming from macOS, and want a familiar look and feel, the Pantheon desktop is for you. Designed for use with Elementary OS, you can install Pantheon desktop on any Linux system.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The first thing you'll notice about Pantheon is how well designed it is. The default desktop has minimal clutter, and commonly used apps are displayed in a neat, themeable macOS styled dock at the bottom of the screen.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In keeping with its aesthetic, Pantheon comes with a curated selection of wallpapers, showing beautiful outdoor scenes of nature.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The app menu is distinctive and unusual in that apps aren't categorised by default. Instead, they're displayed alphabetically using large, colourful icons. You can either type to search, or press an additional button to bring up the full system menu.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Pantheon's default apps are consistently themed, with an elegant minimalism, which makes this desktop a joy to behold. You can install additional apps through the GUI Appcenter.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you're worried about cruft building up on your hard disk, Pantheon has you covered. The housekeeping app will automatically delete temporary files, trashed files, and old downloads after 30 days.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>While Pantheon is free and open source software, developers have implemented a "pay what you want" model. Don't worry though. You don't have to pay anything at all!</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="deepin-desktop">Deepin desktop</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:image {"id":256,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><figure class="wp-image-256"><img loading="lazy" src="https://linuximpact.com/media/posts/30/deepin-desktop-showing-files-and-settings.jpg" alt="deepin desktop showing files and settings"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-2xl.jpg 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Deepin is a Chinese desktop environment designed to accompany Deepin Linux. Booting to desktop, you'll be instantly be reminded of Windows 10 - except better. Deepin desktop is slick, very stylised, and superbly consistent.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When you first start Deepin, you'll be asked to choose either "effect mode" to get the full benefit of Deepin's graphical glory, or "normal mode" if you have limited system resources. Both look great. You can also decide between the stylish "fashion mode", and the more staid "efficient mode".</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>You'll also be prompted to set theming options including wallpapers and four different icon sets.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Launching apps is simple thanks to the traditional start menu, and if you're used to the GNOME way of doing things, you can expand this to a fullscreen launcher with categories on separate screens.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Built-in apps are developed in-house by Deepin, and are themed to be as unique and usable as the rest of the system.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading" id="which-is-the-right-desktop-for-you">Which is the right desktop for you?</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>There are hundreds of desktop environments available, and we've looked at six of the best. When choosing your desktop environment you should take into account what you need it to do. If you're using an old computer, you'll want a lightweight option such as LXDE or Xfce. If you want to tax your hardware in pursuit of premium visuals, then KDE Plasma or Deepin are great choices.</p>
 <p>
 <!-- /wp:paragraph --></p>
 
