@@ -3,12 +3,109 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-10T17:35:50+00:00</updated>
+    <updated>2023-11-11T16:09:39+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Why we publish with Publii with GitHub Pages: it&#x27;s trouble-free and it&#x27;s actually free</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/x/"/>
+        <id>https://linuximpact.com/x/</id>
+        <media:content url="https://linuximpact.com/media/posts/42/printing-press.jpg" medium="image" />
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Self-hosted"/>
+            <category term="Raspberry Pi"/>
+            <category term="Linux"/>
+            <category term="Internet"/>
+
+        <updated>2023-11-11T16:09:39+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/42/printing-press.jpg" alt="Blurred newspapers rolling off a printing press " />
+                    Self-hosting sites and services from home is a pleasure and a joy - as well as being an all-consuming hobby that gives us more headaches than it should. The Raspberry Pi 4B is more than capable of providing extensive services for an extended family -&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/42/printing-press.jpg" class="type:primaryImage" alt="Blurred newspapers rolling off a printing press " /></p>
+                <p data-pm-slice="1 1 []">Self-hosting sites and services from home is a pleasure and a joy - as well as being an all-consuming hobby that gives us more headaches than it should.</p>
+<p>The <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" target="_blank" rel="noopener noreferrer">Raspberry Pi 4B</a> is more than capable of providing extensive services for an extended family - furnishing them with an <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobook server</a>; streaming movies, shows, and music through Jellyfin; office suite and slot-in Drive replacement through courtesy of NextCloud; a <a href="https://social.rutland.org.uk/" target="_blank" rel="noopener noreferrer">Fediverse</a> server (eschewed by everyone but this writer); an email server and Snappymail frontend; and even more services that we can't recall right now.</p>
+<p>The humble Pi has even, in the past, been used to host public-facing websites.</p>
+<p>Hosting a website from home is a gratifying and traumatic experience, and your experience will vary depending on exactly how you decide to set it up.</p>
+<p><a href="https://thecrow.uk/" target="_blank" rel="noopener noreferrer">The Crow</a> - a site now on semi-permanent hiatus, and from which several of the articles on Linux Imact were culled - was created as a static site using Jekyll. The writing was done in the Atom editor, and files were shuffled off onto the Pi using SCP (Secure Copy).</p>
+<p>Most of the time, the site ticked along happily, and was relatively unperturbed even under heavy traffic - one notable exception being when traffic to an article about <a href="https://thecrow.uk/A-Gov.uk-site-dedicated-to-porn-Absolutely/" target="_blank" rel="noopener noreferrer">porn being hosted on a Department of Transport subdomain</a> forced the site onto a VPS for a short period.</p>
+<h2 id="h-wordpress-on-a-pi-isnt-always-the-optimal-solution">WordPress on a Pi isn't always the optimal solution</h2>
+<p><a href="https://linuximpact.com">Linux Impact</a> is younger than you may think - popping into existence after a domain name purchase on November 6th 2023, and certain decisions were made in an unconsidered rush.</p>
+<figure class="post__image"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/old-linux-impact.jpg" alt="An ugly Wordpress site with red and grey colour scheme" width="1680" height="774" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/old-linux-impact-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-2xl.jpg 1600w"></figure>
+<p>The first of these was to use WordPress as a content management system. WordPress is great software, and there's a reason it powers more than half of the websites online today.</p>
+<p>It was...fine. It's easy to get a website looking <em>OK</em> quickly, and there's no messing around with text editors.</p>
+<p>And everything worked well until we start getting decent amounts of traffic. After appearing on the HN front page, we were quickly forced offline - struggling under numbers that a static site would have handled with ease.</p>
+<p>Yes, we could have eased the burden by using a CDN to deliver images and other content from elsewhere on the web, and we did seriously consider doing exactly that.</p>
+<p>But once we arrived at the realisation that it wasn't entirely practical to completely host this website on a bargain basement SBC and a domestic internet connection, we started to wonder why we were hosting it at home in the first place.</p>
+<h2 id="h-making-better-design-decisions">Making better design decisions</h2>
+<figure class="post__image"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/designer.jpg" alt="" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/designer-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/designer-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/designer-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/designer-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/designer-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/designer-2xl.jpg 1600w"></figure>
+<p>The first decision we made was that <em>all</em><strong><em> </em></strong>content was going to be hosted offsite. <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a> was the natural choice, as hosting is both free and fast - although there's an ever present nagging feeling that current owner, Microsoft, will, at some point, pull the rug and spiral into service enshitification.</p>
+<p>You can host any content you like on Github Pages. You can use your own domain name, and they'll even throw in SSL certs for free. It's pretty easy to set up, with the only proviso being that the content needs to be static. If you're hosting a web shop, or anything that requires users to sign in, static sites probably aren't for you anyway.</p>
+<p>While WordPress is excellent as a content management system, and it's possible to create a site using WorPress and export it as static pages, it's a bit fiddly for our tastes, and we've always found messing around with themes, layouts and widgets to be an annoyance rather than a feature.</p>
+<p>Jekyll was an option. Writing Markdown and creating sites with Jekyll is fun, but now that Atom, our favourite text editor has been archived, it's not as much fun as it used to be.</p>
+<figure class="post__image"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/publii-marketplace.jpg" alt="The Publii marketplace showing a selection of themes" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-2xl.jpg 1600w"></figure>
+<p>Publii is a static site generator with all the bells and whistles you can imagine, and a for producing and editing posts, it's not all that different from the back-end of a WordPress blog: convenience, a variety of editors, a marketplace for themes and plugins. While our WordPress instance was periodically dropping offline and heroically resurfacing, we were able to port our meagre content into Publii, and get set up for free on GitHub.</p>
+<h2 id="h-creating-static-sites-is-simple-with-publii">Creating static sites is simple with Publii</h2>
+<p>Publii is Free software licensed under GPL3. This means you can use it, distribute, modify, and redistribute with your own modifications (provided any modifications are distributed under the same license) however you want. You can buy, sell, and trade copies if you want - although that seems kind of pointless since the developers have made binaries for Windows, MacOS, and Linux available from the main <a href="https://getpublii.com/" rel="noopener noreferrer nofollow">Publii website</a>.</p>
+<p>Installation on our Debian-based system was as easy as popping a terminal and entering:</p>
+<pre><code>wget https://getpublii.com/download/Publii-0.44.0.deb
+sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
+<p>...and in a matter of minutes the app was installed and accessible from the system menu (it's a fairly hefty package, so the actual download took around 300 seconds ).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/publii-create-site.jpg" alt="Create new site dialogue, showing icons, Site name and author name" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-create-site-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-2xl.jpg 1600w"></figure>
+<p>Start Publii, and you'll be asked to accept the GNU GPL3 license then be asked to give your website a name, and choose a name for the primary author. You can also choose an adorable little icon to represent yourself and the site within Publii. We went with a steaming hot cup of coffee. Hit the big blue button and get started.</p>
+<p>This is where our experience most likely differed from most Publii users, because we weren't creating a website from scratch - we already had our struggling WordPress instance.</p>
+<p>Following the very well-written and understandable Publii instructions, we logged into WordPress, and from the admin panel clicked <strong>tools &gt; export</strong> to download an XML file containing posts, authors, category, and tag content. The file itself is only a few hundred kilobytes, so took only moments.</p>
+<p>Adding our exported content to Publii took longer. The process itself is simple, just click <strong>Tools &amp; Plugins &gt; WP Importer</strong>, then select the file you just downloaded. Publii will then download addition assets from your WordPress instance.</p>
+<p>As our WordPress site was failing under weight of numbers, this took a good hour, and when it was over, we breathed a sigh of relief.</p>
+<figure class="post__image"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/publii-posts.jpg" alt="Publii posts view showing titled posts stacked vertically" width="1680" height="719" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-posts-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-2xl.jpg 1600w"></figure>
+<p data-pm-slice="1 1 []">You'll find all of your posts under the <strong>Posts</strong> menu item on the left of the screen. Publii comes with a sigle them installed - it's called <strong>Simple</strong>, and it looks pretty much how you'd expect. If you want more themes, check out the <a href="https://marketplace.getpublii.com/" rel="noopener noreferrer nofollow">Publii marketplace</a> for a selection of free and paid-for themes.</p>
+<p>We decided to go with <a href="https://marketplace.getpublii.com/themes/technews/" rel="noopener noreferrer nofollow">TechNews</a> - it's clean, it's smart, it's easily customised, and best of all for an experimental publication with a tight budget, it's free.</p>
+<p>Download the theme zip file to your local drive, click the three dots in the top right corner of Publii, click <strong>Themes</strong>, then <strong>Install Theme</strong>.</p>
+<p>To activate your new theme, Go to <strong>Site Settings</strong>, and select your new theme from the dropdown menu. Click on <strong>Save and Preview</strong> to have Publii generate the HTML for your site and open it in your default browser.</p>
+<p>We noticed that some of our code snippets weren't rendering properly, and a few of our header images hadn't downloaded and had to manually fix a few issues. It wasn't a big deal.</p>
+<p>In the <strong>Posts</strong> section, you'll see that you have a choice of editors, and depending on your previous experiences and preference, you can use Markdown, a word processor-ish WYSIWYG interface, or a very WordPress-like block editor.</p>
+<figure class="post__image"><img loading="lazy"  src="https://linuximpact.com/media/posts/42/wysiwyg-2.jpg" alt="We've actually becoming unexpectedly attached to the WYSIWYG editor" width="1680" height="721" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-xs.jpg 300w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-sm.jpg 480w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-md.jpg 768w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-lg.jpg 1024w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-xl.jpg 1360w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-2xl.jpg 1600w"></figure>
+<p>Creating and editing a post is exactly what you're used to.</p>
+<p>Menus, were next and similarly simple to set up, a Matomo analytics plug-in, and we were ready to go.</p>
+<h2 id="h-uploading-linux-impact-to-github-pages">Uploading Linux Impact to Github Pages</h2>
+<p>You'll need an account to use Github Pages, and fortunately for us, we already had one.</p>
+<p>Create a new repository, and a initialise a new branch for your static files (you can delete the master branch). Make sure you have Git installed on your local machine, and to make things a little easier <strong>GitHub Desktop</strong> can be useful as well.</p>
+<p>Once you've cloned the repo onto your local machine, it's simply a case of going to <strong>Server</strong> in Publii, giving your site a URL, and choosing the output type and directory. Handy hint: Don't use relative URLS or you won't get an RSS feed. Once that's done, hit <strong>Sync your Website</strong> to create the static files. Copy them over to your local GitHub repo, then push to origin.</p>
+<p>Your new static site will be accessible on Github (Our Github pages address is <a href="https://davidrutland.github.io/linuximpact" rel="noopener noreferrer nofollow">https://davidrutland.github.io/linuximpact</a>), but you probably want to use your own domain name.</p>
+<p>Visit your registrar, and enter a CNAME record with your Github pages address as the value eg: davidrutland.github.io.</p>
+<p>You'll also need to create four new <strong>A </strong>records, with <strong>@</strong> as the host, and the following values:</p>
+<ul>
+<li>
+<p>185.199.108.153</p>
+</li>
+<li>
+<p>185.199.109.153</p>
+</li>
+<li>
+<p>185.199.110.153</p>
+</li>
+<li>
+<p>185.199.111.153</p>
+</li>
+</ul>
+<p>Set the TTL as low as possible and save, then head back over to GitHub. Click <strong>Settings &gt; Pages</strong>,  and replace the yourname.github.io with your domain name. Wait for GitHub to run its checks, and make sure to click the <strong>Enforce HTTPS</strong> box.</p>
+<p>That's it. You're done, and provided you don't run into any issues, it's taken may half an hour.</p>
+<p>Any time you want to add or update a page, just press that <strong>Sync your Website</strong> button in Publii, and then use either Git in your terminal or Github desktop to update your site.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Play the first ever text adventure game in your Linux terminal!</title>
         <author>
@@ -836,7 +933,7 @@
             <category term="Hardware"/>
             <category term="DIY"/>
 
-        <updated>2023-11-10T13:36:55+00:00</updated>
+        <updated>2023-11-11T15:48:01+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/35/a-selection-of-polaroid-photos-with-the-immich-logo.jpg" alt="" />
@@ -966,7 +1063,7 @@
 <p>If you know what you're doing, you can start with a newly bought Raspberry Pi, and have Immich up and running in half an hour or so. If you're a complete noob, it might take you an afternoon.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>I've written a guide on how to set up Immich on a new Raspberry Pi - assuming the reader has never dabbled in the murky waters of Linux. While the article you're reading now is extolling the virtues of Immich, the <a href="https://linuximpact.com/install-immich-on-a-raspberry-and-replace-google-photos/" data-type="post" data-id="282">guide to installing Immich on a Raspberry Pi</a> is designed to get you up and running as fast as possible. Although it's stripped to the bone, the guide still weighs in at around 1,500 words. Go read it (or don't - I don't care).</p>
+<p>I've written a guide on how to set up Immich on a new Raspberry Pi - assuming the reader has never dabbled in the murky waters of Linux. While the article you're reading now is extolling the virtues of Immich, the <a href="https://linuximpact.com/install-immich-on-a-raspberry-pi-and-replace-google-photos/">guide to installing Immich on a Raspberry Pi</a> is designed to get you up and running as fast as possible. Although it's stripped to the bone, the guide still weighs in at around 1,500 words. Go read it (or don't - I don't care).</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Early releases of Immich required you to set a tonne of variables in an environment file. Now, it's just the uploads location. You can do just about everything through the web interface.</p>
@@ -1917,223 +2014,6 @@
 <!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>In the meantime, enjoy it while it lasts.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>6 Awesome Linux Desktop Environments you should try today</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/"/>
-        <id>https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/</id>
-        <media:content url="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Linux"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" alt="" />
-                    The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are six of the best:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="kde-plasma">KDE Plasma</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":261,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-261"><img loading="lazy" src="https://linuximpact.com/media/posts/30/kde-desktop-showing-system-monitor-and-open-folder-1024x575.jpg" alt="kde desktop showing system monitor and open folder"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Plasma is a gorgeous desktop environment from KDE, offering good looks, and a huge amount of functionality, and customisation.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Using Plasma is simple. It's easy to navigate, and comes with an intuitive application launcher menu with apps organised into categories, and extensive documentation. You can add frequently used programs to the taskbar, and you can quickly and easiliy manage some common settings from the system tray.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Plasma comes with a plethora of tools from KDE built in, including KRunner (an app to search, carry out functions, and run commands quickly), a hot-key activated drop-down terminal, and more Qt-derived goodness.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Arguably, the best thing about Plasma is the built-in customisations available. While all desktop environment support customisation, with Plasma, it's simple to make a fabulous looking desktop, which is completely unique, and which looks great.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Just about everything can be tailored to your needs with a couple of mouse clicks, and without needing to open the settings menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>For more profound customisation, the "appearance" section of the settings menu allows you to change the entire theme, application styles, colours, window decorations, fonts, icons, cursors, splash screens, boot screens, and more.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="xfce">Xfce</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":258,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-258"><img loading="lazy" src="https://linuximpact.com/media/posts/30/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538.jpg" alt="ubuntu with Xfce deskop and various open applications"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce one of the most widely used desktop environments, and has a well-deserved reputation for low resource use, while maintaining a premium look and feel.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>With a stylised mouse as its logo, Xfce is instantly recognisable out of the box, but can be customised to look and behave however you want.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unlike KDE Plasma, Xfce doesn't come with snazzy, resource hungry desktop animations, so is more suitable for use on lower-specced and older machines.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce has a solid and deserved reputation as a stable and fast desktop environment, and ships with an array of useful default applications. These include the Thunar file manager, with which you can easily navigate your filesystem and carry out file operations; the Xfce4-terminal; and the ristretto image viewer.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce doesn't have default apps for everything, and gives you the freedom to choose the best calendar, email client, photo library manager, music player, and more.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>All of the included apps are blazingly fast to launch, and fast to use. If speed and efficiency in a good-looking DE are important to you, Xfce is the one to choose.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="gnome">GNOME</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":257,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-257"><img loading="lazy" src="https://linuximpact.com/media/posts/30/gnome-desktop-with-ubuntu-1024x538.jpg" alt="gnome desktop with ubuntu"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>GNOME is the default desktop environment of several Linux distributions including Debian, Ubuntu, Fedora, and RHEL. This is largely due to its lack of customisation options, meaning that it's more difficult to break. Its funding model, and backing by major non-profits means that it's unlikely to go away any time soon.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Consistency is key to the GNOME experience, and you're almost guaranteed a simplified and streamlined workflow, without having to worry about how it works, open the hood to fiddle with settings.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>GNOME is now in its third decade, and is continually innovating to be faster, more efficient, and better looking.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're coming from Windows, you may find GNOME a bit of a shock. Linux is a different OS, and GNOME makes it feel like one.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The system menu opens full screen, but you'll find it easy to use after just a few sessions. GNOME system apps are sensible, and the DE comes with everything you need to maximise productivity.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="lxde">LXDE</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":264,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-264"><img loading="lazy" src="https://linuximpact.com/media/posts/30/lxde-desktop-showing-neofetch-1024x638.jpg" alt="lxde desktop showing neofetch"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>LXDE is a super-lightweight desktop environment, with an absolute focus on low resource usage. Regardless what hardware you're using, LXDE can run basic operations as if it was brand new.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>This doesn't mean that LXDE sacrifices good looks, and with care, your LXDE desktop can be quite beautiful.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As you'd expect, LXDE comes with a system tray, task bar, and menu, but with its emphasis on elegant simplicity there isn't much extra to distract you.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In our test, LXDE desktop on top of a standard Ubuntu install consumed only around 250MB of memory.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="pantheon">Pantheon</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":265,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-265"><img loading="lazy" src="https://linuximpact.com/media/posts/30/elementary-os-pantheon-desktop-environments-1024x642.jpg" alt="elementary os pantheon desktop environments"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're coming from macOS, and want a familiar look and feel, the Pantheon desktop is for you. Designed for use with Elementary OS, you can install Pantheon desktop on any Linux system.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The first thing you'll notice about Pantheon is how well designed it is. The default desktop has minimal clutter, and commonly used apps are displayed in a neat, themeable macOS styled dock at the bottom of the screen.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In keeping with its aesthetic, Pantheon comes with a curated selection of wallpapers, showing beautiful outdoor scenes of nature.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The app menu is distinctive and unusual in that apps aren't categorised by default. Instead, they're displayed alphabetically using large, colourful icons. You can either type to search, or press an additional button to bring up the full system menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Pantheon's default apps are consistently themed, with an elegant minimalism, which makes this desktop a joy to behold. You can install additional apps through the GUI Appcenter.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're worried about cruft building up on your hard disk, Pantheon has you covered. The housekeeping app will automatically delete temporary files, trashed files, and old downloads after 30 days.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While Pantheon is free and open source software, developers have implemented a "pay what you want" model. Don't worry though. You don't have to pay anything at all!</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="deepin-desktop">Deepin desktop</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":256,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-256"><img loading="lazy" src="https://linuximpact.com/media/posts/30/deepin-desktop-showing-files-and-settings.jpg" alt="deepin desktop showing files and settings"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xs.jpg 300w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-sm.jpg 480w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-md.jpg 768w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-lg.jpg 1024w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xl.jpg 1360w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-2xl.jpg 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Deepin is a Chinese desktop environment designed to accompany Deepin Linux. Booting to desktop, you'll be instantly be reminded of Windows 10 - except better. Deepin desktop is slick, very stylised, and superbly consistent.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>When you first start Deepin, you'll be asked to choose either "effect mode" to get the full benefit of Deepin's graphical glory, or "normal mode" if you have limited system resources. Both look great. You can also decide between the stylish "fashion mode", and the more staid "efficient mode".</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll also be prompted to set theming options including wallpapers and four different icon sets.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Launching apps is simple thanks to the traditional start menu, and if you're used to the GNOME way of doing things, you can expand this to a fullscreen launcher with categories on separate screens.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Built-in apps are developed in-house by Deepin, and are themed to be as unique and usable as the rest of the system.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="which-is-the-right-desktop-for-you">Which is the right desktop for you?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are hundreds of desktop environments available, and we've looked at six of the best. When choosing your desktop environment you should take into account what you need it to do. If you're using an old computer, you'll want a lightweight option such as LXDE or Xfce. If you want to tax your hardware in pursuit of premium visuals, then KDE Plasma or Deepin are great choices.</p>
 <p>
 <!-- /wp:paragraph --></p>
 
