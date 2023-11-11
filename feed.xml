@@ -3,14 +3,14 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-11T16:16:23+00:00</updated>
+    <updated>2023-11-11T16:26:14+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
     <entry>
-        <title>Why we publish with Publii with GitHub Pages: it&#x27;s trouble-free and it&#x27;s actually free</title>
+        <title>Why we publish with Publii and GitHub Pages: it&#x27;s trouble-free and it&#x27;s actually free</title>
         <author>
             <name>David Rutland</name>
         </author>
@@ -24,7 +24,7 @@
             <category term="Linux"/>
             <category term="Internet"/>
 
-        <updated>2023-11-11T16:16:23+00:00</updated>
+        <updated>2023-11-11T16:26:14+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/42/printing-press.jpg" alt="Blurred newspapers rolling off a printing press " />
