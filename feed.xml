@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-11T16:09:39+00:00</updated>
+    <updated>2023-11-11T16:16:23+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>David Rutland</name>
         </author>
-        <link href="https://linuximpact.com/x/"/>
-        <id>https://linuximpact.com/x/</id>
+        <link href="https://linuximpact.com/why-we-publish-with-publii-with-github-pages-its-trouble-free-and-its-actually-free/"/>
+        <id>https://linuximpact.com/why-we-publish-with-publii-with-github-pages-its-trouble-free-and-its-actually-free/</id>
         <media:content url="https://linuximpact.com/media/posts/42/printing-press.jpg" medium="image" />
             <category term="Tips"/>
             <category term="Software"/>
@@ -24,7 +24,7 @@
             <category term="Linux"/>
             <category term="Internet"/>
 
-        <updated>2023-11-11T16:09:39+00:00</updated>
+        <updated>2023-11-11T16:16:23+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/42/printing-press.jpg" alt="Blurred newspapers rolling off a printing press " />
