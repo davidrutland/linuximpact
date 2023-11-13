@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-13T15:29:54+00:00</updated>
+    <updated>2023-11-13T17:12:41+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -18,6 +18,7 @@
         <id>https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/</id>
         <media:content url="https://linuximpact.com/media/posts/45/zuck.jpg" medium="image" />
             <category term="Tips"/>
+            <category term="Software"/>
             <category term="Self-hosted"/>
             <category term="Raspberry Pi"/>
             <category term="Privacy"/>
@@ -25,7 +26,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-13T15:29:54+00:00</updated>
+        <updated>2023-11-13T17:12:41+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/45/zuck.jpg" alt="Graffiti of Mark Zuckerberg" />
@@ -110,12 +111,12 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre>
 <p>Open the app, and you'll be asked to sign in. Your username is what you created during the admin setup, and will be in the format <strong>yourname@yourdomain.tld</strong>.</p>
 <p>The Snikket interface is kind of sparse. You have no contacts (unless the people in your contacts lists have XMPP addresses ), but you can add contacts, create private groups, and discover channels using the big plus sign in the lower right portion of the screen.</p>
 <p>And there are thousands of channels to join, so even if you have no friends in real life, you can still find people to talk to. A quick search for "Linux" yielded dozens of rooms dedicated to everything from Arch (BTW) to city-specific user groups. Of course, if you don't want to chat with the entire world, you can always decline to open port 5269. This will disable federation (there's probably another way to do it, but this sprung to mind as the most obvious).</p>
-<p>To add other users to your instance, open the web admin panel at <strong>your-domain.tld/admin/</strong>, then click <strong>Manage Users</strong>, and <strong>Create new invitation</strong>. Copy the link and send it by email, text. or carrier pigeon.</p>
+<p>To add other users to your instance, open the web admin panel at <strong>your-domain.tld/admin/</strong>, then click <strong>Manage Users</strong>, and <strong>Create new invitation</strong>. Copy the link and send it by email, text. or carrier pigeon. Alternatively, you can generate a QR code on your mobile device for them to scan.</p>
 <p>Anyone who accepts your link will be automatically added as a contact, and as part of your circle. You can create and manage more circles through the admin panel.</p>
 <h2 id="h-using-snikket-with-friends-and-fam">Using Snikket with friends and fam</h2>
 <p>As a privacy-oriented individual, this writer has had limited options when communicating with others. Autocrypted chat over email via <a href="https://linuximpact.com/delta-chat-going-old-school-with-the-future-of-messaging-apps/">Delta Chat</a> has been pretty good for sending pictures, texts, and voice notes. But the options for self-hosted video and voice calls have been limited, and either resource hungry, or fairly involved to set up.</p>
 <p>Snikket changes that, and runs on extremely limited hardware. And you've already seen how very easy, and very quick it is to get up and running.</p>
-<p>Voice and video calls have been (so far), flawless, high quality, and trouble free, and it's genuinely a joy to use. We've been sending memes at midnight, making calls around the clock, and getting some quality face-to-face with friends.</p>
+<p>Voice and video calls have been (so far), flawless, high quality, and trouble free, and it's genuinely a joy to use. We've been sending memes at midnight, making calls around the clock, sharing our location with the lads, and getting some quality face-to-face with friends. </p>
 <p>Bear in mind though, if you have a large number of users, and anticipate that they'll all be calling simulataneously, you may need to expand the port range.</p>
 <p>In addition to providing a first rate and effective messaging platform for the family unit, Snikket has opened up the world of XMPP. Thousands of channels, and yet more ways to waste time in the supermarket line.</p>
 <p>It's cool. You should <a href="https://snikket.org/">check it out.</a></p>
