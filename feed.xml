@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-13T15:26:42+00:00</updated>
+    <updated>2023-11-13T15:29:54+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -25,7 +25,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-13T15:26:42+00:00</updated>
+        <updated>2023-11-13T15:29:54+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/45/zuck.jpg" alt="Graffiti of Mark Zuckerberg" />
@@ -44,7 +44,7 @@
 <p>You've probably never heard of Snikket, and none of your friends use it either.</p>
 <p>Snikket is an easy-to-deploy XMPP (Extensible Messaging and Presence Protocol) server that can be up and running in virtually no time on a Raspberry Pi, VPS, or any random PC hardware you stumble across.<br><br>With Snikkett, you can create, own, and administer your own messaging service for friends, family, and casual acquaintances.</p>
 <p>By running an XMPP instance on your own hardware, you can install the Snikket app on your devices, and communicate with your other Snikket users without any danger of being snooped on by predatory corps, or other interested parties. You'll also have the option of sending your messages unencrypted, secured with OMEMO (OMEMO Multi-End Message and Object Encryption) multi-end to multi-end encryption, or classic OpenPGP.</p>
-<p>XMPP is also capable of federating, meaning that users on your Snikket instance can communicate with users on any other XMPP instance, too. It's wild.</p>
+<p>XMPP is capable of federating, meaning that users on your Snikket instance can communicate with users on any other XMPP instance, too. It's wild.</p>
 <p>As you'd expect from a modern messaging app, your communications aren't limited to texts like it's 1999, and you have the full gamut of mid 21st century functionality. Send kisses to your spouse, a voice note of everlasting adoration to your paramour, a dick pic to your side-piece, and apology videos to all of them.</p>
 <p>Snikket doesn't require much in the way of hardware to run, and a Raspberry Pi 4B will be ample for a family-sized instance. We've been running Snikket alongside an entire stable of self-hosted services including<a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/"> Immich</a>, <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobookshelf</a>, <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie</a><a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/"></a>, <a href="https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/">Pihole</a>, Jellyfin,Nextcloud, and more. We haven't encountered any problems at all.</p>
 <h2 id="h-how-to-install-snikket-on-your-raspberry-pi">How to install Snikket on your Raspberry Pi</h2>
