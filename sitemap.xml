@@ -69,6 +69,22 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/delta-chat-going-old-school-with-the-future-of-messaging-apps/</loc>
+<lastmod>2023-11-13T12:15:11+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/44/woman-looking-at-phone.jpg</image:loc>
+<image:title><![CDATA[A blonde woman at night by a lake. Her face is illuminated by the light from her phone]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/44/glyn_pgp.jpg</image:loc>
+<image:title><![CDATA[A pgp encrytion key. It's very long]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/44/ddl-chat.jpg</image:loc>
+<image:title><![CDATA[Delta chat conversation between three people]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/deploy-photoprism-and-host-your-own-google-photos-alternative/</loc>
 <lastmod>2023-11-10T12:44:13+00:00</lastmod>
 <image:image>
@@ -222,7 +238,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/</loc>
-<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<lastmod>2023-11-13T00:52:30+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/31/woman-using-tgpt-on-a-laptop.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -493,6 +509,30 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/</loc>
+<lastmod>2023-11-13T13:47:11+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/45/zuck.jpg</image:loc>
+<image:title><![CDATA[Graffiti of Mark Zuckerberg]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/45/kitchen_pi-2.jpg</image:loc>
+<image:title><![CDATA[Silver-cased Raspberry Pi 4B on a granite kitchen counter ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/45/gallery/linux_xmpp-thumbnail.webp</image:loc>
+<image:title><![CDATA[Results for XMPP Linux rooms]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/45/gallery/vidcall-thumbnail.webp</image:loc>
+<image:title><![CDATA[A shaven-headed man conducting a video call with himself]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/45/gallery/lizziechat-thumbnail.webp</image:loc>
+<image:title><![CDATA[A text chat between two people]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/the-best-linux-system-monitors-to-help-manage-resources/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>
@@ -590,7 +630,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/why-we-publish-with-publii-with-github-pages-its-trouble-free-and-its-actually-free/</loc>
-<lastmod>2023-11-12T16:56:14+00:00</lastmod>
+<lastmod>2023-11-13T00:37:56+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/42/printing-press.jpg</image:loc>
 <image:title><![CDATA[Blurred newspapers rolling off a printing press ]]></image:title>
