@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-13T13:47:11+00:00</updated>
+    <updated>2023-11-13T13:57:49+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -25,7 +25,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-13T13:47:11+00:00</updated>
+        <updated>2023-11-13T13:57:49+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/45/zuck.jpg" alt="Graffiti of Mark Zuckerberg" />
@@ -51,7 +51,7 @@
 <figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/45/kitchen_pi-2.jpg" alt="Silver-cased Raspberry Pi 4B on a granite kitchen counter " width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xs.webp 300w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-sm.webp 480w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-md.webp 768w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-lg.webp 1024w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xl.webp 1360w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-2xl.webp 1600w"></figure>
 <p>We're using the Raspberry Pi because a server needs to be on 24 hours per day, 365 days per year. It needs to be reliable, and ideally, shouldn't draw a huge amount of power. <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" target="_blank" rel="noopener noreferrer">The Raspberry Pi 4B</a> pulls a mere 8 Watts - the equivalent of a low energy lightbulb, and reliability is improved by a pair of solid state drives (SSDs) in place of a failure-prone Micro SD card. Earlier models, such as the Raspberry Pi 2 and 3, can also run a Snikket instance without problems - although we haven't tried this ourselves.</p>
 <p>That said, these instructions should work on any computer hardware from the last 15 years that you happen to have lying around making the place look untidy.</p>
-<p>The <a rel="noopener noreferrer nofollow">quickstart guide</a> on the Snikket website concisely sum up everything you need to get Snikket up and running in a hurry, although please do make sure that you read the linked page on which ports you need to open on your router and firewall.</p>
+<p>The <a href="https://snikket.org/service/quickstart/" target="_blank" rel="nofollow noopener noreferrer">quickstart guide</a> on the Snikket website concisely sum up everything you need to get Snikket up and running in a hurry, although please do make sure that you read the linked page on which ports you need to open on your router and firewall.</p>
 <p>It's only if you're running Snikket behind a reverse proxy that you'll run into trouble.</p>
 <p>While the <a href="https://snikket.org/service/help/advanced/reverse_proxy/" rel="noopener noreferrer nofollow">Snikket Operators Guide</a> offers an exhaustive catalogue of reverse proxy example configs, you'll also need to make some changes to your docker-compose file - else Snikket will fail to initialise, and you'll see an endless stream of "Waiting for certificates" when you check the logs.</p>
 <p>After you use Let's Encrypt to obtain an SSL certificate for your main domain, you need to mount your certificates directory as a volume in both the <strong>snikket_server</strong> and <strong>snikket-proxy</strong> containers. While you have your docker-compose.yml open in nano, take the opportunity to nuke the <strong>snikket-proxy</strong> container, too.</p>
