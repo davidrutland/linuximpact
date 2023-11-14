@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-14T18:14:32+00:00</updated>
+    <updated>2023-11-14T19:32:12+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Software"/>
             <category term="Distros"/>
 
-        <updated>2023-11-14T18:14:32+00:00</updated>
+        <updated>2023-11-14T19:32:12+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/46/ubuntu-clocks.jpg" alt="Ubuntu 6.10 boot screen overlaid with high transparency clocks and the ocean at sunset" />
@@ -33,7 +33,7 @@
                 <p data-pm-slice="1 1 []">Everyone remembers their first experience with Linux. For some, it was a revelation, and a lifting of proprietary scales</p>
 <p>For others it was a confusing installation procedure, followed by bafflement as nothing was where it should be and it "didn't look like Windows".</p>
 <p>For most people (by which we mean current Linux enthusiasts and users), that first experience was Ubuntu - thanks to its eye-catching design work, and its adherence to the AOL model of CD distribution. This author hasn't had an optical drive in half a decade but still possesses a stack of shiny Ubuntu coasters.</p>
-<p>Hard-headed tech nerds shouldn't get nostalgia, but we do, and it's often tempting to polish of the old bicycle and take a meandering trip down Memory Lane to revisit earlier incarnations of operating systems* we once knew, loved, and lauded as the greatest thing ever.</p>
+<p>Hard-headed tech nerds shouldn't get nostalgia, but we do, and it's often tempting to polish off the old bicycle and take a meandering trip down Memory Lane to revisit earlier incarnations of operating systems* we once knew, loved, and lauded as the greatest thing ever.</p>
 <p>But the official Ubuntu website only has downloads for version 20.04.06 onward, and while their <a href="https://old-releases.ubuntu.com/" rel="noopener noreferrer nofollow">old releases</a> subdomain stocks ISO images all the way back to 4.10 (Warty Warthog), downloads are slow, and it's a chore to set up an entire virtual machine just because you get teary-eyed for the biscuit-coloured wallpaper.</p>
 <h2 id="h-sail-the-high-distroseas">Sail the high (Distro)Seas</h2>
 <figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/46/distrosea-distros.jpg" alt="logos for18 of the distrosea distros" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/46/responsive/distrosea-distros-xs.webp 300w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-sm.webp 480w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-md.webp 768w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-lg.webp 1024w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-xl.webp 1360w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-2xl.webp 1600w"></figure>
