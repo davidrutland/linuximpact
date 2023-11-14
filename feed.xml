@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-14T18:06:47+00:00</updated>
+    <updated>2023-11-14T18:14:32+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Software"/>
             <category term="Distros"/>
 
-        <updated>2023-11-14T18:06:47+00:00</updated>
+        <updated>2023-11-14T18:14:32+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/46/ubuntu-clocks.jpg" alt="Ubuntu 6.10 boot screen overlaid with high transparency clocks and the ocean at sunset" />
@@ -37,7 +37,7 @@
 <p>But the official Ubuntu website only has downloads for version 20.04.06 onward, and while their <a href="https://old-releases.ubuntu.com/" rel="noopener noreferrer nofollow">old releases</a> subdomain stocks ISO images all the way back to 4.10 (Warty Warthog), downloads are slow, and it's a chore to set up an entire virtual machine just because you get teary-eyed for the biscuit-coloured wallpaper.</p>
 <h2 id="h-sail-the-high-distroseas">Sail the high (Distro)Seas</h2>
 <figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/46/distrosea-distros.jpg" alt="logos for18 of the distrosea distros" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/46/responsive/distrosea-distros-xs.webp 300w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-sm.webp 480w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-md.webp 768w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-lg.webp 1024w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-xl.webp 1360w ,https://linuximpact.com/media/posts/46/responsive/distrosea-distros-2xl.webp 1600w"></figure>
-<p>DistroSea came online in May 2023, and to date, offers 50 Linux distros and with a total of over 400 versions to play with in your browser. It's a cool tool you can use to get an idea of the look and feel of a distro before you go through the trouble of downloading and installing an ISO - although we wouldn't recommend using one of Distrosea's VMs as your daily driver.</p>
+<p><a href="https://distrosea.com/" target="_blank" rel="noopener noreferrer">DistroSea</a> came online in May 2023, and to date, offers 50 Linux distros and with a total of over 400 versions to play with in your browser. It's a cool tool you can use to get an idea of the look and feel of a distro before you go through the trouble of downloading and installing an ISO - although we wouldn't recommend using one of Distrosea's VMs as your daily driver.</p>
 <p>Don't get too excited just yet. If you're looking for rarities, you'll be disappointed. You won't find HJ Lu's seminal distro (appropriately called Distro) being spun up on a virtual 5.25" floppy drive, nor 1992's GUI-tastic MCC Interim Linux. Even the Debian images only go back as far as Debian 10 (Buster).</p>
 <p>If you're a fan of antique Ubuntu desktops and can't wait to get your hands on some ancient simulated tech, you'll find that DistroSea has every release of Ubuntu, as well as the Xubuntu, Lubuntu, Kubuntu, Budgie, Kylin, mate, and Studio all the way back to Ubuntu 6.10 (Edgy Eft). OK, so it's not Warty Warthog, but Edgy Eft was released in October 2006.</p>
 <p>If you want some contextual landmarks for how long ago that really was, in October 2006 Google bought YouTube for a bargain $1.65 billion, Israel was in the process of de-occupying Lebanon, and the population of the United States was 34 million less than it is today.</p>
