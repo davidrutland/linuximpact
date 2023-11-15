@@ -573,6 +573,30 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/sudo-command-not-found-heres-an-easy-fix/</loc>
+<lastmod>2023-11-15T12:19:45+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png</image:loc>
+<image:title><![CDATA[output for the command sudo apt install sudo displayed in cool retro term]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/47/man-sudo.png</image:loc>
+<image:title><![CDATA[Man page entry for sudo]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/47/gnu-grub-advanced-menu-2.png</image:loc>
+<image:title><![CDATA[Gnu Grub advance menu with a recovery mode entry highlighted]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/47/ubuntu-recovery-menu-2.png</image:loc>
+<image:title><![CDATA[Grub system recovery menu with &quot;Drop to root shell prompt&quot; highlighted ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/47/root-shell.png</image:loc>
+<image:title><![CDATA[Installing sudo using the root shell]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/the-best-linux-system-monitors-to-help-manage-resources/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>

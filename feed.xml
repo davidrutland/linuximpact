@@ -3,12 +3,85 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-14T19:32:12+00:00</updated>
+    <updated>2023-11-15T12:19:45+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Sudo command not found? Here&#x27;s an easy fix</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/sudo-command-not-found-heres-an-easy-fix/"/>
+        <id>https://linuximpact.com/sudo-command-not-found-heres-an-easy-fix/</id>
+        <media:content url="https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png" medium="image" />
+            <category term="Tips"/>
+            <category term="Terminal"/>
+            <category term="Software"/>
+            <category term="Linux"/>
+            <category term="Help"/>
+            <category term="Error"/>
+            <category term="CLI"/>
+
+        <updated>2023-11-15T12:19:45+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png" alt="output for the command sudo apt install sudo displayed in cool retro term" />
+                    Sudo is probably the most important command you'll ever use on Linux. It gives you god-like powers in the terminal, and the ability to do absolutely anything you want in the terminal (for good or evil). "sudo: command not found" isn't a common error, but&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png" class="type:primaryImage" alt="output for the command sudo apt install sudo displayed in cool retro term" /></p>
+                <p data-pm-slice="1 1 []">Sudo is probably the most important command you'll ever use on Linux. It gives you god-like powers in the terminal, and the ability to do absolutely anything you want in the terminal (for good or evil).</p>
+<p>"sudo: command not found" isn't a common error, but if you don't fix it, you won't be able to update packages, install software, or even perform basic maintanence.</p>
+<h2 id="h-what-is-the-sudo-command-used-for-on-linux">What is the sudo command used for on Linux?</h2>
+<p>Unless you make a habit of logging into Linux as <strong>root</strong> (never a good idea), you have to preface any privileged command with <strong>sudo</strong>. Sudo gives you the mystical powers of a super user, and without it, you're more-or-less restricted to launching already installed applications, or creating and manipulating files in your <strong>home</strong> directory.</p>
+<p>For a complete description of what sudo can be used for and how to use it, enter the following command into a terminal:</p>
+<p><code>man sudo</code></p>
+<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/47/man-sudo.png" alt="Man page entry for sudo" width="1680" height="924" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/47/responsive/man-sudo-xs.webp 300w ,https://linuximpact.com/media/posts/47/responsive/man-sudo-sm.webp 480w ,https://linuximpact.com/media/posts/47/responsive/man-sudo-md.webp 768w ,https://linuximpact.com/media/posts/47/responsive/man-sudo-lg.webp 1024w ,https://linuximpact.com/media/posts/47/responsive/man-sudo-xl.webp 1360w ,https://linuximpact.com/media/posts/47/responsive/man-sudo-2xl.webp 1600w"></figure>
+<p>Without <strong>sudo</strong>, most of the filesystem will be inaccessible to you, and you won't be able to elevate your privilege to perform any restricted operations.</p>
+<p>In a recent analysis of <a href="https://linuximpact.com/discover-your-most-used-linux-commands-with-muc/">most-used Linux commands</a> , we found <strong>sudo</strong> to be our third most used command overall.</p>
+<h2 id="h-why-is-the-the-sudo-command-not-found-where-did-sudo-go">Why is the the sudo command not found? Where did sudo go?</h2>
+<p>Sudo <em>should</em> installed on most Linux systems when you set them up for the first time, and by default, the sudo binary is located in <strong>/usr/bin/sudo</strong>.</p>
+<p>We've seen the "Sudo: Command Not Found" message several times - usually after installing a new Linux system on a remote VPS or on a virtual machine.</p>
+<p>You can actual force this error by deleting sudo with:</p>
+<pre><code>sudo apt remove /usr/bin/sudo</code></pre>
+<p>...or by accidentally moving it to another location.</p>
+<p>Your first response on finding that sudo isn't installed might be to try and install sudo with:</p>
+<pre><code>sudo apt install sudo</code></pre>
+<p>Your terminal may even helpfully suggest that you use the above command. However, as you don't have sudo installed, you don't have the necessary privileges to install sudo.</p>
+<p>If you receive the error message: "Sudo: Command Not Found", the first thing you should do is check if <strong>sudo</strong> is present on your system.</p>
+<p>Open a terminal and enter:</p>
+<pre><code>ls /usr/bin/sudo</code></pre>
+<p>If sudo isn't present, you'll see the following message:<strong> ls: cannot access '/usr/bin/sudod': No such file or directory</strong>.</p>
+<h2 id="h-heres-the-simple-fix-for-sudo-command-not-found-on-linux">Here's the simple fix for "Sudo: Command Not Found" on Linux</h2>
+<p>The root account on Linux doesn't need to use <strong>sudo</strong> in order to install packages, and fortunately, it's easy to get root access on your physical machine.</p>
+<p>Restart Linux, either by selecting <strong>log out &gt; restart</strong> or simply <strong>restart</strong> from your power or system menu.</p>
+<p>Alternatively, power off your machine, then turn it on again.</p>
+<p>As soon as your PC starts to boot, press and hold <strong>shift</strong> or <strong>Escape</strong> to bring up the <strong>grub</strong> menu.</p>
+<p>Choose <strong>Advanced Options</strong> then select the most recent kernel version with <strong>Recovery mode</strong>.</p>
+<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/47/gnu-grub-advanced-menu-2.png" alt="Gnu Grub advance menu with a recovery mode entry highlighted" width="1680" height="647" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-xs.webp 300w ,https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-sm.webp 480w ,https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-md.webp 768w ,https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-lg.webp 1024w ,https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-xl.webp 1360w ,https://linuximpact.com/media/posts/47/responsive/gnu-grub-advanced-menu-2-2xl.webp 1600w"></figure>
+<p>Towards the bottom of the Recovery menu, you'll see an option to "Drop to root shell prompt". Select this.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/47/ubuntu-recovery-menu-2.png" alt="Grub system recovery menu with &quot;Drop to root shell prompt&quot; highlighted " width="1680" height="827" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-xs.webp 300w ,https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-sm.webp 480w ,https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-md.webp 768w ,https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-lg.webp 1024w ,https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-xl.webp 1360w ,https://linuximpact.com/media/posts/47/responsive/ubuntu-recovery-menu-2-2xl.webp 1600w"></figure>
+<p>Once in the root shell, you can install the sudo package, and add your user to the <strong>sudo</strong> group.</p>
+<p>On Debian, Ubuntu, and related distros:</p>
+<pre><code>apt install sudo
+usermod -aG sudo username</code></pre>
+<p>For Arch and derivatives such as Manjaro:</p>
+<pre><code>pacman -S sudo
+usermod -aG wheel username</code></pre>
+<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/47/root-shell.png" alt="Installing sudo using the root shell" width="1680" height="544" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/47/responsive/root-shell-xs.webp 300w ,https://linuximpact.com/media/posts/47/responsive/root-shell-sm.webp 480w ,https://linuximpact.com/media/posts/47/responsive/root-shell-md.webp 768w ,https://linuximpact.com/media/posts/47/responsive/root-shell-lg.webp 1024w ,https://linuximpact.com/media/posts/47/responsive/root-shell-xl.webp 1360w ,https://linuximpact.com/media/posts/47/responsive/root-shell-2xl.webp 1600w"></figure>
+<p>Make sure to replace <strong>username</strong> with the actual username of your usual user.</p>
+<p>You can now reboot as normal, and go about your day with full sudo powers!</p>
+<h2 id="h-the-power-of-sudo-at-your-fingertips">The power of sudo at your fingertips</h2>
+<p>Sudo is a powerful tool, and it's easy to make a mistake on the command line. If sudo vanished due a mistyped command, such as accidentally moving the binary to another location, it's possible you may need to take more care when typing commands.</p>
+<p>Though they may not have helped in this specific case, there are tools that can assist with suggestions and help you <a href="https://linuximpact.com/quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck/">quickly remedy command line mistakes</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sail through Ubuntu history with DistroSea</title>
         <author>
@@ -1141,199 +1214,6 @@ sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
 </div>
 <p> </p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Immich is the killer app that will kick-start the self-hosting revolution</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/"/>
-        <id>https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/</id>
-        <media:content url="https://linuximpact.com/media/posts/35/a-selection-of-polaroid-photos-with-the-immich-logo.jpg" medium="image" />
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Raspberry Pi"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-            <category term="Hardware"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-11T15:48:01+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/35/a-selection-of-polaroid-photos-with-the-immich-logo.jpg" alt="" />
-                    A killer app can drag a product or a practice from obscurity to dominance. Before the iPhone, it was weird to have a make phone calls palm-sized touchscreen computer in your pocket, and my HP Jornada 928, and various XDA devices, attracted curiosity whenever I&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/35/a-selection-of-polaroid-photos-with-the-immich-logo.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>A killer app can drag a product or a practice from obscurity to dominance. Before the iPhone, it was weird to have a make phone calls palm-sized touchscreen computer in your pocket, and my HP Jornada 928, and various XDA devices, attracted curiosity whenever I whipped it out in public.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The iPhone normalised smartphones thanks to its hardware design, multi-touch capacitive touchscreen and a user-friendly, gesture-based interface. It dragged pocket-sized computing devices out of the hands of geeks like me and into the sunlight. These days, you'd be considered odd if you didn't have a smartphone.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>History is filled with examples of killer apps that made niche technologies mainstream, and transformed the esoteric into the norm.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>GUIs, and MS Windows in particular, made computing accessible and mundane; Office transformed actual offices; America Online (AOL) popularized email in the 1990s, making it a mainstream communication tool and driving internet adoption.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The common feature with these technologies is that they make your life better in some way, and that they're easy to set up and use.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I'm a self-hosting enthusiast and evangelist - perhaps even a fanatic - and I use a Raspberry Pi 4B as a server. It's a niche hobby, and one that has caused innumerable headaches over the years. Sure - thanks to Nextcloud, Jellyfin, Audiobookshelf, FreshRSS, an email server, and a few other self-hosted apps, I've managed to more-or-less break free of reliance on tech giants, but it has, at times, been difficult. It's also hard to explain to friends and relations why I do what I do, and why they should too.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>There has not, thus far, been a killer feature to bring self-hosting into the mainstream. In my opinion, that has now changed, and if there is anything that can convert your average person into buying a Pi and getting into self-hosting, Immich is it. It is <em>the</em> killer app</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Everyone's a happy snapper</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Thanks to smartphones, almost everyone takes a tonne of photos every day. There are selfies with your besties, random snaps of cute animals, what you had for dinner.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Over the last decade or so, you've probably snapped tens of thousands of images, and if you opted into the Android ecosystem, you've had them backed up automatically to Google's servers, free of charge.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Google Photos is a great product, and it got people hooked on photographing every detail of their lives. You can view your images on any phone with the app installed, or scroll infinitely through the web interface. You can search for your friends by name, or describe an object to see pictures of that cool butterfly you spotted back in 2018. It will even provide you with reminders of what you were doing on this day last year or a decade ago - affording you a depressing insight into your own aging process.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>When Google pulled the rug on unlimited free storage in 2021 - imposing a 15GB limit across all of the company's free products - it left a lot of people over their allowance, and wondering what to do about it. The easiest option, of course, was to pay Google a recurring fee.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Sure, you could host your own Google Photos alternative, but that requires technical know-how, and the results don't compare to the simple, intuitive ease and usability of Google Photos.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I've previously recommended <a href="https://linuximpact.com/deploy-photoprism-and-host-your-own-google-photos-alternative/" data-type="post" data-id="213">PhotoPrism</a> for self-hosters looking for a Google Photos alternative. It's a great piece of software, and has served me well for several years - but it isn't Immich.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="immich-is-a-google-photos-clone" class="wp-block-heading">Immich is a better Google Photos clone</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":295,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-295"><img  src="https://linuximpact.com/media/posts/35/immich-web-interface-1-1024x513.jpg" alt="" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-xs.webp 300w ,https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-sm.webp 480w ,https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-md.webp 768w ,https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-lg.webp 1024w ,https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-xl.webp 1360w ,https://linuximpact.com/media/posts/35/responsive/immich-web-interface-1-1024x513-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The first thing you notice about Immich is that it looks good. Better than good in fact, and has clearly taken design cues from Google. If it ain't broke, don't fix it, and all that.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Show the <a href="https://demo.immich.app">Immich demo instance</a> to your mum, show it to your grandad. If they've used Google photos before, they'll recognise it instantly. It's intuitive to use. Scroll down, and see the years fly by on the right side of the screen. Click on a photo to open it fullscreen, and the information icon to get details such as the date, location, a handy map, and identities of anyone tagged. Simples.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Below is a screenshot of my old Google Photos web interface. While they do look extremely similar there are some glaringly obvious differences. The first is that it hasn't actually been used since 2020, and even then, these are WhatsApp photos automatically uploaded when I plugged in a phone I didn't even realise I still had.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":296,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-296"><img  src="https://linuximpact.com/media/posts/35/google-photos-web-interface-1024x514.jpg" alt="google photos web interface showing nags and images from 2020 " sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-xs.webp 300w ,https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-sm.webp 480w ,https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-md.webp 768w ,https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-lg.webp 1024w ,https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-xl.webp 1360w ,https://linuximpact.com/media/posts/35/responsive/google-photos-web-interface-1024x514-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll notice that in the Google screenshot, I have 10GB of 15GB used. While in the Immich image, I'm currently 998.7GB of 3.6TB. Storage is cheap, and in the long run, considerably cheaper than paying a subscription fee to the big G.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>And then there are the nags, and reminders that storage is 66% full, and the constant exhortations to "Unlock storage discount or manage storage". Yeah. Screw that noise.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Up in the top right, of Google photos, you'll see a cog icon - click on it and see the top item on the settings menu is once again nagware to upgrade. Do I want to "unlock storage discount"? What does that even mean?</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Settings in Google Photos are rather meaningless and banal. In contrast, the Immich administration panel is loaded with features that you don't have to touch.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I say that because many people - especially if they're new to running their own services - won't want to interfere with the way it works. But should you wish to, you can mess with the machine learning models, set thresholds for facial recognition, manage job concurrency, and even choose your own tile server for the map.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Did I mention the map? I thought Google Photos had this feature, but on revisiting it after several years, I can't locate it. The map is easy to find on Immich - it's the third entry on the left, it says "Map", and has a little icon of a map.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":298,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-298"><img  src="https://linuximpact.com/media/posts/35/immich-map-view-zoomed-in-on-Cyprus-1024x515.jpg" alt="immich map view zoomed in on Cyprus" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-xs.webp 300w ,https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-sm.webp 480w ,https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-md.webp 768w ,https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-lg.webp 1024w ,https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-xl.webp 1360w ,https://linuximpact.com/media/posts/35/responsive/immich-map-view-zoomed-in-on-Cyprus-1024x515-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Click on it, and you'll see numbers in various locations around the world. These separate as you zoom in - giving finer detail of exactly how many photos were taken where. When the number is low enough, you'll see thumbnails start to appear. You can click on these. Neato.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Image and facial recognition is where it's at though. Google is good at this, and so is Immich, and if you want to, you can specify the limits at which a face is recognised. You can tag people, merge faces, set birthdays, and so on. While I'd love to demonstrate how this works, the people I've tagged would probably be upset if I plastered their mugs on the internet, and an image composed entirely of smudged faces kind of defeats the point. Instead, here's a composite of the tagged page of three dogs:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":301,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-301"><img  src="https://linuximpact.com/media/posts/35/immich-timeline-showing-three-tagged-dogs-1024x613.jpg" alt="immich timeline showing three tagged dogs" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-xs.webp 300w ,https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-sm.webp 480w ,https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-md.webp 768w ,https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-lg.webp 1024w ,https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-xl.webp 1360w ,https://linuximpact.com/media/posts/35/responsive/immich-timeline-showing-three-tagged-dogs-1024x613-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>That's pretty impressive, right?</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The app is also a no brainer. Install it from F-droid, Google Play or the iphone store(?), and the only real thing you need to plug in apart from your username and password is the server URL.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>At the top of the app or web interface, Immich will even show you "memories" of this date in previous years. Click on one and it'll start a slideshow. Neat!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Given how awesomely Immich stacks up against the alternatives, why wouldn't anyone want to host their own - especially when you remind them that Google scans their photos as a matter of routine, so privacy isn't something you have to accept as a necessary cost of easy-to-use image hosting.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="immich-is-simple-to-install-and-use" class="wp-block-heading">Immich is simple(ish) to install and use</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>OK. The prospect of setting up your own Google Photos clone with unlimited storage is exciting. But most people don't consider themselves experts, and only about 3% of people use Linux. Of those, a decent proportion will be Steam Deck owners.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Outside of tech and related industries, few people have ever seen a Linux terminal that wasn't in a movie about hackers. It's scary and unfamiliar.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The truth is that anyone can follow a set of instructions, provided they're clear enough. Copying and pasting commands isn't difficult, and if you run into problems, search engines are a thing, and there's even a friendly <a href="https://discord.com/invite/HkcuPgXVFm">Immich Discord server</a> where you can ask for advice.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you know what you're doing, you can start with a newly bought Raspberry Pi, and have Immich up and running in half an hour or so. If you're a complete noob, it might take you an afternoon.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I've written a guide on how to set up Immich on a new Raspberry Pi - assuming the reader has never dabbled in the murky waters of Linux. While the article you're reading now is extolling the virtues of Immich, the <a href="https://linuximpact.com/install-immich-on-a-raspberry-pi-and-replace-google-photos/">guide to installing Immich on a Raspberry Pi</a> is designed to get you up and running as fast as possible. Although it's stripped to the bone, the guide still weighs in at around 1,500 words. Go read it (or don't - I don't care).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Early releases of Immich required you to set a tonne of variables in an environment file. Now, it's just the uploads location. You can do just about everything through the web interface.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I'll grant that if you've only ever used a GUI desktop environment, installing Immich on a Pi will probably scare the shit out of you, but it's doable. Take a deep breath and follow the instructions.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Maintenance is as simple as running a single command:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>docker-compose pull &amp;&amp; docker-compose update</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>But just because it's relatively easy to set up, doesn't mean you're limited. If you're confident, you can fine-tune almost everything.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="immich-is-creating-true-believers-and-evangelists" class="wp-block-heading">Immich is creating true believers and evangelists</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Going back to the title, I still maintain that Immich is the killer app for self-hosting. I know this because people I know have seen me using Immich, and have heard me talking about it. They've seen that my entire family group have accounts on my Raspberry Pi Immich instance and that for them, it just works.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>They're interested.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Several friends and acquaintances (Disclaimer: this writer have very few friends and acquaintances) have expressed interest in buying a Raspberry Pi, and hosting their own Immich instance.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>One friend has actually pulled the trigger, and now runs accounts for himself, his wife, and his sons. It's a start. His prior computer experience amounted to owning a badly outdated Chromebook - that he now uses to connect to the Pi via SSH.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Eventually, his friends (he has many more friends than this writer) will get curious, or complain about photo storage limits, and he'll show them what Immich is, and how easy it is to use and install. There will be more converts.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>This is how it starts.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>My Pi-owning friend is only running Immich so far, but he's already opening his mind to other possibilities, and getting into the headspace where he doesn't need to rely on Google, Amazon, Apple, or any other corp. He's talking about a mail server.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>This is how the self-hosting revolution begins.</p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
