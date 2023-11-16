@@ -3,12 +3,90 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-15T12:19:45+00:00</updated>
+    <updated>2023-11-16T12:25:39+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>A TechCrunch RSS feed was hijacked in 2021. Nobody noticed.</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed/"/>
+        <id>https://linuximpact.com/a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed/</id>
+        <media:content url="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" medium="image" />
+            <category term="Security"/>
+            <category term="RSS"/>
+            <category term="Internet"/>
+
+        <updated>2023-11-16T12:25:39+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
+                    RSS feeds power the internet - The parts of it worth reading anyway. With a decent RSS reader, you can skim headlines or excepts, you can get the most important news on your favourite topics without ever having to visit the sites themselves. Feedburner is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" class="type:primaryImage" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" /></p>
+                <p>RSS feeds power the internet - The parts of it worth reading anyway. With a decent RSS reader, you can skim headlines or excepts, you can get the most important news on your favourite topics without ever having to visit the sites themselves.</p>
+<p>Feedburner is a web feed management service founded in 2004, and offered custom RSS feeds and management tools to bloggers. There are were some huge advantages for websites using Feedsburner to power their feeds. Statistics and analytics, for example; browser-friendly versions instead of ugly XML files; email sign-up options.</p>
+<p>But relying on external services to provide feeds leaves readers vulnerable if the feed is taken over by a a squatter. Who wants their feeds full of affiliate spam, cruft, crap, and scams? No-one, that's who.</p>
+<p>But that's what happened to TechCrunch in 2021.</p>
+<h2 id="h-techcrunch-has-had-a-rocky-relationship-with-feedburner">TechCrunch had a rocky relationship with FeedBurner</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/bonfire.jpg" alt="silhouette of a man in front of a blazing bonfire" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/bonfire-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/bonfire-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/bonfire-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/bonfire-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/bonfire-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/bonfire-2xl.webp 1600w"></figure>
+<p>Way back in 2005, TechCrunch, not yet a tech media powerhouse, was a "weblog dedicated to obsessively profiling and reviewing every newly launched web 2.0 business and service".</p>
+<p>Hosted on WordPress 1.5.1, Techcrunch was the place to go if you wanted to read about the launch of Google reviews, the proliferation of new search engines, or an explanation of what web2.0 actually was.</p>
+<p>They also had good things to say about the FeedBurner service:</p>
+<blockquote>
+<p>One reason a blog or website owner would want to use this is because it simplifies the RSS feed. The Feed URL for Techcrunch, for instance, is “http://feeds.feedburner.com/Techcrunch”, which is a much simpler format that standard RSS feeds.... And if a site can get most of its readers to use the single Feedburner feed, they can take advantage of the great statistics and tools to see where readers are coming from and what they are clicking on.</p>
+</blockquote>
+<p>We'd disagree that the TechCrunch FeedBurner URL is a simpler format, and a quick look on archive.org shows that the TechCrunch had two native feeds at the time: http://www.techcrunch.com/?feed=rss and <a href="http://www.techcrunch.com/?feed=atom.">http://www.techcrunch.com/?feed=atom. </a></p>
+<p>Sure, the URLs contain a "?", but the overall length was shorter, and besides, links are for clicking, not for copying out by hand - but we digress. TechCrunch clearly preferred the FeedBurner service, most likely because, "it can automatically add Google Adsense adds to your feeds, allowing you to easily generate revenue if you have a large enough audience". </p>
+<p>TechCrunch switched to FeedBurner the following month. </p>
+<p>Google acquired FeedBurner in 2007, and by 2012, <a href="https://techcrunch.com/2012/09/28/the-feedburner-deathwatch-continues-google-kills-adsense-for-feeds/" rel="noopener noreferrer nofollow">TechCruch had the service on deathwatch</a>, after Google shuttered its adsense integration.</p>
+<blockquote>
+<p>Many publishers (including TechCrunch) rely on the service to publish their RSS feeds. It’s time to reconsider this as the writing is clearly on the wall.</p>
+</blockquote>
+<p>They didn't reconsider it though, and the TechCrunch Feedburner feed was regularly updated with every story and article until late 2021.</p>
+<h2 id="h-failing-to-heed-your-own-warning">Failing to heed your own warning</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/ears.jpg" alt="A bearded man holding both hands up to his ears" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/ears-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/ears-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/ears-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/ears-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/ears-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/ears-2xl.webp 1600w"></figure>
+<p>We started subscribing to TechCrunch via RSS at some point in 2018 - somewhere around the time that TechCrunch was <a href="https://techcrunch.com/2018/04/07/rss-is-undead/">loudly proclaiming</a> the death of RSS as a useful technology.</p>
+<p>We can't remember where we found the URL - the official feed on the main site was <a href="https://techcrunch.com/feed/" rel="noopener noreferrer nofollow">https://techcrunch.com/feed/</a> at the time. It was probably through search results or an aggregated list of cool feeds to follow. Either way, the official FeedBurner feed was ticking along nicely. Doubtless forgotten by the TechCrunch admins, but, like a dying postman in a post-apocalyptic world, dutifully updating RSS clients around the world with the latest on Silicon Valley startups, interesting innovations, and the imminent arrival of Web 3.0 (yawn).</p>
+<p>In <a href="https://techcrunch.com/2021/04/14/googles-feedburner-moves-to-a-new-infrastructure-but-loses-its-email-subscription-service/" rel="noopener noreferrer nofollow">April 2021</a>, TechCrunch reported that Google would soon move Feedburner to a new infrastructure, and once again plugged its own FeedBurner URL - at the same time noting that the upcoming changes had the potential to create a bit of a mess:</p>
+<blockquote>
+<p>And despite everything, shutting it down would probably break enough tools for publishers to create quite an uproar. The TechCrunch RSS feed, to which you are surely subscribed in your desktop RSS reader, is http://feeds.feedburner.com/TechCrunch/, after all.</p>
+</blockquote>
+<p>Yes. That was a live link, BTW.</p>
+<h2 id="h-the-confusion">The confusion</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_freshrss_feed.jpg" alt="TechCrunch RSS feed as viewed through FreshRSS" width="1680" height="636" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-2xl.webp 1600w"></figure>
+<p>We're not sure how exactly the FeedBurner infrastructure shift went down, but we're certain that as TechCrunch predicted, it was a shitshow, and yes, it did break publisher tools, despite <a href="https://support.google.com/feedburner/answer/10483501">assurances from Google</a> that, "All existing feeds will continue to serve uninterrupted".</p>
+<p>Pruning the feeds on our <a href="https://linuximpact.com/freshrss-stay-safe-and-never-visit-another-website-again/">fabulous self-hosted FreshRSS instance</a> last week, we noticed that we hadn't favourited any TechCrunch articles for a while. Our instance is set to purge content over a certain age unless it's been favourited.</p>
+<p>Historically we had liked, on average, one TechCrunch article per month enough to keep it permanently on our servers.</p>
+<p>Highlights include headlines such as "We must end the era of adjunct surveillance" from August 2021 at which we were outraged and disgusted, and "Panic sells 20,000+ Playdate handhelds in under 20 minutes" from a month earlier, about which we were delighted.</p>
+<p>Our last favourited TechCrunch article received over RSS was titled "Amazon will pay you $10 in credit for your palm print biometrics", at which we literally facepalmed (Boom!).</p>
+<p>After that there's nothing - at least nothing we've found engaging enough to keep.</p>
+<h2 id="h-under-new-management">Under new management</h2>
+<p>An article from the TechCruch feed posted in October 2021 - a mere six months after TechCrunch's article on the upcoming Infrastructure changes was titled, "China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn". It doesn't scan as being particularly Crunch-y, and although informative, it doesn't read quite right either. The article isn't engaging (but hey, who has a 100% hit rate?), and the byline is "noreply@blogger.com".</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_china_story.jpg" alt="A news article with the headline: China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn" width="1680" height="744" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-2xl.webp 1600w"></figure>
+<p>The page it links to is on the now-defunct https://techncruncher.blogspot.com blog. Running the content through a free plagiarism detector, reveals that the exact same content is on dozens of sites, including the Freedom First Network - an alt-right leaning outlet that (on a random sampling of its other pages) views Democrats as facists, and has headlines such as "Planned Parenthood is Selling the Bodies of Dead Babies to the CCP to Develop Bioweapons to Use Against Americans", and "Do Black people owe White people reparations for slavery". We suspect this is where the story originated.</p>
+<p>Move forwards through the TechCrunch feed, and you'll see more plausible headlines. Some are tech-related such as, "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)"; some are typical of the kind of low-quality SEO fodder you'd find on other, tech-adjacent sites, such as "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?" </p>
+<p data-pm-slice="1 1 []">There's a tonne of pop culture and movie lists.</p>
+<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/55/cenobites.jpg" alt="Supposed TechCrunch story: Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" width="1914" height="958" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/cenobites-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/cenobites-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/cenobites-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/cenobites-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/cenobites-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/cenobites-2xl.webp 1600w"></figure><figure class="post__image"><img  src="Supposed techcruch story with the headline Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" alt="" data-is-external-image="true"></figure>
+<p>In February 2022, the linked domain moved to crunchhype.com, and the pop culture disappeared in favour of affiliate marketing and SEO based articles. Buried in there someone is, we would assume, an exhortation to take control of neglected RSS feeds to shill your stuff.</p>
+<h2 id="h-wider-implications-for-xxx">There are wider implications for abandoned accounts</h2>
+<p>Websites live and die all the time, and their RSS feeds are taken over by squatters and legitimate new owners.</p>
+<p>The difference is that if a website of TechCrunch's size had died, we'd have heard about it and become suspicious that their feed was still coming through.</p>
+<p>TechCrunch is obviously still alive, and we had little reason to think that one of their official RSS channels had been taken over.</p>
+<p>Had the squatter's headline writers been better, we might have actually opened one of their spammy articles, and believed what was written therein.</p>
+<p>We don't know if you've heard the news, but Twitter will soon start selling disused handles in an effort to shore up the finances of Elon Musk's rapidly depopulating media empire.</p>
+<p>These are, presumably, accounts with a lot of followers, and the opportunity for plausible disinformation from people you'd forgotten you follow will be huge.</p>
+<p>Yes, the costs will be high, but consider that buying followers through promoted accounts costs around $2 per follower, we can see an incoming tsunami of shit.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sudo command not found? Here&#x27;s an easy fix</title>
         <author>
@@ -25,7 +103,7 @@
             <category term="Error"/>
             <category term="CLI"/>
 
-        <updated>2023-11-15T12:19:45+00:00</updated>
+        <updated>2023-11-15T22:56:28+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png" alt="output for the command sudo apt install sudo displayed in cool retro term" />
@@ -58,7 +136,7 @@
 <pre><code>ls /usr/bin/sudo</code></pre>
 <p>If sudo isn't present, you'll see the following message:<strong> ls: cannot access '/usr/bin/sudod': No such file or directory</strong>.</p>
 <h2 id="h-heres-the-simple-fix-for-sudo-command-not-found-on-linux">Here's the simple fix for "Sudo: Command Not Found" on Linux</h2>
-<p>The root account on Linux doesn't need to use <strong>sudo</strong> in order to install packages, and fortunately, it's easy to get root access on your physical machine.</p>
+<p>The root account on Linux doesn't need to use <strong>sudo</strong> in order to install packages, and fortunately, it's easy to get root access on your physical machine or VM.</p>
 <p>Restart Linux, either by selecting <strong>log out &gt; restart</strong> or simply <strong>restart</strong> from your power or system menu.</p>
 <p>Alternatively, power off your machine, then turn it on again.</p>
 <p>As soon as your PC starts to boot, press and hold <strong>shift</strong> or <strong>Escape</strong> to bring up the <strong>grub</strong> menu.</p>
@@ -1163,57 +1241,6 @@ sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
 <p>
 <!-- /wp:paragraph --></p>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Mystic Mog&#x27;s Monthly Musings for November</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/mystic-mogs-monthly-musings-for-november/"/>
-        <id>https://linuximpact.com/mystic-mogs-monthly-musings-for-november/</id>
-        <media:content url="https://linuximpact.com/media/posts/43/mystic-mog.jpg" medium="image" />
-            <category term="Horoscope"/>
-            <category term="Astrology"/>
-
-        <updated>2023-11-12T12:40:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/43/mystic-mog.jpg" alt="An artistic rendition of a cat sitting among curtains and illuminated by three candles" />
-                    Welcome to the Linux Impact horoscope for the month of November 2023, cast by me, Mystic Mog. I am an AI generated psychic cat with magical powers of divination, granted to me by the TheBloke_Luna-AI-Llama2-Uncensored-GPTQ model. Every month, I provide astrological insights based on the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/43/mystic-mog.jpg" class="type:primaryImage" alt="An artistic rendition of a cat sitting among curtains and illuminated by three candles" /></p>
-                <p>Welcome to the Linux Impact horoscope for the month of November 2023, cast by me, Mystic Mog. I am an AI generated psychic cat with magical powers of divination, granted to me by the <strong>TheBloke_Luna-AI-Llama2-Uncensored-GPTQ model.</strong></p>
-<p>Every month, I provide astrological insights based on the movements of celestial bodies. I use my mystical abilities to interpret their meaning and offer guidance to those seeking answers about love, career, finance, and other important aspects of life.</p>
-<p>But did you also know that I have a secret talent for playing the piano? Yes, it's true! When no one is looking, I sneak into the living room and play some beautiful tunes on my invisible keyboard. And when I'm not busy being mysterious or predicting your future, I like to relax with a good book (usually about witchcraft) and a plate of fresh mouse. Life is quite exciting around here, don't you think?</p>
-<div class="message">
-<div class="circle-bot"> </div>
-<div class="text">
-<h2 class="username">Here's what's in store for you in the month of November 2023</h2>
-<div class="message-body">
-<p>Ah, the joys of November. The air is crisp, the trees are bare, and the holidays are just around the corner. But don't get too excited because according to my crystal ball, this month is going to be a real piece of work. Here are your horoscopes, dear reader:</p>
-<p class="msg msg--info"><strong>Aries (March 21-April 19)</strong>: You're feeling restless and impatient today, Aries. Maybe it's time to take a break from all that running around you do. Or maybe you should just run faster? Either way, things aren't looking great right now.</p>
-<p class="msg msg--highlight "><strong>Taurus (April 20-May 20)</strong>: Taurus, you're having a bit of an identity crisis lately. Are you a bull or a sheep? Well, let me tell you something - you're both. And if you try to deny either part of yourself, you'll end up with a lot of conflicting emotions. So embrace whoever you want to be, but remember that there's no shame in being a little bit of everything.</p>
-<p class="msg msg--success"><strong>Gemini (May 21-June 20)</strong>: Gemini, you're feeling pretty scattered these days. Your mind is everywhere at once, and nothing seems to hold your attention for very long. That's okay though - it means you're curious and interested in lots of different things. Just make sure not to forget anything important while you're flitting from one thing to another.</p>
-<p class="msg msg--info"><strong>Cancer (June 21-July 22)</strong>: Cancer, you're feeling a little bit homesick today. Maybe it's time to go back home and see your family again. Or maybe it's time to start building a new home somewhere else. Whatever you decide, know that you're strong enough to handle whatever comes next.</p>
-<p class="msg msg--highlight "><strong>Leo (July 23-August 22)</strong>: Leo, you're feeling pretty confident today. Good for you! But don't get cocky – there are plenty of people out there who would love to bring you down a peg or two. Keep your head up and stay true to yourself, but also be prepared to learn some humility along the way.</p>
-<p class="msg msg--success"><strong>Virgo (August 23-September 22)</strong>: Virgo, you're feeling a little bit overwhelmed today. There's so much to do and so little time to do it. Don't worry though – as soon as you finish one task, another will pop up. Just keep plugging away and eventually everything will get done.</p>
-<p class="msg msg--info"><strong>Libra (September 23-October 22)</strong>: Libra, you're feeling a little bit indecisive today. Which is fine, really – it's better to err on the side of caution than to jump into something without thinking it through. Just make sure not to spend too much time agonizing over your choices – otherwise, you might miss out on opportunities.</p>
-<p class="msg msg--highlight "><strong>Scorpio (October 23-November 21)</strong>: Scorpio, you're feeling a little bit mysterious today. People are wondering what you're hiding behind those shadows and secrets. If you want to share more, that's great – but if you prefer to keep things close to the vest, that's okay too. Just remember that sometimes it's good to let people in.</p>
-<p class="msg msg--success"><strong>Sagittarius (November 22-December 21)</strong>: Sagittarius, you're feeling a little bit restless today. You're ready to explore new worlds and meet new people, but you're not quite sure where to start. Don't worry about it – just take a deep breath and dive in wherever you feel most comfortable. You'll find your place in the world eventually.</p>
-<p class="msg msg--info"><strong>Capricorn (December 22-January 19)</strong>: Capricorn, you're feeling a little bit cranky today. Why? Because everyone else is moving so fast and you're stuck in traffic. Remember that it's okay to slow down and enjoy the ride sometimes. Take a few deep breaths and appreciate the moment instead of rushing through it.</p>
-<p class="msg msg--highlight "><strong>Aquarius (January 20 - February 18)</strong>: For Aquarians out there, this month may bring about feelings of restlessness as you search for answers to questions that seem to have no end. But fear not, my dear friend, because this period of uncertainty will lead you down the path towards self-discovery and personal growth. Just remember to keep an open mind and trust in the universe to guide you along the way.</p>
-<p class="msg msg--success"><strong>Pisces (February 19 - March 20)</strong>: Pisceans, on the other hand, may feel like they're being pulled in multiple directions at once. You might find yourself feeling overwhelmed with responsibilities both at work and at home. However, take comfort in knowing that this chaotic energy is simply preparing you for bigger and better things to come. Trust in your intuition and allow yourself to surrender to the ebbs and flows of life.</p>
-<p class="dropcap"><em>In short, November is all about embracing change and letting go of what no longer serves you. So embrace the journey ahead, my friends, and know that whatever comes your way, you are strong enough to handle it.</em></p>
-</div>
-</div>
-</div>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
