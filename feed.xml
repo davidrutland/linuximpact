@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-16T12:29:40+00:00</updated>
+    <updated>2023-11-16T12:38:28+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="RSS"/>
             <category term="Internet"/>
 
-        <updated>2023-11-16T12:29:40+00:00</updated>
+        <updated>2023-11-16T12:38:28+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
@@ -43,10 +43,10 @@
 <blockquote>
 <p>One reason a blog or website owner would want to use this is because it simplifies the RSS feed. The Feed URL for Techcrunch, for instance, is “http://feeds.feedburner.com/Techcrunch”, which is a much simpler format that standard RSS feeds.... And if a site can get most of its readers to use the single Feedburner feed, they can take advantage of the great statistics and tools to see where readers are coming from and what they are clicking on.</p>
 </blockquote>
-<p>We'd disagree that the TechCrunch FeedBurner URL is a simpler format, and a quick look on archive.org shows that the TechCrunch had two native feeds at the time: http://www.techcrunch.com/?feed=rss and <a href="http://www.techcrunch.com/?feed=atom.">http://www.techcrunch.com/?feed=atom. </a></p>
+<p>We'd disagree that the TechCrunch FeedBurner URL is a simpler format, and a quick look on archive.org shows that the TechCrunch had two native feeds at the time: http://www.techcrunch.com/?feed=rss and http://www.techcrunch.com/?feed=atom.</p>
 <p>Sure, the URLs contain a "?", but the overall length was shorter, and besides, links are for clicking, not for copying out by hand - but we digress. TechCrunch clearly preferred the FeedBurner service, most likely because, "it can automatically add Google Adsense adds to your feeds, allowing you to easily generate revenue if you have a large enough audience". </p>
 <p>TechCrunch switched to FeedBurner the following month. </p>
-<p>Google acquired FeedBurner in 2007, and by 2012, <a href="https://techcrunch.com/2012/09/28/the-feedburner-deathwatch-continues-google-kills-adsense-for-feeds/" rel="noopener noreferrer nofollow">TechCruch had the service on deathwatch</a>, after Google shuttered its adsense integration.</p>
+<p>Google acquired FeedBurner in 2007, and by 2012, <a href="https://techcrunch.com/2012/09/28/the-feedburner-deathwatch-continues-google-kills-adsense-for-feeds/" rel="nofollow">TechCrunch had the service on deathwatch</a> after Google shuttered its adsense integration.</p>
 <blockquote>
 <p>Many publishers (including TechCrunch) rely on the service to publish their RSS feeds. It’s time to reconsider this as the writing is clearly on the wall.</p>
 </blockquote>
@@ -54,7 +54,7 @@
 <h2 id="h-failing-to-heed-your-own-warning">Failing to heed their own warning</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/ears.jpg" alt="A bearded man holding both hands up to his ears" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/ears-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/ears-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/ears-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/ears-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/ears-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/ears-2xl.webp 1600w"></figure>
 <p>We started subscribing to TechCrunch via RSS at some point in 2018 - somewhere around the time that TechCrunch was <a href="https://techcrunch.com/2018/04/07/rss-is-undead/">loudly proclaiming</a> the death of RSS as a useful technology.</p>
-<p>We can't remember where we found the URL - the official feed on the main site was <a href="https://techcrunch.com/feed/" rel="noopener noreferrer nofollow">https://techcrunch.com/feed/</a> at the time. It was probably through search results or an aggregated list of cool feeds to follow. Either way, the official FeedBurner feed was ticking along nicely. Doubtless forgotten by the TechCrunch admins, but, like a dying postman in a post-apocalyptic world, dutifully updating RSS clients around the world with the latest on Silicon Valley startups, interesting innovations, and the imminent arrival of Web 3.0 (yawn).</p>
+<p>We can't remember where we found the URL - the official feed on the main site was <a href="https://techcrunch.com/feed/" rel="noopener noreferrer nofollow">https://techcrunch.com/feed/</a> at the time (and still is). It was probably through search results or an aggregated list of cool feeds to follow. Either way, the official FeedBurner feed was ticking along nicely. Doubtless forgotten by the TechCrunch admins, but, like a dying postman in a post-apocalyptic world, dutifully updating RSS clients around the world with the latest on Silicon Valley startups, interesting innovations, and the imminent arrival of Web 3.0 (yawn).</p>
 <p>In <a href="https://techcrunch.com/2021/04/14/googles-feedburner-moves-to-a-new-infrastructure-but-loses-its-email-subscription-service/" rel="noopener noreferrer nofollow">April 2021</a>, TechCrunch reported that Google would soon move Feedburner to a new infrastructure, and once again plugged its own FeedBurner URL - at the same time noting that the upcoming changes had the potential to create a bit of a mess:</p>
 <blockquote>
 <p>And despite everything, shutting it down would probably break enough tools for publishers to create quite an uproar. The TechCrunch RSS feed, to which you are surely subscribed in your desktop RSS reader, is http://feeds.feedburner.com/TechCrunch/, after all.</p>
@@ -67,7 +67,7 @@
 <p>Historically we had liked, on average, one TechCrunch article per month enough to keep it permanently on our servers.</p>
 <p>Highlights include headlines such as "We must end the era of adjunct surveillance" from August 2021 at which we were outraged and disgusted, and "Panic sells 20,000+ Playdate handhelds in under 20 minutes" from a month earlier, about which we were delighted.</p>
 <p>Our last favourited TechCrunch article received over RSS was titled "Amazon will pay you $10 in credit for your palm print biometrics", at which we literally facepalmed (Boom!).</p>
-<p>After that there's nothing - at least nothing we've found engaging enough to keep.</p>
+<p>After that there's nothing - at least nothing we've found engaging enough to mark.</p>
 <h2 id="h-under-new-management">Under new management</h2>
 <p>An article from the TechCruch feed posted in October 2021 - a mere six months after TechCrunch's article on the upcoming Infrastructure changes was titled, "China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn". It doesn't scan as being particularly Crunch-y, and although informative, it doesn't read quite right either. The article isn't engaging (but hey, who has a 100% hit rate?), and the byline is "noreply@blogger.com".</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_china_story.jpg" alt="A news article with the headline: China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn" width="1680" height="744" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-2xl.webp 1600w"></figure>
