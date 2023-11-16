@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-16T17:13:27+00:00</updated>
+    <updated>2023-11-16T12:59:00+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -84,43 +84,6 @@
 <p>We don't know if you've heard the news, but Twitter will soon start selling disused handles in an effort to shore up the finances of Elon Musk's rapidly depopulating media empire.</p>
 <p>These are, presumably, accounts with a lot of followers, and the opportunity for plausible disinformation from people you'd forgotten you follow will be huge.</p>
 <p>Yes, the costs will be high, but consider that buying followers through promoted accounts costs around $2 per follower, we can see an incoming tsunami of shit.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Help! My RSS feed has been hijacked by a random publication!</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/help-my-rss-feed-has-just-been-hijacked/"/>
-        <id>https://linuximpact.com/help-my-rss-feed-has-just-been-hijacked/</id>
-        <media:content url="https://linuximpact.com/media/posts/54/pirate-flag.jpg" medium="image" />
-
-        <updated>2023-11-16T17:13:27+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/54/pirate-flag.jpg" alt="A pirate flag featuring a skull with a red bandana" />
-                    Calm down, and take a deep breath. You're safe now. Many moons ago, you subscribed via RSS to a website at thecrow.uk run by David Rutland (me). TImes move on, and The Crow has been on an extended hiatus while I was working for various&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/54/pirate-flag.jpg" class="type:primaryImage" alt="A pirate flag featuring a skull with a red bandana" /></p>
-                <p>Calm down, and take a deep breath. You're safe now.</p>
-<p>Many moons ago, you subscribed via RSS to a website at <a href="https://thecrow.uk/">thecrow.uk</a> run by David Rutland (me).</p>
-<p>TImes move on, and <strong>The Crow</strong> has been on an extended hiatus while I was working for various mega-publishing-corps (read borderline content mills) that paid me an underwhelming amount for writing about topics I would otherwise be covering for free.</p>
-<p>That's over now (canned for shit-talking in the general slack channels - also AI), and I can get back to writing cool Linux / FOSS / things-I-find-moderately-interesting stuff without any oversight.</p>
-<p>There are some changes. See the new name: <a href="https://linuximpact.com">LinuxImpact.com</a>? That's me, and I've written <a href="#INTERNAL_LINK#/post/null" title="https://davidrutland.com/2023/11/16/the-internet-is-a-graveyard.html">some thoughts</a> about its history elsewhere. Check out the new layout. I loved Jekyll and still use it on my personal site (see previous link), but it can be ballache sometimes. I'm using Publii and its WYSIWYG editor now. It's a bit bulier tha I'd like, but ¯\_(ツ)_/¯.</p>
-<p>Self-hosting on the Pi has gone by the wayside, too. After being hugged to death by HN in the first week of taking over this domain (Maybe the fifth time overall?), I decided that despite the self-satisfaction I got from self-hosting on a Pi, it wasn't worth the hassle and moved to GitHub Pages. </p>
-<p>I've gathered up articles published elsewhere (including from The Crow), and to which I own the rights. The Crow's front page is being preserved as a museum piece.</p>
-<p>I've set up 301 redirects including RSS - which is why this is landing in your feed reader (apologies to the dozen or so new Linux Impact RSS subscribers who have no idea what the hell I'm talking about).</p>
-<p>New philosophy. Same(ish) content. More guides (it's what I've been doing for the last year or so). More problem-solving. More cool shit. More parentheses.</p>
-<p>Yes, you've recieved 10 - 20 articles at once, and I'm sorry about that. It's called "doing a Kev" after <a href="https://kevquirk.com/">Kev Quirk</a>, who, for an extended period a couple of years ago, switched between static and WordPress on an almost monthly basis and flooded my RSS subscriptions with repeated posts. Every. Single. Bloody. Time.</p>
-<p>If you don't like this, feel free to delete the feed; If you do like this, spread the word.</p>
-<p>Semi related: On the offchance that anyone reading this used to follow my Fediverse account at social.thecrow.uk, I nuked that a few months ago, and set up a new server. I didn't migrate, I just killed it.</p>
-<p>If you're interested in following me again, you can find me at <a href="https://social.rutland.org.uk/david">https://social.rutland.org.uk/david</a></p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -4989,6 +4952,187 @@ services:
 <!-- /wp:heading --></p>
 <p><!-- wp:paragraph --></p>
 <p>Now you should think up some great content to put onto your new website. Remember to use plenty of photographs to break up the text, and to use subheadings in a logical way!</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Turn your old PC or laptop into a server and own your own piece of the internet</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/"/>
+        <id>https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/</id>
+        <media:content url="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" medium="image" />
+            <category term="Tips"/>
+            <category term="Internet"/>
+            <category term="DIY"/>
+
+        <updated>2023-11-10T11:17:44+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" alt="" />
+                    Websites run on servers, but when people picture the hardware that hosts the internet they tend to think of huge server farms – industrial facilities with endless racks of swappable drives, and power consumption which would shame a small country. In most cases this is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" class="type:primaryImage" alt="" /></p>
+                <p><!-- wp:paragraph --></p>
+<p>Websites run on servers, but when people picture the hardware that hosts the internet they tend to think of huge server farms – industrial facilities with endless racks of swappable drives, and power consumption which would shame a small country.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In most cases this is true, and most websites are hosted on server farms, but they don’t need to be. A server is just a computer, and almost any computer will do. It doesn’t need to be recent, it can be 32bit or 64 bit; your server can have an ARM type processor or be X86 based. Your server can be the laptop you’re currently using, or it can be the desktop that’s currently gathering dust under the stairs.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="why-would-you-run-a-website-on-a-home-pc">Why would you run a website on a home PC?</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A hosting plan from a commercial provider will cost anywhere from $5 to $100 per month. Aside from the cost of the hardware, which you may have lying around anyway, hosting from home is free.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>You also have the server under your physical control – you don’t have to rely on third parties to secure it for you, and you don’t have to worry about the safety of your data being compromised by someone else’s mistake.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="what-do-you-need-to-turn-your-old-pc-into-a-server-to-host-your-own-websites-for-free">What do you need to turn your old PC into a server to host your own websites for free?</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>There are a few prerequisites you will need before you start.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul><!-- wp:list-item --></p>
+<li>A broadband internet connection</li>
+<p>
+<!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A USB stick of at least 4GB</li>
+<p>
+<!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A Domain name</li>
+<p>
+<!-- /wp:list-item --></ul>
+<p>
+<!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 id="how-can-you-transform-your-old-windows-machine-into-a-linux-server">How can you transform your old Windows machine into a Linux server</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>For the purposes of this tutorial, we will be working directly on the machine that is to be transformed. You won’t need to remotely access it, but you may choose to later on.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After making sure that your old desktop is free of files that you may want to keep, download a copy of Ubuntu 22.04 Desktop edition, and flash it to the USB stick using the Rufus tool. Other Linux distros will work just as well, but try and pick one which is Debian based so that these instructions will remain relevant.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Insert the USB stick into the server and reboot. You will need to enter the BIOS to ensure that you are able to boot from USB. Do this by pressing either F2, F8, F10, DEL, or F12 as soon as the machine is powered. The exact method varies between machines so you may need to experiment a little.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once in the BIOS, look for boot settings and ensure that USB is at the top of the list. Save and exit</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Ubuntu installation will ask whether you want a minimal or full install – minimal is fine for our purposes.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":43,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><figure class="wp-image-43"><img src="https://linuximpact.com/media/posts/16/ubuntu_installation.jpg" alt="Ubuntu installation wizard"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-xs.webp 300w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-sm.webp 480w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-md.webp 768w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-lg.webp 1024w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-xl.webp 1360w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-2xl.webp 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Continue through the wizard, going with whatever defaults the wizard suggests, but ensuring you set the correct locale, and choose a strong username and password.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the installation is finished you will have successfully installed Ubuntu 22.04 on your old box.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="acquire-a-domain-name-and-set-dns-records">Acquire a Domain name and set DNS records</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Visit your domain name registrar and add a new record of the type A. Set the host as @ and the value as your home IP address. This will ensure that any requests to your domain name are forwarded to your router.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="set-port-forwarding-on-your-router">Set port forwarding on your router</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Your router admin page is usually accessible by typing 192.168.1.1 into the address bar. If not, check the side of the router which will give you the correct address along with the default admin password.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Log into your router and look for a section called port forwarding or port management. Create a new entry for ports 80 and 443 – setting the value to the local IP address of your server. Installing server software on Ubuntu 22.04</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>There are a few additional pieces of software you will need, and you will install them via the command line.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Open up a terminal by pressing <strong>Ctrl + alt + T</strong> or by searching for Terminal in the menu, then enter:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>sudo apt install apache2<restore-line-break>sudo apt install php<restore-line-break></code></pre>
+<p>
+<!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Start Apache2 with</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>sudo service apache2 start<restore-line-break></code></pre>
+<p>
+<!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Visiting your domain name should now result in you seeing the default Apache start page.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":44,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><figure class="wp-image-44"><img src="https://linuximpact.com/media/posts/16/apache2_ubuntu_default_page.jpg" alt="default Apache start page"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-xs.webp 300w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-sm.webp 480w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-md.webp 768w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-lg.webp 1024w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-xl.webp 1360w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-2xl.webp 1600w"></figure></figure>
+<p>
+<!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>This page is located in /var/www/html</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Edit it to create your own content on your own website on your own server in your own house!</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>sudo nano /var/www/html/index.html<restore-line-break></code></pre>
+<p>
+<!-- /wp:code --></p>
+<p><!-- wp:heading --></p>
+<h2 id="you-have-successfully-turned-an-old-desktop-or-laptop-into-your-own-web-server">Turning an old desktop or laptop into Your own web server is just the first step</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This guide has showed you the very basics of turning your old PC into a web server, but few people host static pages. </p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you plan to pump out quality content using an easy-to-use and simple to set up Content Management System, you should consider either WordPress or Ghost.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Our <a href="https://linuximpact.com/how-to-run-wordpress-on-an-old-laptop-or-pc/" target="_blank" rel="noreferrer noopener">guide to setting up WordPress on an old PC </a>is a continuation of this tutorial series, and is meant to be read directly afterwards.</p>
 <p>
 <!-- /wp:paragraph --></p>
 
