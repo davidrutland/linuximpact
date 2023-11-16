@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-16T12:25:39+00:00</updated>
+    <updated>2023-11-16T12:29:40+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="RSS"/>
             <category term="Internet"/>
 
-        <updated>2023-11-16T12:25:39+00:00</updated>
+        <updated>2023-11-16T12:29:40+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
@@ -37,7 +37,7 @@
 <p>But that's what happened to TechCrunch in 2021.</p>
 <h2 id="h-techcrunch-has-had-a-rocky-relationship-with-feedburner">TechCrunch had a rocky relationship with FeedBurner</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/bonfire.jpg" alt="silhouette of a man in front of a blazing bonfire" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/bonfire-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/bonfire-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/bonfire-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/bonfire-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/bonfire-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/bonfire-2xl.webp 1600w"></figure>
-<p>Way back in 2005, TechCrunch, not yet a tech media powerhouse, was a "weblog dedicated to obsessively profiling and reviewing every newly launched web 2.0 business and service".</p>
+<p>Way back in <a href="https://web.archive.org/web/20050730022437/http://www.techcrunch.com/">June 2005</a>, TechCrunch, not yet a tech media powerhouse, was a "weblog dedicated to obsessively profiling and reviewing every newly launched web 2.0 business and service".</p>
 <p>Hosted on WordPress 1.5.1, Techcrunch was the place to go if you wanted to read about the launch of Google reviews, the proliferation of new search engines, or an explanation of what web2.0 actually was.</p>
 <p>They also had good things to say about the FeedBurner service:</p>
 <blockquote>
@@ -51,7 +51,7 @@
 <p>Many publishers (including TechCrunch) rely on the service to publish their RSS feeds. It’s time to reconsider this as the writing is clearly on the wall.</p>
 </blockquote>
 <p>They didn't reconsider it though, and the TechCrunch Feedburner feed was regularly updated with every story and article until late 2021.</p>
-<h2 id="h-failing-to-heed-your-own-warning">Failing to heed your own warning</h2>
+<h2 id="h-failing-to-heed-your-own-warning">Failing to heed their own warning</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/ears.jpg" alt="A bearded man holding both hands up to his ears" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/ears-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/ears-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/ears-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/ears-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/ears-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/ears-2xl.webp 1600w"></figure>
 <p>We started subscribing to TechCrunch via RSS at some point in 2018 - somewhere around the time that TechCrunch was <a href="https://techcrunch.com/2018/04/07/rss-is-undead/">loudly proclaiming</a> the death of RSS as a useful technology.</p>
 <p>We can't remember where we found the URL - the official feed on the main site was <a href="https://techcrunch.com/feed/" rel="noopener noreferrer nofollow">https://techcrunch.com/feed/</a> at the time. It was probably through search results or an aggregated list of cool feeds to follow. Either way, the official FeedBurner feed was ticking along nicely. Doubtless forgotten by the TechCrunch admins, but, like a dying postman in a post-apocalyptic world, dutifully updating RSS clients around the world with the latest on Silicon Valley startups, interesting innovations, and the imminent arrival of Web 3.0 (yawn).</p>
