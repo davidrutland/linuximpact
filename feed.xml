@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-16T12:38:28+00:00</updated>
+    <updated>2023-11-16T12:59:00+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="RSS"/>
             <category term="Internet"/>
 
-        <updated>2023-11-16T12:38:28+00:00</updated>
+        <updated>2023-11-16T12:59:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
@@ -69,13 +69,13 @@
 <p>Our last favourited TechCrunch article received over RSS was titled "Amazon will pay you $10 in credit for your palm print biometrics", at which we literally facepalmed (Boom!).</p>
 <p>After that there's nothing - at least nothing we've found engaging enough to mark.</p>
 <h2 id="h-under-new-management">Under new management</h2>
-<p>An article from the TechCruch feed posted in October 2021 - a mere six months after TechCrunch's article on the upcoming Infrastructure changes was titled, "China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn". It doesn't scan as being particularly Crunch-y, and although informative, it doesn't read quite right either. The article isn't engaging (but hey, who has a 100% hit rate?), and the byline is "noreply@blogger.com".</p>
+<p>An article from the TechCrunch feed posted in October 2021 - a mere six months after TechCrunch's article on the upcoming Infrastructure changes was titled, "China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn". It doesn't scan as being particularly Crunch-y, and although informative, it doesn't read quite right either. The article isn't engaging (but hey, who has a 100% hit rate?), and the byline is "noreply@blogger.com".</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_china_story.jpg" alt="A news article with the headline: China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn" width="1680" height="744" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-2xl.webp 1600w"></figure>
 <p>The page it links to is on the now-defunct https://techncruncher.blogspot.com blog. Running the content through a free plagiarism detector, reveals that the exact same content is on dozens of sites, including the Freedom First Network - an alt-right leaning outlet that (on a random sampling of its other pages) views Democrats as facists, and has headlines such as "Planned Parenthood is Selling the Bodies of Dead Babies to the CCP to Develop Bioweapons to Use Against Americans", and "Do Black people owe White people reparations for slavery". We suspect this is where the story originated.</p>
 <p>Move forwards through the TechCrunch feed, and you'll see more plausible headlines. Some are tech-related such as, "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)"; some are typical of the kind of low-quality SEO fodder you'd find on other, tech-adjacent sites, such as "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?" </p>
 <p data-pm-slice="1 1 []">There's a tonne of pop culture and movie lists.</p>
 <figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/55/cenobites.jpg" alt="Supposed TechCrunch story: Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" width="1914" height="958" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/cenobites-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/cenobites-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/cenobites-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/cenobites-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/cenobites-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/cenobites-2xl.webp 1600w"></figure><figure class="post__image"><img  src="Supposed techcruch story with the headline Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" alt="" data-is-external-image="true"></figure>
-<p>In February 2022, the linked domain moved to crunchhype.com, and the pop culture disappeared in favour of affiliate marketing and SEO based articles. Buried in there someone is, we would assume, an exhortation to take control of neglected RSS feeds to shill your stuff.</p>
+<p data-pm-slice="1 1 []">In February 2022, the linked domain moved to crunchhype.com, and the pop culture disappeared in favour of affiliate marketing and SEO based articles. Buried in there someone is, we would assume, an exhortation to take control of neglected RSS feeds to shill your stuff.</p>
 <h2 id="h-wider-implications-for-xxx">There are wider implications for abandoned accounts</h2>
 <p>Websites live and die all the time, and their RSS feeds are taken over by squatters and legitimate new owners.</p>
 <p>The difference is that if a website of TechCrunch's size had died, we'd have heard about it and become suspicious that their feed was still coming through.</p>
@@ -351,7 +351,7 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre>
             <category term="Linux"/>
             <category term="Internet"/>
 
-        <updated>2023-11-13T00:37:56+00:00</updated>
+        <updated>2023-11-16T12:55:17+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/42/printing-press.jpg" alt="Blurred newspapers rolling off a printing press " />
@@ -383,6 +383,30 @@ SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre>
 <p>Jekyll was an option. Writing Markdown and creating sites with Jekyll is fun, but now that Atom, our favourite text editor has been archived, it's not as much fun as it used to be.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/publii-marketplace.jpg" alt="The Publii marketplace showing a selection of themes" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-2xl.webp 1600w"></figure>
 <p>Publii is a static site generator with all the bells and whistles you can imagine, and a for producing and editing posts, it's not all that different from the back-end of a WordPress blog: convenience, a variety of editors, a marketplace for themes and plugins. While our WordPress instance was periodically dropping offline and heroically resurfacing, we were able to port our meagre content into Publii, and get set up for free on GitHub.</p>
+<p>Sure, GitHub pages has usage limits, but they're quite generous:</p>
+<blockquote>
+<ul>
+<li>
+<p>GitHub Pages source repositories have a recommended limit of 1 GB. For more information, see "<a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-and-repository-size-limitations" aria-roledescription="hover card" aria-describedby="popover-describedby">About large files on GitHub</a>"</p>
+</li>
+<li>
+<p>Published GitHub Pages sites may be no larger than 1 GB.</p>
+</li>
+<li>
+<p>GitHub Pages deployments will timeout if they take longer than 10 minutes.</p>
+</li>
+<li>
+<p>GitHub Pages sites have a <em>soft</em> bandwidth limit of 100 GB per month.</p>
+</li>
+<li>
+<p>GitHub Pages sites have a <em>soft</em> limit of 10 builds per hour. This limit does not apply if you build and publish your site with a custom GitHub Actions workflow</p>
+</li>
+<li>
+<p>In order to provide consistent quality of service for all GitHub Pages sites, rate limits may apply. These rate limits are not intended to interfere with legitimate uses of GitHub Pages. If your request triggers rate limiting, you will receive an appropriate response with an HTTP status code of <code>429</code>, along with an informative HTML body.</p>
+</li>
+</ul>
+</blockquote>
+<p>We very much doubt we're going to hit those limits.</p>
 <h2 id="h-creating-static-sites-is-simple-with-publii">Creating static sites is simple with Publii</h2>
 <p>Publii is Free software licensed under GPL3. This means you can use it, distribute, modify, and redistribute with your own modifications (provided any modifications are distributed under the same license) however you want. You can buy, sell, and trade copies if you want - although that seems kind of pointless since the developers have made binaries for Windows, MacOS, and Linux available from the main <a href="https://getpublii.com/" rel="noopener noreferrer nofollow">Publii website</a>.</p>
 <p>Installation on our Debian-based system was as easy as popping a terminal and entering:</p>
