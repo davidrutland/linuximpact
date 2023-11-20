@@ -3,12 +3,102 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-16T12:59:00+00:00</updated>
+    <updated>2023-11-20T12:08:51+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Want to easily create a good-looking website in minutes? This is how.</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/want-to-easily-create-a-good-looking-website-in-minutes-this-is-how/"/>
+        <id>https://linuximpact.com/want-to-easily-create-a-good-looking-website-in-minutes-this-is-how/</id>
+        <media:content url="https://linuximpact.com/media/posts/57/site.png" medium="image" />
+            <category term="Software"/>
+            <category term="Self-hosted"/>
+            <category term="Raspberry Pi"/>
+            <category term="Internet"/>
+            <category term="Hosting"/>
+
+        <updated>2023-11-20T12:08:51+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/57/site.png" alt="A woman looking at the Linux Impact homepage on a mac" />
+                    Creating websites isn't hard, and it doesn't have to be expensive either. Publii is an open-source static website generator that can have your content looking great, and posted online in a matter of minutes. It's easy to use, and it's totally free. Humans need hobbies.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/57/site.png" class="type:primaryImage" alt="A woman looking at the Linux Impact homepage on a mac" /></p>
+                <p data-pm-slice="1 1 []">Creating websites isn't hard, and it doesn't have to be expensive either. Publii is an open-source static website generator that can have your content looking great, and posted online in a matter of minutes. It's easy to use, and it's totally free.</p>
+<h2 id="h-making-websites-is-fun">Making websites is fun!</h2>
+<p>Humans need hobbies. We get bored easily, and need to do things to scratch that itch. Sure, you could go for a run, or engage in some sort of sport. But it's too cold outside (or maybe too hot, or to wet). Play a computer game? Scroll through TikTok or the 'gram? Watch TV?</p>
+<p>Sure. These are some OK ways to pass the time, and they'll stave off the inevitable ennui that comes with having nothing to do.</p>
+<p>You could read, sure, but isn't it better to write?</p>
+<p><span style="text-decoration: line-through;">Shitposting</span> Engaging in discourse on Facebook / Reddit / The Fediverse / X is a waste of time. Once you spit your words into the character-limited text box, they're not yours anymore. And they'll vanish when your account is deleted, else be disappeared into the depths of 'the algorithm' never to surface again.</p>
+<p>If you create your own website, you can write whatever you want without limits (bar legal ones). You're not restricted with an arbitrary wordcount, or a set layout, or topic or anything else.</p>
+<p>You can post pictures, write about your day, your hobby, advertise your business, talk about cats, or religion, or politics. And when you've finished you can share it to your social media friends and followers and be proud of what you've done.</p>
+<p>And it doesn't have to be difficult. You can easily create a website from scratch for free.</p>
+<h2 id="h-static-sites-are-lighter-faster-and-in-most-cases-better">Static sites are lighter, faster, and (in most cases) better</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/front-page.png" alt="Front page of Linux Impact" width="1905" height="948" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/front-page-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/front-page-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/front-page-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/front-page-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/front-page-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/front-page-2xl.webp 1600w"></figure>
+<p>The majority of the sites you visit on the internet are created and managed using a web-based Content Management System (CMS) such as WordPress. A CMS is actually made up up of two parts: a content management application, into which you log in, create posts and organise your articles, and a content delivery application that converts your content into a web page that visitors can see. </p>
+<p>Web-based CMSes are great, but they come with a significant overhead, and your site may struggle under heavy loads. An unless you host your site on your own server, you'll have to pay for hosting.</p>
+<p>Static sites are a collection of web pages. A web browser requests a particular page, and the server sends an HTML document back. Thery're insanely fast, there's very little behind-the-scenes work, and you can get no-strings-attached hosting for free.</p>
+<p><a href="https://linuximpact.com">Linux Impact</a> is a static site.</p>
+<p>There was a time when to create pages for a website, you needed to be able to understand and Use HTML. That time is long gone, and you don't ever need to be able to use a code-editor in order to create a fabulous-looking, attractive website quickly.</p>
+<p>Static Site Generators (SSGs) act as an offline content management app, and convert your words and images to HTML files that you can push to any server.</p>
+<p>One final advantage to having a static site rather than an online CMS is security. If someone can log into your CMS admin panel with a cracked or stolen password, or exploit a security flaw in a plugin, it's game over. With static pages, there's nothing to log into. It's safer and more secure. </p>
+<p>We've tried dozens over the years and can say with absolute certainty that none of them offer the same ease-of-use, friendly interface, and customisation options as Publii. </p>
+<h2 id="h-get-publii">Get Publii!</h2>
+<p>Publii is packaged as a binary (executable file), and is available from <a href="https://getpublii.com/">getpublii.com</a>. Download and install it according to the instructions on the site.</p>
+<p>Open Publii for the first time, and you'll be guided through the process of making a website. You'll pick an avatar, and a name for your website.</p>
+<p>After that, it's worthwhile creating a few test posts to see how everything works. It's best if already have some posts ready-to-go, but if not, some Lorum Ipsum text and royalty free images will do. Or hey, you could actually focus on writing instead of messing round with configuration and looks.</p>
+<h3 id="h-create-your-first-publii-posts">Create your first Publii posts</h3>
+<p>Create a post for the first time, and you have a choice of what kind of editor you want to use. If you're coming from WordPress, or have experience with that CMS, the block editor is probably your best choice. Alternatively, the WYSIWYG (What You See Is What You Get) editor will give you an experience similar to that of a traditional word processor, with formatting options laid out along the top. The Markdown editor uses (unsurprisingly) Markdown, which is a lighweight language you can use to add formatting to text documents. If you're interested in Markdown, check out <a href="https://www.markdownguide.org" rel="noopener noreferrer nofollow">markdownguide.org</a>.</p>
+<p>Alternatively, if you already have your content published on a WordPress site, and are swapping to Publii because of the massive performance boost that comes with a static site, go to <strong>Tools &amp; Plugins &gt; WP Importer</strong> to start automatically importing your content, images, authors, and tags.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/publii-wysiwyg-editor.png" alt="The text of this article being edited in the Publii WYSIWYG editor" width="1919" height="1050" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/publii-wysiwyg-editor-2xl.webp 1600w"></figure>
+<p>In all three editors, you'll have access to a collapsible menu on the right side of the screen. In here, you'll find some supremely useful options. In the top section, you can configure the post author, and attributes including whether the article is classed as featured, whether to exclude it from your homepage, or even hide it completely.</p>
+<p>Below this, you can set the featured image, together with alt text for visually impaired readers, captions, and credits.</p>
+<p>The <strong>Tags</strong> section is important. These are the categories in which an article will appear on your site. It governs what shows up as a related article, and forms the basis of the menu structure.</p>
+<p>In the SEO section you can tune your site to be more (or less) friendly for search engines. In <strong>Post Slug</strong>, you can customise your URL, change the itle, and meta description, and choose whether you want search engines to index the page.</p>
+<p>Lastly, there's the <strong>other options</strong>, there are too many to cover here, but they allow you to tweak the way your post appears, and make it different from other posts on the site. Nothing major - options to show the date, author, tags and so on.</p>
+<p>Return to the <strong>Posts</strong> menu, and preview your changes. Publii will open a local copy of your site in the default browser.</p>
+<h2 id="h-make-your-publii-website-pretty">Make your Publii website pretty</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/marketplace.png" alt="themes in the Publii marketplace" width="1912" height="957" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/marketplace-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/marketplace-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/marketplace-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/marketplace-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/marketplace-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/marketplace-2xl.webp 1600w"></figure>
+<p>By default, you'll only have the <strong>Simple</strong> theme installed. It's pretty good, and will render a classic list of posts with excerpts for your front page, along with a very nice layout for the articles themselves.</p>
+<p>To truly customise your site, head over to the <a href="https://marketplace.getpublii.com/themes/" rel="noopener noreferrer nofollow">Publii marketplace</a>. There isn't a huge quantity of themes (27 at the time of writing), but are all high quality, with examples suitable for everything from image galleries and basic blogs to feature heavy documentation sites and magazines. Around a third of the themes are completely free, with the rest priced at around $30. You'll have to download your theme manually, and upload and select it through the Publii interface. Don't worry though, the excellent documentation makes it a breeze.</p>
+<p>We considered the excellent <a href="https://marketplace.getpublii.com/themes/editorial-2/" rel="noopener noreferrer nofollow">Editorial</a> theme, but eventually settled on the fantastic looking, free, and functional <a href="https://marketplace.getpublii.com/themes/technews/" rel="noopener noreferrer nofollow">Technews</a> you're looking at now.</p>
+<h2 id="h-whats-on-the-menu">What's on the menu?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/settings.png" alt="Theme settings for Publii" width="1920" height="1047" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/settings-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/settings-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/settings-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/settings-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/settings-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/settings-2xl.webp 1600w"></figure>
+<p>In the <strong>Theme</strong> menu (accessible the the nav bar on the left), you can further refine your spanky new theme to look and behave exactly how you want it to. <strong>Basic settings</strong> include pagination, excerpt length, and site logo, while the fun stuff is slightly further down in <strong>Custom settings</strong>.</p>
+<p>Customising WordPress themes can be a bitch unless you invest some serious time into learning CSS - and who has time for that?</p>
+<p>In contrast, customising a Publii theme is simplicity itself: there are sliders, you can type in values for column width, or select layout options from a dropdown.</p>
+<p>Want expandable submenus on mobile? toggle the radio button. Fed up with the colour scheme? Choose some new hues with the colour-picker. Corners too rounded or too sharp? adjust the slider. Easy-peasy. Want Social share buttons or a search box? This is where you'll find them.</p>
+<p>Navigation is key to making any website usable, and the tags you create when making a post form the basis of Publii's menu system. The primary tag (you can select this with a dropdown) is displayed on the posts page and front page of the site, but secondary tags are important, too.</p>
+<p>Take for instance, our article on setting up your own XMPP server on a Raspberry Pi in under five minutes. The primary tag is self-hosted, and but it's also tagged as DIY, Internet, Linux, Privacy, Raspberry Pi, Software, and Tips. These tags influence the <strong>Related</strong> <strong>posts</strong>, you see at the bottom of the page. More importantly they mean that if a menu item is linked to that tag, the post will appear in that section of the site.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/menus.png" alt="Adding a new menu item in Publii" width="1917" height="1038" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/menus-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/menus-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/menus-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/menus-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/menus-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/menus-2xl.webp 1600w"></figure>
+<p><strong>Menus</strong> has its own item on the navigation sidebar. Click <strong>Add New Menu</strong>, and give it a name, then <strong>Add new menu item</strong>. You can add menu links to individual posts, such as an <strong>about</strong> page; to a <strong>tag link</strong> (this is how we do our category menus); to author pages; the front page; external links; internals; whatever. Simple eh?</p>
+<h2 id="h-publish-your-website-with-publii">Publish your website with Publii</h2>
+<p>You can spend hours customising your theme, and tweaking it to be exactly how you want it to be, but you'll be better off putting that time into writing.</p>
+<p>When you're happy with the way your site looks, and have some quality content to give to the world, it's time to publish.</p>
+<p data-pm-slice="1 1 []">Before you can do this, make sure you have a domain name. Domain names aren't usually expensive, and you can buy a <strong>.com</strong> fro around a tenner from NameCheap, or even go with with more esoteric options such as <strong>.xyz</strong>, <strong>.wtf</strong>, <strong>.red</strong>, <strong>.gay</strong>, <strong>.lol</strong>,and so on. There are usually special offers where you can snap up something suitable for a few dollars. Alternatively, you can get a completely <a href="https://linuximpact.com/how-to-get-a-free-domain-name-to-use-with-your-new-web-project/">free domain names</a> with a variety of TLDs - be warned though, you won't actually own these names, just have use of them.</p>
+<p data-pm-slice="1 1 []">You also need somewhere to store your static files. Sure, you can buy hosting, but you don't need to. It's pretty easy to <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/">convert an old PC or laptop to a server</a>, or use a cheap and low-power <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi</a> as a server.</p>
+<p data-pm-slice="1 1 []">Another option is to use Github Pages to host your static files. This is what we do. It's completely free, and provided you're not pushing out porn, you can use the service to host whatever you want.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/servers.png" alt="Differnt server types for publii" width="1919" height="1033" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/servers-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/servers-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/servers-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/servers-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/servers-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/servers-2xl.webp 1600w"></figure>
+<p data-pm-slice="1 1 []">In the <strong>Server</strong> section of Publii's interface, you'll see an alarming number of options. If you've gone with traditional hosting, you'll probably want to select <strong>FTP</strong> or <strong>SFTP</strong>. Input your website URL, the port number, and other details, then save. The options are similar regardless what you choose.</p>
+<p>Hit the big <strong>Sync your website</strong> button, and your content will be magically uploaded to your service of choice.</p>
+<p>Alternatively, select <strong>Zip</strong> as your server type to have Publii produce a zip archive of your content that you can upload manually.</p>
+<h2 id="h-is-publii-right-for-you">Is Publii right for you?</h2>
+<p>Probably, yes. Provided that what you're providing is simply static content, then Publii is the perfect publishing tool, giving you a fast, responsive website that looks great, costs nothing, and just works.</p>
+<p>If you're selling something, or need a database then traditional hosting is a better option.</p>
+<h2 id="h-expose-yourself-to-the-world">Expose yourself to the world</h2>
+<p>Once your website is online, it's accessible to everyone, so be careful what details you put on it. While it's natural to want to give visitors some means of getting in contact with you, please don't put your home address on your website, and take some steps to <a href="https://linuximpact.com/protect-your-inbox-from-spam-and-online-threats/">disguise your email address</a> as well.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A TechCrunch RSS feed was hijacked in 2021. Nobody noticed.</title>
         <author>
@@ -4952,187 +5042,6 @@ services:
 <!-- /wp:heading --></p>
 <p><!-- wp:paragraph --></p>
 <p>Now you should think up some great content to put onto your new website. Remember to use plenty of photographs to break up the text, and to use subheadings in a logical way!</p>
-<p>
-<!-- /wp:paragraph --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Turn your old PC or laptop into a server and own your own piece of the internet</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/"/>
-        <id>https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/</id>
-        <media:content url="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Internet"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" alt="" />
-                    Websites run on servers, but when people picture the hardware that hosts the internet they tend to think of huge server farms – industrial facilities with endless racks of swappable drives, and power consumption which would shame a small country. In most cases this is&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/16/use_old_pc_or_laptop_as_a_server.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Websites run on servers, but when people picture the hardware that hosts the internet they tend to think of huge server farms – industrial facilities with endless racks of swappable drives, and power consumption which would shame a small country.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In most cases this is true, and most websites are hosted on server farms, but they don’t need to be. A server is just a computer, and almost any computer will do. It doesn’t need to be recent, it can be 32bit or 64 bit; your server can have an ARM type processor or be X86 based. Your server can be the laptop you’re currently using, or it can be the desktop that’s currently gathering dust under the stairs.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="why-would-you-run-a-website-on-a-home-pc">Why would you run a website on a home PC?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>A hosting plan from a commercial provider will cost anywhere from $5 to $100 per month. Aside from the cost of the hardware, which you may have lying around anyway, hosting from home is free.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You also have the server under your physical control – you don’t have to rely on third parties to secure it for you, and you don’t have to worry about the safety of your data being compromised by someone else’s mistake.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="what-do-you-need-to-turn-your-old-pc-into-a-server-to-host-your-own-websites-for-free">What do you need to turn your old PC into a server to host your own websites for free?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are a few prerequisites you will need before you start.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul><!-- wp:list-item --></p>
-<li>A broadband internet connection</li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>A USB stick of at least 4GB</li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>A Domain name</li>
-<p>
-<!-- /wp:list-item --></ul>
-<p>
-<!-- /wp:list --></p>
-<p><!-- wp:heading --></p>
-<h2 id="how-can-you-transform-your-old-windows-machine-into-a-linux-server">How can you transform your old Windows machine into a Linux server</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>For the purposes of this tutorial, we will be working directly on the machine that is to be transformed. You won’t need to remotely access it, but you may choose to later on.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>After making sure that your old desktop is free of files that you may want to keep, download a copy of Ubuntu 22.04 Desktop edition, and flash it to the USB stick using the Rufus tool. Other Linux distros will work just as well, but try and pick one which is Debian based so that these instructions will remain relevant.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Insert the USB stick into the server and reboot. You will need to enter the BIOS to ensure that you are able to boot from USB. Do this by pressing either F2, F8, F10, DEL, or F12 as soon as the machine is powered. The exact method varies between machines so you may need to experiment a little.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Once in the BIOS, look for boot settings and ensure that USB is at the top of the list. Save and exit</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The Ubuntu installation will ask whether you want a minimal or full install – minimal is fine for our purposes.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":43,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-43"><img src="https://linuximpact.com/media/posts/16/ubuntu_installation.jpg" alt="Ubuntu installation wizard"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-xs.webp 300w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-sm.webp 480w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-md.webp 768w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-lg.webp 1024w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-xl.webp 1360w ,https://linuximpact.com/media/posts/16/responsive/ubuntu_installation-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Continue through the wizard, going with whatever defaults the wizard suggests, but ensuring you set the correct locale, and choose a strong username and password.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>When the installation is finished you will have successfully installed Ubuntu 22.04 on your old box.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="acquire-a-domain-name-and-set-dns-records">Acquire a Domain name and set DNS records</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Visit your domain name registrar and add a new record of the type A. Set the host as @ and the value as your home IP address. This will ensure that any requests to your domain name are forwarded to your router.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="set-port-forwarding-on-your-router">Set port forwarding on your router</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Your router admin page is usually accessible by typing 192.168.1.1 into the address bar. If not, check the side of the router which will give you the correct address along with the default admin password.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Log into your router and look for a section called port forwarding or port management. Create a new entry for ports 80 and 443 – setting the value to the local IP address of your server. Installing server software on Ubuntu 22.04</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are a few additional pieces of software you will need, and you will install them via the command line.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Open up a terminal by pressing <strong>Ctrl + alt + T</strong> or by searching for Terminal in the menu, then enter:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install apache2<restore-line-break>sudo apt install php<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Start Apache2 with</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo service apache2 start<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Visiting your domain name should now result in you seeing the default Apache start page.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":44,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-44"><img src="https://linuximpact.com/media/posts/16/apache2_ubuntu_default_page.jpg" alt="default Apache start page"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-xs.webp 300w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-sm.webp 480w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-md.webp 768w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-lg.webp 1024w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-xl.webp 1360w ,https://linuximpact.com/media/posts/16/responsive/apache2_ubuntu_default_page-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>This page is located in /var/www/html</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Edit it to create your own content on your own website on your own server in your own house!</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo nano /var/www/html/index.html<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:heading --></p>
-<h2 id="you-have-successfully-turned-an-old-desktop-or-laptop-into-your-own-web-server">Turning an old desktop or laptop into Your own web server is just the first step</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>This guide has showed you the very basics of turning your old PC into a web server, but few people host static pages. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you plan to pump out quality content using an easy-to-use and simple to set up Content Management System, you should consider either WordPress or Ghost.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Our <a href="https://linuximpact.com/how-to-run-wordpress-on-an-old-laptop-or-pc/" target="_blank" rel="noreferrer noopener">guide to setting up WordPress on an old PC </a>is a continuation of this tutorial series, and is meant to be read directly afterwards.</p>
 <p>
 <!-- /wp:paragraph --></p>
 
