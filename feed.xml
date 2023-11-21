@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-21T22:48:31+00:00</updated>
+    <updated>2023-11-21T23:26:19+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Privacy"/>
             <category term="Internet"/>
 
-        <updated>2023-11-21T22:48:31+00:00</updated>
+        <updated>2023-11-21T23:26:19+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/59/benjamins.png" alt="A hand holding folded money in front of a blurred web page" />
@@ -65,7 +65,7 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/59/bpc-repository.png" alt="Some code in the block paywalls firefox clean repository" width="1914" height="891" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/59/responsive/bpc-repository-xs.webp 300w ,https://linuximpact.com/media/posts/59/responsive/bpc-repository-sm.webp 480w ,https://linuximpact.com/media/posts/59/responsive/bpc-repository-md.webp 768w ,https://linuximpact.com/media/posts/59/responsive/bpc-repository-lg.webp 1024w ,https://linuximpact.com/media/posts/59/responsive/bpc-repository-xl.webp 1360w ,https://linuximpact.com/media/posts/59/responsive/bpc-repository-2xl.webp 1600w"></figure>
 <p>The point is that, yes, you could do all of this by hand, but with BPC, everything is in one place, so you won't have to.</p>
 <p>After half an hour you won't even think about it. We installed Bypass Paywalls Clean before lunch today - just to test it out, and went to check out some previously paywalled sites. It just works. Full content, normal layout, and no need to fiddle with things, or close our normal browser (for websites with a free article limit, just click the BPC extension button then clear cookies. It's no biggie).</p>
-<p>This is a whole new internet experience.</p>
+<p>This is a whole new internet experience, and we've learned some new paywall-avoidance tricks just by using it, and checking out the code. We've even incorporated some into our <a href="https://linuximpact.com/freshrss-stay-safe-and-never-visit-another-website-again/">fabulous FreshRSS instance</a>.</p>
 <h2 id="h-does-bpc-unblock-every-paywalled-article-and-site">Does BPC unblock every paywalled article and site?</h2>
 <p>If you're familiar with <a rel="noopener noreferrer nofollow">Betteridge's Law</a>, you already know the answer to that question. No, it doesn't.</p>
 <p>While you can use BPC to bypass hundreds of paywalls on the most popular sites, it doesn't yet cover everything. More sites are being added all the time, though, so your preferred reading material <em>may</em> be available some day. If you want to speed that day along, you can <a href="https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean/-/issues" rel="noopener noreferrer nofollow">submit a request to have a site added</a>.</p>
@@ -96,7 +96,7 @@
             <category term="Wellbeing"/>
             <category term="Software"/>
 
-        <updated>2023-11-21T11:39:24+00:00</updated>
+        <updated>2023-11-21T23:14:12+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/58/manz.png" alt="Ray Manzarek playing the organ against the background of a storm" />
@@ -113,7 +113,7 @@
 <p>Blanket is an open-source app for Linux that you can use to create a layered, multi-textural sonic smorgasbord to help you get in the mood for whatever it is you need to do.</p>
 <p>And we can only assume that self-identified Peruvian anarchist, web dev, open- source enthusiast, and farmer, <a href="https://github.com/rafaelmardojai" rel="noopener noreferrer nofollow">Rafael Mardojai</a>, is too busy with his many projects to get any proper sleep without assistance.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/58/effects.png" alt="" width="1920" height="718" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/58/responsive/effects-xs.webp 300w ,https://linuximpact.com/media/posts/58/responsive/effects-sm.webp 480w ,https://linuximpact.com/media/posts/58/responsive/effects-md.webp 768w ,https://linuximpact.com/media/posts/58/responsive/effects-lg.webp 1024w ,https://linuximpact.com/media/posts/58/responsive/effects-xl.webp 1360w ,https://linuximpact.com/media/posts/58/responsive/effects-2xl.webp 1600w"></figure>
-<p>Blanket comes as an attractive GNOME app, and comes with seven nature sounds, three interiors, white noise, pink noise, and the ability to add your own custom sounds. The volume of each sound is adjustable by slider - meaning you can easily level each layer to get your perfect ambient audio landscape.</p>
+<p>Blanket is packaged as an attractive GNOME app, and comes stocked with seven nature sounds, three interiors, white noise, pink noise, and the ability to add your own custom sounds. The volume of each sound is adjustable by slider - meaning you can easily level each layer to get your perfect ambient audio landscape.</p>
 <h2 id="h-install-blanket-on-linux">Install Blanket on Linux</h2>
 <p>The easiest way to get Blanket on Linux is with FlatPak. If you have FlatPak installed on your system and linked to FlatHub, pop open a terminal and enter:</p>
 <pre><code>flatpak install flathub com.rafaelmardojai.Blanket </code></pre>
