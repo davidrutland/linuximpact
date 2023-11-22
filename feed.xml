@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-21T23:38:06+00:00</updated>
+    <updated>2023-11-22T12:53:29+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -17,12 +17,12 @@
         <link href="https://linuximpact.com/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/"/>
         <id>https://linuximpact.com/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/</id>
         <media:content url="https://linuximpact.com/media/posts/59/benjamins.png" medium="image" />
-            <category term="Tips"/>
             <category term="Software"/>
+            <category term="Security"/>
             <category term="Privacy"/>
             <category term="Internet"/>
 
-        <updated>2023-11-21T23:38:06+00:00</updated>
+        <updated>2023-11-22T12:53:29+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/59/benjamins.png" alt="A hand holding folded money in front of a blurred web page" />
@@ -66,7 +66,7 @@
 <p>After half an hour you won't even think about it. We installed Bypass Paywalls Clean before lunch today - just to test it out, and went to check out some previously paywalled sites. It just works. Full content, normal layout, and no need to fiddle with things, or close our normal browser (for websites with a free article limit, just click the BPC extension button then clear cookies. It's no biggie).</p>
 <p>This is a whole new internet experience, and we've learned some new paywall-avoidance tricks just by using it, and checking out the code. We've even incorporated some into our <a href="https://linuximpact.com/freshrss-stay-safe-and-never-visit-another-website-again/">fabulous FreshRSS instance</a>.</p>
 <h2 id="h-does-bpc-unblock-every-paywalled-article-and-site">Does BPC unblock every paywalled article and site?</h2>
-<p>If you're familiar with <a href="https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines">Betteridge's Law</a>, you already know the answer to that question. No, it doesn't.</p>
+<p>If you're familiar with <a href="https://en.wikipedia.org/wiki/Betteridges_law_of_headlines">Betteridge's Law</a>, you already know the answer to that question. No, it doesn't.</p>
 <p>While you can use BPC to bypass hundreds of paywalls on the most popular sites, it doesn't yet cover everything. More sites are being added all the time, though, so your preferred reading material <em>may</em> be available some day. If you want to speed that day along, you can <a href="https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean/-/issues" rel="noopener noreferrer nofollow">submit a request to have a site added</a>.</p>
 <p>Alternatively you can add your own sites and rules to Block Paywalls Clear through the settings menu.</p>
 <p>Hard paywalled sites can't be bypassed either, so if you're desperate to read the latest from The Times, head to one of the archive sites instead. </p>
