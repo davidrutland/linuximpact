@@ -78,7 +78,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/</loc>
-<lastmod>2023-11-22T12:53:29+00:00</lastmod>
+<lastmod>2023-11-22T15:20:04+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/59/benjamins.png</image:loc>
 <image:title><![CDATA[A hand holding folded money in front of a blurred web page]]></image:title>
@@ -534,6 +534,26 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/40/collosal-cave-retro-1-1024x512.jpg</image:loc>
 <image:title><![CDATA[collosal cave adventure played using cool-retro-term on a 1980s style amber terminal]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/podman-tui-makes-managing-containers-a-breeze/</loc>
+<lastmod>2023-11-22T15:19:55+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/61/underwater-pods.png</image:loc>
+<image:title><![CDATA[two fish-like submersibles exploring a coral reef]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/61/podman-underwater.jpeg</image:loc>
+<image:title><![CDATA[A cartoonish submarine with eyes next to a shipping container underwater]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/61//podman-tui-log.png</image:loc>
+<image:title><![CDATA[log for mealie in Podman-tui.]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/61//podman-tui-menu-2.png</image:loc>
+<image:title><![CDATA[Available actions menu in Podman-tui.  The logs entry is highlighted]]></image:title>
 </image:image>
 </url>
 <url>
