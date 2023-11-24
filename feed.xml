@@ -3,12 +3,181 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-22T15:20:04+00:00</updated>
+    <updated>2023-11-24T12:30:46+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>MacOS on Linux is easier than you think</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/macos-on-linux-is-easier-than-you-think/"/>
+        <id>https://linuximpact.com/macos-on-linux-is-easier-than-you-think/</id>
+        <media:content url="https://linuximpact.com/media/posts/62/macbook.png" medium="image" />
+            <category term="macOS"/>
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Linux"/>
+            <category term="Distros"/>
+
+        <updated>2023-11-24T12:10:29+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/62/macbook.png" alt="macbook pro open on a desktop" />
+                    MacOS is weird. It's kind of like Linux, but also not. It's based on the open-source Darwin OS, but everything that makes the OS usable in the 21st century is proprietary. It has a recognisable and usable terminal, but you can't use it to access&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/62/macbook.png" class="type:primaryImage" alt="macbook pro open on a desktop" /></p>
+                <p data-pm-slice="1 1 []">MacOS is weird. It's kind of like Linux, but also not. It's based on the open-source Darwin OS, but everything that makes the OS usable in the 21st century is proprietary. It has a recognisable and usable terminal, but you can't use it to access all parts of the OS and tweak the innards to how you want them. You don't have control.</p>
+<p>Every now and then, however, it becomes necessary to run some piece of macOS software that's not available on Linux. There's no Final Cut Pro for Linux, nor any GarageBand - so creating professional level singles and the associated MTV-style music videos isn't an option.</p>
+<h2 id="h-running-macos-software-can-be-a-bitch-if-you-dont-have-a-mac">Running MacOS software can be a bitch if you don't have a Mac</h2>
+<p>If you have a desperate need to run some MacOS only software, your options are limited, and we've laid them out for you below:</p>
+<h3 id="h-buy-a-mac">Buy a Mac</h3>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>MacOS software will run as it should, on the hardware it was designed for.</p>
+</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Macs are expensive.</p>
+</li>
+<li>
+<p>The clean aesthetic doesn't suit your tinkerer lifestyle, or the rest of your home.</p>
+</li>
+<li>
+<p>It's a Mac.</p>
+</li>
+<li>
+<p>You don't actually want to own a Mac.</p>
+</li>
+</ul>
+<h3 id="h-build-a-hackintosh">Build a Hackintosh</h3>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Considerably cheaper than a Mac</p>
+</li>
+<li>
+<p>Can be as ugly or weird as you like.</p>
+</li>
+<li>
+<p>Building a Hackintosh and getting it working will keep you busy for days.</p>
+</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>While cheaper than a genuine Apple product, it's still not cheap.</p>
+</li>
+<li>
+<p>Yet another computer in the house</p>
+</li>
+<li>
+<p>Building a Hackintosh and getting it working will keep you busy for days.</p>
+</li>
+</ul>
+<h2 id="h-run-macos-in-virtualbox">Run MacOS in VirtualBox</h2>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Free!</p>
+</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Fairly difficult and involved.</p>
+</li>
+</ul>
+<p>We should note at this point that MacOS is only licensed to be run on approved and genuine Apple hardware.</p>
+<h2 id="h-the-easiest-way-to-run-macos-on-your-linux-system">The easiest way to run MacOS on your Linux system</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/62/blurryface.png" alt="A face stencilled in black on a yellow paving slab leaning against a brick wall" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/62/responsive/blurryface-xs.webp 300w ,https://linuximpact.com/media/posts/62/responsive/blurryface-sm.webp 480w ,https://linuximpact.com/media/posts/62/responsive/blurryface-md.webp 768w ,https://linuximpact.com/media/posts/62/responsive/blurryface-lg.webp 1024w ,https://linuximpact.com/media/posts/62/responsive/blurryface-xl.webp 1360w ,https://linuximpact.com/media/posts/62/responsive/blurryface-2xl.webp 1600w"></figure>
+<p>Fortunately for you there's another way to run MacOS software on your Linux PC, thanks to <a href="https://github.com/sickcodes/Docker-OSX">Docker-OSX</a> - a GPL3-licensed open-source project from Sick Codes dedicated to getting proprietary Apple code working on your Linux machine as quickly and smoothly as possible.</p>
+<p>Docker-OSX relies on a KVM virtualisation built atop KVM-OpenCore, and unlike a virtual machine that you have to set up and configure yourself, is containerised with Docker (it's in the name).</p>
+<p>What this means is everything is preconfigured and ready to go. You don't need to worry - it will just work.</p>
+<p>The project has an impressive array of macOS versions on offer, so if you need a particular software version tied to a specific OS version, or just like the aesthetics, you can choose from (in no particular order) High Sierra, Mojave, Catalina, Big Sur, Monterey, or Ventura.</p>
+<p>It's also worth noting that the project also uses <a href="https://github.com/sickcodes/osx-serial-generator">OSX Serial Generator</a> - another project from Sick Codes - that generates valid OSX serial numbers, allowing you use to iMessage on your virtual Mac.</p>
+<h2 id="h-get-a-virtual-mac-on-linux-in-minutes">Get a virtual mac on Linux in minutes</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/62/pastelmac.png" alt="An imac in a pastel lit room" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/62/responsive/pastelmac-xs.webp 300w ,https://linuximpact.com/media/posts/62/responsive/pastelmac-sm.webp 480w ,https://linuximpact.com/media/posts/62/responsive/pastelmac-md.webp 768w ,https://linuximpact.com/media/posts/62/responsive/pastelmac-lg.webp 1024w ,https://linuximpact.com/media/posts/62/responsive/pastelmac-xl.webp 1360w ,https://linuximpact.com/media/posts/62/responsive/pastelmac-2xl.webp 1600w"></figure>
+<p>Well, minutes might be a tiny bit misleading unless you have an insanely fast internet connection and the stars are aligned in a certain way. We actually managed to have a fully useable desktop in about half an hour. Your mileage may vary according to your provider, and the specs of your machine.</p>
+<p>Before you start, make sure you have <a href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/">Docker and Docker Compose</a> installed. In theory, Docker-OSX ought to work with <a href="https://linuximpact.com/podman-tui-makes-managing-containers-a-breeze/">Podman</a>, too - although we haven't tried this.</p>
+<p>You'll also need some additional dependencies. Grab them with the commands below:</p>
+<p>On Debian-based systems:</p>
+<pre><code>sudo apt install qemu qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager libguestfs-tools</code></pre>
+<p>For the Fedora family:</p>
+<pre><code>sudo yum install libvirt qemu-kvm</code></pre>
+<p>Arch and co:</p>
+<pre><code>sudo pacman -S qemu libvirt dnsmasq virt-manager bridge-utils flex bison iptables-nft edk2-ovmf</code></pre>
+<p>To try out Docker-OSX, we used the Catalina image.</p>
+<pre><code>docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    sickcodes/docker-osx:latest</code></pre>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/62/macos_utilities_menu.png" alt="standard macos utilities menu" width="1337" height="579" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-xs.webp 300w ,https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-sm.webp 480w ,https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-md.webp 768w ,https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-lg.webp 1024w ,https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-xl.webp 1360w ,https://linuximpact.com/media/posts/62/responsive/macos_utilities_menu-2xl.webp 1600w"></figure>
+<p>At a mere 1.7GB, it took less than eight minutes until we were looking at an icon of a hard drive. You can press this or wait 30 seconds for setup to continue. Another minute and you'll be on the macOS utilities menu. Click on <strong>DIsk Utility</strong>, and find the the disk with the highest capacity. Click <strong>Erase</strong>, then give a name to the disk that will take its place. "Mydisk" is good if you're searching for inspiration. Leave the <strong>Format</strong> and <strong>Scheme</strong> with their default values. Click <strong>Erase</strong> when you're happy, then the big blue <strong>Done</strong> button when it's done. When you return to the <strong>Disk Utility</strong> menu, you should see your new disk name listed on the left.</p>
+<p>With that out of the way, leave the Disk Utility, and then press on <strong>Reinstall macOS</strong>. Go through the prompts, and you're done. Welcome to the macOS life!</p>
+<p>For Big Sur, the command is:</p>
+<pre><code>docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    sickcodes/docker-osx:big-sur</code></pre>
+<p>For Monterey:</p>
+<pre><code>docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e GENERATE_UNIQUE=true \
+    -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist' \
+    sickcodes/docker-osx:monterey</code></pre>
+<p>...and for Ventura:</p>
+<pre><code>docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e GENERATE_UNIQUE=true \
+    -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist' \
+    sickcodes/docker-osx:ventura</code></pre>
+<p>But who can be bothered going through the macOSX setup process? It's dull, and you have better things to do with your time.</p>
+<p>If you want to swerve the chore of clicking through screens, theeasiest way to get your Virtual Mac up and running is to use the pre-installed Catalina image. It's completely hands-off, but it isn't the quickest. The Download itself is in excess of 20GB, and you'll need at least 40GB free on your host machine.</p>
+<p>If you want to go with this option, pop open a terminal, and enter:</p>
+<pre><code>docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e GENERATE_UNIQUE=true \
+    sickcodes/docker-osx:auto</code></pre>
+<p>Take the dogs for a walk, <a href="#non-existing-post-with-id-60">browse the web without encountering paywalls</a>, spin up an <a href="https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/">XMPP server</a>, or l<a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">isten to an audiobook</a>. This will take a bit.</p>
+<p>When it's done, you'll be on the login screen of a brand new Catalina install. The username is <strong>user</strong>, and the password is <strong>alpine</strong>.</p>
+<p>The preinstalled image is cool and super-easy, and we'd suggest using this one if you genuinely have better things to be getting on with.</p>
+<h2 id="h-are-you-really-a-security-researcher">Are you <em>really</em> a security researcher?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/62/catalina-desktop.png" alt="macos desktop with calendar and app store open" width="1920" height="1027" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/62/responsive/catalina-desktop-xs.webp 300w ,https://linuximpact.com/media/posts/62/responsive/catalina-desktop-sm.webp 480w ,https://linuximpact.com/media/posts/62/responsive/catalina-desktop-md.webp 768w ,https://linuximpact.com/media/posts/62/responsive/catalina-desktop-lg.webp 1024w ,https://linuximpact.com/media/posts/62/responsive/catalina-desktop-xl.webp 1360w ,https://linuximpact.com/media/posts/62/responsive/catalina-desktop-2xl.webp 1600w"></figure>
+<p>Sick Codes can use and distribute proprietary Apple software because he's a security researcher doing security researcher things. We're not 100 percent sure how that works, but we're taking it at face value.</p>
+<p>In the project documentation, you'll see numerous references to it being used for security research, and there are terms and conditions attached to Docker-OSX.</p>
+<blockquote>
+<p>By using this Dockerfile, you hereby <strong>agree that you are a security reseacher or developer</strong> and agree to use this Dockerfile to make the world a safer place. Examples include: making your apps safer, finding your mobile phone, compiling security products, etc. You understand that Docker-OSX is an Open Source project, which is released to the public under the GNU Pulic License version 3 and above. You acknowledge that the Open Source project is absolutely unaffiliated with any third party, in any form whatsoever. Any trademarks or intelectual property which happen to be mentioned anywhere in or around the project are owned by their respective owners. By using this Dockerfile, <strong>you agree to agree to the EULA of each piece of upstream or downstream software</strong>. The following code is released for the sole purpose of security research, under the GNU Public License version 3. If you are concerned about the licensing, please note that this project is not AGPL.</p>
+</blockquote>
+<p>We're pretty sure that Apple isn't going to check your security credentials or sue you for using their god-awful browser instead of making the world a safer place, but we couldn't say for sure.</p>
+<h2 id="h-how-does-macos-run-on-linux">How does macOS run on Linux?</h2>
+<p>Pretty well, we found - although in all honesty, we only tried out Catalina. Everything was buttery smooth, and without lag. Our test machine is a <a href="https://www.amazon.com/GIGABYTE-G5-KE-i5-12500H-KE-52US213SH/dp/B0BH8DT1XR/ref=sr_1_6?crid=2HHK7QHL8KJ0I&amp;amp;keywords=gigabyte+g5&amp;amp;qid=1700827275&amp;amp;sprefix=gigabyte+g5%252Caps%252C194&amp;amp;sr=8-6&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=285c9afef1f92d2e850d7b30680234a3&amp;camp=1789&amp;creative=9325">Gigabyte G5</a> laptop (16GB / RTX3060 mobile): pretty mid range. Your performance will vary depending on whether your hardware is more or less capable than ours.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Podman-TUI makes managing containers a breeze</title>
         <author>
@@ -23,7 +192,7 @@
             <category term="Linux"/>
             <category term="CLI"/>
 
-        <updated>2023-11-22T15:19:55+00:00</updated>
+        <updated>2023-11-23T12:46:43+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/61/underwater-pods.png" alt="two fish-like submersibles exploring a coral reef" />
@@ -86,7 +255,7 @@
             <category term="Privacy"/>
             <category term="Internet"/>
 
-        <updated>2023-11-22T15:20:04+00:00</updated>
+        <updated>2023-11-23T12:46:55+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/59/benjamins.png" alt="A hand holding folded money in front of a blurred web page" />
@@ -213,7 +382,7 @@
             <category term="Internet"/>
             <category term="Hosting"/>
 
-        <updated>2023-11-20T12:08:51+00:00</updated>
+        <updated>2023-11-24T12:24:46+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/57/site.png" alt="A woman looking at the Linux Impact homepage on a mac" />
@@ -274,8 +443,9 @@
 <h2 id="h-publish-your-website-with-publii">Publish your website with Publii</h2>
 <p>You can spend hours customising your theme, and tweaking it to be exactly how you want it to be, but you'll be better off putting that time into writing.</p>
 <p>When you're happy with the way your site looks, and have some quality content to give to the world, it's time to publish.</p>
-<p data-pm-slice="1 1 []">Before you can do this, make sure you have a domain name. Domain names aren't usually expensive, and you can buy a <strong>.com</strong> fro around a tenner from NameCheap, or even go with with more esoteric options such as <strong>.xyz</strong>, <strong>.wtf</strong>, <strong>.red</strong>, <strong>.gay</strong>, <strong>.lol</strong>,and so on. There are usually special offers where you can snap up something suitable for a few dollars. Alternatively, you can get a completely <a href="https://linuximpact.com/how-to-get-a-free-domain-name-to-use-with-your-new-web-project/">free domain names</a> with a variety of TLDs - be warned though, you won't actually own these names, just have use of them.</p>
-<p data-pm-slice="1 1 []">You also need somewhere to store your static files. Sure, you can buy hosting, but you don't need to. It's pretty easy to <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/">convert an old PC or laptop to a server</a>, or use a cheap and low-power <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi</a> as a server.</p>
+<p data-pm-slice="1 1 []">Before you can do this, make sure you have a domain name. Domain names aren't usually expensive, and you can buy a <strong>.com</strong> for around a tenner from<a href="https://namecheap.pxf.io/c/5003685/408749/5618"> NameCheap</a>, or even go with with more esoteric options such as <strong><a href="https://namecheap.pxf.io/c/5003685/624649/5618">.xyz</a></strong>,or <strong><a href="https://namecheap.pxf.io/c/5003685/891913/5618">.gay</a></strong>, for around $2 (These are affiliate links, obviously). </p>
+<p data-pm-slice="1 1 []">There are usually special offers where you can snap up something suitable for a few dollars. Alternatively, you can get a completely <a href="https://linuximpact.com/how-to-get-a-free-domain-name-to-use-with-your-new-web-project/">free domain names</a> from freenom with a variety of TLDs - be warned though, you won't actually own these names, just have use of them.</p>
+<p data-pm-slice="1 1 []">You also need somewhere to store your static files. Sure, you can buy hosting - and there are some pretty <a href="https://namecheap.pxf.io/c/5003685/624623/5618">good hosting deals</a> (again, this is an affiliate link) out there , but you don't need to. It's pretty easy to <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/">convert an old PC or laptop to a server</a>, or use a cheap and low-power <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi</a> as a server.</p>
 <p data-pm-slice="1 1 []">Another option is to use Github Pages to host your static files. This is what we do. It's completely free, and provided you're not pushing out porn, you can use the service to host whatever you want.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/57/servers.png" alt="Differnt server types for publii" width="1919" height="1033" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/57/responsive/servers-xs.webp 300w ,https://linuximpact.com/media/posts/57/responsive/servers-sm.webp 480w ,https://linuximpact.com/media/posts/57/responsive/servers-md.webp 768w ,https://linuximpact.com/media/posts/57/responsive/servers-lg.webp 1024w ,https://linuximpact.com/media/posts/57/responsive/servers-xl.webp 1360w ,https://linuximpact.com/media/posts/57/responsive/servers-2xl.webp 1600w"></figure>
 <p data-pm-slice="1 1 []">In the <strong>Server</strong> section of Publii's interface, you'll see an alarming number of options. If you've gone with traditional hosting, you'll probably want to select <strong>FTP</strong> or <strong>SFTP</strong>. Input your website URL, the port number, and other details, then save. The options are similar regardless what you choose.</p>
@@ -518,7 +688,7 @@ usermod -aG wheel username</code></pre>
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-13T17:12:41+00:00</updated>
+        <updated>2023-11-24T12:30:46+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/45/zuck.jpg" alt="Graffiti of Mark Zuckerberg" />
@@ -540,6 +710,7 @@ usermod -aG wheel username</code></pre>
 <p>XMPP is capable of federating, meaning that users on your Snikket instance can communicate with users on any other XMPP instance, too. It's wild.</p>
 <p>As you'd expect from a modern messaging app, your communications aren't limited to texts like it's 1999, and you have the full gamut of mid 21st century functionality. Send kisses to your spouse, a voice note of everlasting adoration to your paramour, a dick pic to your side-piece, and apology videos to all of them.</p>
 <p>Snikket doesn't require much in the way of hardware to run, and a Raspberry Pi 4B will be ample for a family-sized instance. We've been running Snikket alongside an entire stable of self-hosted services including<a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/"> Immich</a>, <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobookshelf</a>, <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie</a><a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/"></a>, <a href="https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/">Pihole</a>, Jellyfin,Nextcloud, and more. We haven't encountered any problems at all.</p>
+<p>You'll need to register a domain name, too. We use <a href="https://namecheap.pxf.io/c/5003685/890712/5618">Namecheap</a> (affiliate link) for all of ours. </p>
 <h2 id="h-how-to-install-snikket-on-your-raspberry-pi">How to install Snikket on your Raspberry Pi</h2>
 <figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/45/kitchen_pi-2.jpg" alt="Silver-cased Raspberry Pi 4B on a granite kitchen counter " width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xs.webp 300w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-sm.webp 480w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-md.webp 768w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-lg.webp 1024w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xl.webp 1360w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-2xl.webp 1600w"></figure>
 <p>We're using the Raspberry Pi because a server needs to be on 24 hours per day, 365 days per year. It needs to be reliable, and ideally, shouldn't draw a huge amount of power. <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" target="_blank" rel="noopener noreferrer">The Raspberry Pi 4B</a> pulls a mere 8 Watts - the equivalent of a low energy lightbulb, and reliability is improved by a pair of solid state drives (SSDs) in place of a failure-prone Micro SD card. Earlier models, such as the Raspberry Pi 2 and 3, can also run a Snikket instance without problems - although we haven't tried this ourselves.</p>
@@ -4826,142 +4997,6 @@ services:
 <p><!-- wp:paragraph --></p>
 <p>It’s possible to blacklist the entire internet.</p>
 <p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>These are the biggest security threats in 2023</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/these-are-the-biggest-security-threats-in-2023/"/>
-        <id>https://linuximpact.com/these-are-the-biggest-security-threats-in-2023/</id>
-        <media:content url="https://linuximpact.com/media/posts/19/hacked_laptop.jpg" medium="image" />
-            <category term="Security"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/19/hacked_laptop.jpg" alt="" />
-                    Computer networks have always been vulnerable to attack, and there's a constant game of cat and mouse between the people trying to damage them and those trying to protect them. Attackers can be criminal organisations, individuals, or even states. These are the biggest cybersecurity threats&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/19/hacked_laptop.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Computer networks have always been vulnerable to attack, and there's a constant game of cat and mouse between the people trying to damage them and those trying to protect them.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Attackers can be criminal organisations, individuals, or even states. These are the biggest cybersecurity threats to look out for in 2023.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Malware</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p> Malware is a type of software that is designed to damage networks disrupt computer systems. It can take many forms, including viruses, worms, and trojans.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p> Malware can be distributed through hacked files, over email, or even injected via the web pages you visit. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Often attackers will use malware to gain a foothold in your computer and network before encrypting it, and holding it hostage in a ransomware attack.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Phishing attacks</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":62,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-62"><img src="https://linuximpact.com/media/posts/19/man-wearing-hoodie-looking-at-computer-1024x512.jpg" alt="man wearing hoodie looking at computer"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/19/responsive/man-wearing-hoodie-looking-at-computer-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Phishing attacks are a type of social engineering attack where the attacker attempts to trick the victim into revealing sensitive information, such as login credentials or financial information, by posing as someone trustworthy.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Typically, phishing attacks involve emails or text messages from a friend, relative, or organisation you trust. You should never click on links in emails, or respond to any message which isn't completely believable. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Espionage</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":63,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-63"><img src="https://linuximpact.com/media/posts/19/black-and-white-spy-drinking-whisky-1024x512.jpg" alt="black and white spy drinking whisky.jpg"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/19/responsive/black-and-white-spy-drinking-whisky-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Espionage is the practice of gathering sensitive information from individuals or organisations. This can be done through a variety of means, including hacking into systems and networks, using malware, or using social engineering techniques. Attackers can be rival organisations seeking a competitive edge, criminals, or even nation states.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Digital attacks on infrastructure</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's no secret that there's currently a war happening in Eastern Europe. In the run up to Russia''s invasion of Ukraine, digital attacks were launched against the country, with criminal hackers targetting and attempting to disrupt the normal functioning of Ukraine's government, and its wider infrastructure.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As the war progressed, and it started to become clear that Ukraine's allies would stand by the nation, Russia affiliated hackers stepped up their cyberattacks on allied nations, with attacks targetting hospitals, energy companies, and banks, in the US, the UK, and further afield.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>However, These <a href="https://www.economist.com/leaders/2022/12/01/why-russias-cyber-attacks-have-fallen-flat" target="_blank" rel="noreferrer noopener">cyberattacks from Russia haven't been as effective as the Russian state might have hoped</a>. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Denial of service (DoS) attacks</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p> DoS attacks are a type of cyber attack in which the attacker attempts to make a computer or network resource unavailable to its intended users. This is typically done by flooding the target with traffic or requests, overwhelming its capacity and preventing it from functioning properly.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Denial of service attacks are one of the oldest offensive tactics on the internet, and can easily be carried out using a botnet of suborned and infected computers.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While Denial of Service attacks can take a website offline for hours, or even days, you can protect yourself from DoS attacks by using a service such as Cloudflare. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Physical attacks on Infrastructure</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":64,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-64"><img src="https://linuximpact.com/media/posts/19/missiles-1024x512.jpg" alt="Missiles on a ship"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/19/responsive/missiles-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>While we're used to thinking of attacks on infrastructure as being limited  to taking services offline by DoS, hacking, or other digital means, it's easy to forget that physical damage can take out a data centre more effectively and permanently than a virus - as the missiles currently slamming into targets across Eastern Europe can attest.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>One interesting but underused tactic is a hybrid attack which can use digital intrusion and malware to physically damage infrastructure. One major example of this was the Stuxnet worm, which caused substantial damage to Iran's nuclear program in 2010.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Take care of your digital security in 2023</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Someone is always out to get you, and it's important for you and your  organisation to be aware of these and other security threats</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Take steps to protect yourself by implementing strong security measures, such as firewalls, encryption, and authentication, as well as regularly updating software. Make sure you always use strong passwords, and keep your antivirus program up to date.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
             ]]>
         </content>
     </entry>
