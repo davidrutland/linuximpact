@@ -3,12 +3,69 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-24T12:30:46+00:00</updated>
+    <updated>2023-11-24T15:42:10+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Bandcamp support is faltering - download your music now</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/bandcamp-support-is-faltering-download-your-music-now/"/>
+        <id>https://linuximpact.com/bandcamp-support-is-faltering-download-your-music-now/</id>
+        <media:content url="https://linuximpact.com/media/posts/63/drums.png" medium="image" />
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Music"/>
+            <category term="Internet"/>
+
+        <updated>2023-11-24T15:42:10+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/63/drums.png" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" />
+                    You can't rely on other people or organisations to hold onto your media forever, and it's a tired but true maxim that the cloud is just someone else's machine. If you've spent your hard earned cash supporting independent artists through Bandcamp, a series of ownership&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/63/drums.png" class="type:primaryImage" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" /></p>
+                <p data-pm-slice="1 1 []">You can't rely on other people or organisations to hold onto your media forever, and it's a tired but true maxim that the cloud is just someone else's machine.</p>
+<p>If you've spent your hard earned cash supporting independent artists through Bandcamp, a series of ownership changes and layoffs suggest that now might be the best time for audiophiles to download their audio files to secure offline storage.</p>
+<h2 id="h-whats-been-happening-at-bandcamp">What's been happening at Bandcamp?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/babel.jpeg" alt="painting of a crumbling tower of Babel" width="4096" height="2048" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/babel-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/babel-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/babel-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/babel-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/babel-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/babel-2xl.webp 1600w"></figure>
+<p>Bandcamp was set up in 2007 as an audio distribution platform where artists and their label had complete control of sales, streams, and later, production and distribution and physical products.</p>
+<p>Arriving at a time when Spotify was coming to dominate audio streaming, and Google's recent YouTube purchase sent shivers of discomfort down the spines of nascent musical acts, Bandcamp offered them control of their media in a way that other platforms couldn't.</p>
+<p>In March 2002, Epic games (itself partially owned by Chinese tech behemoth and holding company, Tencent) acquired Bandcamp, and the following year sold it to Songtradr - a competing music platform. With us so far?</p>
+<p>Songtradr had acquired the business, but declined to acquire roughly half of the employees. Songtradr is also refusing to recognise the Bandcamp union, voted into existence in March 2023.</p>
+<p>According to <a rel="noopener noreferrer nofollow">Aftermath</a>, Bandcamp is a mess right now, with most of the support team gone, leaving artists under the care of people who are either incredibly overworked, barely trained or both. Engineers are now doing work normally allotted to the support staff.</p>
+<h2 id="h-bandcamp-is-looking-a-little-shaky-right-now">When the music's over (Turn out the lights)</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/myspace.png" alt="myspace homepage with broken images" width="1910" height="955" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/myspace-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/myspace-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/myspace-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/myspace-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/myspace-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/myspace-2xl.webp 1600w"></figure>
+<p>With the support department looking less capable, artists will be looking to publish elsewhere, and with engineers taking up the support team's slack, who's looking after the infrastructure that keeps the site running, the streams streaming, and your thousands of purchased albums safely on their virtual shelves?</p>
+<p>Neglect can kill a company, and if it doesn't kill it, then leave it lurching on while its soul is in the shadow realm.</p>
+<p>Even if a company appears normal after a series of takeovers and disasters, its usefulness, its core offering is gone or genericised.</p>
+<p>Remember MySpace? You don't have to remember it, it's right there at myspace.com. Visit today, and you'll see band pages, you'll be able to stream music, watch videos, and 'connect with people'.</p>
+<p>But MySpace is long dead, and what remains is a reanimated revenant resurrected yet again by corporate owners we can't even be bothered to look up.</p>
+<p>MySpace used to host the music of thousands of independent bands, at the same time it was the world's dominant social media platform. Most of that music is gone now - everything before 2015 disappeared during a fucked-up server migration in 2019.</p>
+<p>Want to run a massive, content-heavy service on a shoestring budget? That's the kind of thing that happens.</p>
+<h2 id="h-run-dont-walk">Run, don't walk</h2>
+<p>While we're not saying that Bandcamp is going to disappear into nothing (MySpace is still around after all), we think it's perhaps prudent to download your albums from Bandcamp and store them offline. You never know - that's all we're saying.</p>
+<p>The Bandcamp UI isn't really designed with massive downloads in mind, fortunately, it's pretty easy to download all of your Bandcamp music using the excellent Batchcamp extension which is available in both as a <a href="https://addons.mozilla.org/en-US/firefox/addon/batchcamp/" rel="noopener noreferrer nofollow">FireFox addon</a>, or as a <a rel="noopener noreferrer nofollow">Google Chrome extension</a>.</p>
+<p>Install the extension/add-on in the usual way, and pin it to your browser.</p>
+<p>When you're logged into Bandcamp through the website, click the Batchcamp icon, and select your preferred audio format from the dropdown. You have a choice of <strong>MP3 V0</strong>, <strong>MP3 320</strong>, <strong>FLAC</strong>, <strong>AAC</strong>, <strong>Ogg Vorbis</strong>, <strong>ALAC</strong>, <strong>WAV</strong>, or <strong>AIFF</strong>.</p>
+<p>While you can set Batchcamp to download up to eight concurrent downloads, we'd suggest that three is reasonable - you don't want to stress a potentially delicate structure.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/collection.png" alt="bandcamp collection with batchcamp purple button" width="1915" height="957" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/collection-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/collection-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/collection-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/collection-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/collection-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/collection-2xl.webp 1600w"></figure>
+<p>At the bottom of the page, you'll see a purple(ish) <strong>Select All</strong> button. Hit it, then <strong>Download</strong>. Depending on how many albums you have i your collection this may take a while.</p>
+<p>We suggest that you do this twice. Once in your preferred format, and once in the the highest lossless quality there is.</p>
+<h2 id="h-stream-you-own-tracks">Stream you own tracks</h2>
+<p>The ability to stream audio tracks is great, but its even better when its streaming from your own hardware on your own network.</p>
+<p>Jellyfin is an open-source project that will help you organise, store, and stream music, shows, and movies from your own server. It will run on pretty much anything you have around from an old laptop, to a Raspberry Pi, to a dedicated high spec server.</p>
+<p>You should check it out: <a href="https://jellyfin.org/" rel="noopener noreferrer nofollow">https://jellyfin.org/</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>MacOS on Linux is easier than you think</title>
         <author>
@@ -4823,180 +4880,6 @@ services:
 <p>
 <!-- /wp:paragraph --></p>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Forget Net Nanny – PiHole will keep your kids’ late-night activity in check</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/"/>
-        <id>https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/</id>
-        <media:content url="https://linuximpact.com/media/posts/27/girl-on-bed.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Security"/>
-            <category term="Raspberry Pi"/>
-            <category term="Privacy"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-10T13:37:14+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/27/girl-on-bed.jpg" alt="A girl lying on a bed wearing a stripy jumper. she has one eye open" />
-                    Teenagers are hard work. We have two teenagers stretching their wings and doing normal teenage stuff. Most of it doesn’t concern us. We don’t want to know the details of their social lives, we don’t want to know who they’re meeting up with at the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/27/girl-on-bed.jpg" class="type:primaryImage" alt="A girl lying on a bed wearing a stripy jumper. she has one eye open" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Teenagers are hard work.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We have two teenagers stretching their wings and doing normal teenage stuff. Most of it doesn’t concern us. We don’t want to know the details of their social lives, we don’t want to know who they’re meeting up with at the weekend, and we don’t particularly care what Minecraft server they’re using at 2am.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We do care that they’re playing Minecraft at 2am because we don’t particularly want to have to deal with a sullen 13 year old who’s had - at most - five hours sleep. We care that globe-spanning Discord chats stretch out until almost dawn - save that shit until you’re at college when you can talk about political philosophy all night (provided you don’t have lectures the next day).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":219,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-219"><img  src="https://linuximpact.com/media/posts/27/Teenager-Using-Her-Laptop-1024x512.jpg" alt="Teenager Using Her Laptop" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/27/responsive/Teenager-Using-Her-Laptop-1024x512-2xl.webp 1600w"></figure>
-<figcaption class="wp-element-caption">Or whatever the hell students talk about these days</figcaption>
-</figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The point is, I don’t want my teens up all night shit-talking on the internet when they should be sleeping. This is, of course, massively hypocritical, as except for weekends, I'm is up every night talking on the internet. My excuse is twofold: First, a portion of it is work related, due to clients in different timezones. Second: I’m a grown-up and am not currently attempting to gain formal educational qualifications.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Until very recently, I didn’t have any clue to my teens’ late night electronic activity. Sure I might see a light under the door from time to time, but it was rare, and the only clue they weren’t getting enough sleep was that they looked like revenants in the morning, and could barely function as human beings.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Enter the PiHole</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Pihole is Free and open source software, which advertises itself as “A black hole for Internet advertisements.” It’s pretty easy to install on anything. Despite being built for the Raspberry Pi, it will run on any Linux or <a href="https://www.andrewdenty.com/blog/2020/01/25/installing-pi-hole-on-windows-10.html">Windows 10</a> machine, and filters adverts by domain name, by default it redirects known ad domains to 0.0.0.0 - that is… nowhere. Ads don’t get served.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It also comes with a rather nifty web interface, allowing admins (Me in this case) an overview of such trivia as traffic levels, domains blocked, machines on the network, and domains requested. Naturally, I was surprised to see repeated connections to Minecraft servers and Discord coming from devices belonging to my 13 year old at daft O’clock at night. I hit the blacklist button for both domains, blocking both servers instantly - and cutting off my own Discord connection too. Damn.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">RTFM</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Pihole documentation is pretty good, but it’s anticipated that the vast majority of people will use the rather neat web interface. Most users will set it up once, using their Pihole’s single line install, and forget about it. I needed something a tiny bit different - it still wasn’t particularly hard though, and the manual provided most of what we needed.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Step 1: Identify all of The Teen's devices.</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Easy enough. The Teen has a 2008 Mac currently running Manjaro Linux, a Motorola E3 Android phone, and a Samsung Tablet. These show up under friendly, easily identifiable names, such as ‘FrankenMacbook’ in the ‘Network’ Tab.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Step 2: Create a group which contains all the The Teen's devices.</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Again, simples. In the group management dropdown there’s a tab called groups. By default there’s already one group there, and it’s called ‘Default.’ To add another group, I typed in a new group name and pressed ‘add’ before moving to the Clients section of group management.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":220,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-220"><img  src="https://linuximpact.com/media/posts/27/configure-a-new-group-in-pihole-admin-interface-1024x341.jpg" alt="configure a new group in pihole admin interface" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-xs.webp 300w ,https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-sm.webp 480w ,https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-md.webp 768w ,https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-lg.webp 1024w ,https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-xl.webp 1360w ,https://linuximpact.com/media/posts/27/responsive/configure-a-new-group-in-pihole-admin-interface-1024x341-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>In ‘clients’ there’s a dropdown list of every device that has ever connected to my home network. It was straightforward to locate The Teen’s devices and assign them to my newly created group.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Step 3: Create a custom blocklist.</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>A blocklist is a textfile containing IP addressess and the corresponding URLs. Each on a separate line. If you really want to fuck with someone, you can assign Bing’s IP address to the google.com, but that’s an adventure for another time. I just wanted The Teen to get some sleep.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Here’s the content of my Teen blocklist:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 discord.gg</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 gateway.discord.gg</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 discordapp.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 discord.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 sessionserver.mojang.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 minehut.gg</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 minehut.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 dl.discordapp.net</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 web.facebook.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>0.0.0.0 i.instagram.com</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The (.|^) is a wildcard for subdomains, so abc.discord.com will be blocked as well as 123.discord.com. This is useful. Yes, I know some of those entries are unnecessary, but it’s done now.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Step 4: Apply your new blocklist to your new group</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I uploaded the blocklist to our server as a text file, and fed the URL to Pihole.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Then, from the Adlist group management tab, I made sure it was only applied to the "Teen" group.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Step 4: Set a timer</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I appreciate that The Teen does have a social life and does need to talk to her friends and play Minecraft from time to time - just not at some ridiculous hour when she should be asleep.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unfortunately, I wasn't able to find any settings which allow for scheduling of blocklists within Pihole’s manual or help section.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Fortunately linux - the default OS on which Pihole is designed to run, has an excellent task scheduler built in. It’s called cron, and will execute a script or a command according to rules which you set.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I created two text files - one of them blank, and one which is a duplicate of the blocklist.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>At 10pm every night, a cronjob runs, executing a script which copies the second text file to the blocklist then updates Pihole’s gravity. Discord, Minecraft etc are now blocked for The Teen</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>At 6am every morning, a cronjob runs, executing a <em>different </em>script which copies the blank text file to the blocklist then updates Pihole’s gravity. The blocklist now contains no entries, so Discord, Minecraft etc are now unblocked for The Teen.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are probably more efficient ways of achieving the same result, but we like to tinker with things at Really Use.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading">Did it work?</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Well, yes. The Teen can no longer access Discord or Minecraft between 10pm and 6am. <em>Daaaaaad, the WiFi is being slow again.</em> So yeah. That part worked.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unfortunately she’s now using Whatsapp.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Remember those wildcard entries above?</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It’s possible to blacklist the entire internet.</p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
