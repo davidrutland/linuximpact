@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-24T15:42:10+00:00</updated>
+    <updated>2023-11-24T17:50:33+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Music"/>
             <category term="Internet"/>
 
-        <updated>2023-11-24T15:42:10+00:00</updated>
+        <updated>2023-11-24T17:50:33+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/63/drums.png" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" />
@@ -59,7 +59,7 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/collection.png" alt="bandcamp collection with batchcamp purple button" width="1915" height="957" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/collection-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/collection-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/collection-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/collection-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/collection-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/collection-2xl.webp 1600w"></figure>
 <p>At the bottom of the page, you'll see a purple(ish) <strong>Select All</strong> button. Hit it, then <strong>Download</strong>. Depending on how many albums you have i your collection this may take a while.</p>
 <p>We suggest that you do this twice. Once in your preferred format, and once in the the highest lossless quality there is.</p>
-<h2 id="h-stream-you-own-tracks">Stream you own tracks</h2>
+<h2 id="h-stream-you-own-tracks">Stream your own tracks on your own network</h2>
 <p>The ability to stream audio tracks is great, but its even better when its streaming from your own hardware on your own network.</p>
 <p>Jellyfin is an open-source project that will help you organise, store, and stream music, shows, and movies from your own server. It will run on pretty much anything you have around from an old laptop, to a Raspberry Pi, to a dedicated high spec server.</p>
 <p>You should check it out: <a href="https://jellyfin.org/" rel="noopener noreferrer nofollow">https://jellyfin.org/</a></p>
