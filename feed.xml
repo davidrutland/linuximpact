@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-24T21:56:30+00:00</updated>
+    <updated>2023-11-25T01:56:03+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Music"/>
             <category term="Internet"/>
 
-        <updated>2023-11-24T21:56:30+00:00</updated>
+        <updated>2023-11-25T01:56:03+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/63/drums.png" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" />
@@ -38,13 +38,13 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/babel.jpeg" alt="painting of a crumbling tower of Babel" width="4096" height="2048" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/babel-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/babel-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/babel-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/babel-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/babel-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/babel-2xl.webp 1600w"></figure>
 <p>Bandcamp was set up in 2007 as an audio distribution platform where artists and their labels had complete control of sales, streams, and later, production and distribution and physical products.</p>
 <p>Arriving at a time when Spotify was coming to dominate audio streaming, and Google's recent YouTube purchase sent shivers of discomfort down the spines of nascent musical stars, Bandcamp offered them control of their media in a way that other platforms couldn't.</p>
-<p>In March 2002, Epic games (itself partially owned by Chinese tech behemoth and holding company, Tencent) acquired Bandcamp. The following year, after massively bigging up the business, they sold it to Songtradr - a competing music platform. With us so far?</p>
+<p>In March 2022, Epic games (itself partially owned by Chinese tech behemoth and holding company, Tencent) acquired Bandcamp. The following year, after massively bigging up the business, they sold it to Songtradr - a competing music platform. With us so far?</p>
 <p>Songtradr had acquired the business, but declined to acquire roughly half of the employees. Songtradr is also refusing to recognise the Bandcamp union, which was voted into existence in March 2023.</p>
 <p>According to <a rel="noopener noreferrer nofollow">Aftermath</a>, Bandcamp is a mess right now, with most of the support team gone. This leaves artists under the care of people who are either incredibly overworked, barely trained, or both. Engineers are doing work normally allotted to the support staff - normally a highly trained, competent, and enthusiastic crew.</p>
 <h2 id="h-bandcamp-is-looking-a-little-shaky-right-now">When the music's over (Turn out the lights)</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/63/myspace.png" alt="myspace homepage with broken images" width="1910" height="955" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/63/responsive/myspace-xs.webp 300w ,https://linuximpact.com/media/posts/63/responsive/myspace-sm.webp 480w ,https://linuximpact.com/media/posts/63/responsive/myspace-md.webp 768w ,https://linuximpact.com/media/posts/63/responsive/myspace-lg.webp 1024w ,https://linuximpact.com/media/posts/63/responsive/myspace-xl.webp 1360w ,https://linuximpact.com/media/posts/63/responsive/myspace-2xl.webp 1600w"></figure>
 <p>With the support department looking less capable, artists will be looking to publish elsewhere, and with engineers taking up the support team's slack (BOOM), who's looking after the infrastructure that keeps the site running, the streams streaming, and your thousands of purchased albums safely on their virtual shelves?</p>
-<p>Neglect can kill a company, and if it doesn't kill it, then leave it lurching on even while its soul has been banished to the shadow realm.</p>
+<p>Neglect can kill a company, and if it doesn't kill it, then it can leave it lurching on, even while its soul has been banished to the shadow realm.</p>
 <p>Even if a company appears normal after a series of takeovers and disasters, its usefulness - its core offering and raison d'être - is gone or genericised.</p>
 <p>Remember MySpace? You don't have to remember it, it's right there at <a href="https://myspace.com/">myspace.com</a>. Visit today, and you'll see band pages, you'll be able to stream music, watch videos, and 'connect with people'.</p>
 <p>But MySpace is long dead, and what remains is a reanimated revenant resurrected yet again by corporate owners we can't even be bothered to research.</p>
@@ -53,7 +53,7 @@
 <h2 id="h-run-dont-walk">There's an extension for that...</h2>
 <p>While we're not saying that Bandcamp is going to disappear into nothing (MySpace is still around after all), we think it's perhaps prudent to download your albums from Bandcamp and store them offline. You never know - that's all we're saying.</p>
 <p>The Bandcamp UI isn't really designed with massive downloads in mind, and there are a lot of boxes to tick.</p>
-<p>Fortunately, it's pretty easy to download all of your Bandcamp music using the excellent Batchcamp extension which is available in both as a <a href="https://addons.mozilla.org/en-US/firefox/addon/batchcamp/" rel="noopener noreferrer nofollow">FireFox addon</a>, or as a <a rel="noopener noreferrer nofollow">Google Chrome extension</a>.</p>
+<p>Fortunately, it's pretty easy to download all of your Bandcamp music using the excellent Batchcamp extension which is available as both a <a href="https://addons.mozilla.org/en-US/firefox/addon/batchcamp/" rel="noopener noreferrer nofollow">FireFox addon</a>, or as a <a rel="noopener noreferrer nofollow">Google Chrome extension</a>.</p>
 <p>Install the extension/add-on in the usual way, and pin it to your browser.</p>
 <p>When you're logged into Bandcamp through the website, click the Batchcamp icon, and select your preferred audio format from the dropdown. You have a choice of <strong>MP3 V0</strong>, <strong>MP3 320</strong>, <strong>FLAC</strong>, <strong>AAC</strong>, <strong>Ogg Vorbis</strong>, <strong>ALAC</strong>, <strong>WAV</strong>, or <strong>AIFF</strong>.</p>
 <p>While you can set Batchcamp to download up to eight concurrent downloads, we'd suggest that three is reasonable - you don't want to stress a potentially delicate structure.</p>
