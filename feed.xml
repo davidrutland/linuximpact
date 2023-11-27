@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-27T00:39:22+00:00</updated>
+    <updated>2023-11-27T00:50:15+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="Internet"/>
             <category term="AI"/>
 
-        <updated>2023-11-27T00:39:22+00:00</updated>
+        <updated>2023-11-27T00:50:15+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/64/wbh.png" alt="A black and white logo with the text written by human not by AI. There is a simple smiley face to the left" />
@@ -41,7 +41,7 @@
 <p>Described as "The AI with zero chill", and loosed on the world through the questionable medium of Twitter, Tay quickly become a racist, xenophobic, sex-obsessed Hitler fan. We have no experience with American teenage girls, so are unable to say whether this is typical or not. Either way, Microsoft shut down the bot with extreme prejudice a day later.</p>
 <p>ChatGPT is different. You can hold coherent conversations, it can summarise documents, tell you facts, or convincingly pretend to be other people. It's a revelation, and a miracle of the mid-21st century.</p>
 <p>Within weeks, the company formerly known as FaceBook revealed that it too had been working on AI, and shortly afterwards, LLaMA was unleashed.</p>
-<p>Now, if you need to write a college application essay but have left it until 11.59 on deadline day, you can have one of the many AI web services knock one out in a few seconds; if you need an award-winning photograph of artistic masterpiece, Dall-E or Stable diffusion can generate one in a few minutes.</p>
+<p>Now, if you need to write a college application essay but have left it until 11.59 on deadline day, you can have one of the many AI web services knock one out in a few seconds; if you need an award-winning photograph or artistic masterpiece, Dall-E or Stable diffusion can generate one in a few minutes.</p>
 <p>This writer keeps offline versions of Stable Diffusion, and an uncensored LLaMA model for shits and giggles. It's trivial to give it a persona, ask it a question and have your pet AI answer in character.</p>
 <h2 id="h-ai-is-flooding-the-zone-with-shit">AI is flooding the zone with shit</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/64/shitflood.jpeg" alt="AI generated image for the prompt - flooding the zone with shit - showing a car driving through brown water in a suburban area" width="4096" height="2048" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/64/responsive/shitflood-xs.webp 300w ,https://linuximpact.com/media/posts/64/responsive/shitflood-sm.webp 480w ,https://linuximpact.com/media/posts/64/responsive/shitflood-md.webp 768w ,https://linuximpact.com/media/posts/64/responsive/shitflood-lg.webp 1024w ,https://linuximpact.com/media/posts/64/responsive/shitflood-xl.webp 1360w ,https://linuximpact.com/media/posts/64/responsive/shitflood-2xl.webp 1600w"></figure>
@@ -50,7 +50,7 @@
 <p>AI though? AI generated content is free. Sure, you need to pay a subscription for access to the the latest models and reliable service, but if you don't mind joining the queue and putting up with spotty availability, you can create passable content with ease.</p>
 <p>And passable is about as good as it gets. Reliable? Not really - we're sure you recall the comedy that ensued when New York lawyer, <a href="https://www.bbc.co.uk/news/world-us-canada-65735769" rel="noopener noreferrer nofollow">Steven A Schwartz</a> was asked to research cases for a colleague, and turned to ChatGPT instead. Non-existent cases were cited in court, and the lawyers were <a href="https://www.nytimes.com/2023/06/08/nyregion/lawyer-chatgpt-sanctions.html" rel="noopener noreferrer nofollow">publicly bollocked at a special hearing</a> (paywall link).</p>
 <p>Using AI to cite case law is high stakes, and comes with high risks - if you're a media outlet, then as long as you're not libeling anyone, it doesn't seem quite so important.</p>
-<p><a href="https://www.cnet.com/tech/cnet-is-testing-an-ai-engine-heres-what-weve-learned-mistakes-and-all/" rel="noopener noreferrer nofollow">CNET's attempt to write articles using "AI Assist"</a>, were highly publicised and ridiculed for their mistakes - but while CNET was one of the first, it's unlikely to be the last. Most outlets probably won't even acknowledge that they're using AI tools.</p>
+<p><a href="https://www.cnet.com/tech/cnet-is-testing-an-ai-engine-heres-what-weve-learned-mistakes-and-all/" rel="noopener noreferrer nofollow">CNET's attempt to write articles using "AI Assist"</a>, were highly publicised and they were ridiculed for their mistakes - but CNET was one of the first, it's unlikely to be the last. Most outlets probably won't even acknowledge that they're using AI tools.</p>
 <p>Newsquest is the second largest publisher of regional and local newspapers in the UK. It's owned by US media giant Gannett - a company that you might recall was looking to hire <a href="https://web.archive.org/web/20230912203956/https://us231.dayforcehcm.com/CandidatePortal/en-US/gannett/Posting/View/63544" rel="noopener noreferrer nofollow">a full-time, video forward Taylor Swift Reporter</a>, shortly after laying off nearly 10% of its staff.</p>
 <p>In September, Newsquest <a rel="noopener noreferrer nofollow">advertised for an AI-assisted reporter</a> to, "be at the forefront of a new era in journalism, utilising AI technology to create national, local, and hyper-local content for our news brands, while also applying their traditional journalism skills."</p>
 <p>The advert was still up as of November 2023, and we look forward to seeing the "AI-assisted" disclaimer when a suitable candidate is eventually hired. We won't though.</p>
@@ -73,7 +73,7 @@
 <p>Somewhere on this page you'll see a virtual badge that states, "Written by human <strong>not by AI</strong>". It proudly proclaims that this writer is human - which is something we've always suspected, but never been able to prove.</p>
 <p>We can't prove it now, of course. The badge is a virtual artefact - and like the NFT madness of 2022, there's little to stop anybody, right-clicking it and sticking it on their website. The badge is an SVG file - go on, we dare you.</p>
 <p>The fucking thing isn't even trademarked.</p>
-<p>But the badge was created by a human, and that means that it's automatically copyrighted to <br>Allen, the founder of Not By AI. There's a license attached, and there are <a href="https://notbyai.fyi/license" rel="noopener noreferrer nofollow">conditions for its use</a>.</p>
+<p>But the badge was created by a human, and that means that it's automatically copyrighted to Allen, the founder of <strong>Not By AI</strong>. There's a license attached, and there are <a href="https://notbyai.fyi/license" rel="noopener noreferrer nofollow">conditions for its use</a>.</p>
 <p>Allen recognises that AI is here, and here to stay. He appreciates that AI is used for research*, and for purposes that are not central to the site on which the badge is displayed. That's probably why there are three versions of the badge.</p>
 <p>In addition to the "Written by human" badge, you can also grab the "Painted by human" badge if your work is based around artwork, or "Produced by human" for anything else.</p>
 <p>It doesn't even mean that your work has to be completely created by a human being - 90% is all Allen asks. That's pretty reasonable.</p>
@@ -88,8 +88,8 @@
 <p>Good. We hope that's what most of the gigantic, shit-shovelling content mills will say - even as they incorporate more and more AI into their workflow.</p>
 <p>The Schapps style operations though? They'll have no qualms about appropriating the badge if they think it will give them more credibility, more SEO juice, more clicks, or more authenticity.</p>
 <p>We don't know where Allen's $99 goes. he could be spending it on blackjack, hookers, and rum-based cocktails for all we know.</p>
-<p>It's more likely, however, that he supports himself financially while spending long days, checking where the image is used, auditing the content, and preparing a warchest to deal with entities that use his little SVG files where they shouldn't. It'll be cool.</p>
-<p>But Not by AI stands a chance - not a huge chance - of improving the web as you use it today. The little badge at the top of the page means that someone, somewhere, has spent their Sunday wearing their fingers down by grudgingly typing out 1,981 words. It's considered, and they've thought about it. It's not just a tweaked prompt response, based on someone else's work.</p>
+<p>It's more likely, however, that he supports himself financially while spending long days, checking where the image is used, auditing the content, and preparing a war chest to deal with entities that use his little SVG files where they shouldn't. It'll be cool.</p>
+<p>But Not by AI stands a chance - not a huge chance - of improving the web as you use it today. The little badge at the top of the page means that someone, somewhere, has spent their Sunday afternoon wearing their fingers down by grudgingly typing out 1,980 words. It's considered, and they've thought about it. It's not just a tweaked prompt response, based on someone else's work.</p>
 <p>That has to mean something, right?</p>
 <p>Right?</p>
             ]]>
