@@ -3,12 +3,76 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-27T00:50:15+00:00</updated>
+    <updated>2023-11-27T14:50:03+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Radio-active is an instantly usable internet radio TUI</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/radio-active-is-an-instantly-usable-internet-radio-tui/"/>
+        <id>https://linuximpact.com/radio-active-is-an-instantly-usable-internet-radio-tui/</id>
+        <media:content url="https://linuximpact.com/media/posts/65/skully.png" medium="image" />
+            <category term="Software"/>
+            <category term="CLI"/>
+            <category term="Audio"/>
+
+        <updated>2023-11-27T14:50:03+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/65/skully.png" alt="A human skull wearing sunglasses and a set of large headphones" />
+                    Everyone loves music. The right track can help you focus, make you relax, or take you back to a certain time and place. While Bandcamp is an excellent option to purchase music and support independent artists, sometimes you just want to listen to what's playing&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/65/skully.png" class="type:primaryImage" alt="A human skull wearing sunglasses and a set of large headphones" /></p>
+                <p data-pm-slice="1 1 []">Everyone loves music. The right track can help you focus, make you relax, or take you back to a certain time and place.</p>
+<p>While <a href="https://linuximpact.com/bandcamp-support-is-faltering-download-your-music-now/">Bandcamp</a> is an excellent option to purchase music and support independent artists, sometimes you just want to listen to what's playing on radio stations around the world.</p>
+<p>There are dozens of internet radio streamers for the command line, but Radio-active stands out due to its simplicity and ease-of-use. You won't need to hunt out individual stream URLs and add them by hand, and it just works.</p>
+<p>And you're not limited to merely listening to your preferred stations. You can record them for later playback - you never need miss an episode of <em>The Archers </em>again!</p>
+<h2 id="h-how-to-install-radio-active-on-linux">How to install Radio-active on Linux</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/65/install_radioactive.png" alt="Installing radioactive in the terminal with pipx" width="1055" height="260" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/65/responsive/install_radioactive-xs.webp 300w ,https://linuximpact.com/media/posts/65/responsive/install_radioactive-sm.webp 480w ,https://linuximpact.com/media/posts/65/responsive/install_radioactive-md.webp 768w ,https://linuximpact.com/media/posts/65/responsive/install_radioactive-lg.webp 1024w ,https://linuximpact.com/media/posts/65/responsive/install_radioactive-xl.webp 1360w ,https://linuximpact.com/media/posts/65/responsive/install_radioactive-2xl.webp 1600w"></figure>
+<p><a href="https://github.com/deep5050/radio-active" rel="noopener noreferrer nofollow">Radio-active</a> is built using Python and is installed using the Pip package manager, so make sure you have it on your machine before you start. You'll also need ffmpeg - a set of libraries and command-line tools for AV processing, conversion, and streaming.</p>
+<p>All the necessary tools should be available in your default repositories.</p>
+<p>Install Radio-active with:</p>
+<pre><code>pipx install radio-active</code></pre>
+<p>That's it!</p>
+<h2 id="h-listen-to-internet-radio-in-your-linux-terminal-with-radio-active">Listen to internet radio in your Linux terminal with Radio-active</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/65/radioactive-interface.png" alt="radioactive search results for GB stations ordered by votes" width="1196" height="614" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/65/responsive/radioactive-interface-xs.webp 300w ,https://linuximpact.com/media/posts/65/responsive/radioactive-interface-sm.webp 480w ,https://linuximpact.com/media/posts/65/responsive/radioactive-interface-md.webp 768w ,https://linuximpact.com/media/posts/65/responsive/radioactive-interface-lg.webp 1024w ,https://linuximpact.com/media/posts/65/responsive/radioactive-interface-xl.webp 1360w ,https://linuximpact.com/media/posts/65/responsive/radioactive-interface-2xl.webp 1600w"></figure>
+<p>You can start Radio-active by typing:</p>
+<pre><code>radio</code></pre>
+<p>or</p>
+<pre><code>radioactive</code></pre>
+<p>...into your terminal. You'll see an informative TUI, and the message "No stations to play. Please search for a station first!"</p>
+<p>It's a self-explanatory message, and there are a number of ways to search for stations.</p>
+<p>The easiest way is to use the <strong>--search</strong> or <strong>-S</strong> flagsand enter your radio station by name. For instance, if you have a hankering for BBC Radio 2 you would enter:</p>
+<pre><code>radio -S 'BBC radio 2'</code></pre>
+<p>Radio-active will return a table of radio stations with that name, along with an ID number, broadcast country, and tags. Select a number from the list to start listening. A selection of modern and classic pop hits will instantly fill your ears.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/65/deepvibes.png" alt="deepvibes internet radio playing through radioactive" width="1195" height="262" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/65/responsive/deepvibes-xs.webp 300w ,https://linuximpact.com/media/posts/65/responsive/deepvibes-sm.webp 480w ,https://linuximpact.com/media/posts/65/responsive/deepvibes-md.webp 768w ,https://linuximpact.com/media/posts/65/responsive/deepvibes-lg.webp 1024w ,https://linuximpact.com/media/posts/65/responsive/deepvibes-xl.webp 1360w ,https://linuximpact.com/media/posts/65/responsive/deepvibes-2xl.webp 1600w"></figure>
+<p>Alternatively, you can search by country using <strong>--country</strong> or <strong>-C</strong>, followed by<strong> </strong>your preferred nation's country code. To see a list of streaming stations from the UK, you would enter</p>
+<pre><code>radio -C GB</code></pre>
+<p>Maybe you don't have a particular station or even a country in mind, in which case you can use the <strong>--tag</strong>, or <strong>--language</strong> switches to narrow down your hunt.</p>
+<p>To add a station to your <strong>favourites</strong> list, just hit the <strong>f</strong> key (and pay your respects) while the station is playing.</p>
+<p>Once you've added some favourites, you can view and stream them by starting Radio-active without any arguments, or just view them with:</p>
+<pre><code>radio --list </code></pre>
+<p>If you love what you're listening to, you can record the stream by hitting the <strong>r </strong>key. MP3 files are saved to <strong>~/Music/radioactive</strong>.</p>
+<p>One minor annoyance is that the search table is limited to 100 results. A search for <strong>GB</strong> stations returns an alphabetic list doesn't even make it further than Angel radio. There doesn't seem to be any way of combining search functionality, by which we mean that entering:</p>
+<pre><code>radio --tag classical --country GB</code></pre>
+<p>...will not return a list of UK stations tagged as classical. One of the search criteria will be ignored.</p>
+<p>You can, however, sort the results according to certain factors including <strong>votes</strong>, <strong>bitrate</strong>, <strong>clickcount</strong>, and <strong>random</strong>. For example:</p>
+<p>radio --tag pop --sort votes</p>
+<p>returns a table of the 100 most popular stations tagged as "pop"</p>
+<h2 id="h-radio-active-is-being-actively-developed">Radio-active is being actively developed</h2>
+<p>Radio-active is hands-down the best internet radio TUI we've played with, but it isn't perfect. Development is ongoing, and you can see the developer's todo list <a rel="noopener noreferrer nofollow">here</a>. If you'd like to contribute to the project, report a bug, or request a feature, you can <a href="https://github.com/deep5050/radio-active/issues" rel="noopener noreferrer nofollow">raise an issue</a>.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Not by AI: a badge to say you&#x27;re (mostly) human</title>
         <author>
@@ -21,7 +85,7 @@
             <category term="Internet"/>
             <category term="AI"/>
 
-        <updated>2023-11-27T00:50:15+00:00</updated>
+        <updated>2023-11-27T01:02:55+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/64/wbh.png" alt="A black and white logo with the text written by human not by AI. There is a simple smiley face to the left" />
@@ -31,7 +95,8 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://linuximpact.com/media/posts/64/wbh.png" class="type:primaryImage" alt="A black and white logo with the text written by human not by AI. There is a simple smiley face to the left" /></p>
-                <p data-pm-slice="1 1 []">Badges are cool, and sporting them on your clothing lets people know what's important to you - along with other details and observations you proudly or ironically advertise to the world. It may be that you've recently been to a Kylie Minogue concert and bought the only official merch you could afford; maybe you feel the need to declare your love of dogs, or that you wish your life was narrated by Morgan Freeman; Perhaps it's your birthday - in which case, Happy Birthday!</p>
+                <p data-pm-slice="1 1 []">Badges are cool, and sporting them on your clothing lets people know what's important to you - along with other details and observations you proudly or ironically advertise to the world.</p>
+<p data-pm-slice="1 1 []">It may be that you've recently been to a Kylie Minogue concert and bought the only official merch you could afford; maybe you feel the need to declare your love of dogs, or that you wish your life was narrated by Morgan Freeman; Perhaps it's your birthday - in which case, Happy Birthday!</p>
 <p>Ever felt the need to declare that you're not a robot? We certainly haven't - our physical presence, general awkwardness, along with the complete lack of a shiny skeleton and Austrian accent indicate that we're genuine humans</p>
 <p>In the online world, it's different.</p>
 <h2 id="h-on-the-internet-no-one-knows-youre-a-dog">On the internet, no-one knows you're a probability engine...</h2>
@@ -61,7 +126,7 @@
 <p>It's hard to quantify or qualify exactly what that something is, but it's easy to find if you read quality independently published blogs on the internet: We'd suggest Ernie Smith's <a rel="noopener noreferrer nofollow">Tedium</a> to find it, or any other well-thought-out one-person publications. In the more mainstream space, you'll see it in <a href="https://www.newyorker.com/" rel="noopener noreferrer nofollow">The New Yorker</a>, <a rel="noopener noreferrer nofollow">The Markup</a>, and <a href="https://www.404media.co/" rel="noopener noreferrer nofollow">404 media</a>.</p>
 <p>It's excellent writing, and critical thinking from <em>people</em> who clearly know what they're talking about. AI doesn't investigate, nor does it ruminate or have an original thought. It's a probability engine recycling what it's previously been fed. Eventually, AI will end up eating its own shit, but that's a story for another day.</p>
 <p>To a casual internet user, reader, or appreciator of art, it's not always obvious what is AI generated content and what is real, human, and authentic. If we're being honest, even before AI, a large proportion of what you read online was content-mill nonsense, but now, even those underpaid dollar-per-day spinners are out of a job.</p>
-<p><a href="https://www.theguardian.com/politics/2015/apr/21/grant-shapps-accused-of-editing-wikipedia-pages-of-tory-rivals" rel="noopener noreferrer nofollow">Alleged</a> <a rel="noopener noreferrer nofollow">Wikipedia editor</a>, middle initial fabricator, fake name lover, and the UK's current Secretary of State for Defence (The Right Honourable Grant Shapps, Member of Parliament for Welwyn Hatfield) used to make his living via <a href="https://www.theguardian.com/politics/2012/sep/02/grant-shapps-google-howtocorp-adsense" rel="noopener noreferrer nofollow">article-spinning software</a> - before presiding over an unrelated <a href="https://linuximpact.com/a-govuk-site-dedicated-to-porn-absolutely-best-of-british-porn-not-quite/">empire of filth</a>. By all reports, it was so shit that 19 of his companies were banned by Google (do you know how bad you have to be to end up blacklisted by big G?), so in all probability, AI will actually improve the readability of some web content. The best will always stand out, if you can find it.</p>
+<p><a href="https://www.theguardian.com/politics/2015/apr/21/grant-shapps-accused-of-editing-wikipedia-pages-of-tory-rivals" rel="noopener noreferrer nofollow">Alleged</a> <a href="https://www.theguardian.com/politics/2012/sep/08/grants-shapps-altered-wikipedia-entry" rel="nofollow">Wikipedia editor</a>, middle initial fabricator, fake name lover, and the UK's current Secretary of State for Defence (The Right Honourable Grant Shapps, Member of Parliament for Welwyn Hatfield) used to make his living via <a href="https://www.theguardian.com/politics/2012/sep/02/grant-shapps-google-howtocorp-adsense" rel="noopener noreferrer nofollow">article-spinning software</a> - before presiding over an unrelated <a href="https://linuximpact.com/a-govuk-site-dedicated-to-porn-absolutely-best-of-british-porn-not-quite/">empire of filth</a>. By all reports, it was so shit that 19 of his companies were banned by Google (do you know how bad you have to be to end up blacklisted by big G?), so in all probability, AI will actually improve the readability of some web content. The best will always stand out, if you can find it.</p>
 <p>But that's not the point.</p>
 <h2 id="h-proclaim-and-reclaim-your-humanity">Proclaim (and reclaim ) your humanity</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/64/boaty.jpeg" alt="Output of stable diffusion for the prompt - Proclaim (and reclaim ) your humanity - featuring a silhouette of people dancing on a boat" width="4096" height="2048" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/64/responsive/boaty-xs.webp 300w ,https://linuximpact.com/media/posts/64/responsive/boaty-sm.webp 480w ,https://linuximpact.com/media/posts/64/responsive/boaty-md.webp 768w ,https://linuximpact.com/media/posts/64/responsive/boaty-lg.webp 1024w ,https://linuximpact.com/media/posts/64/responsive/boaty-xl.webp 1360w ,https://linuximpact.com/media/posts/64/responsive/boaty-2xl.webp 1600w"></figure>
@@ -4399,215 +4464,6 @@ services:
 <p>
 <!-- /wp:paragraph --></p>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to Install and Configure nginx on Ubuntu</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/how-to-install-and-configure-nginx-on-ubuntu/"/>
-        <id>https://linuximpact.com/how-to-install-and-configure-nginx-on-ubuntu/</id>
-        <media:content url="https://linuximpact.com/media/posts/22/engine-block.jpg" medium="image" />
-            <category term="Self-hosted"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-10T12:45:03+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/22/engine-block.jpg" alt="A running engine" />
-                    nginx is a hugely popular and successful web server, reverse proxy and load balancer, powering around one fifth of sites on the internet. But what is nginx and how do you install it on your Ubuntu server? Running a website is a fun, educational, and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/22/engine-block.jpg" class="type:primaryImage" alt="A running engine" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>nginx is a hugely popular and successful web server, reverse proxy and load balancer, powering around one fifth of sites on the internet. But what is nginx and how do you install it on your Ubuntu server?</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Why install nginx on your Ubuntu server?</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Running a website is a fun, educational, and occasionally profitable experience, and Ubuntu is a solid and dependable base on which to build it. Whether you have a dedicated server, a VPS, or you're running it from your own home on old PC hardware, you need server software to handle incoming requests and return files. If you run more than one website, good server software can act as a reverse proxy - directing traffic to the correct virtual host, and as a load balancer.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While Apache is the most popular server software for Linux boxes, and we've used Apache when showing you how to <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/" target="_blank" rel="noreferrer noopener">turn old computer hardware into a server</a>, nginx has been gaining ground fast since its release in 2017. nginx is easy to configure, and can serve dynamic as well as static content.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":92,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-92"><img  src="https://linuximpact.com/media/posts/22/install_nginx_on_ubuntu-1024x380.jpg" alt="A linux terminal showing output for sudo apt install nginx" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-xs.webp 300w ,https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-sm.webp 480w ,https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-md.webp 768w ,https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-lg.webp 1024w ,https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-xl.webp 1360w ,https://linuximpact.com/media/posts/22/responsive/install_nginx_on_ubuntu-1024x380-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you've just installed a recent version of Ubuntu on your server, log in using SSH:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>ssh root@your.server.ip.address</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...and enter the root password when requested.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>For security reasons, we don't advise using the root account to administer your server. Create a new, non-root user with its own home directory skeleton using the useradd command:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>useradd -m new_username</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Set a password for you new user with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>passwd new_username</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>And add the new user to the sudo group:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>usermod -aG sudo new_username</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Log out of your server, then SSH back in with your new user credentials.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The first thing you need to do is update and upgrade all installed packages:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt update &amp;&amp; sudo apt upgrade -y</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>With that out of the way, it's time to install nginx. The package is available in the default Ubuntu repositories and you can install it with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install nginx</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Entering:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>nginx -v</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...will output the version of your newly installed nginx.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":93,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-93"><img  src="https://linuximpact.com/media/posts/22/nginx_default_html_page-1024x534.jpg" alt="The default nginx HTML page" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-xs.webp 300w ,https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-sm.webp 480w ,https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-md.webp 768w ,https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-lg.webp 1024w ,https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-xl.webp 1360w ,https://linuximpact.com/media/posts/22/responsive/nginx_default_html_page-1024x534-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>By default, nginx will serve HTML from <strong>/var/www/html</strong>, and during installation, a single file, index.nginx-debian.html, will be created in this directory. If nginx has installed correctly, the contents of the HTML file are displayed when you visit the IP address of your Ubuntu server. By default, nginx will start automatically when your server boots.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>To make your own basic web page, use nano to create a new file called index.html</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>nano /var/www/html/index.html</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Enter your HTML content, then save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Your new page will take priority over index.nginx-debian.html, and will display when you refresh your browser.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>How to configure nginx on Ubuntu</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Displaying a single page when you visit the IP address of your server is cool, but there are multiple disadvantages to using naked IP addresses as a way to access content from a browser. Your nginx server should be able to appropriately deal with requests addressed to a particular domain. Or two. Or even more.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Before you start, you should <a rel="noreferrer noopener" href="https://linuximpact.com/how-to-choose-the-best-domain-name-for-your-next-project/" target="_blank">choose and buy a domain name</a> from a reputable registrar, or even <a href="https://linuximpact.com/how-to-get-a-free-domain-name-to-use-with-your-new-web-project/" target="_blank" rel="noreferrer noopener">grab a free domain name</a>, and set a new '<strong>A</strong>' type DNS record, with the host set to '<strong>@</strong>', and the value as the IP address of your server.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can instruct nginx to listen for requests to your domain and serve content from a specific directory.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>First, create a directory to hold your content. The new directory should be located in /var/www/</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo mkdir /var/www/example</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now create an index file:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo nano /var/www/example/index.html</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Enter your HTML content, then save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Navigate to <strong>/etc/nginx/sites-enabled </strong>and use nano create a new file:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:preformatted --></p>
-<pre class="wp-block-preformatted"><code>cd /etc/nginx/sites-enabled </code><code>sudo nano example</code></pre>
-<p><!-- /wp:preformatted --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the new file paste the following:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:preformatted --></p>
-<pre class="wp-block-preformatted"><code>server {</code><code>       </code><code>listen 80;</code><code>       </code><code>listen [::]:80;</code><code>       </code><code>server_name your-domain-name.tld;</code><code>       </code><code>root /var/www/example;</code><code>       </code><code>index index.html;</code><code>       </code><code>location / {</code><code>               </code><code>try_files $uri $uri/ =404;</code><code>       </code><code>}</code><code>}</code></pre>
-<p><!-- /wp:preformatted --></p>
-<p><!-- wp:paragraph --></p>
-<p>This tells nginx to listen for requests on port 80; that the name of your server is your-domain-name.tld; that it is to deliver files from /var/www/example; that the main index page is named index.html; that if a file isn't found, it is to return a 404 status code. You should tailor these values to reflect your own system.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>To activate your new nginx configuration file, restart nginx with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo service nginx restart</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can now visit your new site by entering your domain name into any browser.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>Use Certbot to secure your website</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":94,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-94"><img  src="https://linuximpact.com/media/posts/22/certbot-1024x667.jpg" alt="certbot wizard in an Ubuntu terminal" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-xs.webp 300w ,https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-sm.webp 480w ,https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-md.webp 768w ,https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-lg.webp 1024w ,https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-xl.webp 1360w ,https://linuximpact.com/media/posts/22/responsive/certbot-1024x667-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you visit your new site and look at the address bar of your browser, you'll notice a warning saying that the connection is not secure, or perhaps a small image of an open padlock. This means that your site does not have Transport Layer Security (TLS) enabled. Your traffic can be snooped by your ISP or other bad actors, and the connection is vulnerable to Man in the Middle (MITM) attacks.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Security certificates and encryption keys negate this danger, and you can use the certbot utility to fetch, deploy, manage, and renew keys and certificates for you.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Add the repository, then update:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:preformatted --></p>
-<pre class="wp-block-preformatted"><code>sudo add-apt-repository ppa:certbot/certbot</code><code>sudo apt update</code></pre>
-<p><!-- /wp:preformatted --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now install Certbot:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install python3-certbot-nginx</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Run certbot with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo certbot</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...and follow the prompts. When asked, "Which names would you like to activate HTTPS for", select the corresponding number from a list. Choose 'redirect', and Certbot will modify your configuration file to force all connections to upgrade to HTTPS.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Restart nginx once more with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo service nginx restart</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...and refresh your site in the browser. You are now securely connected through HTTPS.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You successfully installed and configured nginx on Ubuntu!</p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>

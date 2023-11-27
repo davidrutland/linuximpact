@@ -562,7 +562,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/not-by-ai-a-badge-to-say-youre-mostly-human/</loc>
-<lastmod>2023-11-27T00:50:15+00:00</lastmod>
+<lastmod>2023-11-27T01:02:55+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/64/wbh.png</image:loc>
 <image:title><![CDATA[A black and white logo with the text written by human not by AI. There is a simple smiley face to the left]]></image:title>
@@ -690,6 +690,26 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/24/correct-ping-command-with-thefuck-1024x546.jpg</image:loc>
 <image:title><![CDATA[correcting ping command with thefuck]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/radio-active-is-an-instantly-usable-internet-radio-tui/</loc>
+<lastmod>2023-11-27T14:50:03+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/65/skully.png</image:loc>
+<image:title><![CDATA[A human skull wearing sunglasses and a set of large headphones]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/65/install_radioactive.png</image:loc>
+<image:title><![CDATA[Installing radioactive in the terminal with pipx]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/65/radioactive-interface.png</image:loc>
+<image:title><![CDATA[radioactive search results for GB stations ordered by votes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/65/deepvibes.png</image:loc>
+<image:title><![CDATA[deepvibes internet radio playing through radioactive]]></image:title>
 </image:image>
 </url>
 <url>
@@ -870,7 +890,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/these-5-tricks-will-improve-your-internet-speed/</loc>
-<lastmod>2023-11-10T11:17:44+00:00</lastmod>
+<lastmod>2023-11-27T14:51:19+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/14/internet-router.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
