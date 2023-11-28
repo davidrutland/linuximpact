@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-28T21:54:19+00:00</updated>
+    <updated>2023-11-28T22:25:13+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -285,7 +285,7 @@
             <category term="Music"/>
             <category term="Internet"/>
 
-        <updated>2023-11-25T01:56:03+00:00</updated>
+        <updated>2023-11-28T22:25:13+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/63/drums.png" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" />
@@ -325,8 +325,8 @@
 <p>We suggest that you do this twice. Once in your preferred listening format, and once in the the highest lossless quality there is. You can convert this to future formats when they arrive on the scene in the future.</p>
 <h2 id="h-stream-you-own-tracks">Stream your own tracks on your own network</h2>
 <p>The ability to stream audio tracks is great, but its even better when its streaming from your own hardware on your own network.</p>
-<p>Jellyfin is an open-source project that will help you organise, store, and stream music, shows, and movies from your own server. It will run on pretty much anything you have around from an old laptop, to a Raspberry Pi, to a dedicated high spec server.</p>
-<p>You should check it out: <a href="https://jellyfin.org/" rel="noopener noreferrer nofollow">https://jellyfin.org/</a></p>
+<p><a href="https://linuximpact.com/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/">Jellyfin</a> is an open-source project that will help you organise, store, and stream music, shows, and movies from your own server. It will run on pretty much anything you have around from an old laptop, to a Raspberry Pi, to a dedicated high spec server.</p>
+<p>You should check it out: <a href="https://jellyfin.org/">https://jellyfin.org/</a></p>
             ]]>
         </content>
     </entry>
