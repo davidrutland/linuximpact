@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-28T17:17:18+00:00</updated>
+    <updated>2023-11-28T21:54:19+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -24,7 +24,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-28T17:17:18+00:00</updated>
+        <updated>2023-11-28T21:54:19+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/66/pug.jpg" alt="A confused-looking pug wrapped in a beige blanket" />
@@ -102,7 +102,7 @@
 <p>It starts with the installation process: Visit <a href="https://jellyfin.org/" rel="noopener noreferrer nofollow">https://jellyfin.org/</a>, and select your server type. There's no pass involved, and no upselling. Lifetime access? Screw that, it's built in. Just download and install the usual way.</p>
 <p>If you run Linux, you don't even need to visit the site: open a terminal and if you're on a Debian-based system, enter:</p>
 <pre><code>curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash</code></pre>
-<p>Boom. Done. You can create an admin account through the browser. The Jellyfin devs don't know you've created an account (it's on your server, not theirs) - nor do they particularly care. No-one gets your movie titles, or your metadata, or anything else. If you want to upload your logs for help with troubleshooting, you can, that's on you. No-ones </p>
+<p>Boom. Done. You can create an admin account through the browser. The Jellyfin devs don't know you've created an account (it's on your server, not theirs) - nor do they particularly care. No-one gets your movie titles, or your metadata, or anything else. If you want to upload your logs for help with troubleshooting, you can, that's on you. No-one's forcing you.</p>
 <p>Let's talk about extras for a minute - the kind of feature you'd pay for on Plex.</p>
 <p>Watching and recording live TV? Yes, you can do that. Downloading media onto any device? Hell yes.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/66//kid.png" alt="A child using an imac with a gigantic screen" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/66//responsive/kid-xs.webp 300w ,https://linuximpact.com/media/posts/66//responsive/kid-sm.webp 480w ,https://linuximpact.com/media/posts/66//responsive/kid-md.webp 768w ,https://linuximpact.com/media/posts/66//responsive/kid-lg.webp 1024w ,https://linuximpact.com/media/posts/66//responsive/kid-xl.webp 1360w ,https://linuximpact.com/media/posts/66//responsive/kid-2xl.webp 1600w"></figure>
