@@ -3,12 +3,83 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-11-28T22:25:13+00:00</updated>
+    <updated>2023-11-29T21:52:18+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Pyphoon gives you an accurate ASCII moon phase in your terminal</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/pyphoon-gives-you-an-ascii-moon-in-your-terminal/"/>
+        <id>https://linuximpact.com/pyphoon-gives-you-an-ascii-moon-in-your-terminal/</id>
+        <media:content url="https://linuximpact.com/media/posts/67/pyphhon1.png" medium="image" />
+            <category term="Terminal"/>
+            <category term="Software"/>
+            <category term="CLI"/>
+
+        <updated>2023-11-29T21:52:18+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/67/pyphhon1.png" alt="Pyphoon showing the moon pase on November 29th 2023 in cool retro terminal" />
+                    Moon phases have been pivotal in the development of human culture, history, science, and art - providing a reliable way of timing the the seasons, as well as providing inspiration for folklore and myth in every culture on earth. With Pyphoon, you can easily track,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/67/pyphhon1.png" class="type:primaryImage" alt="Pyphoon showing the moon pase on November 29th 2023 in cool retro terminal" /></p>
+                <p data-pm-slice="1 1 []">Moon phases have been pivotal in the development of human culture, history, science, and art - providing a reliable way of timing the the seasons, as well as providing inspiration for folklore and myth in every culture on earth.</p>
+<p>With Pyphoon, you can easily track, predict, and visualise phases of the moon via delightful ASCII art, without ever leaving your Linux terminal.</p>
+<h2 id="h-whats-so-great-about-the-moon">What's so great about the moon?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/67/moony.png" alt="eight images of the moon in different phases against a black background" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/67/responsive/moony-xs.webp 300w ,https://linuximpact.com/media/posts/67/responsive/moony-sm.webp 480w ,https://linuximpact.com/media/posts/67/responsive/moony-md.webp 768w ,https://linuximpact.com/media/posts/67/responsive/moony-lg.webp 1024w ,https://linuximpact.com/media/posts/67/responsive/moony-xl.webp 1360w ,https://linuximpact.com/media/posts/67/responsive/moony-2xl.webp 1600w"></figure>
+<p>Everything on the planet is affected by the moon. From tidal stresses deep in the earth's crust, to the waves that overtop the sea wall during a storm.</p>
+<p>Our early ancestors hunted by the light of the moon, and later, with the development of agriculture, timed the turning of the seasons, and the planting of crops.</p>
+<p>Even today, the lunar calendar is used by several major religions and cultures to schedule festivals, celebrations, and other significant events.</p>
+<p>Countless column inches are given over to horoscopes every day, so its no surprise that people of a mystical mindset - including the Linux Impact <a href="https://linuximpact.com/tags/horoscope/">AI psychic cat</a> - are interested in its current phase.</p>
+<p>And you can't time your next werewolf transformation for minimum embarrassment or maximum mayhem without knowing when the next full moon is.</p>
+<h2 id="h-pyphoon-gives-you-an-ascii-moon-in-your-terminal">Pyphoon gives you an ASCII moon in your terminal</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/67/cloudymoon.png" alt="The moon behind clouds as seen through trees" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/67/responsive/cloudymoon-xs.webp 300w ,https://linuximpact.com/media/posts/67/responsive/cloudymoon-sm.webp 480w ,https://linuximpact.com/media/posts/67/responsive/cloudymoon-md.webp 768w ,https://linuximpact.com/media/posts/67/responsive/cloudymoon-lg.webp 1024w ,https://linuximpact.com/media/posts/67/responsive/cloudymoon-xl.webp 1360w ,https://linuximpact.com/media/posts/67/responsive/cloudymoon-2xl.webp 1600w"></figure>
+<p>What's the point? you may ask. After all, it's trivial to draw back the curtains or step outside to check the moon's current phase.</p>
+<p>But sometimes the moon isn't visible. You won't be able to see the moon if it's at its zenith during your lunch break, nor if it's on the other side of the planet.</p>
+<p>Sometimes it's cloudy, and while you may be able to discern its glow through the clouds, you can't tell its phase.</p>
+<p>Sure you could query your favourite search engine, but that would involve leaving your beloved Linux terminal.</p>
+<p>Pyphoon is a Python app to show you the phase of the moon as an ASCII art representation, and is the latest incarnation of a 1979 programme written in Pascal, and later C.</p>
+<p>Did you know that the orientation of the moon is reversed depending on which hemisphere you're in? We didn't, but it makes sense, and Pymoon will change your terminal moon's appearance accordingly.</p>
+<p>Pymoon will also show the moon phase for any date you care to give it, so if you need a visual representation of the moon phase for your next date night or anniversary, Pyphoon is exactly the tool you need.</p>
+<h2 id="h-install-pyphoon-on-linux-to-see-the-moon-in-your-terminal">Install Pyphoon on Linux to see the moon in your terminal</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/67/install-pyphoon.png" alt="installing pyphhon with pip" width="1919" height="697" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/67/responsive/install-pyphoon-xs.webp 300w ,https://linuximpact.com/media/posts/67/responsive/install-pyphoon-sm.webp 480w ,https://linuximpact.com/media/posts/67/responsive/install-pyphoon-md.webp 768w ,https://linuximpact.com/media/posts/67/responsive/install-pyphoon-lg.webp 1024w ,https://linuximpact.com/media/posts/67/responsive/install-pyphoon-xl.webp 1360w ,https://linuximpact.com/media/posts/67/responsive/install-pyphoon-2xl.webp 1600w"></figure>
+<p>If your distro comes with support for snap packages (and you haven't disabled it), the easiest way to install Pyphoon is to pop open a terminal and enter:</p>
+<p>sudo snap install pyphoon --edge</p>
+<p>Otherwise, make sure you have git, python, and pip installed, then enter:</p>
+<pre><code>git clone https://github.com/chubin/pyphoon &amp;&amp; cd pyphoon
+pip install -r requirements.txt
+python setup.py install</code></pre>
+<p>That's it. You can start Pyphoon by entering:</p>
+<pre><code>pyphoon</code></pre>
+<p>...in any terminal window.</p>
+<h2 id="h-additional-options-for-pyphoon-on-linux">Additional options for Pyphoon on Linux</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/67/threemoons.png" alt="three ascii images of the moon on different dates in cool retro term" width="1920" height="788" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/67/responsive/threemoons-xs.webp 300w ,https://linuximpact.com/media/posts/67/responsive/threemoons-sm.webp 480w ,https://linuximpact.com/media/posts/67/responsive/threemoons-md.webp 768w ,https://linuximpact.com/media/posts/67/responsive/threemoons-lg.webp 1024w ,https://linuximpact.com/media/posts/67/responsive/threemoons-xl.webp 1360w ,https://linuximpact.com/media/posts/67/responsive/threemoons-2xl.webp 1600w"></figure>
+<p>The previous command gets you the current phase of the moon in the northern hemisphere, along with associated information including the time since the last full moon and last quarter.</p>
+<p>That may not be exactly what you need.</p>
+<p>To view the moon phase on a current date - either in the future or the past, use the desired date as an argument. For instance, to find the moon phase on the very first Christmas day, enter:</p>
+<pre><code>pyphoon 01-12-25</code></pre>
+<p>Unfortunately Pyphoon doesn't accept dates pre-common era. So if you were planning on use it to look at the moon as dinosaurs, Moses, Hammurabi, or Qin Shi Huang would have seen it, you're out of luck.</p>
+<p>Supposedly the, -l or --language switch followed by your preferred language switches the language, but we were unable to make this work.</p>
+<p>Adding <strong>-x</strong> will show you the moon phase for your given date without additional information, while the -s switch allows you to specify whether you're in the northern or the southern hemisphere (it's north by default).</p>
+<p>If you wanted to see the moon as it appeared when James cook first set foot on the Australian landmass at <a href="https://en.wikipedia.org/wiki/Silver_Beach_(New_South_Wales)">Silver Beach</a>, you could enter:</p>
+<pre><code>pyphoon 1770-04-29 -x -s south</code></pre>
+<p>Neato.</p>
+<p>For some extra-awesome, try using cool-retro-term to view the moon phase as it was on July 20th, 1969, and pretend you're behind a desk in mission control.</p>
+<h2 id="h-pyphoon-isnt-the-only-cool-terminal-tool-out-there">Pyphoon isn't the only cool terminal tool out there</h2>
+<p>Contrary to popular opinion, the Linux terminal is a tremendously fun place to hang out, and you can live a fulfilled and happy life without ever leaving the command line.</p>
+<p>Some of our favourite toys include <a href="https://linuximpact.com/radio-active-is-an-instantly-usable-internet-radio-tui/">Radio-active</a> internet radio streamer, and <a href="https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/">Colossal Cave adventure</a> - the first ever text adventure game.</p>
+<p>If you're ever curious about your most used shell commands, you can use <a href="https://linuximpact.com/discover-your-most-used-linux-commands-with-muc/">MUC</a> to find out!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Paranoid and perplexed by Plex privacy pickle? Just Enjoy Jellyfin</title>
         <author>
@@ -4194,250 +4265,6 @@ services:
 <p><!-- wp:paragraph --></p>
 <p>If you fancy giving Photoprism a go without actually running it yourself, hop on over to the <a href="https://demo.photoprism.org/photos">demo server</a>.</p>
 <p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Quickly Rectify Time-Consuming Terminal Typos on Linux With thefuck</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck/"/>
-        <id>https://linuximpact.com/quickly-rectify-time-consuming-terminal-typos-on-linux-with-thefuck/</id>
-        <media:content url="https://linuximpact.com/media/posts/24/frustrated-man-with-a-laptop-and-eyes-closed.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Terminal"/>
-            <category term="Software"/>
-            <category term="Linux"/>
-            <category term="CLI"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/24/frustrated-man-with-a-laptop-and-eyes-closed.jpg" alt="" />
-                    If you spend much time in the Linux terminal, you'll occasionally make typos which disrupt your workflow, and distract you from your task as you digest the error message, work out what you did wrong then retype the correct command. thefuck is a utility you&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/24/frustrated-man-with-a-laptop-and-eyes-closed.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>If you spend much time in the Linux terminal, you'll occasionally make typos which disrupt your workflow, and distract you from your task as you digest the error message, work out what you did wrong then retype the correct command. </p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>thefuck is a utility you can use to quickly and automatically correct your mistake, so you can crack on with your day without cursing.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2>It's Easy to Make Typing Mistakes in the Linux Terminal</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":110,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-110"><img src="https://linuximpact.com/media/posts/24/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509.jpg" alt="multiple exposure image of an angry person screaming through several mouths"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-xs.webp 300w ,https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-sm.webp 480w ,https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-md.webp 768w ,https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-lg.webp 1024w ,https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-xl.webp 1360w ,https://linuximpact.com/media/posts/24/responsive/multiple-exposure-image-of-an-angry-person-screaming-through-several-mouths-1024x509-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Most of the cool stuff you can do in Linux takes place in the terminal. From basic tasks such as <a href="https://linuximpact.com/you-should-try-these-4-awesome-linux-distros-which-arent-ubuntu/" data-type="post" data-id="99">downloading a new distro</a>, to more complex activities like trying to <a href="https://linuximpact.com/how-to-install-and-configure-nginx-on-ubuntu/" data-type="post" data-id="91">install and configure nginx on Ubuntu</a>, you're likely to spend a lot of time on the command line.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Typically, this involves entering multiple commands, and sometimes you'll slip up.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It could be that you attempt an operation without the correct privilege level, or a simple spelling mistake might result in an error message. If this happens, your console will spit out an error message, which you then have to read, decipher, and rectify.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Your exasperated instant verbal response is likely to be a single syllable expletive. Or if you're trying to work out what went wrong, a two word phrase might be more appropriate.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="thefuck-were-you-trying-to-do">thefuck Were You Trying to Do?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>To a human observer, watching over your shoulder it would be obvious what you were trying to do, and it's exasperating that your Linux terminal is incapable of fulfilling the most basic spellcheck functions.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>thefuck knows what you wanted to do, and instead of repeating the entire command, you can simply type:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>thefuck</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...and the correct command will appear on the command line ready for you to hit return.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>thefuck works by comparing your erroneous input against an extensive set of pre-defined rules.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>These include fixes to repetitions, removing the<strong> .java</strong> extension when running Java programs, adding "-rf" when you try to remove a directory, and more.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>thefuck will also attempt to replace a command with the most similar command from your bash history.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="install-and-alias-thefuck-on-linux">Install and Alias thefuck on Linux</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":111,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-111"><img src="https://linuximpact.com/media/posts/24/pip-install-thefuck-1024x497.jpg" alt="Installing thefuck on Linux using pip"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-xs.webp 300w ,https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-sm.webp 480w ,https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-md.webp 768w ,https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-lg.webp 1024w ,https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-xl.webp 1360w ,https://linuximpact.com/media/posts/24/responsive/pip-install-thefuck-1024x497-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>There's a variety of ways to install thefuck on Linux.<br>If you're using Debian or Ubuntu, enter:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install thefuck</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>On Arch based systems, use the following command:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo pacman -S thefuck</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>On members of the Fedora family, use:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo dnf install thefuck</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>The version in the repositories is not necessarily up-to-date, and may lack the latest correction suggestions.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>To install the latest version, first install Python and pip3 then use pip3:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>pip3 install thefuck --user</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>That's it. thefuck is now on your system.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>One self-evident problem with using thefuck on a shared system, in an office, or in an environment into which children are likely to stray, is that the name contains a heavyweight obscenity.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's a good idea to alias thefuck, both for brevity and propriety.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Choose a name by which you'd like to invoke thefuck. We're going with "bonk" as it's thematically appropriate and child-safe.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can set up an alias for thefuck by entering the following command into any terminal:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>eval $(thefuck --alias bonk)<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>To make your alias available immediately, run:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>source ~/.bashrc</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:heading --></p>
-<h2 id="use-thefuck-to-automatically-correct-terminal-errors-on-linux"><strong>Use thefuck to Automatically Correct Terminal Errors on Linux</strong></h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":112,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-112"><img src="https://linuximpact.com/media/posts/24/use-thefuck-to-correct-a-permission-error-1024x536.jpg" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-xs.webp 300w ,https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-sm.webp 480w ,https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-md.webp 768w ,https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-lg.webp 1024w ,https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-xl.webp 1360w ,https://linuximpact.com/media/posts/24/responsive/use-thefuck-to-correct-a-permission-error-1024x536-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>For most Linux terminal users, it won't be long until you make an error while tapping out a command.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Perhaps you attempted to update packages using your user account without using <strong>sudo</strong>. Entering:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>apt update</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...will result in a permission denied error.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Rather than retype the entire command again, you can simply enter your alias for thefuck:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>bonk</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>When you hit <strong>Enter</strong>, the program will give present what it thinks you meant to type. You can hit <strong>Enter</strong> again to have it automatically</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're confident that thefuck is consistently giving correct suggestions, you can append "--yeah" or "-y" to the command to have it entered without confirmation. You can even add it to your alias.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":113,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-113"><img src="https://linuximpact.com/media/posts/24/correct-ping-command-with-thefuck-1024x546.jpg" alt="correcting ping command with thefuck"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-xs.webp 300w ,https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-sm.webp 480w ,https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-md.webp 768w ,https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-lg.webp 1024w ,https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-xl.webp 1360w ,https://linuximpact.com/media/posts/24/responsive/correct-ping-command-with-thefuck-1024x546-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Making a typo while trying to ping this very site:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>png reallyuse.com</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...will result in a "Command 'png' not found" error, but using our alias with the -y flag:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>bonk -y</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...will see ping responses appear instantly.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="save-time-on-the-command-line-by-not-making-mistakes">Save Time on the Command Line by Not Making Mistakes!</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>While thefuck, and whatever alias you choose, can help you to alleviate the stress and consequences or command line mistakes, it's better if you don't make any to start with.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Improve your typing skills to keep typos and spelling errors to a minimum.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
             ]]>
         </content>
     </entry>
