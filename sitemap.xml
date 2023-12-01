@@ -461,6 +461,30 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/instantly-generate-configs-from-running-containers-with-docker-autocompose/</loc>
+<lastmod>2023-12-01T14:46:12+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/69/clowns.jpeg</image:loc>
+<image:title><![CDATA[An orchestra of clows seen through a brass porthole]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/69/sad-baby.jpg</image:loc>
+<image:title><![CDATA[A sad baby outside on a picnic blanket]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/69/cuppa.jpg</image:loc>
+<image:title><![CDATA[Blonde woman enjoying a cup of tea while installing docker-autocompose]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/69/trilium.jpg</image:loc>
+<image:title><![CDATA[trilum note taking app in the browser]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/69/create-docker-compose-for-trilium.png</image:loc>
+<image:title><![CDATA[Output of the commands docker ps and autocompose.py 698bc65f6b12]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>
@@ -722,7 +746,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/pyphoon-gives-you-an-ascii-moon-in-your-terminal/</loc>
-<lastmod>2023-11-29T21:52:18+00:00</lastmod>
+<lastmod>2023-11-30T10:41:06+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/67/pyphhon1.png</image:loc>
 <image:title><![CDATA[Pyphoon showing the moon pase on November 29th 2023 in cool retro terminal]]></image:title>
