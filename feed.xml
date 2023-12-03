@@ -3,12 +3,103 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-01T14:46:12+00:00</updated>
+    <updated>2023-12-03T13:37:00+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Trilium Notes is the self-hosted Evernote alternative you&#x27;re looking for</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/"/>
+        <id>https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/</id>
+        <media:content url="https://linuximpact.com/media/posts/70/nevernote.jpg" medium="image" />
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Self-hosted"/>
+            <category term="Internet"/>
+            <category term="DIY"/>
+
+        <updated>2023-12-03T13:37:00+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/70/nevernote.jpg" alt="A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle" />
+                    Everyone needs a good note-taking app or digital notebook, and for millions of users, Evernote has been the go-to solution since it was envisioned as a "backup brain" by Stepan Pachikov, in 2002, and released on an invitation basis in 2008. And It's easy to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/70/nevernote.jpg" class="type:primaryImage" alt="A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle" /></p>
+                <p data-pm-slice="1 1 []">Everyone needs a good note-taking app or digital notebook, and for millions of users, Evernote has been the go-to solution since it was envisioned as a "backup brain" by Stepan Pachikov, in 2002, and released on an invitation basis in 2008.</p>
+<p>And It's easy to see why Evernote is so popular, thanks to its promise to "give you everything you need to keep life organized—great note taking, project planning, and easy ways to find what you need, when you need it."</p>
+<p>Give isn't quite the right word.</p>
+<h2 id="h-freemium-saas-isnt-always-great-for-business-and-its-worse-for-users">Freemium SaaS isn't always great for business - and it's worse for users</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/notebook-2.jpg" alt="POV of a person wring in a notebook" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/notebook-2-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/notebook-2-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/notebook-2-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/notebook-2-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/notebook-2-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/notebook-2-2xl.webp 1600w"></figure>
+<p>It's easy to grow your user-base when you give away free subscriptions with phone handsets, and customers get hooked with the inspirational and aspirational slogan that Evernote will help them, "Remember everything. Accomplish anything".</p>
+<p>But enshitification inevitably ensues as financial interests force users onto so-called premium plans. Limitations are imposed, and features deprecated.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/evernote-plans.png" alt="Evernote plans ranging from free to 13.49 per month" width="1693" height="844" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/evernote-plans-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/evernote-plans-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/evernote-plans-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/evernote-plans-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/evernote-plans-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/evernote-plans-2xl.webp 1600w"></figure>
+<p>Some of those users will pay a premium once their free trial expires, but most probably won't want to fork over more than $100 per year for the privilege - they're happy with the 60 MB monthly uploads, and other limitations. Or they just drift away.</p>
+<p>For a while, enough people found Evernote's premium features useful enough to to keep it just about afloat, and in the late 2010s, the company boasted a quarter billion users and a recurring revenue of $100 million - after mass layoffs in 2015 and 2018.</p>
+<p>Milan-based app developer, Bending Spoons, acquired Evernote in early 2023, and almost immediately fired a further 129 staff.</p>
+<p>Reducing headcount evidently wasn't enough to return the kind of profits the new owners were hoping for, and in an effort to claw more paying subscribers on board, Evernote is limiting the number of notebooks available for free users to a paltry <a href="https://evernote.com/blog/evernote-free-note-limits">50 notes and one notebook</a>.</p>
+<p>Want to keep compartmentalised notes for your timetable, meetings, hobbies, pets, and timetables? Pay up, loser.</p>
+<p>We don't know about you, but we can sometimes write more than 50 notes in a single day. Backup brain? More like back of an envelope.</p>
+<p>It's not a good look, and effectively cripples the software unless, of course, you're willing to cough up the cash in monthly installments.</p>
+<p>It's not like you can just buy Evernote outright, either. It's a service, and you pay forever.</p>
+<p>Fortunately, there's a free and open-source Evernote alternative you can run either as a local app, or as a full-blown, cross-platform, synchronised notebook. You don't have to deal with recurring payments, artificial limitations, <a rel="noopener noreferrer nofollow">Denial of service attacks on the Evernote servers</a>, or the feeling of dread that comes with the knowledge that Evernote will lose your data (<a href="https://www.cnet.com/culture/thousands-of-evernote-users-affected-by-data-loss/" rel="noopener noreferrer nofollow">again</a>).</p>
+<p>It's yours, it's running on your hardware, and it's a truly excellent alternative to Evernote.</p>
+<h2 id="h-trilium-is-the-note-taking-server-app-combo-you-need-right-now">Trilium is the note-taking server app combo you need right now</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/trilium-interface.png" alt="Trilium web interface with the text of this article and an H2 image" width="1918" height="961" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/trilium-interface-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/trilium-interface-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/trilium-interface-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/trilium-interface-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/trilium-interface-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/trilium-interface-2xl.webp 1600w"></figure>
+<p>We don't know how Evernote burns through such an insane amount of money - when revenue in the hundreds of millions isn't enough to sustain a company, it has to go somewhere - and it's possible that server costs contribute to a large part of their expenses. The employees obviously weren't that essential.</p>
+<p>But for a single user set-up, running at home, your outlay is essentially zero. You can buy a domain name for pennies or a few dollars from <a href="https://namecheap.pxf.io/m5kVrO">Namecheap</a>, and you can dump server software onto an <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/">old laptop</a> or a cheap, always-on SBC such as a <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi</a>.</p>
+<p>So let's talk about <a href="https://github.com/zadam/trilium">Trilium Notes</a>' features.</p>
+<p>It's described by the devs as being, "a hierarchical note taking application with focus on building large personal knowledge bases." Not quite as catchy as, "Remember everything. Accomplish anything", but essentially that's what it offers.</p>
+<p>That's a pretty accurate description, and essentially means that you write down things that you want to remember, and Trilium gives you a way to keep it all organised. You can create notebooks, and notebooks within those notebooks, ad infinitum. And it's not just notes, either - you can store images, files and arbitrary data, and you can link notes to other notes, and one note can appear in multiple notebooks.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/trilium-notes-map.png" alt="A concept map of Trilium notes" width="1387" height="659" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-2xl.webp 1600w"></figure>
+<p>It sounds complicated, but it's as complicated or as simple as you want to make it. Keeping track of what you've jotted, photographed, or stored isn't complicated either - there's an excellent search function, as well as a sort-of map view that shows you what is related to what, and how. You can tag, you can filter, and you can find what you're looking for.</p>
+<p>Taking notes is easy, too. You can write in markdown, or you can use the excellent WYSIWG editor. Copy and paste, attach files, whatever. It's very easy to use.</p>
+<p>Your notes can have infinite children, too, and hey can be anything: code samples, relationship maps, saved searches, or you can embed a webpage with webview.</p>
+<p>If you've created a document in Trilium, and decide you want to share it with the world, that's simple too, and Trilium will generate a link to share your beautifully formatted document as a web page.</p>
+<p>That's not to say that Trilium is the perfect note-taking software - it isn't. The web interface is great, the desktop apps are fantastic, but we'd really appreciate some full-fat dedicated mobile apps for iOS and Android. We also think that Evernote's OCR is pretty spiffy, and Trilium would be improved with some similar functionality.</p>
+<p>We'd also quite like some support for multiple users on the same instance.</p>
+<p>These aren't deal-breakers though, and to our minds, Trilium Notes is still the best around if you don't want to be bled dry by subscriptions.</p>
+<p>We're using Trilium Notes to organise our life and our work. We have a dedicated notebook for Linux Impact with sub-notebooks for cool self-hosted projects, TUI stuff, GUI, distros, and so on - all rich, and filled with images, webpages, and random thoughts; We have notebooks for other sites and projects we work on; There are notebooks for upcoming and past holidays; We have timetables, guitar tabs, piano sheet music - all neatly organised and shareable. We'd use it for Trilium for recipe management, too - except we already have the excellent <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie self-hosted recipe manager</a>.</p>
+<p>Unlike the 70th Governor of Massachusetts, we do not have <a href="https://en.wikipedia.org/wiki/Binders_full_of_women" rel="noopener noreferrer nofollow">binders full of women</a>.</p>
+<h2 id="h-how-to-get-trilium">How to get Trilium</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/trilium-docker-compose.png" alt="Docker Compose file for trilium" width="1393" height="523" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-2xl.webp 1600w"></figure>
+<p>If you're planning to use Trilium offline on your local machine, you can grab binaries for Windows, mac, and Linux from the <a href="https://github.com/zadam/trilium/releases/tag/v0.62.3" rel="noopener noreferrer nofollow">Trilium releases page</a>. It's fine.</p>
+<p>But running a local only copy of Trilium kind of misses the point. You want to be able to take notes while on the bus, or in the cinema, or while having your moustache curled - and have everything sync automatically.</p>
+<p>To do that, you need a server, ideally running Linux.</p>
+<p>You'll also need to have Docker installed. With that out of the way, you can have Trilium ready to go with a few commands.</p>
+<p>The project Github page lists three different ways of deployiing Trilium: local machine only, available on the local network, or open to the internet.</p>
+<p>In our opinion, the best and simplest way to set up Trilium is to use the local machine docker command to put it onto your server:</p>
+<pre><code>sudo docker run -t -i -p 127.0.0.1:6391:8080 -v ~/trilium/trilium-data:/home/node/trilium-data zadam/trilium:latest</code></pre>
+<p>... and stick it behind a reverse proxy. YMMV.</p>
+<p>Once Trilum is running, you can <a href="https://linuximpact.com/instantly-generate-configs-from-running-containers-with-docker-autocompose/">use docker-autocompose to generate a <strong>docker-compose.yml</strong> file</a> for easy management.</p>
+<p>You can then link your Trilium server to your local clients. Easy peasy.</p>
+<h2 id="h-trilium-has-a-bunch-of-super-useful-add-ons">Trilium has a bunch of super-useful add-ons</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/lego.jpg" alt="An assortment of multicoloured lego bricks" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/lego-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/lego-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/lego-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/lego-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/lego-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/lego-2xl.webp 1600w"></figure>
+<p>Unlike with Evernote, you're not limited to what the company wants you to have. Evernote is an open-source project, and even if you don't want to take on the massive responsibilty of forking it, you can create add-ons and extensions to make it even more useful than it already is.</p>
+<p>Many people have already done this, and you can take advantage of their hard work, to make your Trilium instance more suited to you.</p>
+<h3 id="h-some-of-our-favourites-include">Some of our favourites include:</h3>
+<h3 id="h-trilium-kanban"><a href="https://github.com/CyrilLeblanc/trilium-kanban" rel="noopener noreferrer nofollow">trilium-kanban</a></h3>
+<p>as the name suggests, this is a Kanban integration for Trilium Notes that makes your workflow ever more efficient.</p>
+<h3 id="h-trilium-scripts"><a href="https://github.com/BeatLink/trilium-scripts" rel="noopener noreferrer nofollow">trilium-scripts</a></h3>
+<p>a collection of scripts to turn Trilium into a decent task manager and scheduler. <em>Agenda</em> sorts to-dos into six categories: Overdue, Today, This Week, This Month, This Year, and Future; <em>My Day</em> lets you quickly add or remove tasks to a specific "My Day" note; <em>Recurrence</em> is a script to update repeating to-dos.</p>
+<h3 id="h-split-view"><a rel="noopener noreferrer nofollow">Split-view</a></h3>
+<p>Allows you to hit <strong>Shift </strong>+ <strong>click</strong> to open a note in split view.</p>
+<h3 id="h-theme-switch"><a rel="noopener noreferrer nofollow">Theme Switch</a></h3>
+<p>Gives you a widget to easily change Trilium themes.</p>
+<p>You can find these and many more add-ons, themes, widgets, scripts, API extensions at <a rel="noopener noreferrer nofollow">Awesome Trilium</a>.</p>
+<h2 id="h-there-are-self-hosted-alternatives-to-almost-all-proprietary-saas-apps">There are self-hosted alternatives to almost all proprietary SaaS apps</h2>
+<p>Relying on companies and organisations to look after your data - whether it's notes, images, or communications - is a losing proposition. You're dependent on their largesse and generosity, and there's always the inevitability that the service will degrade over time, demand fees, or disappear altogether.</p>
+<p>Take control of your digital life by <a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/">self-hosting your own Photo gallery with Immich</a> or your own communications hub with <a href="https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/">Snikket</a>. It's easy to do, and you can host almost everything on a cheap Raspberry Pi.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Instantly generate configs from running containers with Docker-Autocompose</title>
         <author>
@@ -25,7 +116,7 @@
             <category term="Linux"/>
             <category term="CLI"/>
 
-        <updated>2023-12-01T14:46:12+00:00</updated>
+        <updated>2023-12-01T21:48:25+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/69/clowns.jpeg" alt="An orchestra of clows seen through a brass porthole" />
@@ -54,12 +145,12 @@
 <h2 id="h-how-to-use-docker-autocompose">How to use docker-autocompose</h2>
 <p>There's no better way to explain something than with an example, so we're going deploy a dockerised app on our Raspberry Pi server and use docker-autocompose to create a docker-compose.yml file.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/69/trilium.jpg" alt="trilum note taking app in the browser" width="1919" height="969" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/69/responsive/trilium-xs.webp 300w ,https://linuximpact.com/media/posts/69/responsive/trilium-sm.webp 480w ,https://linuximpact.com/media/posts/69/responsive/trilium-md.webp 768w ,https://linuximpact.com/media/posts/69/responsive/trilium-lg.webp 1024w ,https://linuximpact.com/media/posts/69/responsive/trilium-xl.webp 1360w ,https://linuximpact.com/media/posts/69/responsive/trilium-2xl.webp 1600w"></figure>
-<p>Trilium is an open-source note-taking app you can self host, and is compatible with clients for <a href="https://github.com/zadam/trilium-sender">Andoid</a>,<a href="https://github.com/zadam/trilium-sender"></a> as well as having an excellent web app that looks good and works well on both mobile and desktop browsers. It's a fantastic and free alternative to Evernote or OneNote that you can use <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">without any restrictions or fees. Trilium is also massively extensible with themes, widgets, scripts, and API extensions available.</span></p>
+<p>Trilium Notes is an open-source note-taking app you can self-host, and is compatible with clients for <a href="https://github.com/zadam/trilium-sender">Andoid</a>,<a href="https://github.com/zadam/trilium-sender"></a> and various desktop operating systems, as well as having an excellent web app that looks good and works well on both mobile and full-fat browsers. It's a fantastic and free alternative to Evernote or OneNote that you can use <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">without any restrictions or fees. Trilium is also massively extensible with themes, widgets, scripts, and API extensions available.</span></p>
 <p>While the Trilium developers have created a dockerised version of the notes server for easy deployment, they haven't created a Docker Compose file for easy management. Drat - but we can fix that.</p>
 <p>First deploy the Trilium Docker container in something approximating the recommended way:</p>
 <pre><code>mkdir trilium &amp;&amp; cd trilium</code></pre>
 <pre><code>sudo docker run -t -i -p 127.0.0.1:6391:8080 -v ~/trilium/trilium-data:/home/node/trilium-data zadam/trilium:latest</code></pre>
-<p>Note that we've specified port 6391 as our external port - that's simply because we already have something running on port 80. You can also change the location where you want Trilium to keep its data. We've created a Trilium directory and specified the data directory should go in there.</p>
+<p>Note that we've specified port 6391 as our external port - that's simply because we already have something running on port 8080. You can also change the location where you want Trilium to keep its data. We've created a Trilium directory and specified the data directory should go in there.</p>
 <p>Later, it's where our Trilium <strong>docker-compose.yml</strong> file will reside. Hit <strong>enter</strong> and Docker will download the Trilium images and set up the necessary containers and data directory.</p>
 <p>Visit localhost:6391 to check Trilium is running, then in another terminal tab or window, enter:</p>
 <pre data-pm-slice="1 1 []"><code>docker ps</code></pre>
@@ -3808,212 +3899,6 @@ services:
 <!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>In a nutshell, BitWarden helps you to generate and manage passwords for different sites. One recently-added feature is the ability to create and manage email aliases on the fly to log into different sites. Combined this with a catch-all mailbox and you’re golden.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Linux vs Windows - which is best for your PC?</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/"/>
-        <id>https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/</id>
-        <media:content url="https://linuximpact.com/media/posts/28/woman-sitting-by-the-window-with-a-laptop-1.jpg" medium="image" />
-            <category term="Windows"/>
-            <category term="Software"/>
-            <category term="Linux"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/28/woman-sitting-by-the-window-with-a-laptop-1.jpg" alt="" />
-                    Linux and Windows are two of the most popular operating systems in the world. Windows is utterly dominant in the desktop market, while Linux powers servers, IoT devices, and mobile phones. To some people, a PC is just a PC regardless of which OS it&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/28/woman-sitting-by-the-window-with-a-laptop-1.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Linux and Windows are two of the most popular operating systems in the world. Windows is utterly dominant in the desktop market, while Linux powers servers, IoT devices, and mobile phones.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>To some people, a PC is just a PC regardless of which OS it runs, while to others, using anything other than Windows or a certain Linux distro is anathema. Windows and Linux have a lot in common, but there are also big differences between them. Here's what you need to know:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Closed vs Open</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":237,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-237"><img src="https://linuximpact.com/media/posts/28/bird-on-barbed-wire-against-a-blue-sky-1024x512.jpg" alt="sunbird on barbed wire against a blue sky"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/bird-on-barbed-wire-against-a-blue-sky-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Windows is a proprietary product. It's developed by Microsoft, and the code on which it is built is a trade secret. This means that only Microsoft employees can contribute to the its development or add new features. It also means that you, the user have to accept an extensive set of terms, conditions, and restrictions when you install Windows on your PC.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can't sell your copy of Windows or lend it to someone. You can't modify it, and you're not allowed to inspect its inner workings. There are also restrictions on how you're allowed to use it, and what hardware you're allowed to use it on. Development versions of Windows 11, for instance, ran quite happily on the Raspberry Pi. This functionality was taken away in release versions of Windows, and there's nothing you can do about it.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Linux is Free software with a capital F. This means you're free to use Linux however you want, and run it on whatever you want. You're free to inspect and modify the code, even if your changes break it. If you want to use Linux as a base, and fork it to create your own Linux, you're free to do that, too. As Free software, you're encouraged to tinker with Linux, and distribute copies to whoever wants one. Free doesn't necessarily mean without cost, and there's nothing stopping you from selling copies of Linux and keeping the money.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="one-vs-many">One vs Many</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":238,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-238"><img src="https://linuximpact.com/media/posts/28/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512.jpg" alt="stationary man on a scooter with a crowd moving around him"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/stationary-man-on-a-scooter-with-a-crowd-moving-around-him-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>As Windows is owned by Microsoft, the company gets to say what is Windows and what isn't. There's usually only one version of Windows available at any time, and versions are released sequentially. Windows XP was followed by Vista, then Windows 7, 8, 8.1, 10, and 11. Right now, the only supported Windows versions are 10 and 11. You have exactly two choices.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Because of its open source development model, anyone can release their own Linux distro. Distros are developed with certain goals, aesthetics or ideals in mind. If you want you operating system to prioritise gaming above anything else, you'll find two or three specifically designed for gaming. Likewise there are distros whose primary purpose is productivity, education, or security. There are thousands of distros available for installation - or you can create your own.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="privacy">Privacy</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":239,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-239"><img src="https://linuximpact.com/media/posts/28/man-peeking-through-ventian-blinds-through-a-window-1024x512.jpg" alt="man peeking through ventian blinds through a window"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/man-peeking-through-ventian-blinds-through-a-window-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you've ever installed a copy of Microsoft Windows, you'll know just how much information you need to hand over to the company. In addition to your credit card details, you need an online Microsoft account. You're also asked whether you want to send basic or full diagnostic data to Redmond. Telemetry is turned on by default, and built-in tools record your keystrokes.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While Linux developers can technically build all kinds of monitoring solutions into their distros, with a few exceptions such as Red Star Linux, this doesn't happen. Most distros will give you a one-time opt-in for basic telemetry during setup, and that's it.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="appearance">Appearance</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>How Windows looks is dictated by Microsoft. You'll get a nifty set of wallpapers, a start bar which you can customise to a limited extent, and the standard Microsoft file manager. You can change the wallpaper and the screen resolution if you like, and there are some tools available which can tweak the appearance further.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Linux gives you the ultimate freedom to decide how your desktop looks and runs. While there are certain standard conventions for how a desktop environment should look, neither you nor developers are obliged to adhere to these.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you don't like your default file manager, you can swap it for a different one. Likewise, you can switch out your entire desktop environment or ditch it altogether in favour of working solely on the command line.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="software-compatibility">Software compatibility</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":241,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-241"><img src="https://linuximpact.com/media/posts/28/baby-using-a-laptop-1024x512.jpg" alt="baby using a laptop"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/baby-using-a-laptop-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>As Windows is the dominant player in desktop, almost all proprietary software is designed to be compatible with Windows. After all, you're not going to make a fortune designed software which only run on a fraction of all machines. This includes most productivity tools, games, Microsoft's own office suite, and more. Most games on the Steam store will run on Windows with no additional steps required</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Few apps are designed solely to run on Linux, although high quality ports of Windows software are often available. But this doesn't mean that you're restricted in any way. Wine is a compatibility layer which allows you to run Windows software on Linux with little difficulty, while Steam's Proton lets you play almost all games on the store.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's also possible to run Windows software in a virtual machine, and tools such as WinApps help you to install and run Windows apps on Linux seamlessly, using virtualization and RDP.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the Free software world, the position is reversed, and many open source projects on GitHub are designed specifically for Linux. Windows users who want to install these files will have to use Windows Subsystem for Linux (WSL).</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="installing-software">Installing software</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":242,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-242"><img src="https://linuximpact.com/media/posts/28/brightly-coloured-packages-1024x512.jpg" alt="brightly coloured packages"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/brightly-coloured-packages-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you want to install software on Windows, you'll typically visit a website, hand over your cash, and download an <strong>exe</strong> or <strong>msi</strong> file to your desktop. You'll double-click the file, and Windows will install the necessary binaries and library files to your program files directory. While there have been attempts to integrate storefronts into Windows these have largely been unsuccessful.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>With Linux, most of the software you will want to use is kept in online repositories, and you install software through a single terminal command. Not all software is kept in a single repository, and you can add new Personal Package Archives (PPAs) with another command - vastly increasing the amount of software available to you.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can also add software to Linux by downloading binaries directly, by using specially packaged files such as Flatpak or snap, or as a standalone app images. Many distros will also have a GUI storefront or package manager.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="security">Security</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":240,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-240"><img src="https://linuximpact.com/media/posts/28/man-wearing-a-balaclava-1024x512.jpg" alt="man wearing a balaclava.jpg"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/man-wearing-a-balaclava-1024x512-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Barely a week goes by without a panic over some previously undetected vulnerability. Microsoft typically rolls out new security patches on the second Tuesday of every month - known as patch Tuesday. These patches aren't just for the system itself, and will also patch other Microsoft products such as Office.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Windows doesn't really have a privilege separation system, which means that once you install an app on your system, it's pretty much free to do whatever it or its creators want. This can be good, or it could be bad.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Patches are released for Linux on a regular basis - although there aren't nearly as many critical security vulnerabilities. When you update your system, either by using a single terminal command or automatically, all of the software is updated - not just the operating system. This makes sure that the entirety of your Linux install is always up-to-date, and always protected against threats.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The package management system means that software is installed and updated from trusted sources rather than sketchy download sites, and Linux privilege separation, means that different users and applications have different levels of access to system resources. This helps to prevent malware from gaining access to sensitive data or critical system components.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="system-requirements">System requirements</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":243,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-243"><img src="https://linuximpact.com/media/posts/28/two-pieces-of-toast-in-a-toaster.jpg" alt="two pieces of toast in a toaster"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-xs.webp 300w ,https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-sm.webp 480w ,https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-md.webp 768w ,https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-lg.webp 1024w ,https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-xl.webp 1360w ,https://linuximpact.com/media/posts/28/responsive/two-pieces-of-toast-in-a-toaster-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Windows is a heavyweight operating system and the current version, Windows 11 requires your PC to have a 1GHZ dual core 64 bit processor, 4GB RAM, 64GB storage, a Trusted Platform Module, and a display of at least 9 inches. These are fairly arbitrary, and as we mentioned earlier, Windows 11 would happily chug along on a Raspberry Pi.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are no minimum system requirements for Linux, although some distros are designed for particular hardware.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Regardless what antique hunk of junk is cluttering up your living room, it's guaranteed that there's a distro which will run on it. Individual projects have managed to get Linux running on the venerable Commodore Amiga 500, the Nintendo DS, and on items of kitchen equipment such as toasters.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="linux-vs-windows-which-is-for-you">Linux Vs Windows - which is for you?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Most articles of this type will state the pros and cons of each system and give an ambiguous non-committal answer, ultimately leaving the choice up to you.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>However, Linux is better in almost every possible way. Linux is more secure, more privacy friendly, and will run on anything.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Best of all, you're free to do whatever you want with your Linux system: Modify it, break it, sell it, or experiment with it. It's entirely up to you!</p>
 <p>
 <!-- /wp:paragraph --></p>
 

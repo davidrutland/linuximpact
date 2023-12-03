@@ -97,6 +97,18 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/banners/</loc>
+<lastmod>2023-12-03T13:36:57+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/71/5618-1130493.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/71/5618-1187103.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/</loc>
 <lastmod>2023-11-23T12:46:55+00:00</lastmod>
 <image:image>
@@ -462,7 +474,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/instantly-generate-configs-from-running-containers-with-docker-autocompose/</loc>
-<lastmod>2023-12-01T14:46:12+00:00</lastmod>
+<lastmod>2023-12-01T21:48:25+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/69/clowns.jpeg</image:loc>
 <image:title><![CDATA[An orchestra of clows seen through a brass porthole]]></image:title>
@@ -1066,6 +1078,38 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/53/cryptpad_on_raspberry_pi.jpg</image:loc>
 <image:title><![CDATA[A blank document open in the Cryptpad editoe]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/</loc>
+<lastmod>2023-12-03T13:34:09+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/nevernote.jpg</image:loc>
+<image:title><![CDATA[A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/notebook-2.jpg</image:loc>
+<image:title><![CDATA[POV of a person wring in a notebook]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/evernote-plans.png</image:loc>
+<image:title><![CDATA[Evernote plans ranging from free to 13.49 per month]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/trilium-interface.png</image:loc>
+<image:title><![CDATA[Trilium web interface with the text of this article and an H2 image]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/trilium-notes-map.png</image:loc>
+<image:title><![CDATA[A concept map of Trilium notes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/trilium-docker-compose.png</image:loc>
+<image:title><![CDATA[Docker Compose file for trilium]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/70/lego.jpg</image:loc>
+<image:title><![CDATA[An assortment of multicoloured lego bricks]]></image:title>
 </image:image>
 </url>
 <url>
