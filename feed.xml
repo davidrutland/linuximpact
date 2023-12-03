@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-03T14:09:58+00:00</updated>
+    <updated>2023-12-03T14:27:52+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-12-03T14:09:58+00:00</updated>
+        <updated>2023-12-03T14:27:52+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/70/nevernote.jpg" alt="A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle" />
@@ -61,12 +61,12 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/trilium-notes-map.png" alt="A concept map of Trilium notes" width="1387" height="659" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/trilium-notes-map-2xl.webp 1600w"></figure>
 <p>It sounds complicated, but it's as complicated or as simple as you want to make it. Keeping track of what you've jotted, photographed, or stored isn't complicated either - there's an excellent search function, as well as a sort-of map view that shows you what is related to what, and how. You can tag, you can filter, and you can find what you're looking for.</p>
 <p>Taking notes is easy, too. You can write in markdown, or you can use the excellent WYSIWG editor. Copy and paste, attach files, whatever. It's very easy to use.</p>
-<p>Your notes can have infinite children, too, and hey can be anything: code samples, relationship maps, saved searches, or you can embed a webpage with webview.</p>
-<p>If you've created a document in Trilium, and decide you want to share it with the world, that's simple too, and Trilium will generate a link to share your beautifully formatted document as a web page.</p>
+<p>Your notes can have infinite children, and they can be anything: code samples, relationship maps, saved searches, or you can embed a webpage with webview.</p>
+<p>If you've created a document in Trilium, and decide you want to share it with the world, that's simple as well, and Trilium will generate a link to share your beautifully formatted document as a web page.</p>
 <p>That's not to say that Trilium is the perfect note-taking software - it isn't. The web interface is great, the desktop apps are fantastic, but we'd really appreciate some full-fat dedicated mobile apps for iOS and Android. We also think that Evernote's OCR is pretty spiffy, and Trilium would be improved with some similar functionality.</p>
 <p>We'd also quite like some support for multiple users on the same instance.</p>
 <p>These aren't deal-breakers though, and to our minds, Trilium Notes is still the best around if you don't want to be bled dry by subscriptions.</p>
-<p>We're using Trilium Notes to organise our life and our work. We have a dedicated notebook for Linux Impact with sub-notebooks for cool self-hosted projects, TUI stuff, GUI, distros, and so on - all rich, and filled with images, webpages, and random thoughts; We have notebooks for other sites and projects we work on; There are notebooks for upcoming and past holidays; We have timetables, guitar tabs, piano sheet music - all neatly organised and shareable. We'd use it for Trilium for recipe management, too - except we already have the excellent <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie self-hosted recipe manager</a>.</p>
+<p>We're using Trilium Notes to organise our life and our work. We have a dedicated notebook for Linux Impact with sub-notebooks for cool self-hosted projects, TUI stuff, GUI, distros, and so on - all rich, and filled with images, webpages, and random thoughts; We have notebooks for other sites and projects we work on; There are notebooks for upcoming and past holidays; We have timetables, guitar tabs, piano sheet music - all neatly organised and shareable. We'd use Trilium for recipe management, too - except we already have the excellent <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie self-hosted recipe manager</a>.</p>
 <p>Unlike the 70th Governor of Massachusetts, we do not have <a href="https://en.wikipedia.org/wiki/Binders_full_of_women" rel="noopener noreferrer nofollow">binders full of women</a>.</p>
 <h2 id="h-how-to-get-trilium">How to get Trilium</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/trilium-docker-compose.png" alt="Docker Compose file for trilium" width="1393" height="523" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/trilium-docker-compose-2xl.webp 1600w"></figure>
