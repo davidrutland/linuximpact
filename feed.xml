@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-03T14:27:52+00:00</updated>
+    <updated>2023-12-03T20:17:57+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-12-03T14:27:52+00:00</updated>
+        <updated>2023-12-03T20:17:57+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/70/nevernote.jpg" alt="A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle" />
@@ -82,7 +82,7 @@
 <p>You can then link your Trilium server to your local clients. Easy peasy.</p>
 <h2 id="h-trilium-has-a-bunch-of-super-useful-add-ons">Trilium has a bunch of super-useful add-ons</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/70/lego.jpg" alt="An assortment of multicoloured lego bricks" width="2000" height="1000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/70/responsive/lego-xs.webp 300w ,https://linuximpact.com/media/posts/70/responsive/lego-sm.webp 480w ,https://linuximpact.com/media/posts/70/responsive/lego-md.webp 768w ,https://linuximpact.com/media/posts/70/responsive/lego-lg.webp 1024w ,https://linuximpact.com/media/posts/70/responsive/lego-xl.webp 1360w ,https://linuximpact.com/media/posts/70/responsive/lego-2xl.webp 1600w"></figure>
-<p>Unlike with Evernote, you're not limited to what the company wants you to have. Evernote is an open-source project, and even if you don't want to take on the massive responsibilty of forking it, you can create add-ons and extensions to make it even more useful than it already is.</p>
+<p>Unlike with Evernote, you're not limited to what the company wants you to have. Evernote is an open-source project, and even if you don't want to take on the massive responsibility of forking it, you can create add-ons and extensions to make it even more useful than it already is.</p>
 <p>Many people have already done this, and you can take advantage of their hard work, to make your Trilium instance more suited to you.</p>
 <h3 id="h-some-of-our-favourites-include">Some of our favourites include:</h3>
 <h3 id="h-trilium-kanban"><a href="https://github.com/CyrilLeblanc/trilium-kanban" rel="noopener noreferrer nofollow">trilium-kanban</a></h3>
