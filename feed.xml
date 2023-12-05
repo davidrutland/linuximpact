@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-05T11:37:35+00:00</updated>
+    <updated>2023-12-05T23:21:10+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Internet"/>
             <category term="Hardware"/>
 
-        <updated>2023-12-05T11:37:35+00:00</updated>
+        <updated>2023-12-05T23:21:10+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/72/htop.png" alt="Htop system monitor showing a chart and ist of processes" />
@@ -36,15 +36,16 @@
                 <p data-pm-slice="1 1 []">Self-hosting your own services is a joy. It gets you out from under the thumb of tech giants who don't have your best interests at heart, and away from the ever-vigilant eyes of surveillance capitalist megacorps that want to make money from your every online interaction, transaction, reaction, and subsequent retraction.</p>
 <p>But more than that, it gives you a kind of digital self reliance, and you have ready-to-go alternatives should legislation or corporate interests shut down your favourite 'free' online services.</p>
 <h2 id="h-why-self-host-on-a-raspberry-pi">Why self-host on a Raspberry Pi?</h2>
-<p>The Raspberry Pi is cheap, and there are a lot of them out there - meaning that self-hosted software is often built with the Raspberry Pi in mind, and if you run into problems, there's likely someone who has come across the same thing. It's easy to get answers to questions you never knew you had.</p>
-<p>Another reason is the Pi's very low power drawer. Our principle Pi - an 8GB Raspberry Pi model 4B - pulls under 10 Watts. Remember when your mum used to yell at you for leaving the lights on in your home? The Pi pulls less than a single modern LED lightbulb. It takes one sixth to one tenth of the power of the kind of yellowish incandescent light bulb we grew up with.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/72/lightbulb.png" alt="Incandescent lightbulb against a black background" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72/responsive/lightbulb-xs.webp 300w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-sm.webp 480w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-md.webp 768w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-lg.webp 1024w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-xl.webp 1360w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-2xl.webp 1600w"></figure>
+<p>The <a href="https://linuximpact.com/tags/raspberry-pi/">Raspberry Pi</a> is cheap enough to dabble without feeling like you've made a disastrous financial mistake if it ends up in the back of a cupboard, and there are a lot of Pis out there - meaning that self-hosted software is often built with the Raspberry Pi in mind (often at the back of the mind, but still), and if you run into problems, there's likely someone who has come across the same thing. It's easy to get answers to questions you never knew you had.</p>
+<p>Another reason is the Pi's very low power draw. Our principle Pi - an <a>8GB Raspberry Pi model 4B</a> - pulls under 10 Watts. Remember when your mum used to yell at you for leaving the lights on in your home? The Pi pulls less than a single modern LED lightbulb. It takes one sixth to one tenth of the power of the kind of yellowish incandescent light bulb we grew up with.</p>
 <p>That's important. A server is on 24 hours per day, 365 days per year. While you can easily repurpose an old PC or laptop as a server, any savings you make by not buying a Pi are dwarfed by the electricity bills over the course of a year.</p>
-<p>Lastly, the Pi can handle pretty much anything you can throw at it (the exception being generative AI, which it handles very slowly).</p>
+<p>Lastly, the Pi can handle pretty much anything you can throw at it on the level of a family unit or smallish organisation (the exception being generative AI, which it handles very slowly indeed).</p>
 <p>Writing this paragraph, we don't actually <em>know</em> what we have running on the Linux Impact Raspberry Pi. We decided to take a look, and share the results.</p>
 <h2 id="h-how-our-raspberry-pi-is-set-up">How our Raspberry Pi is set up</h2>
-<p>Our server is the <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=c8eb020241e32906c986116628a07f84&amp;camp=1789&amp;creative=9325">8GB variant of the Raspberry Pi 4B</a>. It's connected to the router via Gigabit internet. To keep it from getting too hot, we have a cast aluminium passive cooling system. Our boot drive is a <a href="https://www.amazon.com/Western-Digital-500GB-SA510-Internal/dp/B09ZYPTXS4?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=a88ac34291524c0c72487963f1f9ade2&amp;camp=1789&amp;creative=9325">500GB WD Blue SATA SSD</a> connected via USB, and we have a <a href="https://www.amazon.com/Blue-NAND-2TB-SSD-WDS200T2B0A/dp/B073SBRHH6?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=6551c2c41524272d9db3e33c3a90ee22&amp;camp=1789&amp;creative=9325">2TB WD Blue SSD</a> for storage. In addition to the Pi's 8GB RAM, we have 8GB swap. Just in case.</p>
-<p>We haven't overclocked our Pi, because we value stability over speed. Besides, we haven't seen the need - yet.</p>
-<p>Base software-wise, we're running a fairly standard LAMP stack based on Debian Bullseye in its guise of Raspberry Pi OS. We're using Docker and Docker Compose to manage a portion of our services.</p>
+<p>Our Pi is connected to the router via Gigabit internet. To keep it from getting too hot, we have a cast aluminium passive cooling system. Our boot drive is a <a href="https://www.amazon.com/Western-Digital-500GB-SA510-Internal/dp/B09ZYPTXS4?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=a88ac34291524c0c72487963f1f9ade2&amp;camp=1789&amp;creative=9325">500GB WD Blue SATA SSD</a> connected via USB, and we have a <a href="https://www.amazon.com/Blue-NAND-2TB-SSD-WDS200T2B0A/dp/B073SBRHH6?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=6551c2c41524272d9db3e33c3a90ee22&amp;camp=1789&amp;creative=9325">2TB WD Blue SSD</a> for storage. In addition to the Pi's 8GB RAM, we have 8GB swap. Just in case.</p>
+<p>We haven't overclocked our Pi, because we value stability over speed. Besides, we haven't had the need - yet.</p>
+<p>Base software-wise, we're running a fairly standard LAMP stack based on Debian Bullseye in its guise of Raspberry Pi OS. We're using <a href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/">Docker and Docker Compose</a> to manage a portion of our services.</p>
 <p>Without further ado, let's dive into <strong>/etc/apache2/sites-available/</strong> and see what we have exposed to the web:</p>
 <h2 id="h-nextcloud">Nextcloud</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/72//Nextcloud-Logo.jpg" alt="White nextcloud logo on a blue background" width="1200" height="629" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-xs.webp 300w ,https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-sm.webp 480w ,https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-md.webp 768w ,https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-lg.webp 1024w ,https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-xl.webp 1360w ,https://linuximpact.com/media/posts/72//responsive/Nextcloud-Logo-2xl.webp 1600w"></figure>
@@ -100,12 +101,12 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/72//akkoma.png" alt="Akkoma instance using the Pleroma front-end. Dark blue with the background set as the image of a beach" width="1919" height="911" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72//responsive/akkoma-xs.webp 300w ,https://linuximpact.com/media/posts/72//responsive/akkoma-sm.webp 480w ,https://linuximpact.com/media/posts/72//responsive/akkoma-md.webp 768w ,https://linuximpact.com/media/posts/72//responsive/akkoma-lg.webp 1024w ,https://linuximpact.com/media/posts/72//responsive/akkoma-xl.webp 1360w ,https://linuximpact.com/media/posts/72//responsive/akkoma-2xl.webp 1600w"></figure>
 <p>The Fediverse is a distributed social network. Anyone can run their own server and interact with users on other servers. Picture it kind of like Twitter but without a recommendation algorithm, better moderation, and with no overall control. While there are huge instances with tens of thousands of users, we have just one user - this writer. We went with Akkoma over Mastodon, Pleroma, or Misskey, because Akkoma's ease-of deployment, cool features, and because we liked the name.</p>
 <h2 id="h-pigallery2"></h2>
-<p><a href="https://github.com/bpatrik/pigallery2"></a><a href="https://github.com/bpatrik/pigallery2">
-<h2 id="h-pigallery2">PiGallery2</h2>
-</a></p>
+<p> </p>
+<h2 id="h-pigallery2"><a href="https://github.com/bpatrik/pigallery2">PiGallery2</a></h2>
+<p> </p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/72/pigallery2_main_gallery-2.png" alt="A selection of photographs and spicy memes" width="1281" height="611" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-xs.webp 300w ,https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-sm.webp 480w ,https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-md.webp 768w ,https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-lg.webp 1024w ,https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-xl.webp 1360w ,https://linuximpact.com/media/posts/72/responsive/pigallery2_main_gallery-2-2xl.webp 1600w"></figure>
 <p>A directory-first image gallery. It doesn't have as many bells and whistles as Immich or PhotoPrism, but we have some specialised use cases for PiGallery2. It's neat, and it's very fast.</p>
-<h2 id="h-matomo-analytics">Matomo Analytics</h2>
+<h2 id="h-matomo-analytics"><a href="https://matomo.org/">Matomo Analytics</a></h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/72//matomo.png" alt="MAtomo interface showing a world map and statistics for articles" width="1140" height="560" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72//responsive/matomo-xs.webp 300w ,https://linuximpact.com/media/posts/72//responsive/matomo-sm.webp 480w ,https://linuximpact.com/media/posts/72//responsive/matomo-md.webp 768w ,https://linuximpact.com/media/posts/72//responsive/matomo-lg.webp 1024w ,https://linuximpact.com/media/posts/72//responsive/matomo-xl.webp 1360w ,https://linuximpact.com/media/posts/72//responsive/matomo-2xl.webp 1600w"></figure>
 <p>How many visitors did Linux Impact have last month? Was it 10 or 10,000? Actually, it was 10,235. Not amazing, but not too shabby considering the site only came online part-way through November.</p>
 <p>Without an Analytics package, we wouldn't know that. We wouldn't know which articles were doing well, or what people liked to read.</p>
@@ -115,9 +116,9 @@
 <p>Having your own server means you can offer free hosting to friends and family. WordPress is simple to use and administer, meaning it's a perfect choice for the less tech-savvy. We're currently hosting two WordPress sites for the fam.</p>
 <h2 id="h-trilium-notes"><a href="https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/">Trilium Notes</a></h2>
 <p>Trilium Notes is, in our opinion, the best alternative to Evernote. Infinite notebooks! Infinite notes! Graphs! Mindmaps! Code!</p>
-<p>Seriously, it's a great piece of software, it's Free, and although we've only been using it for a few days, we can tell it's a keeper.</p>
+<p>Seriously, it's a great piece of software, it's Free, and although we've only been using it for a few days, we can tell it's a keeper. </p>
 <h2 id="h-how-many-raspberry-pi-self-hosted-services">How many Raspberry Pi self-hosted services?</h2>
-<p>We don't know. According to our quick enumeration, it's at least 16, plus various static sites we're not counting. Is there an upper limit? Maybe.</p>
+<p>We don't know. According to our quick enumeration, it's at least 16, plus various static sites we're not counting, and an old Ghost install floating around like a phantom. Is there an upper limit? Maybe.</p>
 <p>We're not stopping though - all the services we've deployed are regularly used by a family-sized unit, and we'll continue to add more services as more cool projects come to our attention. If you're serving more than a fistful of users, you may want to consider something beefier, such as a <a href="https://www.amazon.com/Vemico-Raspberry-Pi-Single-Board/dp/B0CNXHL8W9?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=def008658797e49faca034a8e08d9e7e&amp;camp=1789&amp;creative=9325">Raspberry Pi 5</a> or a <a href="https://www.amazon.com/Computer-Celeron-J3455-Processor-2-5-inch/dp/B099KSJN8P?&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=f7291297b218a74f1363b390afb2667c&amp;camp=1789&amp;creative=9325">Mini PC</a>.</p>
 <p> </p>
             ]]>

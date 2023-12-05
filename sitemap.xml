@@ -286,10 +286,14 @@
 </url>
 <url>
 <loc>https://linuximpact.com/how-many-services-can-you-self-host-on-a-raspberry-pi/</loc>
-<lastmod>2023-12-05T11:37:35+00:00</lastmod>
+<lastmod>2023-12-05T23:21:10+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/72/htop.png</image:loc>
 <image:title><![CDATA[Htop system monitor showing a chart and ist of processes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72/lightbulb.png</image:loc>
+<image:title><![CDATA[Incandescent lightbulb against a black background]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/72//Nextcloud-Logo.jpg</image:loc>
