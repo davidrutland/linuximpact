@@ -285,6 +285,66 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/how-many-services-can-you-self-host-on-a-raspberry-pi/</loc>
+<lastmod>2023-12-05T11:37:35+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72/htop.png</image:loc>
+<image:title><![CDATA[Htop system monitor showing a chart and ist of processes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//Nextcloud-Logo.jpg</image:loc>
+<image:title><![CDATA[White nextcloud logo on a blue background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//jellyfin-logo.png</image:loc>
+<image:title><![CDATA[Jellyfin logo on a black background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//audiobookshelf.png</image:loc>
+<image:title><![CDATA[Audiobookshelf default view showing books in progress and yet to be read]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//mailbox.png</image:loc>
+<image:title><![CDATA[A classic red mailbox on a pink background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//snappymail.png</image:loc>
+<image:title><![CDATA[An email inbox with a snazzy wood-effect background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//phoneguy.png</image:loc>
+<image:title><![CDATA[A man with glasses looking at his phone in a garden. There is a leafy mountain in the background ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//freshrss.png</image:loc>
+<image:title><![CDATA[FreshRSS web interface there is a Linux impact story open, and a picture of a drummer]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//mealie.png</image:loc>
+<image:title><![CDATA[Mealie web interface showing a recipe for tarte tatin]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//post-its.png</image:loc>
+<image:title><![CDATA[A wall of post-it notes in day-glo colours]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//immich.png</image:loc>
+<image:title><![CDATA[Immich web interface showing images and on this day for various years]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//akkoma.png</image:loc>
+<image:title><![CDATA[Akkoma instance using the Pleroma front-end. Dark blue with the background set as the image of a beach]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72/pigallery2_main_gallery-2.png</image:loc>
+<image:title><![CDATA[A selection of photographs and spicy memes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/72//matomo.png</image:loc>
+<image:title><![CDATA[MAtomo interface showing a world map and statistics for articles]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/how-to-check-your-linux-kernel-version/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>
