@@ -3,12 +3,66 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-05T23:58:37+00:00</updated>
+    <updated>2023-12-07T20:40:13+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>How to automatically reject cookies and hide cookie pop-ups on Firefox </title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/how-to-automatically-reject-cookies-and-hide-cookie-pop-ups-on-firefox/"/>
+        <id>https://linuximpact.com/how-to-automatically-reject-cookies-and-hide-cookie-pop-ups-on-firefox/</id>
+        <media:content url="https://linuximpact.com/media/posts/73/cookies.png" medium="image" />
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Internet"/>
+            <category term="Browser"/>
+
+        <updated>2023-12-07T20:40:13+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/73/cookies.png" alt="A stack of chocolate cookies on a plate" />
+                    No-one likes being being tracked on the internet, and changes in data protection laws around the world mean that in some jurisdictions, you don't have to be. In The EU and UK for instance you'll see a pop-up if you visit a site which uses&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/73/cookies.png" class="type:primaryImage" alt="A stack of chocolate cookies on a plate" /></p>
+                <p data-pm-slice="1 1 []">No-one likes being being tracked on the internet, and changes in data protection laws around the world mean that in some jurisdictions, you don't have to be.</p>
+<p>In The EU and UK for instance you'll see a pop-up if you visit a site which uses cookies to collect data, and you can reject cookies on your device.</p>
+<h2 id="h-cookie-pop-ups-are-a-pain">Cookie pop-ups are a pain</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/73/guardian-cookie-consent.png" alt="Cookie consent popup on the Guardian website - it obscures most of the page" width="971" height="501" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-xs.webp 300w ,https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-sm.webp 480w ,https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-md.webp 768w ,https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-lg.webp 1024w ,https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-xl.webp 1360w ,https://linuximpact.com/media/posts/73/responsive/guardian-cookie-consent-2xl.webp 1600w"></figure>
+<p>Clicking on the <strong>reject cookies</strong> option time and time again is irritating. No, we don't want cookies, and we don't want to have to tell you every time, either. The situation is exacerbated if you make a habit of browsing in private or incognito mode, as your device remembers your preference by, erm, setting a cookie. In private or incognito mode, these cookies are flushed when you exit.</p>
+<p>While browsers such as Brave have a setting to hide cookie consent pop-ups, there's a hidden setting on Firefox to automatically reject cookies before you even see the pop-up. Unfortunately, it's not perfect.</p>
+<h2 id="h-how-to-automatically-reject-cookies-on-firefox">How to automatically reject cookies on Firefox.</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/73/reject-cookies-2.png" alt="Firefox warning to proceed with caution" width="975" height="326" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-xs.webp 300w ,https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-sm.webp 480w ,https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-md.webp 768w ,https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-lg.webp 1024w ,https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-xl.webp 1360w ,https://linuximpact.com/media/posts/73/responsive/reject-cookies-2-2xl.webp 1600w"></figure>
+<p>While the setting to automatically reject cookies and hide pop-ups on Firefox is hidden, you can turn the feature on in seconds.</p>
+<ol>
+<li>
+<p>Open a new Firefox tab and in the URL bar, enter:<strong> about:config</strong></p>
+</li>
+<li>
+<p>You'll see a warning, advising you to "Proceed with Caution". Click <strong>Accept the risk and continue</strong>.</p>
+</li>
+<li>
+<p>Type <strong>cookiebanners.ui.desktop.enabled</strong></p>
+</li>
+<li>
+<p>Toggle the value to <strong>True</strong></p>
+</li>
+</ol>
+<p>That's it. Firefox is now set to reject all cookies and hide the cookie banners</p>
+<h2 id="h-automatic-cookie-rejection-on-firefox-doesnt-always-work">Automatic cookie rejection on Firefox doesn't always work</h2>
+<p>While changing this setting on Firefox rejects all cookies if there is a <strong>Reject All</strong> button on the banner. It doesn't work on all sites, and won't work on those which have a <strong>Manage or rect Cookies</strong> button with further choices.</p>
+<p>On the BBC News and Guardian websites, for instance, the cookie banner is still there. Overall, we've say it has around a 60% success rate. your mileage may vary, but it's better than nothing, and development is ongoing. And as privacy laws tighten to force sites into always giving users a <strong>Reject All</strong> choice, its efficacy will improve.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How many services can you self-host on a Raspberry Pi?</title>
         <author>
@@ -3537,223 +3591,6 @@ services:
 <p><!-- wp:paragraph --></p>
 <p>In the meantime, enjoy it while it lasts.</p>
 <p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>6 Awesome Linux Desktop Environments you should try today</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/"/>
-        <id>https://linuximpact.com/6-awesome-linux-desktop-environments-you-should-try-today/</id>
-        <media:content url="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Linux"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" alt="" />
-                    The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/30/laptop-with-deepin-desktop-environment-on-a-table-in-a-garden.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>The desktop environment is the main way you'll interact with your Linux system, and it can make a huge difference to the way you work, play, and spend your day. Regardless which distro you're using, it's easy to install a new desktop environment. Here are six of the best:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="kde-plasma">KDE Plasma</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":261,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-261"><img src="https://linuximpact.com/media/posts/30/kde-desktop-showing-system-monitor-and-open-folder-1024x575.jpg" alt="kde desktop showing system monitor and open folder"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/kde-desktop-showing-system-monitor-and-open-folder-1024x575-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Plasma is a gorgeous desktop environment from KDE, offering good looks, and a huge amount of functionality, and customisation.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Using Plasma is simple. It's easy to navigate, and comes with an intuitive application launcher menu with apps organised into categories, and extensive documentation. You can add frequently used programs to the taskbar, and you can quickly and easiliy manage some common settings from the system tray.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Plasma comes with a plethora of tools from KDE built in, including KRunner (an app to search, carry out functions, and run commands quickly), a hot-key activated drop-down terminal, and more Qt-derived goodness.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Arguably, the best thing about Plasma is the built-in customisations available. While all desktop environment support customisation, with Plasma, it's simple to make a fabulous looking desktop, which is completely unique, and which looks great.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Just about everything can be tailored to your needs with a couple of mouse clicks, and without needing to open the settings menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>For more profound customisation, the "appearance" section of the settings menu allows you to change the entire theme, application styles, colours, window decorations, fonts, icons, cursors, splash screens, boot screens, and more.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="xfce">Xfce</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":258,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-258"><img src="https://linuximpact.com/media/posts/30/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538.jpg" alt="ubuntu with Xfce deskop and various open applications"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/ubuntu-with-Xfce-deskop-and-various-open-applications-1024x538-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce one of the most widely used desktop environments, and has a well-deserved reputation for low resource use, while maintaining a premium look and feel.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>With a stylised mouse as its logo, Xfce is instantly recognisable out of the box, but can be customised to look and behave however you want.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unlike KDE Plasma, Xfce doesn't come with snazzy, resource hungry desktop animations, so is more suitable for use on lower-specced and older machines.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce has a solid and deserved reputation as a stable and fast desktop environment, and ships with an array of useful default applications. These include the Thunar file manager, with which you can easily navigate your filesystem and carry out file operations; the Xfce4-terminal; and the ristretto image viewer.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Xfce doesn't have default apps for everything, and gives you the freedom to choose the best calendar, email client, photo library manager, music player, and more.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>All of the included apps are blazingly fast to launch, and fast to use. If speed and efficiency in a good-looking DE are important to you, Xfce is the one to choose.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="gnome">GNOME</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":257,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-257"><img src="https://linuximpact.com/media/posts/30/gnome-desktop-with-ubuntu-1024x538.jpg" alt="gnome desktop with ubuntu"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/gnome-desktop-with-ubuntu-1024x538-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>GNOME is the default desktop environment of several Linux distributions including Debian, Ubuntu, Fedora, and RHEL. This is largely due to its lack of customisation options, meaning that it's more difficult to break. Its funding model, and backing by major non-profits means that it's unlikely to go away any time soon.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Consistency is key to the GNOME experience, and you're almost guaranteed a simplified and streamlined workflow, without having to worry about how it works, open the hood to fiddle with settings.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>GNOME is now in its third decade, and is continually innovating to be faster, more efficient, and better looking.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're coming from Windows, you may find GNOME a bit of a shock. Linux is a different OS, and GNOME makes it feel like one.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The system menu opens full screen, but you'll find it easy to use after just a few sessions. GNOME system apps are sensible, and the DE comes with everything you need to maximise productivity.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="lxde">LXDE</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":264,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-264"><img src="https://linuximpact.com/media/posts/30/lxde-desktop-showing-neofetch-1024x638.jpg" alt="lxde desktop showing neofetch"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/lxde-desktop-showing-neofetch-1024x638-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>LXDE is a super-lightweight desktop environment, with an absolute focus on low resource usage. Regardless what hardware you're using, LXDE can run basic operations as if it was brand new.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>This doesn't mean that LXDE sacrifices good looks, and with care, your LXDE desktop can be quite beautiful.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As you'd expect, LXDE comes with a system tray, task bar, and menu, but with its emphasis on elegant simplicity there isn't much extra to distract you.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In our test, LXDE desktop on top of a standard Ubuntu install consumed only around 250MB of memory.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="pantheon">Pantheon</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":265,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-265"><img src="https://linuximpact.com/media/posts/30/elementary-os-pantheon-desktop-environments-1024x642.jpg" alt="elementary os pantheon desktop environments"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/elementary-os-pantheon-desktop-environments-1024x642-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're coming from macOS, and want a familiar look and feel, the Pantheon desktop is for you. Designed for use with Elementary OS, you can install Pantheon desktop on any Linux system.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The first thing you'll notice about Pantheon is how well designed it is. The default desktop has minimal clutter, and commonly used apps are displayed in a neat, themeable macOS styled dock at the bottom of the screen.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In keeping with its aesthetic, Pantheon comes with a curated selection of wallpapers, showing beautiful outdoor scenes of nature.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The app menu is distinctive and unusual in that apps aren't categorised by default. Instead, they're displayed alphabetically using large, colourful icons. You can either type to search, or press an additional button to bring up the full system menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Pantheon's default apps are consistently themed, with an elegant minimalism, which makes this desktop a joy to behold. You can install additional apps through the GUI Appcenter.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're worried about cruft building up on your hard disk, Pantheon has you covered. The housekeeping app will automatically delete temporary files, trashed files, and old downloads after 30 days.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While Pantheon is free and open source software, developers have implemented a "pay what you want" model. Don't worry though. You don't have to pay anything at all!</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="deepin-desktop">Deepin desktop</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":256,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-256"><img src="https://linuximpact.com/media/posts/30/deepin-desktop-showing-files-and-settings.jpg" alt="deepin desktop showing files and settings"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xs.webp 300w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-sm.webp 480w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-md.webp 768w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-lg.webp 1024w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-xl.webp 1360w ,https://linuximpact.com/media/posts/30/responsive/deepin-desktop-showing-files-and-settings-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Deepin is a Chinese desktop environment designed to accompany Deepin Linux. Booting to desktop, you'll be instantly be reminded of Windows 10 - except better. Deepin desktop is slick, very stylised, and superbly consistent.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>When you first start Deepin, you'll be asked to choose either "effect mode" to get the full benefit of Deepin's graphical glory, or "normal mode" if you have limited system resources. Both look great. You can also decide between the stylish "fashion mode", and the more staid "efficient mode".</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll also be prompted to set theming options including wallpapers and four different icon sets.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Launching apps is simple thanks to the traditional start menu, and if you're used to the GNOME way of doing things, you can expand this to a fullscreen launcher with categories on separate screens.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Built-in apps are developed in-house by Deepin, and are themed to be as unique and usable as the rest of the system.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="which-is-the-right-desktop-for-you">Which is the right desktop for you?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are hundreds of desktop environments available, and we've looked at six of the best. When choosing your desktop environment you should take into account what you need it to do. If you're using an old computer, you'll want a lightweight option such as LXDE or Xfce. If you want to tax your hardware in pursuit of premium visuals, then KDE Plasma or Deepin are great choices.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
             ]]>
         </content>
     </entry>
