@@ -3,12 +3,173 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-07T20:40:13+00:00</updated>
+    <updated>2023-12-11T18:07:31+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>QR codes are for suckers - it&#x27;s time to break them for good</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/qr-codes-are-for-suckers-its-time-to-break-them-for-good/"/>
+        <id>https://linuximpact.com/qr-codes-are-for-suckers-its-time-to-break-them-for-good/</id>
+        <media:content url="https://linuximpact.com/media/posts/74/threecodes.png" medium="image" />
+            <category term="Wellbeing"/>
+            <category term="Tips"/>
+            <category term="Terminal"/>
+            <category term="Security"/>
+            <category term="Privacy"/>
+            <category term="DIY"/>
+
+        <updated>2023-12-11T18:07:04+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/74/threecodes.png" alt="Three QR codes semi-transparent against a short-nosed revolver on a red background" />
+                    QR codes are the Russian roulette of getting where you need to go online, and scanning one is the equivalent of plunging your hand into a lucky dip jar and hoping it doesn't come out with a venomous snake attached. Take the image above for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/74/threecodes.png" class="type:primaryImage" alt="Three QR codes semi-transparent against a short-nosed revolver on a red background" /></p>
+                <p data-pm-slice="1 1 []">QR codes are the Russian roulette of getting where you need to go online, and scanning one is the equivalent of plunging your hand into a lucky dip jar and hoping it doesn't come out with a venomous snake attached.</p>
+<p>Take the image above for example. One of the QR codes is for this very page, another is for this writer's social media profile, a third is for a mystery YouTube video. Which is which, and how do you know?</p>
+<p><em>You've got to ask yourself one question: "Do I feel lucky?" Well, do ya, punk?” </em></p>
+<p>Depending on how your phone is set up, it may automatically launch the link in your browser, or it might - in a very character-limited space, give you a part of the full URL. Want to take the gamble? We don't either.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/beans.png" alt="multicoloured jellybeans overlaid by a qr code" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/beans-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/beans-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/beans-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/beans-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/beans-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/beans-2xl.webp 1600w"></figure>
+<p>QR (Quick Response) codes are everywhere, and they're a black bag. You get a square of squares on a plain background, and that's it. They're great if you want a simple way of sharing your contact details, or giving guests access to your Wi-Fi network, but beyond that, they're a grab bag of Bertie Bott's Every Flavour Beans.</p>
+<p>Will you get the delicious marmalade-flavoured URL you were hoping for, or the tangy faeces-tinged Goatse image you thought you'd long-since cleansed from your mind with bleach and aromatherapy? It's a risk.</p>
+<p>Most responsible parties will take the time to copy and paste a written URL next to their QR code, so that if you, like us, are averse to blindly opening links, you can type it in, or use your favourite search engine.</p>
+<p>But recently, we've come across dozens of unaccompanied QR codes. It's not obvious where they link to, and we're averse to trying them out.</p>
+<h2 id="h-qr-novelty-has-worn-off">QR novelty has worn off</h2>
+<p>There's a certain type of person, who latches on to latest technology and won't ever let go - even when that technology is now approaching its 30th birthday. It's new and it's cool, it's the future, and should be included with everything.</p>
+<p>These are the kind of people who advocate moving their corporate headquarters into the metaverse, won't shut up about NFTs, and try to persuade you to convert all your material assets to FTX-managed crypto assets.</p>
+<p>In most cases, a QR code adds complexity, along with the need for specialist equipment. Why keep it simple, when you can add three more steps and an element of danger to the process?</p>
+<p>We're going to give you two examples of recent encounters with QR codes and why - when they're not accompanied by written URLs - they suck so very, very, hard.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/nhsqr.png" alt="A blue and white sign in an NHS hospital. It directs visitors to scan a qr code" width="1680" height="765" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/nhsqr-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-2xl.webp 1600w"></figure>
+<p>The first example, comes from a trip this writer took to his local hospital in April 2023. There were renovations in progress resulting in changed layouts and routes around the 15 acre site.</p>
+<p>There were a multitude of signs explaining the basics, but if you wanted the details, you would need to scan a QR code.</p>
+<p>The problems with this are fourfold: The first is that to scan the QR code, this writer would have needed to stand crotch-to-face in front of a benchful of exhausted patients and whip out his phone.</p>
+<p>The second is that hospital walls do not allow mobile phone signals to pass through.</p>
+<p>The third is that even in 2023, many people do not actually have mobile phones with QR scanning functionality.</p>
+<p>The fourth is that there's no guarantee some local joker hadn't slapped a sticker with a malicious URL on top of the printed version.</p>
+<p>All of these problems would be eliminated by a simple URL. It could be read from across the room, scrawled down on the back of an envelope, and used later - either with a computer, or in an area with better reception.</p>
+<p>It would be immediately obvious if it wasn't an NHS domain.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/beebappeal.png" alt="Screenshot of a BBC story. The image is of a police appeal for witnesses and prominently features a qr code" width="1680" height="872" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/beebappeal-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-2xl.webp 1600w"></figure>
+<p>The next example comes from a BBC news story about a police appeal for witnesses to a 40-year old murder.</p>
+<p>If you witnessed a murder four decades ago and have kept quiet thus far, it's probable that you want to remain anonymous. Contacting the police directly might lead to all sorts of unfortunate consequences - such as the need to give a statement in a police station, or appear in court and point the accusing finger.</p>
+<p>As you can see in the above image, there are several ways to give your information. You can call the police incident room directly, or you can call CrimeStoppers anonymously.</p>
+<p>So, to which of these services will the QR code take you?</p>
+<p>Psych! It doesn't take you to either. That QR code leads you to a particular page on mipp.police.uk - the UK Police Major Incident Public Reporting Site - it's not CrimeStoppers, and it's not necessarily anonymous. OK, the poster doesn't say that it is, but it's not immediately obvious either.</p>
+<p>Is it confidential? would you take the chance?</p>
+<p>It doesn't seem that there are any tracking scripts when viewing the page source - but there's a decent amount of Javascript, so we can't be sure - and you can't rule out access logs on the server either.</p>
+<p>By opening that link in your browser, you're connecting to a piece of police digital infrastructure, and there will be a record that can connect it to you.</p>
+<p>Of course, there is a brief <a href="https://mipp.police.uk/linkedInfo/PrivacyPolicy" rel="noopener noreferrer nofollow">privacy policy</a> that states, "UK Police Forces who are committed to protecting the privacy and anonymity of anyone who contacts us with information about crime", but it goes on to say that "This statement is made in light of the requirements of the Data Protection Act 2018". A quick scan of the relevant regulation, reveals that there are various get-outs when applied to "the apprehension or prosecution of offenders". So there's that.</p>
+<p>If we want to indulge our fancy further, we can imagine that a legitimate QR code has been replaced by a villain in an effort to entrap would-be snitches. Or that a desperate would-be YouTube star has embedded a link to his muscle car channel, or it's an affiliate link to an illegal dog-breeding ring, or a scam site that will offer a reward then empty your bank account.</p>
+<p>Of course, you won't know until you scan the code.</p>
+<h2 id="h-qr-codes-are-already-broken">QR codes are already broken</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/brokenglass.png" alt="A pane of glass smashed as if hit by a single stone" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/brokenglass-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/brokenglass-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/brokenglass-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/brokenglass-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/brokenglass-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/brokenglass-2xl.webp 1600w"></figure>
+<p>As we were writing this article, we came across a recent <a href="https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information" rel="noopener noreferrer nofollow">warning from the Federal Trade Commission</a> (FTC) warning of the dangers of QR codes.</p>
+<p>In it the commission warns that scammers use QR codes to " take you to a spoofed site that looks real but isn’t", and that they could, "could install malware that steals your information before you realize it".</p>
+<p>A subsequent article by the <a href="https://www.nytimes.com/2023/12/10/business/qr-code-scam-ftc.html" rel="noopener noreferrer nofollow">New York Times</a> (paywall link) states that Trellix, a cybersecurity company, saw more than 60,000 samples of QR code attacks in the third quarter of 2023.</p>
+<p>The FTC's advice is as sage and as useful as you'd expect.</p>
+<ul>
+<li>
+<p>Inspect the URL for "misspellings or a switched letter".</p>
+</li>
+</ul>
+<p><em>Great idea - but QR code scanners aren't really set up to provide a legible URL, and it kind of defeats the point of using them.</em></p>
+<ul>
+<li>
+<p>Don’t scan a QR code in an email or text message you weren’t expecting — especially if it urges you to act immediately. If you think the message is legitimate, use a phone number or website you know is real to contact the company.</p>
+</li>
+</ul>
+<p><em>So... don't use QR codes then?</em></p>
+<ul>
+<li>
+<p>Protect your phone and accounts. Update your phone's OS to protect against hackers and protect your online accounts with strong passwords and multi-factor authentication.</p>
+</li>
+</ul>
+<p><em>Again, this is sound advice as far as it goes, but shifts the blame to the user instead of to the poor design choices that allow this type of attack to succeed.</em></p>
+<h2 id="h-a-broken-system-can-break-further-and-faster">A broken system can break further and faster</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/morebrokenglass.png" alt="A shattered pane of glass from multiple impacts " width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/morebrokenglass-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/morebrokenglass-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/morebrokenglass-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/morebrokenglass-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/morebrokenglass-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/morebrokenglass-2xl.webp 1600w"></figure>
+<p>We'd say it's a mistake to assume that most people want a technological solution to the intellectually confounding task of tapping in or writing down a URL, but evidence seems to suggest otherwise.</p>
+<p>People want to be able to point their phone and have it open a link. But there are ways of doing that that don't require obscuring a URL behind a machine-readable square.</p>
+<p>If companies and individuals choose not to go with simple, common-sense URL structures, the least they can do is to print a URL clearly enough that humans can read it, and the OCR app on your phone can read it too. That way, users can easily check the validity of a link, they can write it down for later, and they can have their phone do its magic.</p>
+<p>That's not going to happen anytime soon though - despite warnings from the FTC, and the hundreds of thousands of people who fall for QR based scams every year.</p>
+<p>The ideal solution would be for people to stop trusting QR codes altogether. It's inevitable, but it would be great if that state of affairs could be hurried along a little, and if every scanned QR code was a coin toss of unimaginable horror.</p>
+<h2 id="h-be-part-of-the-solution">Be part of the solution</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/pole.png" alt="A bearded man walking towards a lampost against a blue wall in the background. " width="1680" height="872" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/pole-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/pole-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/pole-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/pole-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/pole-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/pole-2xl.webp 1600w"></figure>
+<p>Sometimes, the only way to make a situation better is to make it worse.</p>
+<p>qrencode is a simple utility that does exactly what it says on the tin: it turns data into QR codes that you can print off, send to people, stick to lamposts, or anything else you want to do with it.</p>
+<p>It's available in most of the default repositories, so if you're on a Debian-based system you can simply pop a terminal and enter:</p>
+<pre data-pm-slice="1 1 []"><code>sudo apt install qrencode</code></pre>
+<p>Alternatively, releases and compilation instructions are available on the <a href="https://fukuchi.org/works/qrencode/" rel="noopener noreferrer nofollow">qrencode project page</a>.</p>
+<p>We're not suggesting you do anything in particular with it, but we're not suggesting you don't, either.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>tui-mines is classic Minesweeper action in a Linux terminal</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/tui-mines-is-classic-minesweeper-action-in-a-linux-terminal/"/>
+        <id>https://linuximpact.com/tui-mines-is-classic-minesweeper-action-in-a-linux-terminal/</id>
+        <media:content url="https://linuximpact.com/media/posts/75/tui-minesweeper.png" medium="image" />
+            <category term="Terminal"/>
+            <category term="TUI"/>
+            <category term="Gaming"/>
+            <category term="CLI"/>
+
+        <updated>2023-12-11T18:07:31+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/75/tui-minesweeper.png" alt="A game of tui-mines overlaid on a pubic domain black and white image of a Minesweeper Ceremony" />
+                    Anything you can do on Windows, you can do on Linux better - but with greater stability, and without Microsoft looking over your shoulder and logging every keystroke. And what's true for your distro as a whole is also true of tiny, lightweight games you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/75/tui-minesweeper.png" class="type:primaryImage" alt="A game of tui-mines overlaid on a pubic domain black and white image of a Minesweeper Ceremony" /></p>
+                <p data-pm-slice="1 1 []">Anything you can do on Windows, you can do on Linux better - but with greater stability, and without Microsoft looking over your shoulder and logging every keystroke.</p>
+<p>And what's true for your distro as a whole is also true of tiny, lightweight games you use to pass the time while twiddling your thumbs waiting for your latest project to compile.</p>
+<p>And if you want to blow up mines in a make-believe shipping lane in your terminal, you can do that too!</p>
+<h2 id="h-minesweeper-in-a-terminal">Minesweeper in a terminal?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/75/classic-minesweeper.png" alt="A game of classic gui minesweeper" width="1136" height="566" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-xs.webp 300w ,https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-sm.webp 480w ,https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-md.webp 768w ,https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-lg.webp 1024w ,https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-xl.webp 1360w ,https://linuximpact.com/media/posts/75/responsive/classic-minesweeper-2xl.webp 1600w"></figure>
+<p>Minesweeper was originally a point-and-click time-waster included in Windows 3.1 as a way of getting new GUI users used to the concept of GUIs. It required precise mouse co-ordination, some degree of logic, and a lot of luck not to blow yourself up with the first click.</p>
+<p>Although minesweeper was discontinued in Windows 8, its spirit lives on in the terminal, thanks to tui-mines, a Java app that upturns the original Minesweeper philosophy with a keyboard- driven interface, and the glorious pseudo-nostaligia of white text on a black background.</p>
+<p>It's fun and infuriating, and you should try it today.</p>
+<h2 id="h-how-to-install-tui-mines-on-linux">How to install tui-mines on Linux</h2>
+<p>tui-mines is a Java app, so make sure you have Java runtime installed on your system. On Debian based systems, the easiest way to do this is to open a terminal and enter:</p>
+<p>sudo apt install default-jre</p>
+<p>Ignore the instructions to install via APT on the <a href="https://github.com/Defective4/TUI-Mines" rel="noopener noreferrer nofollow">tui-mines GitHub page</a>. The developer's site (and repository key) now redirect to a Discord server, and you'll get a certificate error. Instead, head to the releases page, and grab the latest compatible package for your system, and install it in the usual manner. In our case, this is accomplished with:</p>
+<pre><code>wget https://github.com/Defective4/TUI-Mines/releases/download/v1.0.2.2/tui-mines_1.0.2.2_amd64.deb
+
+sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
+<h2 id="h-play-minesweeper-in-your-terminal">Play Minesweeper in your terminal</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/75/tui-crt.png" alt="tui-minesweeper in cool-retro-term with orange text on a dark brown background" width="1200" height="731" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/75/responsive/tui-crt-xs.webp 300w ,https://linuximpact.com/media/posts/75/responsive/tui-crt-sm.webp 480w ,https://linuximpact.com/media/posts/75/responsive/tui-crt-md.webp 768w ,https://linuximpact.com/media/posts/75/responsive/tui-crt-lg.webp 1024w ,https://linuximpact.com/media/posts/75/responsive/tui-crt-xl.webp 1360w ,https://linuximpact.com/media/posts/75/responsive/tui-crt-2xl.webp 1600w"></figure>
+<p>Start Mineweeper by typing:</p>
+<pre><code>tui-mines </code></pre>
+<p>...into your terminal window. If you prefer to use a terminal that comes prepackaged with tui-mines, enter:</p>
+<pre><code>tui-mines -gui</code></pre>
+<p>... instead (IKR?)</p>
+<p>tui-mines was created for the Java Jam hosted at Java Community Discord server, and is dripping with Discord integrations (as is evident by the dev's redirect) that, according to the release notes, seems to allow you to post game replays to the server.</p>
+<p>We don't use Discord, so couldn't tell you how well it works, but the fact that the repo proudly declares, "Winner of the October Coding Jam 2023", indicates this aspect is pretty good.</p>
+<p>We prefer playing Minesweeper as a solitary activity, and that's good, too.</p>
+<p>The game comes with three built-in difficulty levels, and you can create your own custom board of whatever dimensions, and the number of bombs you desire. The controls are simple: move the cursor using your keyboard, flag a tile with "<strong>F</strong>", and test your guess with <strong>Space</strong>. Everything works as it should.</p>
+<p>That's it. Good, simple minesweeper fun, from the comfort of your terminal.</p>
+<h2 id="h-the-linux-terminal-can-be-retro-gaming-paradise">The Linux terminal can be retro-gaming paradise</h2>
+<p>There's something about the Linux terminal that lends itself to the kind of gaming experience you'd have enjoyed from the 1960s to the 1990s.</p>
+<p>If you long for the simpler times before Steam steam was a thing, try playing tui-mines in a <a href="https://linuximpact.com/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/">cool retro terminal</a>.</p>
+<p>And if you long for some era appropriate authenticity, give <a href="https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/">Colossal Cave Adventure</a> a go!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to automatically reject cookies and hide cookie pop-ups on Firefox </title>
         <author>
@@ -2989,608 +3150,6 @@ services:
 <p><!-- wp:image {"id":206,"sizeSlug":"large","linkDestination":"none"} --></p>
 <figure class="wp-block-image size-large"><figure class="wp-image-206"><img  src="https://linuximpact.com/media/posts/34/tandoor_recipes_default_interface-1024x578.jpg" alt="Tandoor recipes on a black background" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-2xl.webp 1600w"></figure></figure>
 <p><!-- /wp:image --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Install Immich on a Raspberry Pi and replace Google Photos</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/install-immich-on-a-raspberry-pi-and-replace-google-photos/"/>
-        <id>https://linuximpact.com/install-immich-on-a-raspberry-pi-and-replace-google-photos/</id>
-        <media:content url="https://linuximpact.com/media/posts/32/woman-in-jeans-using-immich-on-a-tablet.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-            <category term="Hardware"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-10T11:17:44+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/32/woman-in-jeans-using-immich-on-a-tablet.jpg" alt="" />
-                    Immich is an open source Google Photos clone that you can host yourself. Even if you don't know what you're doing, it shouldn't take you more than an afternoon, starting from scratch. This guide is meant to get you up and running as fast as&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/32/woman-in-jeans-using-immich-on-a-tablet.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Immich is an open source Google Photos clone that you can host yourself. Even if you don't know what you're doing, it shouldn't take you more than an afternoon, starting from scratch. This guide is meant to get you up and running as fast as possible.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="why-use-a-raspberry-pi-to-host-immich">Why use a Raspberry Pi to host Immich?</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Simple. A server is meant to be powered on 24 hours per day 365 days a year. A Pi consumes minimal electrical power, but has enough computing power to get the job done.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="what-you-need">What you need</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>A Raspberry Pi 4B - The 8GB version is best, but 4GB will do.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>An adequate USB-C power supply.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>An Ethernet cable - it's faster and better than WiFi</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>A high capacity USB SSD - Micro SD cards aren't great.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>A different computer on the same network.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>A domain name</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="steps-to-install-immich-on-your-raspberry-pi-4b">Steps to install Immich on your Raspberry Pi 4B</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>These steps are meant to be followed from the beginning, but if you're already set up, feel free to skip parts. We're assuming you're using a Windows desktop machine - because most people do.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading" id="install-an-os-to-your-ssd">Install an OS to your SSD</h3>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>The Raspberry Pi Imager tool can install a variety of operating systems. Download it <a href="https://downloads.raspberrypi.org/imager/imager_latest.exe">here</a>, and double click on the file to launch the installer. Once, it's installed, launch Raspberry Pi Imager from your start menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Click <strong>Choose OS</strong>, then <strong>Raspberry Pi OS (Other) > Raspberry Pi OS Lite (64 Bit)</strong>.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":284,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-284"><img src="https://linuximpact.com/media/posts/32/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455.jpg" alt="raspberry pi os imager with raspberry pi os lite (64 bit) highlighted"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-xs.webp 300w ,https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-sm.webp 480w ,https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-md.webp 768w ,https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-lg.webp 1024w ,https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-xl.webp 1360w ,https://linuximpact.com/media/posts/32/responsive/raspberry-pi-os-imager-with-raspberry-pi-os-lite-64-bit-highlighted-1024x455-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Next, click <strong>Choose Storage</strong>, and select your SSD.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Click the cog icon in the lower right of the app, and set the following.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul><!-- wp:list-item --></p>
-<li>A name for the pi - "pi" is good.</li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>Check the box for <strong>Enable SSH</strong></li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>A username and password combo</li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>Locale with the correct timezone</li>
-<p>
-<!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<li>A static IP address - most ISPs will provide one for free if you ask nicely.</li>
-<p>
-<!-- /wp:list-item --></ul>
-<p>
-<!-- /wp:list --></p>
-<p><!-- wp:paragraph --></p>
-<p>Click <strong>Save</strong>, then <strong>Write</strong>.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Imager will inform you when the OS has been written to your drive.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="assemble-your-server">Assemble your server</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Plug the SSD into one of the available USB3 ports, then connect the ethernet cable to a spare Ethernet port on your router, and the other end to your Pi's ethernet port.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>NB: depending on the type of SSD, you may need a powered USB hub in order to prevent crashes and failures.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finally, plug your power supply into the Pi's USB-C socket.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="connect-to-your-pi-from-your-pc">Connect to your Pi from your PC</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Secure Shell (SSH) provides a secure way to access and manage network devices and servers over an unsecured network. If you're on Windows, the easiest way to use SSH is with a dedicated client such as PuTTY.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Download PuTTY, and install it in the usual way. Open PuTTY from your start menu.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the <strong>Host Name</strong> text box, type in the Pi hostname followed by .local.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If, when configuring the image earlier, you named your Pi as "pi", you would enter:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>pi.local</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Choose <strong>SSH</strong> as the connection type, then hit <strong>Open</strong>.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll see a scary warning about the host's key, hit yes to add it to the registry.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>A new window will open prompting you to enter your username, then your password. Do it.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading {"level":3} --></p>
-<h3 class="wp-block-heading" id="prepare-your-pi">Prepare your Pi</h3>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are a few things you need to do before you can install Immich on your Raspberry Pi. All you need to do is copy and paste the following commands, and enter your password when asked.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's probably important to note that when entering a password in the Linux terminal, you won't see any response on the screen. Don't worry about this - just type your password and press <strong>Enter</strong> when you're done.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>First off, you'll need to make sure all your packages are up to date:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt update && sudo apt upgrade</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Install and enable Apache:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install apache2<restore-line-break>sudo systemctl start apache2<restore-line-break>sudo systemctl enable apache2</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>All done? Sweet. It's worthwhile enabling some Apache modules. You won't need them all to install and use Immich, but they're useful to have:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo a2enmod rewrite http2 proxy proxy_http proxy_http2 proxy_wstunnel</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now you need to install and enable Docker - a tool for managing containers:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install docker.io<restore-line-break>sudo systemctl start apache2<restore-line-break>sudo systemctl enable apache2</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Add your user to the Docker group:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo usermod -aG docker pi</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>If your username is something other than "pi", use that instead.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Your membership of the Docker group won't take effect until you log out then back in again.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>exit</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...will log you out. Log in again with PuTTY.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Docker Compose is a tool that makes managing Docker containers even easier. Unfortunately the version available in the standard repositories isn't up-to-date.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Manually install a recent version of Docker Compose, by pasting the following commands one at a time:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>wget https://github.com/docker/compose/releases/download/v2.21.0/docker-compose-linux-aarch64<restore-line-break>mv docker-compose-linux-aarch64 /usr/local/bin/docker-compose<restore-line-break>sudo chmod +x /usr/local/bin/docker-compose<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finally, you need to find your local IP address. Run:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>hostname -I</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll see a lit of numbers, with eacher group of four separated by dots, for instance, "192.168.1.45". Your Pi's local IP address is the first on the list. Write it down for later.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="install-immich-on-your-pi">Install Immich on your Pi</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:image {"id":286,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-286"><img src="https://linuximpact.com/media/posts/32/immich-web-interface-1024x514.jpg" alt="immich web interface showing memories and photos from today"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-xs.webp 300w ,https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-sm.webp 480w ,https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-md.webp 768w ,https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-lg.webp 1024w ,https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-xl.webp 1360w ,https://linuximpact.com/media/posts/32/responsive/immich-web-interface-1024x514-2xl.webp 1600w"></figure></figure>
-<p>
-<!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The hard work is done, and it's time to install Immich.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Create a directory for Immich, and a directory for your uploads:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>mkdir immich && mkdir immich_uploads</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Move into the immich directory and download the Docker Compose file, and the environment file:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>wget https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml<restore-line-break>wget -O .env https://github.com/immich-app/immich/releases/latest/download/example.env</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Edit the environment file using the nano text editor:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>nano .env</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Find the upload location section and change it to read:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>UPLOAD_LOCATION=~/immich_uploads/</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl +X</strong>.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The following command will download docker images, and start the containers for Immich:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>docker-compose up -d</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>This will take some time. Go take the dogs for a walk, or do your shopping.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>When you return, open a browser on your PC, and in the url bar, enter:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>your-pi-local-ip-address:2286</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...substituting "your-pi-local-ip-address" for the actual local IP address you noted earlier. Click on the Get Started button and create the admin user by entering an email address and password. It doesn't have to be your real email address, and to be honest, it's probably better if it isn't.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Well done. Immich is up and running, but there are a few more things to do before you can start using it as a Google Photos alternative.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading" id="make-your-immich-server-accessible-from-anywhere">Make your Immich server accessible from anywhere</h2>
-<p>
-<!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>You should already own a domain name. Visit your registrar, and locate the <strong>DNS</strong> or <strong>Advanced DNS </strong>section. Delete any records already set, and create a new one.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Set the host as @ and the value as your home IP address. Set the TTL value as low as you can.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>This will ensure that requests to your domain name are forwarded to your home IP address. You'll also need to ensure your router knows what to do with the requests.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Your router admin page is usually accessible by typing 192.168.1.1 into the address bar. If not, check the side of the router which will give you the correct address along with the default admin password.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Log into your router and look for a section called port forwarding or port management. Create a new entry for ports 80 and 443 – setting the value to your Pi's local IP address. Enter your domain name, and you should see the default Apache placeholder page.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Back on the Pi, create a config file for Apache:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>cd /etc/apache2/sites-available/<restore-line-break>nano immich.conf</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the new file, paste the following text, making sure to substitute your actual domain name:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the new file, paste the following:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code><VirtualHost *:80><restore-line-break>ServerName your_domain.com<restore-line-break>ProxyPass / http://127.0.0.1:2283/<restore-line-break>ProxyPassReverse / http:/127.0.0.1:2283/<restore-line-break>ProxyPreserveHost On<restore-line-break></VirtualHost></code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Save and exit nano again, and enter the following:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo a2ensite immich.conf<restore-line-break>sudo service apache2 restart</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You should now be able to access your Immich instance by typing your domain name into any browser.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>That's great, but you're not secured by TLS, meaning your traffic could be intercepted by a Person-in-the-middle attack. It's unlikely, but it's better to be safe than sorry.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Fortunately, there's a handty tool called Certbot which can fetch and install security certificates for you, as well as upgrading connections to the more secure HTTPS protocol.</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Install Certbot with:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install software-properties-common<restore-line-break>sudo apt update<restore-line-break>sudo add-apt-repository ppa:certbot/certbot<restore-line-break>sudo apt-get install python3-certbot-apache</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Run certbot with:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo certbot</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Answer the questions, then restart Apache again with:</p>
-<p>
-<!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo service apache2 restart</code></pre>
-<p>
-<!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>That's it. You're done. Congratulations! Now install the apps on your phone.</p>
-<p>
-<!-- /wp:paragraph --></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to use ChatGPT 3.5 from your terminal without API Keys using tgpt</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/"/>
-        <id>https://linuximpact.com/how-to-use-chatgpt-35-from-your-terminal-without-api-keys-using-tgpt/</id>
-        <media:content url="https://linuximpact.com/media/posts/31/woman-using-tgpt-on-a-laptop.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Terminal"/>
-            <category term="Software"/>
-            <category term="Linux"/>
-            <category term="DIY"/>
-            <category term="CLI"/>
-
-        <updated>2023-11-13T00:52:30+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/31/woman-using-tgpt-on-a-laptop.jpg" alt="" />
-                    AI chatbots are a wonder of the modern age and can assist with everything from coding to poetry. But accessing ChatGPT usually means signing up for an account. tgpt is a terminal interface that doesn't require an account or API key, and allows you to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/31/woman-using-tgpt-on-a-laptop.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>AI chatbots are a wonder of the modern age and can assist with everything from coding to poetry. But accessing ChatGPT usually means signing up for an account. tgpt is a terminal interface that doesn't require an account or API key, and allows you to use ChatGPT 3.5 without leaving your terminal.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="why-use-tgpt" class="wp-block-heading">Why use tgpt?</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>When you sign up to use ChatGPT all of your queries, conversations, idle musings, and boundary-pushing questions are tied to your account.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Aside from the obvious privacy risks associated with using ChatGPT, a transcript of all your interactions could prove to be embarrassing - especially if you use the chatbot for writing difficult emails, cut your medical insurance premiums by using ChatGPT as a therapist, or<a href="https://linuximpact.com/tags/horoscope/"> use AI to prognosticate the future</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Using ChatGPT through the web interface is a far from ideal experience, and while there are already CLI tools that let you use ChatGPT from the Linux terminal, these require you to use an API key - a process that both complicates setting up the tool, and ensures that OpenAI can associate your queries with you - even if you use a VPN to hide your IP address.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>By installiing tgpt, you get the convenience of using ChatGPT in your terminal, and you don't need to provide an API key or account details. You can use tgpt wherever you are, and even access it from behind a VPN.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="how-to-install-tgpt-on-linux" class="wp-block-heading">How to install tgpt on Linux</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":276,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-276"><img  src="https://linuximpact.com/media/posts/31/install-tgpt-with-go-1024x439.jpg" alt="terminal output for installing tgpt with go" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-xs.webp 300w ,https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-sm.webp 480w ,https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-md.webp 768w ,https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-lg.webp 1024w ,https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-xl.webp 1360w ,https://linuximpact.com/media/posts/31/responsive/install-tgpt-with-go-1024x439-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The easiest way to install tgpt on Linux is with Go, so <a href="https://www.makeuseof.com/how-to-install-go-on-linux/">make sure you have Go installed</a> before you begin.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now you can use Go to install tgpt:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>go install github.com/aandrew-me/tgpt@latest</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Go will install tgpt to <strong>~/go/bin/tgpt</strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you want to easily use tgpt from any terminal location, you should create a symbolic link:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo ln -s ~/go/bin/tgpt /usr/bin/tgpt</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can start tgpt by typing:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...wherever you are in the terminal.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unfortunately, this won't work on Windows, and is yet another addition to<a href="https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/" data-type="link" data-id="https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/"> why Linux is better than Windows</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="use-tgpt-to-get-chatgpt-in-your-terminal" class="wp-block-heading">Use tgpt to get ChatGPT in your terminal</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":277,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-277"><img  src="https://linuximpact.com/media/posts/31/tgpt-in-interactive-mode-1024x636.jpg" alt="tgpt in interactive mode showing a haiku about dogs and one about cats" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-xs.webp 300w ,https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-sm.webp 480w ,https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-md.webp 768w ,https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-lg.webp 1024w ,https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-xl.webp 1360w ,https://linuximpact.com/media/posts/31/responsive/tgpt-in-interactive-mode-1024x636-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Using tgpt couldn't be easier. If you have a one of query or request for ChatGPT, and, for instance, want the chatbot to write a haiku about dogs, you'd enter:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt 'Write a haiku about dogs'</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Remember to surround your query with quote marks or tgpt will return a response for the first word only. Without quote marks in the above example, tgpt will respond as if you queried:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt write</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Not so useful.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>tgpt is most useful in interactive mode. To start tgpt in interactive mode, use the <strong>i</strong> flag:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt -i</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>This allows you to conduct a complete conversation with ChatGPT, and its responses will be flavoured by your previous replies.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As with the web interface, your conversations can be long, meandering, and cover many topics.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can can force tgpt to forget the chat ID with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt -f</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Other useful flags include:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>-s Generate and Execute shell commands. (Experimental)<br>-c Generate Code. (Experimental)<br>-q Gives response back without loading animation<br>-w Gives response back as a whole text<br>-v Print version<br>-h Print help message<br>-m Start multi-line interactive mode<br>-u Update program</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Unlike with the ChatGPT web interface, you can use tgpt even when your hiding behind a VPN. This doesn't mean you can get away with naughty queries, though. Ask tgpt an inappropriate query and it'll respond that it's unable to assist you</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="is-tgpt-too-good-to-be-true" class="wp-block-heading">Is tgpt too good to be true?</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>In a word, yes.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>tgpt is an awesome and fun way to access ChatGPT from your terminal, but it isn't truly a way to do it without API keys.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Instead of using your API key, tgpt uses the programme author's ChatGPT API key. Looking through the Github repository, you can see that the API key changes regularly. Presumably, this is because providing tgpt is a breach of ChatGPT terms of service.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If tgpt stops working for some reason, updating it with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>tgpt -u</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...should get it going again.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Having said that, it's unlikely that tgpt will continue working forever.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the meantime, enjoy it while it lasts.</p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
