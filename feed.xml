@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-11T18:07:31+00:00</updated>
+    <updated>2023-12-12T00:15:45+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -24,7 +24,7 @@
             <category term="Privacy"/>
             <category term="DIY"/>
 
-        <updated>2023-12-11T18:07:04+00:00</updated>
+        <updated>2023-12-12T00:15:45+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/74/threecodes.png" alt="Three QR codes semi-transparent against a short-nosed revolver on a red background" />
@@ -44,27 +44,27 @@
 <p>Most responsible parties will take the time to copy and paste a written URL next to their QR code, so that if you, like us, are averse to blindly opening links, you can type it in, or use your favourite search engine.</p>
 <p>But recently, we've come across dozens of unaccompanied QR codes. It's not obvious where they link to, and we're averse to trying them out.</p>
 <h2 id="h-qr-novelty-has-worn-off">QR novelty has worn off</h2>
-<p>There's a certain type of person, who latches on to latest technology and won't ever let go - even when that technology is now approaching its 30th birthday. It's new and it's cool, it's the future, and should be included with everything.</p>
+<p>There's a certain type of person, who latches on to latest technology and won't ever let go - even when that technology is now approaching its 30th birthday. In their minds, it's new and it's cool, it's the future, and should be included with everything. Remember Business card CDs? It's a bit like that.</p>
 <p>These are the kind of people who advocate moving their corporate headquarters into the metaverse, won't shut up about NFTs, and try to persuade you to convert all your material assets to FTX-managed crypto assets.</p>
 <p>In most cases, a QR code adds complexity, along with the need for specialist equipment. Why keep it simple, when you can add three more steps and an element of danger to the process?</p>
 <p>We're going to give you two examples of recent encounters with QR codes and why - when they're not accompanied by written URLs - they suck so very, very, hard.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/nhsqr.png" alt="A blue and white sign in an NHS hospital. It directs visitors to scan a qr code" width="1680" height="765" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/nhsqr-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/nhsqr-2xl.webp 1600w"></figure>
-<p>The first example, comes from a trip this writer took to his local hospital in April 2023. There were renovations in progress resulting in changed layouts and routes around the 15 acre site.</p>
+<p>The first example comes from a trip this writer took to his local mega-hospital in April 2023. There were renovations in progress resulting in changed layouts and routes around the 15 acre site.</p>
 <p>There were a multitude of signs explaining the basics, but if you wanted the details, you would need to scan a QR code.</p>
 <p>The problems with this are fourfold: The first is that to scan the QR code, this writer would have needed to stand crotch-to-face in front of a benchful of exhausted patients and whip out his phone.</p>
 <p>The second is that hospital walls do not allow mobile phone signals to pass through.</p>
-<p>The third is that even in 2023, many people do not actually have mobile phones with QR scanning functionality.</p>
+<p>The third is that <em>even in 2023</em>, many people do not actually have mobile phones with QR scanning functionality.</p>
 <p>The fourth is that there's no guarantee some local joker hadn't slapped a sticker with a malicious URL on top of the printed version.</p>
-<p>All of these problems would be eliminated by a simple URL. It could be read from across the room, scrawled down on the back of an envelope, and used later - either with a computer, or in an area with better reception.</p>
-<p>It would be immediately obvious if it wasn't an NHS domain.</p>
+<p>All of these problems would be eliminated by a simple URL written longhand. It could be read from across the room, scrawled down on the back of an envelope, and used later - either with a computer, or in an area with better reception.</p>
+<p>It would be immediately obvious if it was a legit NHS domain or something more malevolent.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/74/beebappeal.png" alt="Screenshot of a BBC story. The image is of a police appeal for witnesses and prominently features a qr code" width="1680" height="872" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/74/responsive/beebappeal-xs.webp 300w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-sm.webp 480w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-md.webp 768w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-lg.webp 1024w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-xl.webp 1360w ,https://linuximpact.com/media/posts/74/responsive/beebappeal-2xl.webp 1600w"></figure>
-<p>The next example comes from a BBC news story about a police appeal for witnesses to a 40-year old murder.</p>
+<p>The next example comes from a <a href="https://www.bbc.co.uk/news/uk-england-london-67678172">BBC news story</a> about a police appeal for witnesses to a 40-year old murder.</p>
 <p>If you witnessed a murder four decades ago and have kept quiet thus far, it's probable that you want to remain anonymous. Contacting the police directly might lead to all sorts of unfortunate consequences - such as the need to give a statement in a police station, or appear in court and point the accusing finger.</p>
 <p>As you can see in the above image, there are several ways to give your information. You can call the police incident room directly, or you can call CrimeStoppers anonymously.</p>
 <p>So, to which of these services will the QR code take you?</p>
 <p>Psych! It doesn't take you to either. That QR code leads you to a particular page on mipp.police.uk - the UK Police Major Incident Public Reporting Site - it's not CrimeStoppers, and it's not necessarily anonymous. OK, the poster doesn't say that it is, but it's not immediately obvious either.</p>
 <p>Is it confidential? would you take the chance?</p>
-<p>It doesn't seem that there are any tracking scripts when viewing the page source - but there's a decent amount of Javascript, so we can't be sure - and you can't rule out access logs on the server either.</p>
+<p>It doesn't seem that there are any tracking scripts when viewing the page source - but there's a decent amount of Javascript, so we can't be sure - and text elsewhere on the site indicates that access logs are retained.</p>
 <p>By opening that link in your browser, you're connecting to a piece of police digital infrastructure, and there will be a record that can connect it to you.</p>
 <p>Of course, there is a brief <a href="https://mipp.police.uk/linkedInfo/PrivacyPolicy" rel="noopener noreferrer nofollow">privacy policy</a> that states, "UK Police Forces who are committed to protecting the privacy and anonymity of anyone who contacts us with information about crime", but it goes on to say that "This statement is made in light of the requirements of the Data Protection Act 2018". A quick scan of the relevant regulation, reveals that there are various get-outs when applied to "the apprehension or prosecution of offenders". So there's that.</p>
 <p>If we want to indulge our fancy further, we can imagine that a legitimate QR code has been replaced by a villain in an effort to entrap would-be snitches. Or that a desperate would-be YouTube star has embedded a link to his muscle car channel, or it's an affiliate link to an illegal dog-breeding ring, or a scam site that will offer a reward then empty your bank account.</p>
@@ -108,8 +108,6 @@
 <pre data-pm-slice="1 1 []"><code>sudo apt install qrencode</code></pre>
 <p>Alternatively, releases and compilation instructions are available on the <a href="https://fukuchi.org/works/qrencode/" rel="noopener noreferrer nofollow">qrencode project page</a>.</p>
 <p>We're not suggesting you do anything in particular with it, but we're not suggesting you don't, either.</p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
