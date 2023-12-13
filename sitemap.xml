@@ -286,7 +286,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/how-many-services-can-you-self-host-on-a-raspberry-pi/</loc>
-<lastmod>2023-12-05T23:58:37+00:00</lastmod>
+<lastmod>2023-12-13T15:27:20+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/72/htop.png</image:loc>
 <image:title><![CDATA[Htop system monitor showing a chart and ist of processes]]></image:title>
@@ -470,6 +470,22 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/21/wordpress-installation-wizard.jpg</image:loc>
 <image:title><![CDATA[Wordpress installation wizard and database details]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/how-to-set-a-static-ip-address-for-your-raspberry-pi-server/</loc>
+<lastmod>2023-12-13T15:26:24+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/76/raspberry-pi-ip-addresses.png</image:loc>
+<image:title><![CDATA[A raspberry pi (food) overlaid by IP addresses]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/76//dialling.png</image:loc>
+<image:title><![CDATA[A hand dialling on an old-style rotary telephone]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/76/dhcpcd.png</image:loc>
+<image:title><![CDATA[Content of the dhcpcd conf file showing static addresses]]></image:title>
 </image:image>
 </url>
 <url>

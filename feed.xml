@@ -3,12 +3,81 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-12T00:15:45+00:00</updated>
+    <updated>2023-12-13T15:27:20+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>How to set a static ip address for your raspberry pi server</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/how-to-set-a-static-ip-address-for-your-raspberry-pi-server/"/>
+        <id>https://linuximpact.com/how-to-set-a-static-ip-address-for-your-raspberry-pi-server/</id>
+        <media:content url="https://linuximpact.com/media/posts/76/raspberry-pi-ip-addresses.png" medium="image" />
+            <category term="Tips"/>
+            <category term="Terminal"/>
+            <category term="Self-hosted"/>
+            <category term="Raspberry Pi"/>
+
+        <updated>2023-12-13T15:26:24+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/76/raspberry-pi-ip-addresses.png" alt="A raspberry pi (food) overlaid by IP addresses" />
+                    Running web-facing services from a Raspberry Pi at home is a cost effective way to avoid big tech surveillance, and take control of your ow digital life. One of the essential steps in making sure everything works as it should is to ensure that your&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/76/raspberry-pi-ip-addresses.png" class="type:primaryImage" alt="A raspberry pi (food) overlaid by IP addresses" /></p>
+                <p data-pm-slice="1 1 []">Running web-facing services from a Raspberry Pi at home is a cost effective way to avoid big tech surveillance, and take control of your ow digital life. One of the essential steps in making sure everything works as it should is to ensure that your Raspberry Pi has a static local IP address, so it's always at the same place on your network.</p>
+<h2 id="h-why-do-you-need-a-static-ip-address-for-your-raspberry-pi-server">Why do you need a static IP address for your Raspberry Pi server?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/76//dialling.png" alt="A hand dialling on an old-style rotary telephone" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/76//responsive/dialling-xs.webp 300w ,https://linuximpact.com/media/posts/76//responsive/dialling-sm.webp 480w ,https://linuximpact.com/media/posts/76//responsive/dialling-md.webp 768w ,https://linuximpact.com/media/posts/76//responsive/dialling-lg.webp 1024w ,https://linuximpact.com/media/posts/76//responsive/dialling-xl.webp 1360w ,https://linuximpact.com/media/posts/76//responsive/dialling-2xl.webp 1600w"></figure>
+<p>Congratulations! You've decided to seize back a modicum of control by self-hosting alternatives to proprietary software such as <a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/">Immich in place of Google Photos</a>, Trilium as an <a href="https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/">alternative to Evernote</a>, and <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie for recipes</a>.</p>
+<p>Even better, you're doing it on a <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi</a> - a well-supported platform that offers stability, low cost, and a low power draw. You've bought a reasonably-priced domain name, and now everything from <a href="https://linuximpact.com/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/">music and movies</a> to office suites and self-contained <a href="https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/">WhatsApp alternatives</a> is served from your favourite single board computer.</p>
+<p>When you're accessing your services over the internet, your device sends a request to your domain, which after some DNS shennanigans, is forwarded to your domestic IP address and your router. Your router will then forward the request to your Raspberry Pi according to port forwarding rules - assuming they have the right local IP address.</p>
+<p>When you first power up your Pi and attach to your local network, it will be assigned an IP address by your router. You may have the same IP address for days, weeks or months, and everything will tick along smoothly.</p>
+<p>But the IP address of devices on a local network can change unless you take steps to prevent this. Your router could assign a new local IP address each time it reboots, or when your Raspberry Pi reboots, or after a specific time.</p>
+<p>If this happens, you'll need to set up port forwarding again. And then again the next time it happens, and again.</p>
+<p>You need to assign a static IP address to your Raspberry Pi server. Fortunately, this is easy to do.</p>
+<h2 id="h-easily-assign-a-static-ip-address-for-your-raspberry-pi-server">Easily assign a static IP address for your Raspberry Pi server</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/76/dhcpcd.png" alt="Content of the dhcpcd conf file showing static addresses" width="1151" height="381" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/76/responsive/dhcpcd-xs.webp 300w ,https://linuximpact.com/media/posts/76/responsive/dhcpcd-sm.webp 480w ,https://linuximpact.com/media/posts/76/responsive/dhcpcd-md.webp 768w ,https://linuximpact.com/media/posts/76/responsive/dhcpcd-lg.webp 1024w ,https://linuximpact.com/media/posts/76/responsive/dhcpcd-xl.webp 1360w ,https://linuximpact.com/media/posts/76/responsive/dhcpcd-2xl.webp 1600w"></figure>
+<p>There are three (technically only two if we're being strictly honest) pieces of information you need to force your Pi to always use the same IP address on your local network. These are:</p>
+<ul>
+<li>
+<p>Your current local IP address</p>
+</li>
+<li>
+<p>Your Nameserver address or addresses</p>
+</li>
+<li>
+<p>The IP address of your router</p>
+</li>
+</ul>
+<p>After you've connected to your Raspberry Pi server over SSH (secure shell) double check its current IP address with:</p>
+<pre><code>hostname -I</code></pre>
+<p>Take note of the first address on the list - it's the one you need.</p>
+<p>To get your Nameserver address or addresses, enter:</p>
+<pre><code>cat /etc/resolv.conf</code></pre>
+<p>Eache nameserver will be on a new line that begins, "<strong>nameserver</strong>"</p>
+<p>For the IP address of your router, check the sticker on the box. The most common router address is <strong>192.168.1.1</strong>.</p>
+<p>With these three items in hand, use the nano text editor to edit your /etc/dhcpcd.conf file:</p>
+<pre><code>sudo nano /etc/dhcpcd.conf</code></pre>
+<p>At the bottom enter the information you gathered in the following format:</p>
+<p>At the bottom of the file enter the information you just gathered:</p>
+<pre><code>interface [eth0 for an ethernet connection or wlan0 for wireless ]
+static_routers=[Your router IP address]
+static domain_name_servers=[Nameserver addresses]
+static ip_address=[Your Pi IP address]/24</code></pre>
+<p>You can see the relevant section of our dhcpcd.conf file in the screenshot above this section.</p>
+<p>Save the file with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>, and reboot the Pi:</p>
+<pre><code>sudo reboot</code></pre>
+<p>That's it. Your <a href="https://linuximpact.com/tags/self-hosted/">Raspberry Pi server</a> will always be available at the same IP address on your local network.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>QR codes are for suckers - it&#x27;s time to break them for good</title>
         <author>
@@ -236,7 +305,7 @@ sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
             <category term="Internet"/>
             <category term="Hardware"/>
 
-        <updated>2023-12-05T23:58:37+00:00</updated>
+        <updated>2023-12-13T15:27:20+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/72/htop.png" alt="Htop system monitor showing a chart and ist of processes" />
@@ -251,7 +320,7 @@ sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
 <h2 id="h-why-self-host-on-a-raspberry-pi">Why self-host on a Raspberry Pi?</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/72/lightbulb.png" alt="Incandescent lightbulb against a black background" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/72/responsive/lightbulb-xs.webp 300w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-sm.webp 480w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-md.webp 768w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-lg.webp 1024w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-xl.webp 1360w ,https://linuximpact.com/media/posts/72/responsive/lightbulb-2xl.webp 1600w"></figure>
 <p>The <a href="https://linuximpact.com/tags/raspberry-pi/">Raspberry Pi</a> is cheap enough to dabble without feeling like you've made a disastrous financial mistake if it ends up in the back of a cupboard, and there are a lot of Pis out there - meaning that self-hosted software is often built with the Raspberry Pi in mind (often at the back of the mind, but still), and if you run into problems, there's likely someone who has come across the same thing. It's easy to get answers to questions you never knew you had.</p>
-<p>Another reason is the Pi's very low power draw. Our principle Pi - an <a>8GB Raspberry Pi model 4B</a> - pulls under 10 Watts. Remember when your mum used to yell at you for leaving the lights on in your home? The Pi pulls less than a single modern LED lightbulb. It takes one sixth to one tenth of the power of the kind of yellowish incandescent light bulb we grew up with.</p>
+<p>Another reason is the Pi's very low power draw. Our principle Pi - an <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">8GB Raspberry Pi model 4B</a> - pulls under 10 Watts. Remember when your mum used to yell at you for leaving the lights on in your home? The Pi pulls less than a single modern LED lightbulb. It takes one sixth to one tenth of the power of the kind of yellowish incandescent light bulb we grew up with.</p>
 <p>That's important. A server is on 24 hours per day, 365 days per year. While you can easily repurpose an old PC or laptop as a server, any savings you make by not buying a Pi are dwarfed by the electricity bills over the course of a year.</p>
 <p>Lastly, the Pi can handle pretty much anything you can throw at it on the level of a family unit or smallish organisation (the exception being generative AI, which it handles very slowly indeed).</p>
 <p>Writing this paragraph, we don't actually <em>know</em> what we have running on the Linux Impact Raspberry Pi. We decided to take a look, and share the results.</p>
@@ -2911,243 +2980,6 @@ sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
 <p><!-- wp:paragraph --></p>
 <p>This is how the self-hosting revolution begins.</p>
 <p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Mealie - Probably the best self-hosted recipe manager... In the world.</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/"/>
-        <id>https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/</id>
-        <media:content url="https://linuximpact.com/media/posts/34/a-delicious-plate-of-food.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Raspberry Pi"/>
-            <category term="Linux"/>
-
-        <updated>2023-11-15T00:28:35+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/34/a-delicious-plate-of-food.jpg" alt="" />
-                    Self-hosted recipe managers are an essential fact of life in the Linux Impact kitchen. They solve the fundamental problem of keeping all of our recipes organised, in one place, and without the entire family history that comes with online recipes before you even get to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/34/a-delicious-plate-of-food.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Self-hosted recipe managers are an essential fact of life in the Linux Impact kitchen. They solve the fundamental problem of keeping all of our recipes organised, in one place, and without the entire family history that comes with online recipes before you even get to the actual ingredients.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I wrote about the problem for another site last year, and to save my poor fingers from excessive strain, I’ve copy pasta’d the crux of the issue below:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><em><strong>We scour the net for recipes, and in the dim and distant past, we bookmarked them for later reference. Often, the page has changed or been deleted by the time we get round to looking at them again. Cooking blogs are abandoned as their owners lose interest, and individual links on active sites become invalid as the site is updated.</strong></em></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><em><strong>Bookmarks don’t work as a long term recipe solution.</strong></em></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><em><strong>It’s far better to print off the page, either on paper or as a PDF and keep it locally. But then, organising and searching for the right recipe becomes a chore.</strong></em></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Self hosting a recipe manager means that you have web facing software on a server, into which you can plug a URL, and the software will fetch the recipe for you, list all the ingredients in the ingredients section, and itemise the method. It will pull the prep time and cooking time, and pull a relevant image and place it at the top of the recipe page.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can then follow along on your phone in the kitchen, search for and tick off items as you prowl the labyrinthine aisles of your local supermarket, and share the recipe with friends and fellow cooks.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>For the last year, Linux Impact has been using Jeppe Zapp’s excellent Nextcloud Cookbook - and it’s been great. Almost perfect, in fact.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":202,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-202"><img  src="https://linuximpact.com/media/posts/34/nextcloud_cookbook_default_view-1024x571.jpg" alt="Nextcloud cookbook showing multiple recipes" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/nextcloud_cookbook_default_view-1024x571-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">The problem with Nextcloud</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I love Nextcloud. It’s the first piece of self-hosted software I installed on my first 2GB Raspberry Pi, and I still use it today for file syncing - although the Pi has been upgraded to the more competent<a href="https://amzn.to/3omPTEM"> </a><a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" data-type="link" data-id="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">8GB Raspberry Pi 4b variant.</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I could have used an <a href="https://linuximpact.com/turn-your-old-pc-or-laptop-into-a-server-and-own-your-own-piece-of-the-internet/" data-type="post" data-id="41">old laptop, a PC or almost any old computing hardware I had lying around and repurposed it as a server</a>. The advantage of using a Pi lies in its small size and its tiny power draw - essential as it’s running 24/7.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you wanted, you could almost completely de-google simply by using self hosted alternatives available from the Nextcloud App store. It’s honestly amazing. You can install Nextcloud on your server and never have to install another thing ever again.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>But although Nextcloud has apps for everything, they are very rarely the best at what they do.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>They are the training wheels versions of self-hosted software - all of them are quite adequate to use before you feel comfortable enough to move onto full-fat stand-alone projects.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Eventually, you begin to feel the edges of their limitations and of the limitations of Nextcloud itself. It’s a huge and monolithic piece of software, the design constraints mean that every app which runs on the platform looks more-or-less the same, and although it is not slow, the UI isn’t exactly lighting quick either.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As a self-hoster, you’ll eventually come across other projects which do the same job - but better, or neater or in a more usable way, and over the course of months or years, your dependence on Nextcloud will fade as you spin up yet another subdomain to run new shiny services.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://apps.nextcloud.com/apps/news">Nextcloud News</a> gives way to FreshRSS.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Nextcloud Photos is superceded by Photoprism.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://apps.nextcloud.com/apps/music">Nextcloud Music</a> pales before <a href="https://jellyfin.org/">Jellyfin</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The functional yet uninspiring <a href="https://apps.nextcloud.com/apps/social">Nextcloud Social</a> is supplanted by a self-contained Pleroma instance.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>And now Nextcloud Cookbook is set to be replaced by Mealie. At least in my kitchen it is.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Here’s why.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="mealie-moves-fast-and-things-break" class="wp-block-heading">Mealie moves fast and things break</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://hay-kot.github.io/mealie/">Mealie</a> is a standalone self-hosted recipe manager developed by a mysterious Alaskan known only as Hay Kot. It’s beautiful, it’s functional, and it’s fast. More importantly it’s appearance isn’t tied to whatever your Nextcloud theme is, so it’s easy to get it looking exactly how you want.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":203,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-203"><img  src="https://linuximpact.com/media/posts/34/mealie_default-home_page-1024x564.jpg" alt="The mealie app showing a bunch of tasty recipes" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/mealie_default-home_page-1024x564-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>After following development since it was <a href="https://old.reddit.com/r/selfhosted/comments/kp3qih/mealie_a_self_hosted_recipe_manager_alpha_release/">first announced on Reddit</a> three months ago, I finally got around to installing it on the Pi yesterday morning. The feature I had been waiting for was user authentication - meaning that internet randos couldn’t add or edit recipes to my instance without my permission. It’s my recipe manager - I don’t mind other people using it as a reference, but I don’t want to end up adding six kilos of salt to my hash brownies because someone thought it would be funny. Authentication was added in v0.40 (ten days ago) and I jumped on board at v0.41.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Are you getting a feel for the pace of development here? An alpha announcement in January and a very solid feature packed release in April. That’s pretty damned quick.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://hay-kot.github.io/mealie/getting-started/install/">Installation</a> was a breeze - adding a few lines to my docker-compose.yml and navigating to port 9925 on the Pi gave me the interface. Setting up a reverse proxy in Apache gave me a web address for a subdomain I happened to have lying around. The entire process took maybe five minutes.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>And that’s where i ran into my first issue.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Mealie is set up with one user and default credentials - the idea is that you log in as the default user and then you can change the email and passwords, add other users, etc.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The problem was that the default user hadn’t been created during installation. It was impossible to log in. Bummer.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I created a <a href="https://github.com/hay-kot/mealie/issues/276">Github issue</a> explaining the problem and also hopped over to the <a href="https://discord.gg/R6QDyJgbD2">Mealie Discord server</a> just in case I was doing something stupid or had missed a step.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>My GitHub issue was answered with a temporary solution which fixed the problem, and within an hour, the dev had rolled out a new version - v0.41a - in which the issue was fixed.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>That is insane.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="whats-it-actually-like" class="wp-block-heading">What’s it actually like?</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Supernaturally fast bug-fixes aside, Mealie is a joy to use.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Navigate to port 9925 or the web address if you have a reverse proxy set up, and you’re greeted with all of your recipes displayed on cards. Hover over one to get a top line summary of the dish. Click on it, and it will give you the full thing - ingredients on the left and steps on the right. And it’s fast - far quicker than opening a recipe in Cookbook, which can take up to a whole second and a half!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As with Cookbook, adding recipes is as simple as plugging in a URL, then, provided the page hosting the recipe is compliant with recipe schema, it will import all the steps, ingredients, title, pictures etc.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Mealie isn’t quite as forgiving with recipes in which don’t quite meet the standard, and I’ve had a couple of imports fail - the dev is working on it. Again, consider for a second that Mealie didn’t even exist six months ago. It will get better. Alternatively, you can add recipes manually - entrusting Grannie’s secret fudge formula to Mealie’s MySQL database.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>So far, I haven’t had a lot of luck with the categories, but search works well and is quick.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Potentially, one of the best features is a meal planner. With this I can easily select meals for an entire week - or month, or whatever time period I want, and then view them by clicking on ‘Dinner Tonight’ or ‘Dinner this week.’</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":205,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-205"><img  src="https://linuximpact.com/media/posts/34/mealie_self_hosted_meal_planner-1-1024x572.jpg" alt="The mealie meal planner with recipes for five days" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/mealie_self_hosted_meal_planner-1-1024x572-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Theoretically, for any meal plan created you can view a breakdown of all the ingredients, so you can grab them on your next trip out to Tesco.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Or at least I would be able to if it worked. Which at the time of writing, it doesn’t - at least not for me. Selecting and adding the recipes works, but currently, they don’t save, meaning that I can’t actually view them later.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I am supremely confident that this will be fixed in the near future.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Other great features include the ability to import recipes from Nextcloud Cookbook and Chowdown. You can tweak the colour scheme however you want and adjust the number of recipes per page using a simple slider.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>There are so many features, options and tweaks that I’m not going to list them here. Some of them work as intended. Some don’t yet.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Right now your recipes are visible to the entire world although unsurprisingly, the option to set them to completely private is ‘on the roadmap.’ There’s also an idea to automagically pull in nutrition information for meals which is due to appear pretty soon.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="conclusion" class="wp-block-heading">Mealie is fantastic on Raspberry Pi</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/34/dinner.jpg" alt="A delicious meal served on a cast iron skillet" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/dinner-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/dinner-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/dinner-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/dinner-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/dinner-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/dinner-2xl.webp 1600w"></figure>
-<p>Mealie is smooth and polished and beautiful - with development progressing at breakneck speed. As it stands, Nextcloud Cookbook is still functionally better - it has automatically generated cooking clocks which are nice, and everything works as advertised.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>But I’m migrating my Cookbook recipes to Mealie now, and new recipes are created in Mealie rather than in Cookbook. It’s not yet feature complete, and as I keep stressing, not everything works - yet.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>But It’s very usable even in its current state, and is getting better every day.</p>
-<h2>How to easily and quickly install Mealie </h2>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/34/kitchen_pi.jpg" alt="A raspberry Pi in metallic silver passive cooled cased on a granite kitchen worktop" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/kitchen_pi-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/kitchen_pi-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/kitchen_pi-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/kitchen_pi-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/kitchen_pi-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/kitchen_pi-2xl.webp 1600w"></figure>
-<p>To get started quickly on your home network, make sure you have <a href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/" target="_blank" rel="noopener noreferrer">Docker and Docker Compose</a> installed, then create a new directory:</p>
-<pre class="language-bash"><code>mkdir mealie &amp;&amp; cd mealie</code></pre>
-<p>Use the nano text editor to create a YAML (Yet Another Markup Language) file:</p>
-<pre class="language-bash"><code>nano docker-compose.yml</code></pre>
-<p>Into it, paste the following</p>
-<pre class="language-apacheconf"><code>version: '3.5'
-services:
-  mealie:
-    container_name: mealie
-    image: hkotel/mealie:latest
-    restart: always
-    ports:
-      - 9925:80
-    environment:
-      DB_TYPE: sqlite
-      TOKEN_TIME: 999999
-      TZ: Europe/London
-    volumes:
-      - ./mealie/data/:/app/data
-</code></pre>
-<p> Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X.</strong></p>
-<p>And bring up Docker Compose in detached mode with:</p>
-<pre class="language-bash"><code>docker-compose up -d</code></pre>
-<p>Docker Compose will pull images and set up containers, when you're return to the command line, check their health with:</p>
-<pre class="language-bash"><code>docker-compose ps</code></pre>
-<p>Now open a browser and navigate to <strong>your-pi-local-ip-address:9925</strong></p>
-<p class="admonition-title">The default credentials should be:</p>
-<p><strong>Username:</strong> changeme@example.com</p>
-<p><strong>Password:</strong> MyPassword</p>
-<p class="msg msg--success">Log in and change them, then get started creating recipes!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="tandoor-another-contender" class="wp-block-heading">Tandoor: Another contender</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Mealie isn’t the only alternative to cookbook. One which I haven’t yet tried on my own server, but which looks very promising is <a href="https://github.com/vabene1111/recipes">Tandoor Recipes</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Tandoor has been around for a lot longer than Mealie and has many more features - including the ability to import from both Nextcloud cookbook and Mealie; generate shopping lists; and recipe scaling, which is fabulous - tell it how many people you’re cooking for and it will adjust the quantities for you.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I haven’t installed it but I’ve had a quick go on the <a href="https://app.tandoor.dev">demo server</a>, and I’m impressed. Image and page loading was a bit slow, but without actually spinning up an instance myself, I can say whether that’s down the the app or down to the hosting.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you feel the need for something a little more stable than Mealie in its current state, and with more features than Cookbook, then Tandoor Recipes might be just what you’re looking for.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":206,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-206"><img  src="https://linuximpact.com/media/posts/34/tandoor_recipes_default_interface-1024x578.jpg" alt="Tandoor recipes on a black background" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-xs.webp 300w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-sm.webp 480w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-md.webp 768w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-lg.webp 1024w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-xl.webp 1360w ,https://linuximpact.com/media/posts/34/responsive/tandoor_recipes_default_interface-1024x578-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
             ]]>
         </content>
     </entry>
