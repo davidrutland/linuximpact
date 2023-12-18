@@ -442,7 +442,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/</loc>
-<lastmod>2023-11-10T16:57:30+00:00</lastmod>
+<lastmod>2023-12-14T10:21:24+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/38/docked.jpg</image:loc>
 <image:title><![CDATA[A cabin cruiser docked next to a pier at sunrise]]></image:title>
@@ -1274,6 +1274,26 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/20/firefox-pdf-reader-1024x559.jpg</image:loc>
 <image:title><![CDATA[firefox PDF reader showing The Giver]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/use-obfuscate-to-easily-censor-private-information-in-images/</loc>
+<lastmod>2023-12-18T09:41:14+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/77/obfuscated.png</image:loc>
+<image:title><![CDATA[Extract of "Dog behaviour" heavily obfuscated with black rectangles]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/77/hoody.png</image:loc>
+<image:title><![CDATA[Someone wearing a hoody - standing against a brick wall. Face is not visible]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/77/install-obfuscate-with-flatpak-2.png</image:loc>
+<image:title><![CDATA[Linux terminal showing a monster download to install the Obfuscate flatpak]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/77/v5.png</image:loc>
+<image:title><![CDATA[A DVLA document with details blocked by black rectangles]]></image:title>
 </image:image>
 </url>
 <url>
