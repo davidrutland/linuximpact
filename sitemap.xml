@@ -1109,6 +1109,26 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal/</loc>
+<lastmod>2023-12-18T17:41:52+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/78/tcp.png</image:loc>
+<image:title><![CDATA[Linux terminal showing The Clipboard Project overlaid with a semi-transparent image of an actual clipboard on a desk]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/78/clipboard.png</image:loc>
+<image:title><![CDATA[A clipboard and pen on a white desk]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/78/install-clipboard-with-curl-pipe-to-bash.jpg</image:loc>
+<image:title><![CDATA[terminal output after running the clipboard project install script ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/78/cb_show.png</image:loc>
+<image:title><![CDATA[output of cb show command - showing a variety of files on the clipboard]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/the-teeniest-tiniest-laptop-in-the-west/</loc>
 <lastmod>2023-11-16T15:20:20+00:00</lastmod>
 <image:image>

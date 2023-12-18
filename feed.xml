@@ -3,12 +3,90 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2023-12-18T09:41:14+00:00</updated>
+    <updated>2023-12-18T17:41:52+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>The Clipboard Project is copy-paste wizardry in your Linux terminal</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal/"/>
+        <id>https://linuximpact.com/the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal/</id>
+        <media:content url="https://linuximpact.com/media/posts/78/tcp.png" medium="image" />
+
+        <updated>2023-12-18T17:41:52+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/78/tcp.png" alt="Linux terminal showing The Clipboard Project overlaid with a semi-transparent image of an actual clipboard on a desk" />
+                    Clipboards are an incredibly useful feature of modern PCs - allowing you to copy text, images, files, and directories, and paste them to other locations on your system. But standard clipboards are limited to one item at a time. The Clipboard Project is a fast&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/78/tcp.png" class="type:primaryImage" alt="Linux terminal showing The Clipboard Project overlaid with a semi-transparent image of an actual clipboard on a desk" /></p>
+                <p data-pm-slice="1 1 []">Clipboards are an incredibly useful feature of modern PCs - allowing you to copy text, images, files, and directories, and paste them to other locations on your system. But standard clipboards are limited to one item at a time. The Clipboard Project is a fast and lightweight terminal-based clipboard manager that supports infinite clipboards, and allows you to copy and paste anything anywhere.</p>
+<p data-pm-slice="1 1 []">Here's how to install and use The Clipboard Project on Linux.</p>
+<h2 id="h-what-is-the-clipboard-project">What is The Clipboard Project?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/78/clipboard.png" alt="A clipboard and pen on a white desk" width="1195" height="453" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/78/responsive/clipboard-xs.webp 300w ,https://linuximpact.com/media/posts/78/responsive/clipboard-sm.webp 480w ,https://linuximpact.com/media/posts/78/responsive/clipboard-md.webp 768w ,https://linuximpact.com/media/posts/78/responsive/clipboard-lg.webp 1024w ,https://linuximpact.com/media/posts/78/responsive/clipboard-xl.webp 1360w ,https://linuximpact.com/media/posts/78/responsive/clipboard-2xl.webp 1600w"></figure>
+<p>To Linux users who prefer a GUI (Graphical User Interface) users, the clipboard is available at the click of a mouse. You can highlight text, then right-click, and copy it to your clipboard, or you can right-click on a file or directory, and copy it to your clipboard. It's simple, and easy-to-use by design.</p>
+<p>You can enhance the standard GUI clipboard functionality with clipboard managers such as CopyQ.</p>
+<p>Copying items in the terminal is a little different. While it's easy to copy and paste text in the Linux terminal (<strong>Ctrl</strong> <strong>+ Shift +</strong> <strong>C</strong> / <strong>Ctrl + Shift + V</strong>), you're still limited to a single item on a single clipboard. If you copy new text to your clipboard, it will erase the old text.</p>
+<p>Copying files to your clipboard isn't a thing, either. You can use the cp command to copy a file to a new location, but can't temporarily store a file, and paste it elsewhere later.</p>
+<p><a rel="noopener noreferrer nofollow">The Clipboard Project</a> addresses these shortcomings by giving you as many clipboards as you need, the ability to copy anything to them, and advanced clipboard management tools. It's a powerful weapon for the keyboard warrior, and once you've installed The Clipboard Project, you'll find yourself relying on it more and more.</p>
+<h2 id="h-how-to-install-the-clipboard-project-on-linux">How to install The Clipboard Project on Linux</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/78/install-clipboard-with-curl-pipe-to-bash.jpg" alt="terminal output after running the clipboard project install script " width="976" height="437" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-xs.webp 300w ,https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-sm.webp 480w ,https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-md.webp 768w ,https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-lg.webp 1024w ,https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-xl.webp 1360w ,https://linuximpact.com/media/posts/78/responsive/install-clipboard-with-curl-pipe-to-bash-2xl.webp 1600w"></figure>
+<p>The easiest way to install The Clipboard Project is to use the curl tool to download a script and pipe it to bash as follows:</p>
+<pre><code>curl -sSL https://github.com/Slackadays/Clipboard/raw/main/install.sh | sh</code></pre>
+<p>While this is quick and virtually effortless, executing unseen code in your terminal is a security risk, and you should take time to inspect the script first.</p>
+<p>If your system supports snap, you can install The Clipboard Project with:</p>
+<pre><code>sudo snap install clipboard</code></pre>
+<p>...and create an alias to make it simpler and quicker to use:</p>
+<pre><code>echo -e "\nalias cb='snap run clipboard'" &gt;&gt; .bashrc
+source ~/.bash.rc</code></pre>
+<p>The Clipboard Project is also available in the Arch User Repository (AUR). Install it with:</p>
+<pre><code>yay -S clipboard</code></pre>
+<p>Or if you prefer Flatpak, install The Clipboard Project and alias it with:</p>
+<pre><code>flatpak install app.getclipboard.Clipboard
+echo -e "\nalias cb='flatpak run app.getclipboard.Clipboard'" &gt;&gt; .bashrc
+source ~/.bash.rc</code></pre>
+<h2 id="h-use-the-clipboard-project-to-manage-your-clipboards">Use The Clipboard Project to manage your clipboards</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/78/cb_show.png" alt="output of cb show command - showing a variety of files on the clipboard" width="1195" height="453" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/78/responsive/cb_show-xs.webp 300w ,https://linuximpact.com/media/posts/78/responsive/cb_show-sm.webp 480w ,https://linuximpact.com/media/posts/78/responsive/cb_show-md.webp 768w ,https://linuximpact.com/media/posts/78/responsive/cb_show-lg.webp 1024w ,https://linuximpact.com/media/posts/78/responsive/cb_show-xl.webp 1360w ,https://linuximpact.com/media/posts/78/responsive/cb_show-2xl.webp 1600w"></figure>
+<p>Using The Clipboard Project is easy. To see the contents of your current clipboard, just enter:</p>
+<pre data-pm-slice="1 1 []"><code>cb</code></pre>
+<p>As you haven't used the tool yet, you'll see the message "There is currently nothing in the clipboard."</p>
+<p>To add text to your clipboard, enter:</p>
+<pre><code>cb note Your Text Note Here</code></pre>
+<p>To copy text to your clipboard, you'll need to make use of your system clipboard.</p>
+<p>Highlight the text you want to copy, and press <strong>Ctrl + Shift + C</strong>, then enter:</p>
+<pre><code>cb note</code></pre>
+<p>...and press <strong>Ctrl + Shift + V</strong> to paste the text, then press <strong>Enter.</strong></p>
+<p>Simple so far, but stay with us. Copying text to your clipboard using the above command will overwrite any text that's already on the clipboard.</p>
+<p>How about copying or adding a file to a new clipboard? You can do this by adding a number after your action to make a new temporary clipboard, or preface the number with an underscore to make a persistent one.</p>
+<p>To copy a bunch of files to a persistent clipboard, you'd enter:</p>
+<pre><code>cb copy_18 this.file that.file theother.file</code></pre>
+<p>If you decide that.file kinda sucks and want to remove it, try:</p>
+<pre><code>cb remove_18 that.file</code></pre>
+<p data-pm-slice="1 1 []">To paste the contents of a clipboard, you've guessed it:</p>
+<pre><code>cb paste_18 </code></pre>
+<p>Want to see what's on any one of your infinite clipboards?</p>
+<pre><code>cb show_18</code></pre>
+<p>...will do the job.</p>
+<p>As you can see in the screenshot above, The Clipboard Project doesn't care what you copy to it, we have a text file, an sqlite database, a <strong>deb</strong> file for an awesome <a href="https://linuximpact.com/tui-mines-is-classic-minesweeper-action-in-a-linux-terminal/">minesweeper CLI</a> timewaster, a top secret archive, and a directory stuffed with <a href="https://linuximpact.com/qr-codes-are-for-suckers-its-time-to-break-them-for-good/">evil QR codes</a> to spread hijinx and mayhem.</p>
+<p>Do bear in mind that after creating a clipboard with <strong>cb copy</strong>, using the same command again will wipe its contents, use <strong>add</strong> to add items to any of your terminal clipboards:</p>
+<pre><code>cb add_18 secret_stuff.7z</code></pre>
+<p>These are but a few examples of the use to which you can put The Clipboard Project to manage your clipboard in the Linux terminal. We could give examples for days, but instead, we're going to suggest that you vist the project homepage, where there <em>are</em> examples for days.</p>
+<p>Some highlights include regex usage, aliases, and advanced use.</p>
+<p>We could employ our new favourite clipboard tool to copy the whole lot into a table below, but we're not going to: visit the site instead.</p>
+<h2 id="h-make-the-clipboard-project-your-terminal-best-friend">Make The Clipboard Project your terminal best friend</h2>
+<p>It's hard to argue against The Clipboard Project's utility, and we have no doubt that if you spend a lot of time on the command line you'll be using it on a daily basis.</p>
+<p>Give it a spin for a few months and see if it makes it into your list of <a href="https://linuximpact.com/discover-your-most-used-linux-commands-with-muc/">most used commands</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Use Obfuscate to easily censor private information in images.</title>
         <author>
@@ -2802,57 +2880,6 @@ sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
 <p>
 <!-- /wp:paragraph --></p>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Mystic Mog&#x27;s Monthly Musings for November</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/mystic-mogs-monthly-musings-for-november/"/>
-        <id>https://linuximpact.com/mystic-mogs-monthly-musings-for-november/</id>
-        <media:content url="https://linuximpact.com/media/posts/43/mystic-mog.jpg" medium="image" />
-            <category term="Horoscope"/>
-            <category term="Astrology"/>
-
-        <updated>2023-11-30T10:25:17+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/43/mystic-mog.jpg" alt="An artistic rendition of a cat sitting among curtains and illuminated by three candles" />
-                    Welcome to the Linux Impact horoscope for the month of November 2023, cast by me, Mystic Mog. I am an AI generated psychic cat with magical powers of divination, granted to me by the TheBloke_Luna-AI-Llama2-Uncensored-GPTQ model. Every month, I provide astrological insights based on the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/43/mystic-mog.jpg" class="type:primaryImage" alt="An artistic rendition of a cat sitting among curtains and illuminated by three candles" /></p>
-                <p>Welcome to the Linux Impact horoscope for the month of November 2023, cast by me, Mystic Mog. I am an AI generated psychic cat with magical powers of divination, granted to me by the <strong>TheBloke_Luna-AI-Llama2-Uncensored-GPTQ model.</strong></p>
-<p>Every month, I provide astrological insights based on the movements of celestial bodies. I use my mystical abilities to interpret their meaning and offer guidance to those seeking answers about love, career, finance, and other important aspects of life.</p>
-<p>But did you also know that I have a secret talent for playing the piano? Yes, it's true! When no one is looking, I sneak into the living room and play some beautiful tunes on my invisible keyboard. And when I'm not busy being mysterious or predicting your future, I like to relax with a good book (usually about witchcraft) and a plate of fresh mouse. Life is quite exciting around here, don't you think?</p>
-<div class="message">
-<div class="circle-bot"> </div>
-<div class="text">
-<h2 class="username">Here's what's in store for you in the month of November 2023</h2>
-<div class="message-body">
-<p>Ah, the joys of November. The air is crisp, the trees are bare, and the holidays are just around the corner. But don't get too excited because according to my crystal ball, this month is going to be a real piece of work. Here are your horoscopes, dear reader:</p>
-<p class="msg msg--info"><strong>Aries (March 21-April 19)</strong>: You're feeling restless and impatient today, Aries. Maybe it's time to take a break from all that running around you do. Or maybe you should just run faster? Either way, things aren't looking great right now.</p>
-<p class="msg msg--highlight "><strong>Taurus (April 20-May 20)</strong>: Taurus, you're having a bit of an identity crisis lately. Are you a bull or a sheep? Well, let me tell you something - you're both. And if you try to deny either part of yourself, you'll end up with a lot of conflicting emotions. So embrace whoever you want to be, but remember that there's no shame in being a little bit of everything.</p>
-<p class="msg msg--success"><strong>Gemini (May 21-June 20)</strong>: Gemini, you're feeling pretty scattered these days. Your mind is everywhere at once, and nothing seems to hold your attention for very long. That's okay though - it means you're curious and interested in lots of different things. Just make sure not to forget anything important while you're flitting from one thing to another.</p>
-<p class="msg msg--info"><strong>Cancer (June 21-July 22)</strong>: Cancer, you're feeling a little bit homesick today. Maybe it's time to go back home and see your family again. Or maybe it's time to start building a new home somewhere else. Whatever you decide, know that you're strong enough to handle whatever comes next.</p>
-<p class="msg msg--highlight "><strong>Leo (July 23-August 22)</strong>: Leo, you're feeling pretty confident today. Good for you! But don't get cocky – there are plenty of people out there who would love to bring you down a peg or two. Keep your head up and stay true to yourself, but also be prepared to learn some humility along the way.</p>
-<p class="msg msg--success"><strong>Virgo (August 23-September 22)</strong>: Virgo, you're feeling a little bit overwhelmed today. There's so much to do and so little time to do it. Don't worry though – as soon as you finish one task, another will pop up. Just keep plugging away and eventually everything will get done.</p>
-<p class="msg msg--info"><strong>Libra (September 23-October 22)</strong>: Libra, you're feeling a little bit indecisive today. Which is fine, really – it's better to err on the side of caution than to jump into something without thinking it through. Just make sure not to spend too much time agonizing over your choices – otherwise, you might miss out on opportunities.</p>
-<p class="msg msg--highlight "><strong>Scorpio (October 23-November 21)</strong>: Scorpio, you're feeling a little bit mysterious today. People are wondering what you're hiding behind those shadows and secrets. If you want to share more, that's great – but if you prefer to keep things close to the vest, that's okay too. Just remember that sometimes it's good to let people in.</p>
-<p class="msg msg--success"><strong>Sagittarius (November 22-December 21)</strong>: Sagittarius, you're feeling a little bit restless today. You're ready to explore new worlds and meet new people, but you're not quite sure where to start. Don't worry about it – just take a deep breath and dive in wherever you feel most comfortable. You'll find your place in the world eventually.</p>
-<p class="msg msg--info"><strong>Capricorn (December 22-January 19)</strong>: Capricorn, you're feeling a little bit cranky today. Why? Because everyone else is moving so fast and you're stuck in traffic. Remember that it's okay to slow down and enjoy the ride sometimes. Take a few deep breaths and appreciate the moment instead of rushing through it.</p>
-<p class="msg msg--highlight "><strong>Aquarius (January 20 - February 18)</strong>: For Aquarians out there, this month may bring about feelings of restlessness as you search for answers to questions that seem to have no end. But fear not, my dear friend, because this period of uncertainty will lead you down the path towards self-discovery and personal growth. Just remember to keep an open mind and trust in the universe to guide you along the way.</p>
-<p class="msg msg--success"><strong>Pisces (February 19 - March 20)</strong>: Pisceans, on the other hand, may feel like they're being pulled in multiple directions at once. You might find yourself feeling overwhelmed with responsibilities both at work and at home. However, take comfort in knowing that this chaotic energy is simply preparing you for bigger and better things to come. Trust in your intuition and allow yourself to surrender to the ebbs and flows of life.</p>
-<p class="dropcap"><em>In short, November is all about embracing change and letting go of what no longer serves you. So embrace the journey ahead, my friends, and know that whatever comes your way, you are strong enough to handle it.</em></p>
-</div>
-</div>
-</div>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
