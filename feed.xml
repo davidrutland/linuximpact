@@ -3,12 +3,145 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-01-08T12:17:57+00:00</updated>
+    <updated>2024-01-12T14:24:50+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Keep an eye on your self-hosted services with statping-ng </title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/keep-an-eye-on-your-self-hosted-services-stability-with-statping-ng/"/>
+        <id>https://linuximpact.com/keep-an-eye-on-your-self-hosted-services-stability-with-statping-ng/</id>
+        <media:content url="https://linuximpact.com/media/posts/81/linux-impact-online.png" medium="image" />
+            <category term="Tips"/>
+            <category term="Software"/>
+            <category term="Self-hosted"/>
+            <category term="Linux"/>
+            <category term="Internet"/>
+            <category term="Hosting"/>
+
+        <updated>2024-01-12T14:24:50+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/81/linux-impact-online.png" alt="Green graph on a white background with figures showing 64ms response time, and 99.96 percent uptime for LinuxImpact.com" />
+                    Self-hosting services and websites can be a nerve-racking experience - especially if other people are relying on the infrastructure you provide. You need to know what services are running, how well they're performing, and be instantly alerted to any problems. Statping-ng is an uptime monitor&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/81/linux-impact-online.png" class="type:primaryImage" alt="Green graph on a white background with figures showing 64ms response time, and 99.96 percent uptime for LinuxImpact.com" /></p>
+                <p data-pm-slice="1 1 []">Self-hosting services and websites can be a nerve-racking experience - especially if other people are relying on the infrastructure you provide.</p>
+<p>You need to know what services are running, how well they're performing, and be instantly alerted to any problems.</p>
+<p>Statping-ng is an uptime monitor and dashboard that can keep track of any number of services and send you alerts when there's a problem.</p>
+<p>In other words (and this was a strong candidate for the article title), statping-ng supplies seamless self-hosted sites and services surveillance and stability.</p>
+<h2 id="h-why-use-an-uptime-monitor-when-self-hosting-services-and-sites">Why use an uptime monitor when self-hosting services and sites?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/81//happy-people.png" alt="A group of people in a library - looking at laptops and laughing" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/81//responsive/happy-people-xs.webp 300w ,https://linuximpact.com/media/posts/81//responsive/happy-people-sm.webp 480w ,https://linuximpact.com/media/posts/81//responsive/happy-people-md.webp 768w ,https://linuximpact.com/media/posts/81//responsive/happy-people-lg.webp 1024w ,https://linuximpact.com/media/posts/81//responsive/happy-people-xl.webp 1360w ,https://linuximpact.com/media/posts/81//responsive/happy-people-2xl.webp 1600w"></figure>
+<p>Running your own sites and services as a replacement for proprietary offerings from tech giants is a liberating experience. It takes away from the world of surveillance advertising, and gives you a degree of independence to own your own stuff on your own little corner of the internet.</p>
+<p>Here at the Linux Impact mansion we run almost everything from a <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325">Raspberry Pi 4B</a>, and while we don't have space to list everything we self-host, a few highlights include <a href="https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/">Snikket as a WhatsApp alternative</a>; <a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/">Immich</a> (which is far superior to Google Photos); <a href="https://linuximpact.com/trilium-notes-is-the-self-hosted-evernote-alternative-youre-looking-for/">Trilium</a> instead of Evernote; <a href="https://linuximpact.com/paranoid-and-perplexed-by-plex-privacy-pickle-just-enjoy-jellyfin/">Jellyfin</a> as a replacement for Netflix and Spotify; <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobookshelf</a> as a home for our audiobooks.</p>
+<p>There are more self-hosted services, of course, including email services, and 'proper' websites, but these are the ones we rely on, and more to the point. They're the ones our family and a limited group of friends rely on, too.</p>
+<p>They're too important to have any significant downtime beyond the occasional system reboot.</p>
+<p>Sometimes things fail. Maybe it's that a Docker container failed to start; perhaps you're being DDoSed; occasionally apps crash for no discernible reason at all.</p>
+<p>The point is that you need a system where you can monitor performance, and know instantly when something goes wrong.</p>
+<p>statping-ng is a self-hosted app that will periodically ping your sites and services, create graphs, and let you know when something's wrong.</p>
+<p>Ideally you should host statping on an entirely different physical server from the services you're monitoring. It's very lightweight, and we're running our instance on a bargain basement $10 / year <a rel="noopener noreferrer nofollow">Racknerd VPS</a> (also in use as a mail server).</p>
+<p>It shouldn't be too big of an issue if you host it on your Raspberry Pi along with everything else though.</p>
+<h2 id="h-how-to-install-statping-ng-on-linux">How to install statping-ng on Linux</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/81//statping-ng-docker-compose.png" alt="Docker compose file for statping-ng open in nano text editor" width="1919" height="1078" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-xs.webp 300w ,https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-sm.webp 480w ,https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-md.webp 768w ,https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-lg.webp 1024w ,https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-xl.webp 1360w ,https://linuximpact.com/media/posts/81//responsive/statping-ng-docker-compose-2xl.webp 1600w"></figure>
+<p>The easiest way to install statping-ng on your server is by using the ready-made script. Just make sure you have curl installed:</p>
+<pre><code>sudo apt install curl</code></pre>
+<p>...then use curl to download the script and pipe it to bash:</p>
+<pre><code> curl -o- -L https://raw.githubusercontent.com/statping-ng/statping-ng/stable/install.sh | bash </code></pre>
+<p>We prefer to use a dockerised solution, as it gives us more control. Either way is good, but if you prefer to follow our example, make sure you have <a href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/">Docker and Docker Compose installed</a>, then create a new directory within your home directory, and use the <strong>cd</strong> command to move into it:</p>
+<pre><code>mkdir statping-ng &amp;&amp; cd statping-ng</code></pre>
+<p>Use the <strong>nano</strong> text editor to create a new file for Docker compose:</p>
+<pre><code>nano docker-compose.yml</code></pre>
+<p>In it, paste the following:</p>
+<pre><code>version: '2.3'
+
+services:
+  statping:
+    container_name: statping
+    image: adamboutcher/statping-ng:latest
+    restart: always
+    volumes:
+      - statping_data:/app
+    environment:
+      DB_CONN: sqlite
+    ports:
+      - 8080:8080
+
+volumes:
+  statping_data:</code></pre>
+<p>If you're running other services on port 8080, make sure you change the port number.</p>
+<p>Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>.</p>
+<p>The following command will download the relevant images and set up containers for statping-ng:</p>
+<pre><code>docker-compose up -d</code></pre>
+<p>Now visit your statping-ng instance at your.server.ip.address:8080/login</p>
+<p>Log in with the username <strong>admin</strong>, and the password <strong>admin</strong>, then go to <strong>Users</strong> and change these credentials to something more secure.</p>
+<p>You'll want to access statping-ng over the internet, so head over to your registrar and create a new domain or subdomain. Set the value as your server or home IP address and the TTL as low as possible.</p>
+<p>Back on your server, make sure you have the necessary Apache mods enabled:</p>
+<pre><code>sudo a2enmod proxy proxy_http rewrite</code></pre>
+<p>Create a new config file for Apache:</p>
+<pre><code>cd /etc/apache2/sites/available
+sudo nano statping-ng.conf</code></pre>
+<p>In the new file, paste the following:</p>
+<pre><code>&lt;VirtualHost *:80&gt;
+ServerName your-domain.tld
+ProxyPass / http://127.0.0.1:8080/
+ProxyPassReverse / http:/127.0.0.1:8080/
+ProxyPreserveHost On
+&lt;/VirtualHost&gt;</code></pre>
+<p>Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong></p>
+<p>Enable the site, and restart Apache with:</p>
+<pre><code>sudo a2ensite statping-ng.conf
+sudo service apache2 restart</code></pre>
+<p>At this point, you should be able to reach your statping-ng instance, by typing the address into the URL bar of your browser, but because you're connecting over <strong>HTTP</strong> rather than <strong>HTTPS</strong>, you're vulnerable to man in the middle attacks.</p>
+<p>Certbot is an easy-to-use tool you can deploy to manage your TLS keys, certificates, and encryption. If you don't already have it on your server, install it now by entering:</p>
+<pre><code>sudo add-apt-repository ppa:certbot/certbot
+sudo apt update
+sudo apt install certbot</code></pre>
+<p>Run Certbot to fetch new certificates and keys:</p>
+<pre><code>sudo certbot</code></pre>
+<p>Follow the prompts, and select your statping-ng domain name from a list. Choose to automatically updrage all connections, and when you're returned to the prompt, restart Apache once more with:</p>
+<pre><code>sudo service apache2 restart</code></pre>
+<p>That's it. Statping-ng is installed, secured, and you can access it via your domain name over HTTPS!</p>
+<h2 id="h-set-up-statping-ng-as-a-self-hosted-status-page-for-all-your-sites-and-services">Set up statping-ng as a self-hosted status page for all your sites and services!</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/81//linux-impact-latency.png" alt="Statping web interface showing Linux impact latency" width="1364" height="678" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-xs.webp 300w ,https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-sm.webp 480w ,https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-md.webp 768w ,https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-lg.webp 1024w ,https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-xl.webp 1360w ,https://linuximpact.com/media/posts/81//responsive/linux-impact-latency-2xl.webp 1600w"></figure>
+<p>Type your domain name into the URL bar of any browser and you'll be greeted with the Title, "Statping Sample Data", and the revelation that, "This status page has sample data included".</p>
+<p>The sample data contains uptime stats for sites including GitHub, Google, and some API endpoints. As useful as this information is, it's not <em> your</em> information.</p>
+<p>Visit <strong>your-domain.tld/dashboard/services</strong>, and log in.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/81//delete-google.png" alt="Statping showing a dialog box asking if we want to delete the Google service" width="1503" height="858" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/81//responsive/delete-google-xs.webp 300w ,https://linuximpact.com/media/posts/81//responsive/delete-google-sm.webp 480w ,https://linuximpact.com/media/posts/81//responsive/delete-google-md.webp 768w ,https://linuximpact.com/media/posts/81//responsive/delete-google-lg.webp 1024w ,https://linuximpact.com/media/posts/81//responsive/delete-google-xl.webp 1360w ,https://linuximpact.com/media/posts/81//responsive/delete-google-2xl.webp 1600w"></figure>
+<p>Unless you especially want to keep monitoring to see if Google goes down, click the red <strong>X</strong> icon next to all of the services and groups.</p>
+<p>The next thing thing you should do is create groups for your services. These can be whatever you want. We created one for conventional websites such as this one; one for services that we share with others, and one for services that have only one user (this writer). This allows us to prioritise and see the important stuff at a glance. If our Mealie instance goes down, it's not a huge deal, but if our mail or audiobook servers drop offline at 2.30 AM, we're out of bed and dealing with it. You can also easily toggle group visibility so the associated services don't show to users who aren't logged in.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/81//statping-service-options.png" alt="Some of the options available when adding a statping service" width="1725" height="806" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/81//responsive/statping-service-options-xs.webp 300w ,https://linuximpact.com/media/posts/81//responsive/statping-service-options-sm.webp 480w ,https://linuximpact.com/media/posts/81//responsive/statping-service-options-md.webp 768w ,https://linuximpact.com/media/posts/81//responsive/statping-service-options-lg.webp 1024w ,https://linuximpact.com/media/posts/81//responsive/statping-service-options-xl.webp 1360w ,https://linuximpact.com/media/posts/81//responsive/statping-service-options-2xl.webp 1600w"></figure>
+<p>Add new services by clicking the green <strong>Create</strong> button, at the top right of the services page, and you'll find a bunch of boxes. Don't worry, you can leave most of these as they are. You'll need to give your service a name, and choose whether it's HTTP, TCP, UDP, gRPC, static, or if you just want an IMCP ping. A permalink URL means you can go directly to the status page of a service, so make it short and sweet. You'll find the page at <strong>your-domain.tld/service/permalink-name</strong>.</p>
+<p>The <strong>Public Service</strong> toggle is self explanatory, and you'll need to specify a <strong>Check Interval</strong>. This is how often you want statping-ng to check if your service is still alive - 60 seconds is good in our opinion.</p>
+<p><strong>Service Endpoint</strong> is the URL you want to query - in most cases this will simply be the domain name or subdomain of your service, and by default the type will be a simple GET request. You can change this in the drop-down, and additionally select from POST, DELETE, PATCH, or PUT.</p>
+<p>Below this, you can specify the expected response and status codes. The default is 200, but again, you can set this whatever you want.</p>
+<p>Lastly, you'll want to tailor your notifications. You can have them turned off entirely if you prefer, and choose how many failed requests will trigger a notification to drag you from your otherwise busy and fulfilling day.</p>
+<p>When you're done, click the big green <strong>Create service</strong> button.</p>
+<h2 id="h-get-notified-of-failing-services-with-statping-ng">Get notified of failing services with statping-ng</h2>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
+<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113634_Statping.png" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113634_Statping-thumbnail.webp" alt="Statping android app overview page showing linux impact and other services" width="768" height="1690"></a></figure>
+<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113647_Statping.png" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113647_Statping-thumbnail.webp" alt="Statping android app showing Linux impact response time and associated info" width="768" height="1690"></a></figure>
+<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113702_Statping.png" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113702_Statping-thumbnail.webp" alt="Statping android app showing Linux impact response time and failed response" width="768" height="1690"></a></figure>
+<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-133713_Statping.png" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-133713_Statping-thumbnail.webp" alt="showinStatping android app showing benefits of pro version" width="768" height="1690"></a></figure>
+</div></div>
+<p>Head over to <strong>Settings</strong>, and you'll see a wealth of options. You'll definitely want to change the Status Page Name to something memorable, and set a witty one-liner for the description. If your native language is something other than English, you have a choice of Spanish, French, Russian, German, Czech, Japanese, Italian, Korean, or Chinese.</p>
+<p>While you're here, you can also configure a theme, setup OAuth, and import or export your current Statping services, groups, notifiers, and other settings to a JSON file.</p>
+<p>The big thing is the notifiers section, and statping-ng can notify you of failing or dead services in no few than 14 different ways including via email, Discord, Slack, Telegram, Mattermost, and via the Statping mobile app (<a rel="noopener noreferrer nofollow">Statping on Google Play</a> | <a href="https://apps.apple.com/us/app/apple-store/id1445513219" rel="noopener noreferrer nofollow">Statping on iOS</a>).</p>
+<p>We recommend the dedicated app for a few reasons. In addition to the notifications, you also have graphs and details at your fingertips, and you can easily add new services to monitor while you're out and about. The app is free <em>but, </em>if you want the in-app notifications you'll need to "become pro" through a one-time in-app purchase. The pro model also gets you a dark theme, which is nice.</p>
+<p>We opted for using the free tier statping app, plus notifications via email. How urgent can it be, after all?</p>
+<h2 id="h-install-even-more-self-hosted-apps-on-your-raspberry-pi-or-home-server">Install even <em>more</em> self-hosted apps on your Raspberry Pi or home server</h2>
+<p>System stability is always a potential worry when you're flushing big tech out of your life and replacing it with your own self-hosted software. With statping-ng, you can be reasonably confident that if anything fails, you can find out and fix it straight away. This gives you the excuse to try out even more self-hosted options.</p>
+<p>In addition to the self-hosted projects mentioned above, we recommend trying <a href="https://linuximpact.com/freshrss-stay-safe-and-never-visit-another-website-again/">FreshRSS</a>, <a href="https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/">PiHole</a>, and <a href="https://linuximpact.com/deploy-photoprism-and-host-your-own-google-photos-alternative/">PhotoPrism</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Use GitHub RSS feeds to stay up-to-date with your favourite projects </title>
         <author>
@@ -2479,137 +2612,6 @@ sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>While you can do virtual everything you'd normally do in cool-retro-term, we feel you'd be missing out if you didn't fully embrace the nostalgia by running some cool retro games. We'd especially recommend <a href="https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/" data-type="post" data-id="384">Colossal Cave Adventure</a> - the world's first text adventure.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to install the latest version of Docker Compose on Linux (and why you should)</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/"/>
-        <id>https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/</id>
-        <media:content url="https://linuximpact.com/media/posts/38/docked.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Terminal"/>
-            <category term="Software"/>
-            <category term="CLI"/>
-
-        <updated>2023-12-14T10:21:24+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/38/docked.jpg" alt="A cabin cruiser docked next to a pier at sunrise" />
-                    It's an understatement to say that Linux has a diverse software ecosystem. No two distros are identical, and each person's setup is unique to them in terms of both software and hardware. While this is great if you want to express your individuality and indulge&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/38/docked.jpg" class="type:primaryImage" alt="A cabin cruiser docked next to a pier at sunrise" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>It's an understatement to say that Linux has a diverse software ecosystem. No two distros are identical, and each person's setup is unique to them in terms of both software and hardware.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While this is great if you want to express your individuality and indulge your curiosity by running the latest niche project on DistroWatch, it makes it difficult for developers to create software for a standard Linux environment - because there isn't one.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>All software has dependencies that you need to have installed on your system before you can install certain packages. What those packages are, and what packages are available to you will vary wildly. If you're too far from 'the norm', or if the versioning isn't quite right, you could end up in dependency hell.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-use-containers-to-create-standard-environments" class="wp-block-heading">Use containers to create standard environments</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Containerisation is the solution to situations where managing dependencies can become excessively complex, problematic, and error-prone.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Instead of creating and releasing a single app, developers while produce a container that includes everything the app needs to run. This can include pre-configured databases, dependencies pinned to a certain version, or even full-blown operating system bases.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While there are many container orchestration tools, Docker is the most commonly used, and the ancillary project, Docker Compose, allows you to define and run multi-container Docker applications. With Docker compose, you can manage any number of local or web-facing applications, with nothing more than a simple markup file, and some easy-to-recall commands.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-install-docker-on-debian-ubuntu-and-raspberry-pi-os" class="wp-block-heading">Install Docker on Debian, Ubuntu, and Raspberry Pi OS</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Docker is available in the standard repositories, and there are rarely any breaking changes from the most recent version (at least we've never heard of any ). To install Docker on any Debian derived system, open a terminal, and enter</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><code>sudo apt install docker.io</code></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Docker runs as a privileged daemon, with root powers. You'll need to add your user to the Docker group in order to summon it:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><code>sudo usermod -aG docker your_username</code></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now log out and back in again for the changes to take effect</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-dont-install-docker-compose-from-the-default-repository" class="wp-block-heading">Don't install Docker Compose from the default repository!</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":377,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-377"><img  src="https://linuximpact.com/media/posts/38/flaming-shipwreck-1024x512.jpg" alt="A sailing boat on file at a dock. The dock is also on fire" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/38/responsive/flaming-shipwreck-1024x512-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Docker compose is a different kettle of fish entirely, and while most projects will run just fine if you install Docker Compose with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt install docker-compose</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Some won't, and we've seen an increasing number of failures where deploying a project requires excessive workarounds. Rather than an orderly cargo port, you're faced with a burning shipwreck instead.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're running into inexplicable problems with deploying apps when using a repo-installed version of Docker Compose, first uninstall it:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo apt remove docker-compose</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Visit the <a href="https://github.com/docker/compose/releases">Docker Compose GitHub releases page</a>, scroll down to <strong>Assets</strong>, and locate the correct package for your system architecture.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":376,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-376"><img  src="https://linuximpact.com/media/posts/38/docker-compose-releases-1-1024x453.jpg" alt="Assets section of the docker-compose releases page showing linux packages" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-xs.webp 300w ,https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-sm.webp 480w ,https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-md.webp 768w ,https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-lg.webp 1024w ,https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-xl.webp 1360w ,https://linuximpact.com/media/posts/38/responsive/docker-compose-releases-1-1024x453-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're not sure, you can find out your system architecture by typing:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>uname -m</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...into a terminal.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In the case of our 64-bit Raspberry Pi 4B, this command will return <strong>aarch64</strong>, so we'd look for the <strong>docker-compose-linux-aarch64</strong> package.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you have a modern desktop or laptop, it's likely that you need <strong>docker-compose-linux-x86_64</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Download the relevant package, locate it in your terminal, then move it into your path:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>mv docker-compose* /usr/local/bin/docker-compose</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now make it executable with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>sudo chmod +x /usr/local/bin/docker-compose</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>That's all you need to do. You now have the most recent Docker Compose version installed!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Use it to install and run some awesome self-hosted projects such as <a href="https://linuximpact.com/install-immich-on-a-raspberry-and-replace-google-photos/" data-type="post" data-id="282">Immich</a> - a better <a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/" data-type="post" data-id="293">self-hosted Google Photos alternative</a>, or <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/" data-type="post" data-id="225">host your own audiobook library with Audiobookshelf</a>!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>

@@ -581,6 +581,50 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/keep-an-eye-on-your-self-hosted-services-stability-with-statping-ng/</loc>
+<lastmod>2024-01-12T14:24:50+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81/linux-impact-online.png</image:loc>
+<image:title><![CDATA[Green graph on a white background with figures showing 64ms response time, and 99.96 percent uptime for LinuxImpact.com]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//happy-people.png</image:loc>
+<image:title><![CDATA[A group of people in a library - looking at laptops and laughing]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//statping-ng-docker-compose.png</image:loc>
+<image:title><![CDATA[Docker compose file for statping-ng open in nano text editor]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//linux-impact-latency.png</image:loc>
+<image:title><![CDATA[Statping web interface showing Linux impact latency]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//delete-google.png</image:loc>
+<image:title><![CDATA[Statping showing a dialog box asking if we want to delete the Google service]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//statping-service-options.png</image:loc>
+<image:title><![CDATA[Some of the options available when adding a statping service]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113634_Statping-thumbnail.webp</image:loc>
+<image:title><![CDATA[Statping android app overview page showing linux impact and other services]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113647_Statping-thumbnail.webp</image:loc>
+<image:title><![CDATA[Statping android app showing Linux impact response time and associated info]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-113702_Statping-thumbnail.webp</image:loc>
+<image:title><![CDATA[Statping android app showing Linux impact response time and failed response]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/81//gallery/Screenshot_20240112-133713_Statping-thumbnail.webp</image:loc>
+<image:title><![CDATA[showinStatping android app showing benefits of pro version]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>
@@ -1146,7 +1190,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/these-5-tricks-will-improve-your-internet-speed/</loc>
-<lastmod>2023-11-27T14:51:19+00:00</lastmod>
+<lastmod>2024-01-12T14:26:27+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/14/internet-router.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
