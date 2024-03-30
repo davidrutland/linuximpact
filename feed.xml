@@ -3,12 +3,275 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-01-23T17:15:53+00:00</updated>
+    <updated>2024-03-30T21:43:32+00:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>LanguageTool is an AI-powered Grammar Checker you can self-host on your own hardware</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware/"/>
+        <id>https://linuximpact.com/languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware/</id>
+        <media:content url="https://linuximpact.com/media/posts/84/grammar-and-composition.png" medium="image" />
+            <category term="Tool"/>
+            <category term="Software"/>
+            <category term="Self-hosted"/>
+
+        <updated>2024-03-30T21:41:00+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/84/grammar-and-composition.png" alt="spine of a book titled Grammar and composition" />
+                    If you write or edit for a living, it can be worse than embarrassing when you mess up your sentence structure, repeat words, or misplace your punctation in a paragraph. In this writer's day job as an editor at SlashGear, it's the kind of thing&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/84/grammar-and-composition.png" class="type:primaryImage" alt="spine of a book titled Grammar and composition" /></p>
+                <p data-pm-slice="1 1 []"> </p>
+<p>If you write or edit for a living, it can be worse than embarrassing when you mess up your sentence structure, repeat words, or misplace your punctation in a paragraph.</p>
+<p>In this writer's day job as an <a href="https://www.slashgear.com/author/davidrutland/" rel="noopener noreferrer nofollow">editor at SlashGear</a>, it's the kind of thing that could probably result in a career-terminating implosion. Here at Linux Impact? Not so much.</p>
+<p>So it should be no surprise that we run to online grammar checking tools several times per day, to make sure that we're not imperilling our livelihood with an excess of em dashes.</p>
+<p>Maybe you're not a huge fan of cloud-based grammar checkers, preferring instead to run software locally. Maybe you're just fed up with being nagged to hand over your email, address, create and account, or sign in with Google.</p>
+<p>LanguageTool is a full-featured Open Source tool you can run on your own machine or network to keep your sentences clean, and mind your Ps and Qs.</p>
+<h2 id="h-whats-wrong-with-grammarly">What's wrong with Grammarly?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/84/grammarly_screenshot.png" alt="Screenshot of the grammarly homepage" width="1920" height="1036" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-xs.webp 300w ,https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-sm.webp 480w ,https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-md.webp 768w ,https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-lg.webp 1024w ,https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-xl.webp 1360w ,https://linuximpact.com/media/posts/84/responsive/grammarly_screenshot-2xl.webp 1600w"></figure><br>Grammarly is probably the best-known name in the grammar-checking world, and is used by writers, editors, students, and probably teachers across the world. People use it before sending emails, submitting essays, and while drafting correctly formatted love poetry to their crush or life partner.</p>
+<p>The biggest problem we have with Grammarly is that you need an account to use it. Sure, it's free to sign up, and you can even sign in with Google, but signing up to online services is anathema to use here at Linux Impact. We live in dread that the various services we <em>do</em> have accounts with will inevitably be hacked.</p>
+<p>You'll also have to agree to the Grammarly Terms of Service and Privacy Policy. While the company swears that, "we don’t and will not sell your data," we're naturally mistrustful of such pledges.</p>
+<p>According to Grammarly users of our acquaintance (we've never tried it ourselves), the service has severe limitations for free users, and is heavy-handed in its attempts to upsell users on the premium plan.</p>
+<p>There's also the fact that the analysis takes place in the cloud, on someone else's machine.</p>
+<p>Maybe you want the extra privacy afforded by running your erotic literary masterpiece through software on your own premises,</p>
+<h2 id="h-languagetool-is-a-pretty-decent-grammarly-alternative">LanguageTool is a pretty decent Grammarly alternative</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/84/languagetool-web-interface.png" alt="Languagetool web interface showing issues only available to premium users" width="1920" height="843" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-xs.webp 300w ,https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-sm.webp 480w ,https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-md.webp 768w ,https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-lg.webp 1024w ,https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-xl.webp 1360w ,https://linuximpact.com/media/posts/84/responsive/languagetool-web-interface-2xl.webp 1600w"></figure>
+<p><a href="https://languagetool.org/" rel="noopener noreferrer nofollow">LanguageTool</a> is another online service that its developers describe as, "an AI-based spelling, style, and grammar checker that helps correct or paraphrase texts across languages."</p>
+<p>For the purposes of this article, we visited the site to try it out. It didn't require us to create an account, and we were able to plop in the 1200-odd unfinished words we've written so far.</p>
+<p>It highlighted nine spelling mistakes, and 14 grammar issues. There were also two grammar issues, one punctuation issue, and 11 style issues only available to "premium" users. Irritating!</p>
+<p>LanguageTool also comes with extensions for all major browsers.</p>
+<h2 id="h-run-languagetool-on-your-own-machine">Run LanguageTool on your own machine</h2>
+<p>As well as being an online service, LanguageTool is Open Source software, meaning that you can host it on your own machine.</p>
+<p>While there are still some premium features you won't be able to use - including breaking down overly long sentences such as this one into shorter ones - it's far more convenient than using the online version, and you can rest assured that the AI scanning your top-secret movie treatment is residing on your own machine and won't betray your secrets to anyone else.</p>
+<h2 id="h-how-to-install-languagetool-on-linux">How to install LanguageTool on Linux</h2>
+<p>You can get full and detailed instructions on how to install LanguageTool on Linux from the official <a href="https://github.com/languagetool-org/languagetool" rel="noopener noreferrer nofollow">LanguageTool GitHub repository</a>, but we found it easier to use a community-contributed dockerised version.</p>
+<p>Before you get started, make sure you have <a href="https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/">installed the latest version of Docker and Docker Compose</a>, then open up a terminal and clone the Git repository with:</p>
+<pre><code>git clone https://github.com/meyayl/docker-languagetool.git</code></pre>
+<p>Use the <strong>cd</strong> command to move into your newly created directory:</p>
+<pre><code>cd docker-languagetool/</code></pre>
+<p>You'll need to change permissions on a couple of subdirectories:</p>
+<pre><code>sudo chmod 777 ngrams</code></pre>
+<pre><code>sudo chmod 777 fasttext</code></pre>
+<p>Back up the supplied Docker Compose file:</p>
+<pre><code>mv docker-compose.yml docker-compose.yml.old</code></pre>
+<p>And create a new one:</p>
+<pre><code>nano docker-compose.yml</code></pre>
+<p>The following is an example text supplied by the developers and is confirmed working and ready to go. Paste it into the new file:</p>
+<pre><code>---
+version: "3.8"
+
+services:
+  languagetool:
+    image: meyay/languagetool:latest
+    container_name: languagetool
+    restart: always
+    cap_drop:
+      - ALL
+    cap_add:
+      - CAP_SETUID
+      - CAP_SETGID
+      - CAP_CHOWN
+    security_opt:
+      - no-new-privileges
+    ports:
+      - 8010:8010
+    environment:
+      download_ngrams_for_langs: en
+      langtool_languageModel: /ngrams
+      langtool_fasttextModel: /fasttext/lid.176.bin
+    volumes:
+      - ./ngrams:/ngrams
+      - ./fasttext:/fasttext</code></pre>
+<p>Save and exit nano with <strong>Ctrl + O</strong> then <strong>Ctrl + X</strong>.</p>
+<p>Bring up Docker Compose in detached mode with:</p>
+<pre><code>docker-compose up -d</code></pre>
+<p>...and go and make a cup of tea while it downloads the necessary images and sets up containers on your system. On our system this step took around half an hour - this was mainly due to downloading and unpacking ngrams-en.zip which comes in at a mighty 4(ish) GB.</p>
+<p>Check everything is working with:</p>
+<pre><code>docker-compose ps</code></pre>
+<p>That's it!</p>
+<p>One thing to note is the <strong>restart: always</strong> section of the Docker Compose file. This means that the container will start up along with your computer and, as you might imagine, always restart.</p>
+<p>It's handy if you're going to be using LanguageTool on a regular basis, but if you'd rather it not start automagically, remove this line.</p>
+<h2 id="h-add-extensions-for-your-self-hosted-languagetool-server">Add extensions for your self-hosted LanguageTool server</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/84/languagetool_em-dash-error.png" alt="Self-hosted LanguageTool extension running in NextCloud notes" width="1344" height="939" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-xs.webp 300w ,https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-sm.webp 480w ,https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-md.webp 768w ,https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-lg.webp 1024w ,https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-xl.webp 1360w ,https://linuximpact.com/media/posts/84/responsive/languagetool_em-dash-error-2xl.webp 1600w"></figure>
+<p>LanguageTool isn't designed to be a standalone service you access through your browser. Instead, it's easy to integrate into software such as <a href="https://extensions.openoffice.org/project/languagetool" rel="noopener noreferrer nofollow">OpenOffice</a> and <a rel="noopener noreferrer nofollow">LibreOffice</a>. We don't use either of these, and do most of our writing in NextCloud Notes.</p>
+<p>Fortunately, there are extensions available for both <a rel="noopener noreferrer nofollow">Chrome</a>, and for our preferred browser, <a href="https://addons.mozilla.org/en-US/firefox/addon/languagetool/" rel="noopener noreferrer nofollow">Firefox</a>.</p>
+<p>Install the extension, then click through all the "OK, Got it" buttons, then once it's installed, click on <strong>Preferences</strong> in the extension menu.</p>
+<p>Scroll down to the bottom - ignoring exhortations to "Log in with your LanguageTool account," and click on <strong>Advanced settings (only for professional users)</strong>. Tap the <strong>Other server</strong> radio button, and enter <a href="http://localhost:8010/v2" rel="noopener noreferrer nofollow"><strong>http://localhost:8010/v2</strong></a>.</p>
+<p>Hit save, and you're done.</p>
+<h2 id="h-use-languagetool-locally-to-check-your-grammar">Use LanguageTool locally to check your grammar</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/84/languagetool-editor.png" alt="LanguageTool dedicated web editor extension" width="1920" height="1014" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/84/responsive/languagetool-editor-xs.webp 300w ,https://linuximpact.com/media/posts/84/responsive/languagetool-editor-sm.webp 480w ,https://linuximpact.com/media/posts/84/responsive/languagetool-editor-md.webp 768w ,https://linuximpact.com/media/posts/84/responsive/languagetool-editor-lg.webp 1024w ,https://linuximpact.com/media/posts/84/responsive/languagetool-editor-xl.webp 1360w ,https://linuximpact.com/media/posts/84/responsive/languagetool-editor-2xl.webp 1600w"></figure>
+<p>By default, LanguageTool will run on any web page which has a text entry field. Looking at the bottom of our NextCloud Notes document, we can see that there are 27 errors, and they're all highlighted in the text as well, underlined in red, yellow, or purple. Some of these are bullshit that we don't care about, such as using hyphens instead of em dashes. You can accept the suggestions, ignore them, or disable a particular error class altogether.</p>
+<p>It's also possible to copy and paste entire screeds into a dedicated LanguageTool Editor in order to check it in a flat environment. To open the LanguageTool editor, click on the extension icon, then <strong>Open Editor</strong>.</p>
+<p>One of the advantages of using the self-hosted version of LanguageTool rather than the version hosted by the company is that there's no limit on word count - we were able to paste in and check the entirety of Cory Doctorow's excellent <a rel="noopener noreferrer nofollow">Eastern Standard Tribe</a>. The web version seems to top out at a few thousand words with an exhortation to "Upgrade to Premium and get advanced grammar and style suggestions for longer texts."</p>
+<h2 id="h-open-your-languagetool-instance-to-the-wider-web">Open your LanguageTool instance to the wider web</h2>
+<p>Of course, there's nothing stopping you from sticking LanguageTool behind a reverse proxy, so you can access it from anywhere. The only issue would be that it may attract other users, who see your resource as free, and for this reason, we'd advise against it.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Mirrors? Where we&#x27;re going we won&#x27;t need mirrors</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/mirrors-where-were-going-we-wont-need-mirrors/"/>
+        <id>https://linuximpact.com/mirrors-where-were-going-we-wont-need-mirrors/</id>
+        <media:content url="https://linuximpact.com/media/posts/83/terracan_loaded_with_bay-2.jpeg" medium="image" />
+            <category term="Review"/>
+            <category term="Hardware"/>
+            <category term="Gear"/>
+
+        <updated>2024-03-01T13:37:00+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/83/terracan_loaded_with_bay-2.jpeg" alt="A green Hyundai Terracan loaded with bay leaves" />
+                    The purpose of a rearview mirror is to allow you to see what's behind your vehicle. Who knows? There may be a liquid metal man from the future chasing after you and attempting to bury his hatchet-like claws into your boot. More realistically, it's good&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/83/terracan_loaded_with_bay-2.jpeg" class="type:primaryImage" alt="A green Hyundai Terracan loaded with bay leaves" /></p>
+                <p>The purpose of a rearview mirror is to allow you to see what's behind your vehicle. Who knows? There may be a liquid metal man from the future chasing after you and attempting to bury his hatchet-like claws into your boot. More realistically, it's good to know the speed and and volume of the traffic behind you before you change lanes.</p>
+<p>But windscreen mounted rearview mirrors have their issues - the biggest of which is that they're inside the car.</p>
+<p>Glance up at standard rearview mirror, and you'll likely have a limited field of view. The image in the slender glass plate is framed by the metal that holds your rear window in place, the roof of your car, and the rear passenger seats. Sure, you can see if there's a vehicle behind you, but not a lot else. If you have a car full of passengers, you can see the passengers, and if you're fully loaded for a tip run, or you've just done the shopping, T-1000 could be within inches and you'd never know it.</p>
+<p>See the main image on this article, that's the result of some light pruning of our bay tree, and is fairly typical for a weekend.</p>
+<p>And then there's the parking issue.</p>
+<p>When he's not riding around on an electric motorbike, this writer drives a big 2007 Hyundai Terracan. It's useful for pulling the caravan, carrying large loads, and tip runs. But it's a PITA to park. a rearview mirror is helpful, but there's the ever-present worry that we're going to reverse into someone else's bumper. If a space looks like it <em>might</em> be too small, we'll pass it by rather than risk it.</p>
+<p>We purchased an awkwardly named <a href="https://amzn.to/3xrnPtO">Jansite Voice Control Mirror Dash Cam</a> as a replacement and an upgrade that adds dashcam functionality as well as a clearer rear view to our tired old Terracan.</p>
+<h2 id="h-whats-the-problem-with-rearview-mirrors"></h2>
+<h2 id="h-what-does-the-jansite-voice-control-mirror-dash-cam-actually-do">What does the Jansite Voice Control Mirror Dash Cam actually do?</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/83/parking_with_jansite_mirror.jpeg" alt="Rearview mirror showing parked cars" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-xs.webp 300w ,https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-sm.webp 480w ,https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-md.webp 768w ,https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-lg.webp 1024w ,https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-xl.webp 1360w ,https://linuximpact.com/media/posts/83/responsive/parking_with_jansite_mirror-2xl.webp 1600w"></figure>
+<p>The Jansite (we're going to refrain from calling it the unit by its full title Jansite Voice Control Mirror Dash Cam) comprises two main components. The first is a magic mirror that fits over your normal rearview mirror and is held in place with thick rubber bands. It actually is a mirror with a reflective surface, and you can use it as such if you so desire. It's also a screen onto which streaming video is displayed.</p>
+<p>On the back of the magic mirror is a forward facing dashcam. This ratchets out from the main body, and you can tilt and adjust it to get a good view of the road ahead.</p>
+<p>The other component is a rear facing camera that you position outside your car to get a view of the traffic behind.</p>
+<p>The whole system is powered by an old-school mini USB cable that plugs into your cigarette lighter.</p>
+<p>You can swipe the screen with your finger to set which camera is displayed, or just speak aloud and tell it to display a stream from the front, the rear, or both simultaneously.</p>
+<p>We've been driving round with the Jansite for a couple of weeks now, and here's what we thought.</p>
+<h2 id="h-installation">Installation</h2>
+<p>Installing the unit was an absolute doddle. It fitted almost exactly over the mirror in our Terracan, leaving maybe an inch on the right-hand side. Slot the Micro SD card in the slot, plug in the 2.5mm AV lead, and the Micro USB power, and it's almost ready to go.</p>
+<p>All we had to do then was run the two wires along the seams of the car's interior to keep them out of sight, and find a suitable place to mount the rear camera.</p>
+<p>The rear camera itself is on a hinged mount, and we'd suggest having it angled as low as possible.</p>
+<h2 id="h-camera-quality-and-field-of-view">Camera quality and Field of View</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/83/jansite_rearview.jpeg" alt="Rearview mirror" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/83/responsive/jansite_rearview-xs.webp 300w ,https://linuximpact.com/media/posts/83/responsive/jansite_rearview-sm.webp 480w ,https://linuximpact.com/media/posts/83/responsive/jansite_rearview-md.webp 768w ,https://linuximpact.com/media/posts/83/responsive/jansite_rearview-lg.webp 1024w ,https://linuximpact.com/media/posts/83/responsive/jansite_rearview-xl.webp 1360w ,https://linuximpact.com/media/posts/83/responsive/jansite_rearview-2xl.webp 1600w"></figure>
+<p>Anything has to be an improvement on what you see through a normal rearview mirror, and the Jansite simply blew us away.</p>
+<p>Both camera stream in either Full HD (1080p) or 2.5k, and if we're honest (we're always honest), it won't make that much of a difference to what you see on the mirror-sized screen. But if you're recording, the quality difference is evident when you play back the media on your PC or your 72-inch MicroLED TV set.</p>
+<p>Far more important than this, however, is the Field of view. The front camera has a massive 170-degree field of view, while the rear camera - the one we actually care about - affords you a 140-degree vista.</p>
+<p>We haven't measured this, but we can tell you that you can see the pavements on both sides of the road from a distance of around two-feet from the rear of your car on a standard residential street in the UK, and you can see practically <em>everything</em> behind you. We're not going to say it completely eliminates blind spots, as that depends on the position of your other mirrors, but it comes damn close.</p>
+<h2 id="h-parking">Parking</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/83/20240322_124018_1.jpg" alt="Rearview camera output in Asda car park" width="1920" height="1080" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-xs.webp 300w ,https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-sm.webp 480w ,https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-md.webp 768w ,https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-lg.webp 1024w ,https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-xl.webp 1360w ,https://linuximpact.com/media/posts/83/responsive/20240322_124018_1-2xl.webp 1600w"></figure>
+<p>Here's the awesome thing about the Jansite mirror: While the screen itself is only the size of a normal rearview, the video feed is full resolution, and you can scroll the screen with your finger.</p>
+<p>This means that you can have the camera pointed more towards the ground, and only the top section -- the traffic behind you -- will be visible while you're driving. When you're reversing into stight spot, scroll downwards on the display, and you'll be able to see the tarmac under the bumper of the car behind you. You can get very close indeed without ever having to worry about hitting anything.</p>
+<p>In the settings menu, you can also customise colour-coded parking guides. We haven't figured out how to use these yet, and we probably won't bother.</p>
+<h2 id="h-voice-commands">Voice commands</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/83/20240322_125254_0.jpg" alt="Dashcam photo of Victoria Road in New Brighton" width="1920" height="1080" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-xs.webp 300w ,https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-sm.webp 480w ,https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-md.webp 768w ,https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-lg.webp 1024w ,https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-xl.webp 1360w ,https://linuximpact.com/media/posts/83/responsive/20240322_125254_0-2xl.webp 1600w"></figure>
+<p>As the mirror is essentially a computer monitor in reflective, slimline form, you can access all of the controls by tapping or swiping the glass. Swipe left or right to change view, tap the red dot to record or stop recording; there's a settings menu, and playback control.</p>
+<p>But you don't want to be tapping your mirror while you're diving, and there are some core features that you can control with your voice.</p>
+<p>To change the view, just say, "show front camera," show rear camera," or "show both cameras". Pretty neat.</p>
+<p>You can also tell the unit to snap a pic with, "take a picture." This is potentially useful if you've seen something particularly cool or interesting, and means your passenger doesn't need to fumble around in their pockets for a phone.</p>
+<p>The "take a picture" command doesn't discriminate, and will take simultaneous pictures from both the front and rear cameras and save them to your Micro SD card.</p>
+<p>Other voice commands open and close the screen, lock the video, and open or audio.</p>
+<h2 id="h-other-settings">Other settings</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/83/jansite-settings.jpeg" alt="settings menu for jansite magic mirror" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/83/responsive/jansite-settings-xs.webp 300w ,https://linuximpact.com/media/posts/83/responsive/jansite-settings-sm.webp 480w ,https://linuximpact.com/media/posts/83/responsive/jansite-settings-md.webp 768w ,https://linuximpact.com/media/posts/83/responsive/jansite-settings-lg.webp 1024w ,https://linuximpact.com/media/posts/83/responsive/jansite-settings-xl.webp 1360w ,https://linuximpact.com/media/posts/83/responsive/jansite-settings-2xl.webp 1600w"></figure>
+<p>The settings menu for the Jansite mirror are extensive, and whether or not you use them is up to you.</p>
+<p>The first thing you'll want to change is the boot sound -- it's annoying, so turn it off. Do you want to record the audio inside the car? If you don't fancy replaying your in-car karaoke as evidence in court, you can kill this under "recording settings." You'll also find settings for flipping the feed from the rear camera vertically and horizontally --giving you more options for exactly how and where you want to mount it. The "G-Sensor" apparently starts taking images if the unit detects a collision. Fortunately, we've not had the opportunity to test it.</p>
+<p>Some options seem a little superfluous, such as the screensaver. Do you want a screensaver while you're on the road? We don't, although the ability to change languages and date and time format make localisation a breeze.</p>
+<h2 id="h-driving-at-night">Driving at night</h2>
+<p>The cameras work really very well in low light conditions, although the glare from headlights behind can sometimes wash out the picture. There's an exposure control setting that can help with this to some degree, but really, if you're mounting the camera at the level of car headlights, this is the kind of thing you can expect. It's still better than a standard rearview, and won't actually blind you.</p>
+<h2 id="h-connectivity">Connectivity</h2>
+<p>We dislike connected devices -- especially if they connect to a server that we're not directly controlling. This is an issue with a lot of hardware from Chinese brands, especially IP cams, which for some reason, streams your footage through servers in the far east.</p>
+<p>There are no such concerns with the Jansite, as it seems to have zero connectivity, and stores all images and video on the Micro SD card. To view it, you'll need to physically remove the card and plug it into a card reader.</p>
+<p>It would be nice to have some sort of WiFi option where it latches onto the WiFi as you pull up outside your house, and automagically uploads files to your NAS, but, we're quite happy with not having the option.</p>
+<h2 id="h-bottom-line">Bottom line</h2>
+<p>This is, quite frankly, an amazing piece of kit. We don't particularly care about the dashcam functionality (except for being able to photograph cool things with a voice command).</p>
+<p>As a replacement for a rearview mirror though, it's exceptional. We don't know how we ever lived without it.</p>
+<hr>
+<p>This review is part of a series on cool things we've bought recently. Some of them will be Linux related. Others won't.</p>
+<p> </p>
+<p>https://www.amazon.com/Full-Touch-Screen-Rear-Mirror/dp/B07Z3LXZLH/</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install specific npm and node versions on Linux</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/how-to-install-specific-npm-and-node-versions-on-linux/"/>
+        <id>https://linuximpact.com/how-to-install-specific-npm-and-node-versions-on-linux/</id>
+        <media:content url="https://linuximpact.com/media/posts/85/knotted-rope.png" medium="image" />
+            <category term="Terminal"/>
+            <category term="Software"/>
+
+        <updated>2024-02-14T17:38:00+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/85/knotted-rope.png" alt="knotted rope on white background" />
+                    Javascript seems to have taken over the web in recent years, and if you run self-hosted software on your Linux server, there's a good chance that at some point you're doing to have to deal with node.js and node package manager (npm). A lot of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/85/knotted-rope.png" class="type:primaryImage" alt="knotted rope on white background" /></p>
+                <p data-pm-slice="1 1 []">Javascript seems to have taken over the web in recent years, and if you run self-hosted software on your Linux server, there's a good chance that at some point you're doing to have to deal with node.js and node package manager (npm).</p>
+<p>A lot of node.js software projects were written with, and for, a specific version of node.js, and using a newer or older version could result in unexpected behaviour, or the software may not run or install at all.</p>
+<p>In this case, you'll need to upgrade or downgrade node.js and npm to specific versions to match the projects requirements. Here's how to do it.</p>
+<h2 id="h-what-is-node-anyway">What is node anyway?</h2>
+<p>For most people, the daily experience of JavaScript is in a web browser. It's a sort of programming language that allows individual pages to perform complex programmatic functions in a way that simple HTML can't. If the page you're looking at has a form, or any kind of interactive element, the chances are good that it's JavaScript behind the scenes.</p>
+<p>But JavaScript doesn't just run in your browser. It can run on the back-end as well. Node.js is a runtime environment that allows you to run JavaScript code outside of a server or even just on your PC. It's great for self-hosted apps that run JavaScript code both on the server-side and the client-side.</p>
+<h2 id="h-why-do-you-need-npm">Why do you need npm?</h2>
+<p>Node Package Manager (npm), as the name suggests, is a package manager for node.js. In simple terms, it's like an app store for JavaScript, where you can find and install reusable pieces of code to use in your ownprojects. npm makes it simple for developers to add functionality to a project by providing access to a vast ecosystem of open source packages created by other people.</p>
+<p>If you're a dedicated self-hoster (as we are), you probably didn't write the code yourself, and are instead installing some awesome web service to play around with and improve your life.</p>
+<p>And for some projects you'll need very specific versions of both node.js and npm.</p>
+<h2 id="h-find-out-what-versions-of-node-and-npm-you-have-installed">Find out what versions of node and npm you have installed</h2>
+<p>If you've installed nope and npm from your distros package manager, the chances are good that what's installed on your system is far behind the most recent versions of npm and node.</p>
+<p>And if you're installing node-based software that was written some time ago, then you'll most likely need to downgrade npm and node in order to prevent problems.</p>
+<p>Consult the project documentation to see what version of node and npm you require, then pop open a terminal, and enter:</p>
+<pre><code>node --version</code></pre>
+<p>then:</p>
+<pre><code>npm -version</code></pre>
+<p>Each command will return the version of the software you have installed.</p>
+<p>As you can see from the screenshot, the node version on this writer's system is <strong>v18.16.0</strong>, while our node package manager is at <strong>9.5.1</strong>.</p>
+<h2 id="h-change-your-nodejs-version-with-n">Change your node.js version with n</h2>
+<p>There is a node package simply called <strong>n</strong>, that you can use to easily install, switch, and manage different versions of Node.js on your system.</p>
+<p>Unfortunately, n doesn't come preinstalled, and it shouldn't come as a surprise that we recommend using npm to install n as well.</p>
+<p>To install n, open a terminal and enter:</p>
+<pre><code>npm install -g n</code></pre>
+<p>With n installed you can change to a rquired node version by adding it as an argument to the n command. For instance, to install and switch to node version 14, you would enter:</p>
+<pre><code>n 14</code></pre>
+<p>It's that simple</p>
+<h2 id="h-use-npm-to-change-npm-version">Use npm to change npm version</h2>
+<p>As npm is both a package manager and a package, you can use npm to install different versions of itself quite easily.</p>
+<p>We're currently on version 9.5.1 of npm, and we want to downgrade to version 6 in order to instal Habitica - a gamified productivity and task management app.</p>
+<p>To change you npm version, open your terminal, and enter:</p>
+<pre><code>npm install -g npm@6.1.0</code></pre>
+<p>In case you're interested, the <strong>g</strong> switch is for "global", and means that npm version 6 will be installed globally on your system, rather than locally within the current directory.</p>
+<p>Now run:</p>
+<pre><code>npm -version</code></pre>
+<p>...to check the current npm version.</p>
+<p>Obviously, you're not going to want to install npm version 6 in every situation, and you should <a href="https://www.npmjs.com/package/npm?activeTab=versions" rel="noopener noreferrer nofollow">check available npm versions</a> to see which one you want.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>On the Edge of disaster: Microsoft&#x27;s browser on Linux</title>
         <author>
@@ -23,7 +286,7 @@
             <category term="Internet"/>
             <category term="Browser"/>
 
-        <updated>2024-01-23T17:15:53+00:00</updated>
+        <updated>2024-01-22T13:37:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/82/pingu.png" alt="Penguin standing on the edge of a cliff- a wave is rolling in." />
@@ -131,7 +394,7 @@
             <category term="Internet"/>
             <category term="Hosting"/>
 
-        <updated>2024-01-12T14:24:50+00:00</updated>
+        <updated>2024-01-12T14:21:09+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/81/linux-impact-online.png" alt="Green graph on a white background with figures showing 64ms response time, and 99.96 percent uptime for LinuxImpact.com" />
@@ -261,7 +524,7 @@ sudo apt install certbot</code></pre>
             <category term="RSS"/>
             <category term="Internet"/>
 
-        <updated>2024-01-08T12:17:57+00:00</updated>
+        <updated>2024-01-08T11:57:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/80/githubrss.png" alt="silhouette of a cat in a circle. An RSS icon is to the right" />
@@ -304,7 +567,7 @@ sudo apt install certbot</code></pre>
     <entry>
         <title>Mystic Mog - New predictions for the new year</title>
         <author>
-            <name>David Rutland</name>
+            <name>Mystic Mog</name>
         </author>
         <link href="https://linuximpact.com/mystic-mog-new-predictions-for-the-new-year/"/>
         <id>https://linuximpact.com/mystic-mog-new-predictions-for-the-new-year/</id>
@@ -312,7 +575,7 @@ sudo apt install certbot</code></pre>
             <category term="Horoscope"/>
             <category term="Astrology"/>
 
-        <updated>2024-01-08T11:56:20+00:00</updated>
+        <updated>2024-01-01T11:19:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/79/mystic_mog_horoscope_january_2024.jpeg" alt="A grey and black striped cat looking at a luminous purple cat inside a crystal ball. The cat is surrounded by candles." />
@@ -354,7 +617,7 @@ sudo apt install certbot</code></pre>
         <id>https://linuximpact.com/the-clipboard-project-is-copy-paste-wizardry-in-your-linux-terminal/</id>
         <media:content url="https://linuximpact.com/media/posts/78/tcp.png" medium="image" />
 
-        <updated>2023-12-18T17:41:52+00:00</updated>
+        <updated>2023-12-18T17:01:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/78/tcp.png" alt="Linux terminal showing The Clipboard Project overlaid with a semi-transparent image of an actual clipboard on a desk" />
@@ -436,7 +699,7 @@ source ~/.bash.rc</code></pre>
             <category term="Security"/>
             <category term="Privacy"/>
 
-        <updated>2023-12-18T09:41:14+00:00</updated>
+        <updated>2023-12-16T09:24:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/77/obfuscated.png" alt="Extract of &quot;Dog behaviour&quot; heavily obfuscated with black rectangles" />
@@ -502,7 +765,7 @@ sudo apt install flatpak</code></pre>
             <category term="Self-hosted"/>
             <category term="Raspberry Pi"/>
 
-        <updated>2023-12-13T15:26:24+00:00</updated>
+        <updated>2023-12-13T15:19:31+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/76/raspberry-pi-ip-addresses.png" alt="A raspberry pi (food) overlaid by IP addresses" />
@@ -573,7 +836,7 @@ static ip_address=[Your Pi IP address]/24</code></pre>
             <category term="Privacy"/>
             <category term="DIY"/>
 
-        <updated>2023-12-12T00:15:45+00:00</updated>
+        <updated>2023-12-11T13:37:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/74/threecodes.png" alt="Three QR codes semi-transparent against a short-nosed revolver on a red background" />
@@ -673,7 +936,7 @@ static ip_address=[Your Pi IP address]/24</code></pre>
             <category term="Gaming"/>
             <category term="CLI"/>
 
-        <updated>2023-12-11T18:07:31+00:00</updated>
+        <updated>2023-12-10T23:37:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/75/tui-minesweeper.png" alt="A game of tui-mines overlaid on a pubic domain black and white image of a Minesweeper Ceremony" />
@@ -785,7 +1048,7 @@ sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
             <category term="Internet"/>
             <category term="Hardware"/>
 
-        <updated>2023-12-13T15:27:20+00:00</updated>
+        <updated>2023-12-05T11:31:25+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/72/htop.png" alt="Htop system monitor showing a chart and ist of processes" />
@@ -900,7 +1163,7 @@ sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-12-03T20:17:57+00:00</updated>
+        <updated>2023-12-03T13:37:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/70/nevernote.jpg" alt="A notebook with a crossed out Evernote elephant logo and the word nevernote next to a large three-leaf trilium logo. There is a pencil in the middle" />
@@ -993,7 +1256,7 @@ sudo dpkg -i tui-mines_1.0.2.2_amd64.deb</code></pre>
             <category term="Linux"/>
             <category term="CLI"/>
 
-        <updated>2023-12-01T21:48:25+00:00</updated>
+        <updated>2023-12-01T14:40:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/69/clowns.jpeg" alt="An orchestra of clows seen through a brass porthole" />
@@ -1078,7 +1341,7 @@ version: "3.6"
     <entry>
         <title>Mystic Mog&#x27;s December Divinations</title>
         <author>
-            <name>David Rutland</name>
+            <name>Mystic Mog</name>
         </author>
         <link href="https://linuximpact.com/mystic-mogs-december-divinations/"/>
         <id>https://linuximpact.com/mystic-mogs-december-divinations/</id>
@@ -1129,7 +1392,7 @@ version: "3.6"
             <category term="Software"/>
             <category term="CLI"/>
 
-        <updated>2023-11-30T10:41:06+00:00</updated>
+        <updated>2023-11-29T21:25:35+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/67/pyphhon1.png" alt="Pyphoon showing the moon pase on November 29th 2023 in cool retro terminal" />
@@ -1203,7 +1466,7 @@ python setup.py install</code></pre>
             <category term="Internet"/>
             <category term="DIY"/>
 
-        <updated>2023-11-28T21:54:19+00:00</updated>
+        <updated>2023-11-28T15:12:48+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/66/pug.jpg" alt="A confused-looking pug wrapped in a beige blanket" />
@@ -1376,7 +1639,7 @@ python setup.py install</code></pre>
             <category term="Internet"/>
             <category term="AI"/>
 
-        <updated>2023-11-27T01:02:55+00:00</updated>
+        <updated>2023-11-26T23:31:41+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/64/wbh.png" alt="A black and white logo with the text written by human not by AI. There is a simple smiley face to the left" />
@@ -1464,7 +1727,7 @@ python setup.py install</code></pre>
             <category term="Music"/>
             <category term="Internet"/>
 
-        <updated>2023-11-28T22:25:13+00:00</updated>
+        <updated>2023-11-24T15:29:37+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/63/drums.png" alt="closeup of a drumkit and a drummers hands illuminated in pink and blue" />
@@ -1523,7 +1786,7 @@ python setup.py install</code></pre>
             <category term="Linux"/>
             <category term="Distros"/>
 
-        <updated>2023-11-24T12:10:29+00:00</updated>
+        <updated>2023-11-24T10:40:13+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/62/macbook.png" alt="macbook pro open on a desktop" />
@@ -1692,7 +1955,7 @@ python setup.py install</code></pre>
             <category term="Linux"/>
             <category term="CLI"/>
 
-        <updated>2023-11-23T12:46:43+00:00</updated>
+        <updated>2023-11-22T14:50:04+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/61/underwater-pods.png" alt="two fish-like submersibles exploring a coral reef" />
@@ -1755,7 +2018,7 @@ python setup.py install</code></pre>
             <category term="Privacy"/>
             <category term="Internet"/>
 
-        <updated>2023-11-23T12:46:55+00:00</updated>
+        <updated>2023-11-21T21:13:43+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/59/benjamins.png" alt="A hand holding folded money in front of a blurred web page" />
@@ -1828,7 +2091,7 @@ python setup.py install</code></pre>
             <category term="Wellbeing"/>
             <category term="Software"/>
 
-        <updated>2023-11-21T23:14:12+00:00</updated>
+        <updated>2023-11-21T10:30:00+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/58/manz.png" alt="Ray Manzarek playing the organ against the background of a storm" />
@@ -1882,7 +2145,7 @@ python setup.py install</code></pre>
             <category term="Internet"/>
             <category term="Hosting"/>
 
-        <updated>2023-11-24T12:24:46+00:00</updated>
+        <updated>2023-11-17T13:59:10+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/57/site.png" alt="A woman looking at the Linux Impact homepage on a mac" />
@@ -1971,7 +2234,7 @@ python setup.py install</code></pre>
             <category term="RSS"/>
             <category term="Internet"/>
 
-        <updated>2023-11-16T12:59:00+00:00</updated>
+        <updated>2023-11-16T11:07:59+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
@@ -2053,7 +2316,7 @@ python setup.py install</code></pre>
             <category term="Error"/>
             <category term="CLI"/>
 
-        <updated>2023-11-15T22:56:28+00:00</updated>
+        <updated>2023-11-15T11:36:47+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/47/sudo-command-not-found-cool-retro-terminal.png" alt="output for the command sudo apt install sudo displayed in cool retro term" />
@@ -2121,7 +2384,7 @@ usermod -aG wheel username</code></pre>
             <category term="Software"/>
             <category term="Distros"/>
 
-        <updated>2023-11-14T19:32:12+00:00</updated>
+        <updated>2023-11-14T17:44:01+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://linuximpact.com/media/posts/46/ubuntu-clocks.jpg" alt="Ubuntu 6.10 boot screen overlaid with high transparency clocks and the ocean at sunset" />
@@ -2168,425 +2431,6 @@ usermod -aG wheel username</code></pre>
 <h2 id="h-will-distrosea-sink-or-swim">Will DistroSea sink or swim?</h2>
 <p>DistroSea has been around for a few months now, but there's no guarantee it will be there forever.</p>
 <p>The developer and owner is <a href="https://old.reddit.com/user/basilky/" rel="noopener noreferrer nofollow">active on Reddit</a>, but is busy with work and other commitments, DistroSea appears to be a hobby project, but the resources it consumes are not trivial. We haven't been able to find a funding model, and we can only hope it doesn't disappear beneath the waves like its spiritual predecessor, DistroTest.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Set up your own XMPP server on a Raspberry Pi in under five minutes</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/"/>
-        <id>https://linuximpact.com/set-up-your-own-xmpp-server-on-a-raspberry-pi-in-under-five-minutes/</id>
-        <media:content url="https://linuximpact.com/media/posts/45/zuck.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Raspberry Pi"/>
-            <category term="Privacy"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-            <category term="DIY"/>
-
-        <updated>2023-11-24T12:30:46+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/45/zuck.jpg" alt="Graffiti of Mark Zuckerberg" />
-                    Trust is a hard thing to come by in the 21st century, and relying on third party services to keep your private communications private is a mug's game. Right now, the most popular instant messaging app in the world is WhatsApp - a proprietary service&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/45/zuck.jpg" class="type:primaryImage" alt="Graffiti of Mark Zuckerberg" /></p>
-                <p data-pm-slice="1 1 []">Trust is a hard thing to come by in the 21st century, and relying on third party services to keep your private communications private is a mug's game.</p>
-<p>Right now, the most popular instant messaging app in the world is WhatsApp - a proprietary service owned and operated by Meta - the company formerly know as FaceBook - that routinely coughs of <a href="https://duckduckgo.com/?t=ffab&amp;q=facebook+privacy+fines">hundreds of millions in fines</a> to pay for its egregious privacy-related offences.</p>
-<p>In case you needed reminding, Facebook founder, Mark Zuckerberg, once referred to unsuspecting users who handed over their data to his nascent company as "<a href="https://www.theregister.com/2010/05/14/facebook_trust_dumb/" rel="noopener noreferrer nofollow">dumb fucks</a>". The Zuck's comments were made in 2004 - a more innocent time - but nearly two decades later, WhatsApp has more than 2 billion active users worldwide, sending 100 billion messages daily as well as making video calls, sending voice notes, and of cause, the ubiquitous duck-faced selfie.</p>
-<p>That's a lot of data to entrust to a company that makes its money from scraping up data about your life, tracking you across the internet (and in the real world), and then selling that data on.</p>
-<p>For us, it's not acceptable, and despite Meta's assurances that our data would be perfectly safe with them, we'd prefer not to take the risk. More to the point, we'd prefer a solution which kept our data and messages securely under our control.</p>
-<h2 id="h-wtf-is-snikket">WTF is Snikket?</h2>
-<p>You've probably never heard of Snikket, and none of your friends use it either.</p>
-<p>Snikket is an easy-to-deploy XMPP (Extensible Messaging and Presence Protocol) server that can be up and running in virtually no time on a Raspberry Pi, VPS, or any random PC hardware you stumble across.<br><br>With Snikkett, you can create, own, and administer your own messaging service for friends, family, and casual acquaintances.</p>
-<p>By running an XMPP instance on your own hardware, you can install the Snikket app on your devices, and communicate with your other Snikket users without any danger of being snooped on by predatory corps, or other interested parties. You'll also have the option of sending your messages unencrypted, secured with OMEMO (OMEMO Multi-End Message and Object Encryption) multi-end to multi-end encryption, or classic OpenPGP.</p>
-<p>XMPP is capable of federating, meaning that users on your Snikket instance can communicate with users on any other XMPP instance, too. It's wild.</p>
-<p>As you'd expect from a modern messaging app, your communications aren't limited to texts like it's 1999, and you have the full gamut of mid 21st century functionality. Send kisses to your spouse, a voice note of everlasting adoration to your paramour, a dick pic to your side-piece, and apology videos to all of them.</p>
-<p>Snikket doesn't require much in the way of hardware to run, and a Raspberry Pi 4B will be ample for a family-sized instance. We've been running Snikket alongside an entire stable of self-hosted services including<a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/"> Immich</a>, <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobookshelf</a>, <a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/">Mealie</a><a href="https://linuximpact.com/mealie-probably-the-best-self-hosted-recipe-manager-in-the-world/"></a>, <a href="https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/">Pihole</a>, Jellyfin,Nextcloud, and more. We haven't encountered any problems at all.</p>
-<p>You'll need to register a domain name, too. We use <a href="https://namecheap.pxf.io/c/5003685/890712/5618">Namecheap</a> (affiliate link) for all of ours. </p>
-<h2 id="h-how-to-install-snikket-on-your-raspberry-pi">How to install Snikket on your Raspberry Pi</h2>
-<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/45/kitchen_pi-2.jpg" alt="Silver-cased Raspberry Pi 4B on a granite kitchen counter " width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xs.webp 300w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-sm.webp 480w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-md.webp 768w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-lg.webp 1024w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-xl.webp 1360w ,https://linuximpact.com/media/posts/45/responsive/kitchen_pi-2-2xl.webp 1600w"></figure>
-<p>We're using the Raspberry Pi because a server needs to be on 24 hours per day, 365 days per year. It needs to be reliable, and ideally, shouldn't draw a huge amount of power. <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" target="_blank" rel="noopener noreferrer">The Raspberry Pi 4B</a> pulls a mere 8 Watts - the equivalent of a low energy lightbulb, and reliability is improved by a pair of solid state drives (SSDs) in place of a failure-prone Micro SD card. Earlier models, such as the Raspberry Pi 2 and 3, can also run a Snikket instance without problems - although we haven't tried this ourselves.</p>
-<p>That said, these instructions should work on any computer hardware from the last 15 years that you happen to have lying around making the place look untidy.</p>
-<p>The <a href="https://snikket.org/service/quickstart/" target="_blank" rel="nofollow noopener noreferrer">quickstart guide</a> on the Snikket website concisely sum up everything you need to get Snikket up and running in a hurry, although please do make sure that you read the linked page on which ports you need to open on your router and firewall.</p>
-<p>It's only if you're running Snikket behind a reverse proxy that you'll run into trouble.</p>
-<p>While the <a href="https://snikket.org/service/help/advanced/reverse_proxy/" rel="noopener noreferrer nofollow">Snikket Operators Guide</a> offers an exhaustive catalogue of reverse proxy example configs, you'll also need to make some changes to your docker-compose file - else Snikket will fail to initialise, and you'll see an endless stream of "Waiting for certificates" when you check the logs.</p>
-<p>After you use Let's Encrypt to obtain an SSL certificate for your main domain, you need to mount your certificates directory as a volume in both the <strong>snikket_server</strong> and <strong>snikket-proxy</strong> containers. While you have your docker-compose.yml open in nano, take the opportunity to nuke the <strong>snikket-proxy</strong> container, too.</p>
-<p>Our Snikket Docker Compose file looks like this:</p>
-<pre><code>version: "3.3"
-
-services:
-  snikket_proxy:
-    container_name: snikket-proxy
-    image: snikket/snikket-web-proxy:beta
-    env_file: snikket.conf
-    network_mode: host
-    volumes:
-      - snikket_data:/snikket
-      - acme_challenges:/var/www/html/.well-known/acme-challenge
-      - /etc/letsencrypt:/snikket/letsencrypt
-    restart: "unless-stopped"
-
-  snikket_portal:
-    container_name: snikket-portal
-    image: snikket/snikket-web-portal:beta
-    network_mode: host
-    env_file: snikket.conf
-    restart: "unless-stopped"
-
-  snikket_server:
-    container_name: snikket
-    image: snikket/snikket-server:beta
-    network_mode: host
-    volumes:
-      - snikket_data:/snikket
-      - /etc/letsencrypt:/snikket/letsencrypt
-    env_file: snikket.conf
-    restart: "unless-stopped"
-
-volumes:
-  acme_challenges:
-  snikket_data:
-</code></pre>
-<p>You also need to add the following lines to <strong>snikket.conf</strong>:</p>
-<pre><code>SNIKKET_TWEAK_HTTP_PORT=5080
-SNIKKET_TWEAK_HTTPS_PORT=5443</code></pre>
-<p>Start Snikket with:</p>
-<pre><code>docker-compose up -d</code></pre>
-<p>...and create an admin account link with:</p>
-<pre><code>docker exec snikket create-invite --admin --group default</code></pre>
-<p>That's it. Well done, open a browser, paste the link, and create the admin account on your server.</p>
-<p class="msg msg--highlight ">We found that using server aliases in our Apache conf file resulted in attached files such as photographs failing to be delivered. Setting up a seperate conf for the <strong>share</strong> subdomain, and deploying certbot against that solved the problem for us</p>
-<h2 id="h-connect-with-the-world-over-xmpp">Connect with the world over XMPP!</h2>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
-<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/45/gallery/linux_xmpp.jpeg" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/45/gallery/linux_xmpp-thumbnail.webp" alt="Results for XMPP Linux rooms" width="768" height="1690"></a></figure>
-<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/45/gallery/vidcall.jpeg" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/45/gallery/vidcall-thumbnail.webp" alt="A shaven-headed man conducting a video call with himself" width="768" height="1690"></a></figure>
-<figure class="gallery__item"><a href="https://linuximpact.com/media/posts/45/gallery/lizziechat.jpg" data-size="1440x3168"><img src="https://linuximpact.com/media/posts/45/gallery/lizziechat-thumbnail.webp" alt="A text chat between two people" width="768" height="1690"></a></figure>
-</div></div>
-<p>Snikket has it's own mobile app which is available from <a href="https://f-droid.org/en/packages/org.snikket.android/" rel="noopener noreferrer nofollow">F-Droid</a>, <a href="https://play.google.com/store/apps/details?id=org.snikket.android" rel="noopener noreferrer nofollow">Google Play</a>, and Apple's <a href="https://apps.apple.com/gb/app/snikket/id1545164189" rel="noopener noreferrer nofollow">App store</a>. However, it will work perfectly well with any generic XMPP client, so if you already have a favourite, or prefer the UX of a different app, feel free to use that instead.</p>
-<p>Open the app, and you'll be asked to sign in. Your username is what you created during the admin setup, and will be in the format <strong>yourname@yourdomain.tld</strong>.</p>
-<p>The Snikket interface is kind of sparse. You have no contacts (unless the people in your contacts lists have XMPP addresses ), but you can add contacts, create private groups, and discover channels using the big plus sign in the lower right portion of the screen.</p>
-<p>And there are thousands of channels to join, so even if you have no friends in real life, you can still find people to talk to. A quick search for "Linux" yielded dozens of rooms dedicated to everything from Arch (BTW) to city-specific user groups. Of course, if you don't want to chat with the entire world, you can always decline to open port 5269. This will disable federation (there's probably another way to do it, but this sprung to mind as the most obvious).</p>
-<p>To add other users to your instance, open the web admin panel at <strong>your-domain.tld/admin/</strong>, then click <strong>Manage Users</strong>, and <strong>Create new invitation</strong>. Copy the link and send it by email, text. or carrier pigeon. Alternatively, you can generate a QR code on your mobile device for them to scan.</p>
-<p>Anyone who accepts your link will be automatically added as a contact, and as part of your circle. You can create and manage more circles through the admin panel.</p>
-<h2 id="h-using-snikket-with-friends-and-fam">Using Snikket with friends and fam</h2>
-<p>As a privacy-oriented individual, this writer has had limited options when communicating with others. Autocrypted chat over email via <a href="https://linuximpact.com/delta-chat-going-old-school-with-the-future-of-messaging-apps/">Delta Chat</a> has been pretty good for sending pictures, texts, and voice notes. But the options for self-hosted video and voice calls have been limited, and either resource hungry, or fairly involved to set up.</p>
-<p>Snikket changes that, and runs on extremely limited hardware. And you've already seen how very easy, and very quick it is to get up and running.</p>
-<p>Voice and video calls have been (so far), flawless, high quality, and trouble free, and it's genuinely a joy to use. We've been sending memes at midnight, making calls around the clock, sharing our location with the lads, and getting some quality face-to-face with friends. </p>
-<p>Bear in mind though, if you have a large number of users, and anticipate that they'll all be calling simulataneously, you may need to expand the port range.</p>
-<p>In addition to providing a first rate and effective messaging platform for the family unit, Snikket has opened up the world of XMPP. Thousands of channels, and yet more ways to waste time in the supermarket line.</p>
-<p>It's cool. You should <a href="https://snikket.org/">check it out.</a></p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Why we publish with Publii and GitHub Pages: it&#x27;s trouble-free and it&#x27;s actually free</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/why-we-publish-with-publii-with-github-pages-its-trouble-free-and-its-actually-free/"/>
-        <id>https://linuximpact.com/why-we-publish-with-publii-with-github-pages-its-trouble-free-and-its-actually-free/</id>
-        <media:content url="https://linuximpact.com/media/posts/42/printing-press.jpg" medium="image" />
-            <category term="Tips"/>
-            <category term="Software"/>
-            <category term="Self-hosted"/>
-            <category term="Raspberry Pi"/>
-            <category term="Linux"/>
-            <category term="Internet"/>
-
-        <updated>2023-11-20T12:30:09+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/42/printing-press.jpg" alt="Blurred newspapers rolling off a printing press " />
-                    Self-hosting sites and services from home is a pleasure and a joy - as well as being an all-consuming hobby that gives us more headaches than it should. The Raspberry Pi 4B is more than capable of providing extensive services for an extended family -&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/42/printing-press.jpg" class="type:primaryImage" alt="Blurred newspapers rolling off a printing press " /></p>
-                <p data-pm-slice="1 1 []">Self-hosting sites and services from home is a pleasure and a joy - as well as being an all-consuming hobby that gives us more headaches than it should.</p>
-<p>The <a href="https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_3?crid=16G7DHNEVDVBH&amp;keywords=raspberry+pi+8gb&amp;qid=1699266630&amp;sprefix=raspberry+pi+8gb%252Caps%252C152&amp;sr=8-3&amp;_encoding=UTF8&amp;tag=thecrowuk-20&amp;linkCode=ur2&amp;linkId=0f9dee46e8b8e6c27a2421c530833bac&amp;camp=1789&amp;creative=9325" target="_blank" rel="noopener noreferrer">Raspberry Pi 4B</a> is more than capable of providing extensive services for an extended family - furnishing them with an <a href="https://linuximpact.com/self-host-your-own-audio-library-with-audiobookshelf/">Audiobook server</a>; streaming movies, shows, and music through Jellyfin; office suite and slot-in Drive replacement through courtesy of NextCloud; a <a href="https://social.rutland.org.uk/" target="_blank" rel="noopener noreferrer">Fediverse</a> server (eschewed by everyone but this writer); Photo upload, and gallery with <a href="https://linuximpact.com/immich-is-the-killer-app-that-will-kick-start-the-self-hosting-revolution/">Immich</a>, an email server and Snappymail frontend; and even more services that we can't recall right now.</p>
-<p>The humble Pi has even, in the past, been used to host public-facing websites.</p>
-<p>Hosting a website from home is a gratifying and traumatic experience, and your experience will vary depending on exactly how you decide to set it up.</p>
-<p><a href="https://thecrow.uk/" target="_blank" rel="noopener noreferrer">The Crow</a> - a site now on semi-permanent hiatus, and from which several of the articles on Linux Imact were culled - was created as a static site using Jekyll. The writing was done in the Atom editor, and files were shuffled off onto the Pi using SCP (Secure Copy).</p>
-<p>Most of the time, the site ticked along happily, and was relatively unperturbed even under heavy traffic - one notable exception being when traffic to an article about <a href="https://thecrow.uk/A-Gov.uk-site-dedicated-to-porn-Absolutely/" target="_blank" rel="noopener noreferrer">porn being hosted on a Department of Transport subdomain</a> forced the site onto a VPS for a short period.</p>
-<h2 id="h-wordpress-on-a-pi-isnt-always-the-optimal-solution">WordPress on a Pi isn't always the optimal solution</h2>
-<p><a href="https://linuximpact.com">Linux Impact</a> is younger than you may think - popping into existence after a domain name purchase on November 6th 2023, and certain decisions were made in an unconsidered rush.</p>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/old-linux-impact.jpg" alt="An ugly Wordpress site with red and grey colour scheme" width="1680" height="774" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/old-linux-impact-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/old-linux-impact-2xl.webp 1600w"></figure>
-<p>The first of these was to use WordPress as a content management system. WordPress is great software, and there's a reason it powers more than half of the websites online today.</p>
-<p>It was...fine. It's easy to get a website looking <em>OK</em> quickly, and there's no messing around with text editors.</p>
-<p>And everything worked well until we start getting decent amounts of traffic. After appearing on the HN front page, we were quickly forced offline - struggling under numbers that a static site would have handled with ease.</p>
-<p>Yes, we could have eased the burden by using a CDN to deliver images and other content from elsewhere on the web, and we did seriously consider doing exactly that.</p>
-<p>But once we arrived at the realisation that it wasn't entirely practical to completely host this website on a bargain basement SBC and a domestic internet connection, we started to wonder why we were hosting it at home in the first place.</p>
-<h2 id="h-making-better-design-decisions">Making better design decisions</h2>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/designer.jpg" alt="" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/designer-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/designer-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/designer-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/designer-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/designer-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/designer-2xl.webp 1600w"></figure>
-<p>The first decision we made was that <em>all</em><strong><em> </em></strong>content was going to be hosted offsite. <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a> was the natural choice, as hosting is both free and fast - although there's an ever present nagging feeling that current owner, Microsoft, will, at some point, pull the rug and spiral into service enshitification.</p>
-<p>You can host any content you like on Github Pages. You can use your own domain name, and they'll even throw in SSL certs for free. It's pretty easy to set up, with the only proviso being that the content needs to be static. If you're hosting a web shop, or anything that requires users to sign in, static sites probably aren't for you anyway.</p>
-<p>While WordPress is excellent as a content management system, and it's possible to create a site using WorPress and export it as static pages, it's a bit fiddly for our tastes, and we've always found messing around with themes, layouts and widgets to be an annoyance rather than a feature.</p>
-<p>Jekyll was an option. Writing Markdown and creating sites with Jekyll is fun, but now that Atom, our favourite text editor has been archived, it's not as much fun as it used to be.</p>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/publii-marketplace.jpg" alt="The Publii marketplace showing a selection of themes" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-marketplace-2xl.webp 1600w"></figure>
-<p>Publii is a static site generator with all the bells and whistles you can imagine, and a for producing and editing posts, it's not all that different from the back-end of a WordPress blog: convenience, a variety of editors, a marketplace for themes and plugins. While our WordPress instance was periodically dropping offline and heroically resurfacing, we were able to port our meagre content into Publii, and get set up for free on GitHub.</p>
-<p>Sure, GitHub pages has usage limits, but they're quite generous:</p>
-<blockquote>
-<ul>
-<li>
-<p>GitHub Pages source repositories have a recommended limit of 1 GB. For more information, see "<a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-and-repository-size-limitations" aria-roledescription="hover card" aria-describedby="popover-describedby">About large files on GitHub</a>"</p>
-</li>
-<li>
-<p>Published GitHub Pages sites may be no larger than 1 GB.</p>
-</li>
-<li>
-<p>GitHub Pages deployments will timeout if they take longer than 10 minutes.</p>
-</li>
-<li>
-<p>GitHub Pages sites have a <em>soft</em> bandwidth limit of 100 GB per month.</p>
-</li>
-<li>
-<p>GitHub Pages sites have a <em>soft</em> limit of 10 builds per hour. This limit does not apply if you build and publish your site with a custom GitHub Actions workflow</p>
-</li>
-<li>
-<p>In order to provide consistent quality of service for all GitHub Pages sites, rate limits may apply. These rate limits are not intended to interfere with legitimate uses of GitHub Pages. If your request triggers rate limiting, you will receive an appropriate response with an HTTP status code of <code>429</code>, along with an informative HTML body.</p>
-</li>
-</ul>
-</blockquote>
-<p>We very much doubt we're going to hit those limits.</p>
-<h2 id="h-creating-static-sites-is-simple-with-publii">Creating static sites is simple with Publii</h2>
-<p>Publii is Free software licensed under GPL3. This means you can use it, distribute, modify, and redistribute with your own modifications (provided any modifications are distributed under the same license) however you want. You can buy, sell, and trade copies if you want - although that seems kind of pointless since the developers have made binaries for Windows, MacOS, and Linux available from the main <a href="https://getpublii.com/" rel="noopener noreferrer nofollow">Publii website</a>.</p>
-<p>Installation on our Debian-based system was as easy as popping a terminal and entering:</p>
-<pre><code>wget https://getpublii.com/download/Publii-0.44.0.deb
-sudo dpkg -i https://getpublii.com/download/Publii-0.44.0.deb</code></pre>
-<p>...and in a matter of minutes the app was installed and accessible from the system menu (it's a fairly hefty package, so the actual download took around 300 seconds ).</p>
-<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/42/publii-create-site.jpg" alt="Create new site dialogue, showing icons, Site name and author name" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-create-site-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-create-site-2xl.webp 1600w"></figure>
-<p>Start Publii, and you'll be asked to accept the GNU GPL3 license then be asked to give your website a name, and choose a name for the primary author. You can also choose an adorable little icon to represent yourself and the site within Publii. We went with a steaming hot cup of coffee. Hit the big blue button and get started.</p>
-<p>This is where our experience most likely differed from most Publii users, because we weren't creating a website from scratch - we already had our struggling WordPress instance.</p>
-<p>Following the very well-written and understandable Publii instructions, we logged into WordPress, and from the admin panel clicked <strong>tools &gt; export</strong> to download an XML file containing posts, authors, category, and tag content. The file itself is only a few hundred kilobytes, so took only moments.</p>
-<p>Adding our exported content to Publii took longer. The process itself is simple, just click <strong>Tools &amp; Plugins &gt; WP Importer</strong>, then select the file you just downloaded. Publii will then download addition assets from your WordPress instance.</p>
-<p>As our WordPress site was failing under weight of numbers, this took a good hour, and when it was over, we breathed a sigh of relief.</p>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/publii-posts.jpg" alt="Publii posts view showing titled posts stacked vertically" width="1680" height="719" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/publii-posts-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/publii-posts-2xl.webp 1600w"></figure>
-<p data-pm-slice="1 1 []">You'll find all of your posts under the <strong>Posts</strong> menu item on the left of the screen. Publii comes with a single theme installed - it's called <strong>Simple</strong>, and it looks pretty much how you'd expect. If you want more themes, check out the <a href="https://marketplace.getpublii.com/" rel="noopener noreferrer nofollow">Publii marketplace</a> for a selection of free and paid-for themes.</p>
-<p>We decided to go with <a href="https://marketplace.getpublii.com/themes/technews/" rel="noopener noreferrer nofollow">TechNews</a> - it's clean, it's smart, it's easily customised, and best of all for an experimental publication with a tight budget, it's free.</p>
-<p>Download the theme zip file to your local drive, click the three dots in the top right corner of Publii, click <strong>Themes</strong>, then <strong>Install Theme</strong>.</p>
-<p>To activate your new theme, Go to <strong>Site Settings</strong>, and select your new theme from the dropdown menu. Click on <strong>Save and Preview</strong> to have Publii generate the HTML for your site and open it in your default browser.</p>
-<p>We noticed that some of our code snippets weren't rendering properly, and a few of our header images hadn't downloaded and had to manually fix a few issues. It wasn't a big deal.</p>
-<p>In the <strong>Posts</strong> section, you'll see that you have a choice of editors, and depending on your previous experiences and preference, you can use Markdown, a word processor-ish WYSIWYG interface, or a very WordPress-like block editor.</p>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/42/wysiwyg-2.jpg" alt="We've actually becoming unexpectedly attached to the WYSIWYG editor" width="1680" height="721" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-xs.webp 300w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-sm.webp 480w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-md.webp 768w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-lg.webp 1024w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-xl.webp 1360w ,https://linuximpact.com/media/posts/42/responsive/wysiwyg-2-2xl.webp 1600w"></figure>
-<p>Creating and editing a post is exactly what you're used to.</p>
-<p>Menus, were next and similarly simple to set up, a Matomo analytics plug-in, and we were ready to go.</p>
-<h2 id="h-uploading-linux-impact-to-github-pages">Uploading Linux Impact to Github Pages</h2>
-<p>You'll need an account to use Github Pages, and fortunately for us, we already had one.</p>
-<p>Create a new repository, and a initialise a new branch for your static files (you can delete the master branch). Make sure you have Git installed on your local machine, and to make things a little easier <strong>GitHub Desktop</strong> can be useful as well.</p>
-<p>Once you've cloned the repo onto your local machine, it's simply a case of going to <strong>Server</strong> in Publii, giving your site a URL, and choosing the output type and directory. Handy hint: Don't use relative URLS or you won't get an RSS feed. Once that's done, hit <strong>Sync your Website</strong> to create the static files. Copy them over to your local GitHub repo, then push to origin.</p>
-<p>Your new static site will be accessible on Github (Our Github pages address is <a href="https://davidrutland.github.io/linuximpact" rel="noopener noreferrer nofollow">https://davidrutland.github.io/linuximpact</a>), but you probably want to use your own domain name.</p>
-<p>Visit your registrar, and enter a CNAME record with your Github pages address as the value eg: davidrutland.github.io.</p>
-<p>You'll also need to create four new <strong>A </strong>records, with <strong>@</strong> as the host, and the following values:</p>
-<ul>
-<li>
-<p>185.199.108.153</p>
-</li>
-<li>
-<p>185.199.109.153</p>
-</li>
-<li>
-<p>185.199.110.153</p>
-</li>
-<li>
-<p>185.199.111.153</p>
-</li>
-</ul>
-<p>Set the TTL as low as possible and save, then head back over to GitHub. Click <strong>Settings &gt; Pages</strong>,  and replace the yourname.github.io with your domain name. Wait for GitHub to run its checks, and make sure to click the <strong>Enforce HTTPS</strong> box.</p>
-<p>That's it. You're done, and provided you don't run into any issues, it's taken may half an hour.</p>
-<p>Any time you want to add or update a page, just press that <strong>Sync your Website</strong> button in Publii, and then use either Git in your terminal or Github desktop to update your site.</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Play the first ever text adventure game in your Linux terminal!</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/"/>
-        <id>https://linuximpact.com/play-the-first-ever-text-adventure-game-in-your-linux-terminal/</id>
-        <media:content url="https://linuximpact.com/media/posts/40/colossal-ibm.jpg" medium="image" />
-            <category term="Terminal"/>
-            <category term="Linux"/>
-            <category term="Gaming"/>
-            <category term="CLI"/>
-
-        <updated>2023-11-10T16:56:31+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/40/colossal-ibm.jpg" alt="Colossal cave adventure displayed on cool retro term. Blurry white writing on a glitchy background" />
-                    Back in the day, computers were serious machines for serious people doing serious things, and almost always reserved for the military, for banking, and for communications. They were huge, room-sized behemoths with capabilities that paled into insignificance next to even children's electronic toys from more&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/40/colossal-ibm.jpg" class="type:primaryImage" alt="Colossal cave adventure displayed on cool retro term. Blurry white writing on a glitchy background" /></p>
-                <p><!-- wp:paragraph --></p>
-<p>Back in the day, computers were serious machines for serious people doing serious things, and almost always reserved for the military, for banking, and for communications.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>They were huge, room-sized behemoths with capabilities that paled into insignificance next to even <a href="https://linuximpact.com/cheap-portable-retro-gaming-with-a-hated-handheld/" data-type="post" data-id="355">children's electronic toys from more than a decade ago</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>ARPANET (Advanced Research Projects Agency Network) was a project as serious as its name suggests and was the world's first distributed packet-switched network. It was designed to continue functioning even if parts of it were destroyed in a nuclear war, and would guarantee continued communication if the worst should happen.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":387,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-387"><img  src="https://linuximpact.com/media/posts/40/pdp-10-1-1024x512.jpg" alt="a wall-sized computer with blinking lights and huge tape reels" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/40/responsive/pdp-10-1-1024x512-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The project employed some of the brightest and most brilliant minds of the mid 20th century, and bright, brilliant people tend to get bored easily.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>While modern workers might surreptitiously open minesweeper or solitaire, computer games weren't really a thing in 1976. Sure, electronic<em> Tic Tac Toe</em> had been around since 1950, and <em>Spacewar!</em> arrived on the scene in 1962, but there was nothing really truly immersive.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>And so, Will Crowther - a keen Dungeons and Dragons fan and avid cave explorer, as well as having a career as a serious developer for ARPANET's very serious PDP-10 mainframe computer, designed and created Colossal Cave Adventure using FORTRAN IV.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>As the title suggests, the game takes place in a colossal cave (in reality, based on Kentucky's Mammoth cave ), filled with gold, treasure and enemies. The goal is simple: Find the treasures, defeat the enemies, and escape.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Crowther's base game was expanded on in 1977 by Stanford University hacker and programmer, Don Woods, who expanded the scenario and gameplay to include magical elements, dwarves, and further fantastical features.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Originally designed to be played on teletype printers, Colossal Cave Adventure describes the scene to you, and responds to typed commands.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Colossal Cave Adventure is rightfully regarded as one of the most influential games of all time, and spawned entire genres of derivative gaming experiences, as well as direct descendants including the classic Zork and Rogue.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-colossal-cave-adventure-in-the-modern-world" class="wp-block-heading">Colossal Cave Adventure in the modern world</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":388,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-388"><img  src="https://linuximpact.com/media/posts/40/colossal-cave-bear-1024x512.jpg" alt="A large 3d bear with a collar and chain" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/40/responsive/colossal-cave-bear-1024x512-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>The game was an instant hit, and was released and re-released for a variety of platforms that didn't require building-sized infrastructure, Microsoft Adventure was published for Apple computers in 1979, with a version for IBM PCs following in 1981.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In 2017, a mere 41 years after Colossal Cave Adventure's initial release, the game was made open source and uploaded to <a href="https://gitlab.com/esr/open-adventure">GitLab</a>, spawning a number of remakes and reimaginings. In January 2023, a fully realised <a href="https://www.colossalcave3d.com/" data-type="link" data-id="https://www.colossalcave3d.com/">3D version was announced by Cygnus Entertainment</a>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>At Linux Impact, we're old school, and spend more time than is good for our eyesight and health staring into terminals.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>And lacking a teletype machine, the Linux terminal seems as good a place as any to reconnect with the roots of gaming.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-install-colossal-cave-adventure-on-linux" class="wp-block-heading">Install Colossal Cave Adventure on Linux</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Ready to commit entire months of your life to exploring an imaginary cave system in your terminal?</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We've explored many iterations and versions of Colossal Cave Adventure (so that you don't have to), and determined Troglobit's <em>Adventure</em> to be the most reliably usable of the open source releases.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Open a terminal, then download and extract the latest archive:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>wget <a href="https://github.com/troglobit/adventure/releases/download/v4.2/advent-4.2.tar.gz">https://github.com/troglobit/adventure/releases/download/v4.2/advent-4.2.tar.gz</a><br>tar xvf advent-4.2.tar.gz</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>This will create a new directory within your home directory. Move into it:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>cd advent-4.2</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You'll be building the game from source, make sure you have <em>make</em>and a compiler such as gcc installed.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Build <em>Adventure</em> with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>./configure<br>make</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>The game will install to<strong> /usr/local/bin</strong>, and the documents will end up in<strong> /usr/local/share</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can invoke the game's manual from the command line with:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>man adventure</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>...but as the six line document states, "part of the game is to discover its rules", so there's little help there.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Start the game by entering:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>adventure</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>into any terminal window.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>You can quit by typing:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>quit</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Or if you want to save your progress for later, type:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>suspend</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-playing-colossal-cave-adventure-in-the-21st-century" class="wp-block-heading">Playing Colossal Cave Adventure in the 21st century</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"id":390,"sizeSlug":"large","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-390"><img  src="https://linuximpact.com/media/posts/40/collosal-cave-retro-1-1024x512.jpg" alt="collosal cave adventure played using cool-retro-term on a 1980s style amber terminal" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-xs.webp 300w ,https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-sm.webp 480w ,https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-md.webp 768w ,https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-lg.webp 1024w ,https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-xl.webp 1360w ,https://linuximpact.com/media/posts/40/responsive/collosal-cave-retro-1-1024x512-2xl.webp 1600w"></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>OK. Let's start by saying that this is simultaneously one of the most enjoyable and frustrating gaming experiences we've had in a while. Cyberpunk 2077 it ain't.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>From the start, your options are limited, and you don't know what they are. You issue commands by typing a maximum of two words.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>Look</strong> is the first command we figured out, and it gave us a written description of our environment. <strong>Take</strong>, <strong>Enter</strong>, and <strong>Eat</strong>, all have consequences, even if they're as trivial as seeing a "your feet are now wet" message after entering a stream.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We've spent several hours exploring the colossal cave so far, and don't think we're even close to figuring out all the commands.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Yes, there are cheat sheets and maps available online, and we imagine there are walkthroughs available, too. But figuring things out as you go is a thrill all of its own, and a far cry from the tutorials and training levels of more modern games.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Later text adventures came with rudimentary graphics to illustrate your surroundings (this author's first video game experience was with the 1986 text graphical hybrid Escape From Khoshima), but the complete absence of any kind of visual clue or explicit instructions is part of the charm. It forces you to visualise your surroundings, draw maps with pen and paper, and keep extensive notes. It's a blast from the past, and somewhat similar to your computer acting as DM in a single player D&amp;D session.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>All in all, we're having a blast (from the past).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 id="h-enhance-your-colossal-cave-experience-with-a-retro-terminal" class="wp-block-heading">Enhance your Colossal Cave experience with a retro terminal</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>We don't have the equipment or budget to play Colossal Cave Adventure as it was originally meant to be played, but the right terminal emulator can at least give you the 1981 experience.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://linuximpact.com/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/" data-type="post" data-id="381">cool-retro-term gives your terminal the look and feel of a console run on a CRT</a> from days gone by. You might be playing on an LCD or OLED screen, but with cool-retro-term, you get scan lines, fuzz, glitches, screen burn, and more.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Presets include Apple, IBM 3278, Monochrome Green, and IBM DOS.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We don't have a time machine, but using cool-retro-term to play Colossal Cave Adventure is the next best thing.</p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>

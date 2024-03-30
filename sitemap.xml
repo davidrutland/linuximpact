@@ -441,6 +441,14 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/how-to-install-specific-npm-and-node-versions-on-linux/</loc>
+<lastmod>2024-03-30T21:35:30+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/85/knotted-rope.png</image:loc>
+<image:title><![CDATA[knotted rope on white background]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/how-to-install-the-latest-version-of-docker-compose-on-linux-and-why-you-should/</loc>
 <lastmod>2023-12-14T10:21:24+00:00</lastmod>
 <image:image>
@@ -625,6 +633,30 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/languagetool-is-an-ai-powered-grammar-checker-you-can-self-host-on-your-own-hardware/</loc>
+<lastmod>2024-03-30T21:43:32+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/84/grammar-and-composition.png</image:loc>
+<image:title><![CDATA[spine of a book titled Grammar and composition]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/84/grammarly_screenshot.png</image:loc>
+<image:title><![CDATA[Screenshot of the grammarly homepage]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/84/languagetool-web-interface.png</image:loc>
+<image:title><![CDATA[Languagetool web interface showing issues only available to premium users]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/84/languagetool_em-dash-error.png</image:loc>
+<image:title><![CDATA[Self-hosted LanguageTool extension running in NextCloud notes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/84/languagetool-editor.png</image:loc>
+<image:title><![CDATA[LanguageTool dedicated web editor extension]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/linux-vs-windows-which-is-best-for-your-pc/</loc>
 <lastmod>2023-11-10T11:17:44+00:00</lastmod>
 <image:image>
@@ -717,6 +749,34 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/mirrors-where-were-going-we-wont-need-mirrors/</loc>
+<lastmod>2024-03-30T17:38:15+00:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/terracan_loaded_with_bay-2.jpeg</image:loc>
+<image:title><![CDATA[A green Hyundai Terracan loaded with bay leaves]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/parking_with_jansite_mirror.jpeg</image:loc>
+<image:title><![CDATA[Rearview mirror showing parked cars]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/jansite_rearview.jpeg</image:loc>
+<image:title><![CDATA[Rearview mirror]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/20240322_124018_1.jpg</image:loc>
+<image:title><![CDATA[Rearview camera output in Asda car park]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/20240322_125254_0.jpg</image:loc>
+<image:title><![CDATA[Dashcam photo of Victoria Road in New Brighton]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/83/jansite-settings.jpeg</image:loc>
+<image:title><![CDATA[settings menu for jansite magic mirror]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/mystic-mog-new-predictions-for-the-new-year/</loc>
 <lastmod>2024-01-08T11:56:20+00:00</lastmod>
 <image:image>
@@ -774,7 +834,7 @@
 </url>
 <url>
 <loc>https://linuximpact.com/on-the-edge-microsofts-browser-on-linux/</loc>
-<lastmod>2024-01-23T17:15:53+00:00</lastmod>
+<lastmod>2024-03-30T20:13:30+00:00</lastmod>
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/82/pingu.png</image:loc>
 <image:title><![CDATA[Penguin standing on the edge of a cliff- a wave is rolling in.]]></image:title>
