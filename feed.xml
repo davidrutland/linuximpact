@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-04-01T13:35:22+01:00</updated>
+    <updated>2024-04-01T13:43:06+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -40,7 +40,7 @@
 <h2 id="h-the-best-scam-emails-are-ones-that-youre-expecting">The best scam emails are ones that you're expecting</h2>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/86//namecheap-scam-email-2.png" alt="Webmail showing an email purportedly from namecheap" width="1920" height="1033" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-xs.webp 300w ,https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-sm.webp 480w ,https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-md.webp 768w ,https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-lg.webp 1024w ,https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-xl.webp 1360w ,https://linuximpact.com/media/posts/86//responsive/namecheap-scam-email-2-2xl.webp 1600w"></figure>
 <p>If you routinely receive a lot of emails from a particular source, one more is likely to slip through unnoticed.</p>
-<p>Check the <a href="https://whois.domaintools.com/linuximpact.com" rel="noopener noreferrer nofollow">WHOIS entry for this website</a>, and you'll see that the very first Domain Profile entry is the name of the registrar. We <a href="https://www.namecheap.com/domains/domain-name-search/">bought this domain through NameCheap</a>. It's super-easy for an attacker to find this, and it's also super-easy to craft an email purporting to be from the company.</p>
+<p>Check the <a href="https://whois.domaintools.com/linuximpact.com" rel="noopener noreferrer nofollow">WHOIS entry for this website</a>, and you'll see that the very first Domain Profile entry is the name of the registrar. We <a href="https://namecheap.pxf.io/NkqzmK">bought this domain through NameCheap</a>. It's super-easy for an attacker to find this, and it's also super-easy to craft an email purporting to be from the company.</p>
 <p>As with many site owners, we have dozens of domain names registered, so receive emails from NameCheap multiple times per month.</p>
 <p>At first glance, the email seemed genuine. The from field read "Namecheap Support," and the subject was, "Subscription Renewal Notice."</p>
 <p>It landed in our main inbox and wasn't flagged as spam. It wasn't attempting to spoof the Linux Impact mail server into thinking it was from NameCheap. The email was from an altogether different domain, with valid DKIM, SPF, and DMARC. While this does present a giveaway to eagle-eyed recipients, such as this writer, it practically guarantees entry into the main inbox.</p>
@@ -50,7 +50,7 @@
 <p>Overall, it was a good attempt, and we'd give it a five out of 10.</p>
 <h2 id="h-what-gives-a-scam-email-away">What gives a scam email away?</h2>
 <p>While this email was a solid effort, there were a few giveaways.</p>
-<p>The first was that the title (not the subject) of the email was "Hosting Auto-Renew Failed." We don't have hosting with NameCheap. Although <a href="namecheap.pxf.io/R591ag">NameCheap hosting is a bargain</a>, a little more research would have told the attacker that we actually host this site on GitHub pages.</p>
+<p>The first was that the title (not the subject) of the email was "Hosting Auto-Renew Failed." We don't have hosting with NameCheap. Although <a href="https://namecheap.pxf.io/R591ag">NameCheap hosting is a bargain</a>, a little more research would have told the attacker that we actually host this site on GitHub pages.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/86//linux-impact-dns.png" alt="DNS A record check for LinuxImpact.com" width="1200" height="435" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-xs.webp 300w ,https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-sm.webp 480w ,https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-md.webp 768w ,https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-lg.webp 1024w ,https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-xl.webp 1360w ,https://linuximpact.com/media/posts/86//responsive/linux-impact-dns-2xl.webp 1600w"></figure>
 <p>A further <a href="https://dnschecker.org/#A/linuximpact.com" rel="noopener noreferrer nofollow">A record DNS check</a> would have revealed IP addresses that are assigned to GitHub. Armed with this knowledge, the attacker could have crafted a different title that could, perhaps, have fooled us.</p>
 <p>The next giveaway is the <strong>To</strong> field. The email was addressed to info@linuximpact.com. This isn't an actual address we use to register domain names, and came to us via catch-all forwarding. It's a good guess, but no, that email doesn't exist.</p>
@@ -60,7 +60,7 @@
 <p>Lastly, there's the fact that all the links - and the sender email are from a defunct WordPress site, with some shiny new subdomains set up expressly to catch the unwary. Of course, you won't easily be able to tell this if you're reading on mobile. You'll need to get to a desktop and hover your mouse over each link to check.</p>
 <h2 id="h-what-can-an-attacker-do-with-a-stolen-id">What can an attacker do with a stolen ID</h2>
 <p>Had we clicked through to the fake NameCheap site and entered our genuine email address and password, the results could have been catastrophic, and it's entirely feasible that this website would have redirected to a malware-laden spoof page.</p>
-<p>With the ability to set DNS records, it's also likely that the attacker would have spun up an email server, and used it send out malicious, yet legitimate-seeming emails to trick other users. Again, we have dozens of <a href="https://www.namecheap.com/domains/domain-name-search/">domains registered with NameCheap</a>, so this would be a gift that kept on giving.</p>
+<p>With the ability to set DNS records, it's also likely that the attacker would have spun up an email server, and used it send out malicious, yet legitimate-seeming emails to trick other users. Again, we have dozens of <a href="https://namecheap.pxf.io/NkqzmK">domains registered with NameCheap</a>, so this would be a gift that kept on giving.</p>
 <p>They would have also tried to use the email and password combos against other services to see what matched It's good practice to <a href="https://linuximpact.com/protect-your-inbox-from-spam-and-online-threats/">protect your inbox by spinning up multiple aliases, and creating seperate identities</a> for each online service you use.</p>
 <p>We're as careful as we can be with emails, and there's an element of luck involved, too. The best thing you can do is stay vigilant, keep images off, and check <em>everything</em>.</p>
 <p> </p>
