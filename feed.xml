@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-04-26T15:33:54+01:00</updated>
+    <updated>2024-04-26T15:38:10+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -43,8 +43,8 @@
 <p>Weather forecasts apps and websites are easy to come by. There's probably one baked into your phone's OS, and searching Google for the weather in your location, will give you an idea of what the heavens have in store for you over the next several days.</p>
 <p>The problem is that by using any of these services, you're opting into the tracking-based ecosystem that plagues the internet in the 21st century.</p>
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/met-office-vendors.jpg" alt="The right half of the image is a weather map of he UK, while the left portion is a section of a list of so-called vendors with a toggle switch for each" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/met-office-vendors-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-2xl.webp 1600w"></figure>
-<p>Even checking the <a rel="noopener noreferrer nofollow">Met Office</a> - the UK government's national weather service exposes you to more trackers, cookies, and 'vendors' than you're probably comfortable with. Sure, those of us lucky enough to live somewhere with adequate(ish) data protection regulations can click on "Reject All" to banish the 241 vendors from our cache, but then we have to put up with DRM warnings.</p>
-<p>And the Met Office is one of the easier sites to deal with. Some publishers even put their forecasts behind a paywall, meaning you have to use a dedicated <a href="#non-existing-post-with-id-60">tool to get around the paywall</a>.</p>
+<p>Even checking the <a href="https://www.metoffice.gov.uk/" rel="nofollow">Met Office</a> - the UK government's national weather service exposes you to more trackers, cookies, and 'vendors' than you're probably comfortable with. Sure, those of us lucky enough to live somewhere with adequate(ish) data protection regulations can click on "Reject All" to banish the 241 vendors from our cache, but then we have to put up with DRM warnings.</p>
+<p>And the Met Office is one of the easier sites to deal with. Some publishers even put their forecasts behind a paywall, meaning you have to use a dedicated <a href="https://linuximpact.com/bypass-paywalls-clean-combines-all-soft-paywall-hacks-into-one-neat-package/">tool to get around the paywall</a>.</p>
 <p>wttr.in is a project by Igor Chubin that delivers weather reports to your Linux terminal in a format that's easy to understand, doesn't track you or your online activity, and xxx.</p>
 <p>On top of everything else, it's cool as the ninth circle of hell.</p>
 <h2 id="h-curl-your-local-weather-from-wttrin">cURL your local weather from wttr.in</h2>
