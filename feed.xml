@@ -3,12 +3,91 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-04-08T14:32:32+01:00</updated>
+    <updated>2024-04-26T15:33:54+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
     <id>https://linuximpact.com</id>
 
+    <entry>
+        <title>Windy out? How to check the weather, moon phase and more from your Linux terminal</title>
+        <author>
+            <name>David Rutland</name>
+        </author>
+        <link href="https://linuximpact.com/how-to-check-weather-moon-phase-linux-terminal-cli-tool/"/>
+        <id>https://linuximpact.com/how-to-check-weather-moon-phase-linux-terminal-cli-tool/</id>
+        <media:content url="https://linuximpact.com/media/posts/88/wttr-crt.jpg" medium="image" />
+            <category term="Tool"/>
+            <category term="Terminal"/>
+            <category term="TUI"/>
+            <category term="Linux"/>
+            <category term="CLI"/>
+
+        <updated>2024-04-18T16:20:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://linuximpact.com/media/posts/88/wttr-crt.jpg" alt="three day terminal weather forecast for Llandudno in cool retro term with orange graphics" />
+                    Rain or shine, storms, snow, gales, ice, and blistering heat. Weather can seriously affect how you're going to spend the rest of your day, week, month, or even your year. Dress for a gloriously sunny day in flip-flops, shorts with a natty straw hat, and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://linuximpact.com/media/posts/88/wttr-crt.jpg" class="type:primaryImage" alt="three day terminal weather forecast for Llandudno in cool retro term with orange graphics" /></p>
+                <p data-pm-slice="1 1 []">Rain or shine, storms, snow, gales, ice, and blistering heat. Weather can seriously affect how you're going to spend the rest of your day, week, month, or even your year.</p>
+<p>Dress for a gloriously sunny day in flip-flops, shorts with a natty straw hat, and you're going to have a bad time when an ice storm comes roaring in from the North Sea, and destroys your headwear, before leaving you as a frozen and bruised, wind-burned wreck on the beach.</p>
+<p>Likewise, dress for the cold, and you'll find yourself in a puddle of sweat when the clouds lift, and a great fiery ball in the sky sends temperatures rocketing.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/umbrella-man.jpg" alt="Man with umbrella standing next to a signpost near a fog bank" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/umbrella-man-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/umbrella-man-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/umbrella-man-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/umbrella-man-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/umbrella-man-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/umbrella-man-2xl.webp 1600w"></figure>
+<p>Aside from being able to tailor your outerwear for personal comfort, knowing the weather in advance can help you plan events a few days in advance. There's no point in unpacking and assembling your telescope if the skies are covered all weekends, and you don't want to set aside a day to plant up your allotment, if it's going to rain for the whole of next week.</p>
+<h2 id="h-a-weather-forecast-in-your-terminal">A weather forecast in your terminal</h2>
+<p>You can tell what the weather's like right now by looking out of the window, but that doesn't tell you what the conditions will be like this afternoon, or tomorrow. For that, you need a forecast.</p>
+<p>Weather forecasts apps and websites are easy to come by. There's probably one baked into your phone's OS, and searching Google for the weather in your location, will give you an idea of what the heavens have in store for you over the next several days.</p>
+<p>The problem is that by using any of these services, you're opting into the tracking-based ecosystem that plagues the internet in the 21st century.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/met-office-vendors.jpg" alt="The right half of the image is a weather map of he UK, while the left portion is a section of a list of so-called vendors with a toggle switch for each" width="1600" height="800" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/met-office-vendors-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/met-office-vendors-2xl.webp 1600w"></figure>
+<p>Even checking the <a rel="noopener noreferrer nofollow">Met Office</a> - the UK government's national weather service exposes you to more trackers, cookies, and 'vendors' than you're probably comfortable with. Sure, those of us lucky enough to live somewhere with adequate(ish) data protection regulations can click on "Reject All" to banish the 241 vendors from our cache, but then we have to put up with DRM warnings.</p>
+<p>And the Met Office is one of the easier sites to deal with. Some publishers even put their forecasts behind a paywall, meaning you have to use a dedicated <a href="#non-existing-post-with-id-60">tool to get around the paywall</a>.</p>
+<p>wttr.in is a project by Igor Chubin that delivers weather reports to your Linux terminal in a format that's easy to understand, doesn't track you or your online activity, and xxx.</p>
+<p>On top of everything else, it's cool as the ninth circle of hell.</p>
+<h2 id="h-curl-your-local-weather-from-wttrin">cURL your local weather from wttr.in</h2>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/wttr-default-view.jpg" alt="terminal wttr weather report for Lyme Regis showing current conditions and next three days" width="1600" height="866" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/wttr-default-view-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/wttr-default-view-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/wttr-default-view-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/wttr-default-view-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/wttr-default-view-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/wttr-default-view-2xl.webp 1600w"></figure>
+<p>cURL is a command-line utility used to sending or getting data using URL syntax. Point it at an ordinary web page, and it will output the HTML contained on that webpage. It's surprisingly sophisticated, and useful for managing HTTP post, SSL connections, proxy support, and FTP uploads. If it isn't already on your list of <a href="https://linuximpact.com/discover-your-most-used-linux-commands-with-muc/">most used Linux commands</a>, it should be.</p>
+<p>curl doesn't come installed on all distros. You can easily install cURL on Debian-based systems, by popping open a terminal and entering:</p>
+<pre><code class="language-bash">sudo apt install curl </code></pre>
+<p>To get a three-day forecast for your approximate location (determined by your IP address), just tap:</p>
+<pre><code class="language-bash">curl wttr.in</code></pre>
+<p>...into your terminal.</p>
+<p>Almost immediately, you'll see the current conditions (Patchy rain nearby), followed by a three-day forecast showing weather for the morning, noon, evening, and night - all illustrated with classy ASCII art of the sun peaking from behind clouds, snowflakes, flashing lightning bolts, or whatever's incoming to your region.</p>
+<p>The data, including illustrations is presented in a table, and includes a description of the weather, the temperature, a "feels like" temperature, wind speed, visibility, mm of rain expected, and humidity. That's a lot.</p>
+<p>Of course, IP determined location is often unreliable. Our wttr.in weather report tells us that it's overcast in Lincoln, which is cool, but we're nowhere near Lincoln.</p>
+<p>To get the weather for your actual location, put the name of the nearest settlement as part of the URL.</p>
+<p>For instance, to get the weather in the lovely Cheshire market town of Frodsham, you'd enter:</p>
+<pre><code class="language-bash">curl wttr.in/frodsham</code></pre>
+<p>Simple eh? Apparently, there's light drizzle.</p>
+<p>If your local town contains spaces, put a "<strong>+</strong>" sign between the words. If you want to be reassured that it's also raining in the Jurassic Coast seaside of resort of Lyme Regis, for instance, you'd enter:</p>
+<pre><code class="language-bash">curl wttr.in/lyme+regis</code></pre>
+<p>By default, the wttr.in weather report displays an abundance of colour, which is fine if you have a standard white on black terminal. We prefer a light terminal background, and because of this, the colours don't show up very well. You can force plain text by adding "<strong>/?T</strong>" after your location. If you're using a <a href="https://linuximpact.com/relive-the-glory-days-of-crt-monitors-with-cool-retro-term/">stylised terminal such as Cool Retro Term</a>, you may find this helps with visibility.</p>
+<h2>More weather modes</h2>
+<p>Maybe you don't want a three-day graphical weather report in your terminal. Perhaps you like things simpler, or even extra snazzy, or extra-detailed.</p>
+<p>In all cases, wttr.in has you covered.</p>
+<p>If you just want quick weather output for one or more locations, you can add "?format=3" to the end of your location string. For instance:</p>
+<p>curl wttr.in/Liverpool?format=3</p>
+<p>Or if you want the current conditions in multiple potential holiday destinations, use curly braces, with the locations separated by commas:</p>
+<pre><code class="language-bash">curl -s 'wttr.in/{rhyl,llandudno,bodfari}?format=3'</code></pre>
+<p>The <strong>-s</strong> switch tells curl to operate silently.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/multi-wttr.jpg" alt="short weather output for rhyl, llandudno, bodfari, gwent, and swansea" width="1600" height="741" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/multi-wttr-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/multi-wttr-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/multi-wttr-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/multi-wttr-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/multi-wttr-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/multi-wttr-2xl.webp 1600w"></figure>
+<p>If you want specific information, wttr.in accepts inputs following the "<strong>%</strong>" symbol. The full list is available on the project page, but a few of our favourites are: moon phase (m), uv index (u), Dawn (D), and dusk (d). To view all of these for our the perpetually rainy northern town of Wigan, we would enter:</p>
+<pre><code class="language-bash">curl wttr.in/wigan?format="%m:+%u+%D+%d\n"</code></pre>
+<p>For a more detailed and dedicated tool for checking out <a href="https://linuximpact.com/pyphoon-gives-you-an-ascii-moon-in-your-terminal/">moon phases in your terminal, we recommend Pyphoon</a>.</p>
+<p>If you like graphs, charts, and data, you'll love v2.wttr as it gives you (among other things): temperature, and rain forecast through the next three days, moon phases, timezone for your chosen location, dawn, sunrise, noon, sunset, and dusk - all presented in a very sophisticated, visual way.</p>
+<figure class="post__image"><img  src="https://linuximpact.com/media/posts/88/data-rich-wttr.jpg" alt="wttr output with graphs " width="1600" height="799" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-xs.webp 300w ,https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-sm.webp 480w ,https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-md.webp 768w ,https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-lg.webp 1024w ,https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-xl.webp 1360w ,https://linuximpact.com/media/posts/88/responsive/data-rich-wttr-2xl.webp 1600w"></figure>
+<p>To access the data-rich version, simply use v2.wttr.in as the base URL:</p>
+<pre><code class="language-bash">curl v2.wttr.in/wigan</code></pre>
+<h2 id="h-theres-more-to-wttr-than-we-can-fit-in-here">There's more to wttr than weather</h2>
+<p>Of course, this article barely scratches the surface of what the combination of <strong>curl</strong> and wttr is capable of. While we're not technically low on space here, it makes more sense to highlight the basic usage, and features we actually use, rather than paraphrase the entire manual.</p>
+<p>Notable features we haven't covered include a variety of output formats, cool maps, integrations with Conky, and multilingual locations names. Visit the project's <a href="https://github.com/chubin/wttr.in" rel="noopener noreferrer nofollow">GitHub page</a> and check it out.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Banish search spam forever with uBlacklist!</title>
         <author>
@@ -2328,84 +2407,6 @@ python setup.py install</code></pre>
 <p>If you're selling something, or need a database then traditional hosting is a better option.</p>
 <h2 id="h-expose-yourself-to-the-world">Expose yourself to the world</h2>
 <p>Once your website is online, it's accessible to everyone, so be careful what details you put on it. While it's natural to want to give visitors some means of getting in contact with you, please don't put your home address on your website, and take some steps to <a href="https://linuximpact.com/protect-your-inbox-from-spam-and-online-threats/">disguise your email address</a> as well.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>A TechCrunch RSS feed was hijacked in 2021. Nobody noticed.</title>
-        <author>
-            <name>David Rutland</name>
-        </author>
-        <link href="https://linuximpact.com/a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed/"/>
-        <id>https://linuximpact.com/a-techcrunch-rss-feed-was-hijacked-in-2021-nobody-noticed/</id>
-        <media:content url="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" medium="image" />
-            <category term="Security"/>
-            <category term="RSS"/>
-            <category term="Internet"/>
-
-        <updated>2023-11-16T11:07:59+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" />
-                    RSS feeds power the internet - The parts of it worth reading anyway. With a decent RSS reader, you can skim headlines or excepts, you can get the most important news on your favourite topics without ever having to visit the sites themselves. Feedburner is&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://linuximpact.com/media/posts/55/techcrunch-banner-logo.jpg" class="type:primaryImage" alt="The techcrunch log on a green banner. The head of a man in a pink balaclava on the left and an RSS image on the right" /></p>
-                <p>RSS feeds power the internet - The parts of it worth reading anyway. With a decent RSS reader, you can skim headlines or excepts, you can get the most important news on your favourite topics without ever having to visit the sites themselves.</p>
-<p>Feedburner is a web feed management service founded in 2004, and offered custom RSS feeds and management tools to bloggers. There are were some huge advantages for websites using Feedsburner to power their feeds. Statistics and analytics, for example; browser-friendly versions instead of ugly XML files; email sign-up options.</p>
-<p>But relying on external services to provide feeds leaves readers vulnerable if the feed is taken over by a a squatter. Who wants their feeds full of affiliate spam, cruft, crap, and scams? No-one, that's who.</p>
-<p>But that's what happened to TechCrunch in 2021.</p>
-<h2 id="h-techcrunch-has-had-a-rocky-relationship-with-feedburner">TechCrunch had a rocky relationship with FeedBurner</h2>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/bonfire.jpg" alt="silhouette of a man in front of a blazing bonfire" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/bonfire-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/bonfire-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/bonfire-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/bonfire-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/bonfire-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/bonfire-2xl.webp 1600w"></figure>
-<p>Way back in <a href="https://web.archive.org/web/20050730022437/http://www.techcrunch.com/">June 2005</a>, TechCrunch, not yet a tech media powerhouse, was a "weblog dedicated to obsessively profiling and reviewing every newly launched web 2.0 business and service".</p>
-<p>Hosted on WordPress 1.5.1, Techcrunch was the place to go if you wanted to read about the launch of Google reviews, the proliferation of new search engines, or an explanation of what web2.0 actually was.</p>
-<p>They also had good things to say about the FeedBurner service:</p>
-<blockquote>
-<p>One reason a blog or website owner would want to use this is because it simplifies the RSS feed. The Feed URL for Techcrunch, for instance, is “http://feeds.feedburner.com/Techcrunch”, which is a much simpler format that standard RSS feeds.... And if a site can get most of its readers to use the single Feedburner feed, they can take advantage of the great statistics and tools to see where readers are coming from and what they are clicking on.</p>
-</blockquote>
-<p>We'd disagree that the TechCrunch FeedBurner URL is a simpler format, and a quick look on archive.org shows that the TechCrunch had two native feeds at the time: http://www.techcrunch.com/?feed=rss and http://www.techcrunch.com/?feed=atom.</p>
-<p>Sure, the URLs contain a "?", but the overall length was shorter, and besides, links are for clicking, not for copying out by hand - but we digress. TechCrunch clearly preferred the FeedBurner service, most likely because, "it can automatically add Google Adsense adds to your feeds, allowing you to easily generate revenue if you have a large enough audience". </p>
-<p>TechCrunch switched to FeedBurner the following month. </p>
-<p>Google acquired FeedBurner in 2007, and by 2012, <a href="https://techcrunch.com/2012/09/28/the-feedburner-deathwatch-continues-google-kills-adsense-for-feeds/" rel="nofollow">TechCrunch had the service on deathwatch</a> after Google shuttered its adsense integration.</p>
-<blockquote>
-<p>Many publishers (including TechCrunch) rely on the service to publish their RSS feeds. It’s time to reconsider this as the writing is clearly on the wall.</p>
-</blockquote>
-<p>They didn't reconsider it though, and the TechCrunch Feedburner feed was regularly updated with every story and article until late 2021.</p>
-<h2 id="h-failing-to-heed-your-own-warning">Failing to heed their own warning</h2>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/ears.jpg" alt="A bearded man holding both hands up to his ears" width="1680" height="840" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/ears-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/ears-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/ears-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/ears-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/ears-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/ears-2xl.webp 1600w"></figure>
-<p>We started subscribing to TechCrunch via RSS at some point in 2018 - somewhere around the time that TechCrunch was <a href="https://techcrunch.com/2018/04/07/rss-is-undead/">loudly proclaiming</a> the death of RSS as a useful technology.</p>
-<p>We can't remember where we found the URL - the official feed on the main site was <a href="https://techcrunch.com/feed/" rel="noopener noreferrer nofollow">https://techcrunch.com/feed/</a> at the time (and still is). It was probably through search results or an aggregated list of cool feeds to follow. Either way, the official FeedBurner feed was ticking along nicely. Doubtless forgotten by the TechCrunch admins, but, like a dying postman in a post-apocalyptic world, dutifully updating RSS clients around the world with the latest on Silicon Valley startups, interesting innovations, and the imminent arrival of Web 3.0 (yawn).</p>
-<p>In <a href="https://techcrunch.com/2021/04/14/googles-feedburner-moves-to-a-new-infrastructure-but-loses-its-email-subscription-service/" rel="noopener noreferrer nofollow">April 2021</a>, TechCrunch reported that Google would soon move Feedburner to a new infrastructure, and once again plugged its own FeedBurner URL - at the same time noting that the upcoming changes had the potential to create a bit of a mess:</p>
-<blockquote>
-<p>And despite everything, shutting it down would probably break enough tools for publishers to create quite an uproar. The TechCrunch RSS feed, to which you are surely subscribed in your desktop RSS reader, is http://feeds.feedburner.com/TechCrunch/, after all.</p>
-</blockquote>
-<p>Yes. That was a live link, BTW.</p>
-<h2 id="h-the-confusion">The confusion</h2>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_freshrss_feed.jpg" alt="TechCrunch RSS feed as viewed through FreshRSS" width="1680" height="636" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_freshrss_feed-2xl.webp 1600w"></figure>
-<p>We're not sure how exactly the FeedBurner infrastructure shift went down, but we're certain that as TechCrunch predicted, it was a shitshow, and yes, it did break publisher tools, despite <a href="https://support.google.com/feedburner/answer/10483501">assurances from Google</a> that, "All existing feeds will continue to serve uninterrupted".</p>
-<p>Pruning the feeds on our <a href="https://linuximpact.com/freshrss-stay-safe-and-never-visit-another-website-again/">fabulous self-hosted FreshRSS instance</a> last week, we noticed that we hadn't favourited any TechCrunch articles for a while. Our instance is set to purge content over a certain age unless it's been favourited.</p>
-<p>Historically we had liked, on average, one TechCrunch article per month enough to keep it permanently on our servers.</p>
-<p>Highlights include headlines such as "We must end the era of adjunct surveillance" from August 2021 at which we were outraged and disgusted, and "Panic sells 20,000+ Playdate handhelds in under 20 minutes" from a month earlier, about which we were delighted.</p>
-<p>Our last favourited TechCrunch article received over RSS was titled "Amazon will pay you $10 in credit for your palm print biometrics", at which we literally facepalmed (Boom!).</p>
-<p>After that there's nothing - at least nothing we've found engaging enough to mark.</p>
-<h2 id="h-under-new-management">Under new management</h2>
-<p>An article from the TechCrunch feed posted in October 2021 - a mere six months after TechCrunch's article on the upcoming Infrastructure changes was titled, "China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn". It doesn't scan as being particularly Crunch-y, and although informative, it doesn't read quite right either. The article isn't engaging (but hey, who has a 100% hit rate?), and the byline is "noreply@blogger.com".</p>
-<figure class="post__image"><img  src="https://linuximpact.com/media/posts/55/techcrunch_china_story.jpg" alt="A news article with the headline: China Could Be Exploiting Internet Security Process to Steal Data, Cyber Experts Warn" width="1680" height="744" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/techcrunch_china_story-2xl.webp 1600w"></figure>
-<p>The page it links to is on the now-defunct https://techncruncher.blogspot.com blog. Running the content through a free plagiarism detector, reveals that the exact same content is on dozens of sites, including the Freedom First Network - an alt-right leaning outlet that (on a random sampling of its other pages) views Democrats as facists, and has headlines such as "Planned Parenthood is Selling the Bodies of Dead Babies to the CCP to Develop Bioweapons to Use Against Americans", and "Do Black people owe White people reparations for slavery". We suspect this is where the story originated.</p>
-<p>Move forwards through the TechCrunch feed, and you'll see more plausible headlines. Some are tech-related such as, "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)"; some are typical of the kind of low-quality SEO fodder you'd find on other, tech-adjacent sites, such as "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?" </p>
-<p data-pm-slice="1 1 []">There's a tonne of pop culture and movie lists.</p>
-<figure class="post__image post__image--center"><img  src="https://linuximpact.com/media/posts/55/cenobites.jpg" alt="Supposed TechCrunch story: Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" width="1914" height="958" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/55/responsive/cenobites-xs.webp 300w ,https://linuximpact.com/media/posts/55/responsive/cenobites-sm.webp 480w ,https://linuximpact.com/media/posts/55/responsive/cenobites-md.webp 768w ,https://linuximpact.com/media/posts/55/responsive/cenobites-lg.webp 1024w ,https://linuximpact.com/media/posts/55/responsive/cenobites-xl.webp 1360w ,https://linuximpact.com/media/posts/55/responsive/cenobites-2xl.webp 1600w"></figure><figure class="post__image"><img  src="Supposed techcruch story with the headline Hellraiser: The 5 Best &amp; 5 Worst Cenobites In The Whole Franchise" alt="" data-is-external-image="true"></figure>
-<p data-pm-slice="1 1 []">In February 2022, the linked domain moved to crunchhype.com, and the pop culture disappeared in favour of affiliate marketing and SEO based articles. Buried in there someone is, we would assume, an exhortation to take control of neglected RSS feeds to shill your stuff.</p>
-<h2 id="h-wider-implications-for-xxx">There are wider implications for abandoned accounts</h2>
-<p>Websites live and die all the time, and their RSS feeds are taken over by squatters and legitimate new owners.</p>
-<p>The difference is that if a website of TechCrunch's size had died, we'd have heard about it and become suspicious that their feed was still coming through.</p>
-<p>TechCrunch is obviously still alive, and we had little reason to think that one of their official RSS channels had been taken over.</p>
-<p>Had the squatter's headline writers been better, we might have actually opened one of their spammy articles, and believed what was written therein.</p>
-<p>We don't know if you've heard the news, but Twitter will soon start selling disused handles in an effort to shore up the finances of Elon Musk's rapidly depopulating media empire.</p>
-<p>These are, presumably, accounts with a lot of followers, and the opportunity for plausible disinformation from people you'd forgotten you follow will be huge.</p>
-<p>Yes, the costs will be high, but consider that buying followers through promoted accounts costs around $2 per follower, we can see an incoming tsunami of shit.</p>
             ]]>
         </content>
     </entry>
