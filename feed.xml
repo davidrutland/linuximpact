@@ -3,7 +3,7 @@
     <title>Linux Impact</title>
     <link href="https://linuximpact.com/feed.xml" rel="self" />
     <link href="https://linuximpact.com" />
-    <updated>2024-04-27T18:55:46+01:00</updated>
+    <updated>2024-04-27T19:20:33+01:00</updated>
     <author>
         <name>David Rutland</name>
     </author>
@@ -62,6 +62,7 @@
 <p>Ancestry.com doesn't bother, and you can use the metadata from the photos on the site to pin down someone's bedroom. You can use their submitted family tree to find out that there's no-one closer to them than second cousins.</p>
 <p>Did we mention that you don't need to even be related to someone in order to see their profile and look at their family and images?</p>
 <p>In short, <a href="http://ancestry.com" rel="noopener noreferrer nofollow">ancestry.com</a> is an almost perfect victim location and targetting platform - if that's your bag. Someone looking for long-lost distant relatives is always going to be something of an easy target, and someone who believes in the fatuous DNA insights is more likely that average to be a mug (according to their DNA).</p>
+<p>This is, of course, leaving aside "Kind Hearts and Coronets" scenarios where a distant relative picks off everyone who stands between him an a large inheritance.</p>
 <p>You don't even need to be logged in in order to view or download the images. <strong>wget</strong> will do the job just fine.</p>
 <h2 id="h-is-there-location-data-in-all-the-ancestrycom-images">Is there location data in all the ancestry.com images?</h2>
 <p>From our random sampling, we'd say that around a third of profile pictures have GPS latitude and longitude embedded in the metadata. This is largely from people who take a quick snap with a selfie cam or mirror shot and upload directly.</p>
@@ -71,7 +72,7 @@
 <figure class="post__image"><img  src="https://linuximpact.com/media/posts/89/call-centre.jpg" alt="call centre workers" width="1600" height="801" sizes="(max-width: 48em) 100vw, 768px" srcset="https://linuximpact.com/media/posts/89/responsive/call-centre-xs.webp 300w ,https://linuximpact.com/media/posts/89/responsive/call-centre-sm.webp 480w ,https://linuximpact.com/media/posts/89/responsive/call-centre-md.webp 768w ,https://linuximpact.com/media/posts/89/responsive/call-centre-lg.webp 1024w ,https://linuximpact.com/media/posts/89/responsive/call-centre-xl.webp 1360w ,https://linuximpact.com/media/posts/89/responsive/call-centre-2xl.webp 1600w"></figure>
 <p>There's no obvious way to contact ancestry.com without creating an account, and no email address we could find on the main site, so I used Leif - the company's' virtual assistant' chatbot, and asked:</p>
 <p><strong>Are you aware that GPS location metadata remains intact in profile pics uploaded to your site? You can literally pinpoint a user's bedroom.</strong></p>
-<p>After exhausting the bot's stock answers, I asked to be put through to a real person, and had to supply my full name, email address and postcode. For those outside the UK, this is almost as accurate as the GPS coordinates we found embedded in profile pics on the site.</p>
+<p>After exhausting the bot's stock answers, I asked to be put through to a real person, and had to supply my full name, email address and postcode. For those outside the UK, a postcode is almost as accurate as the GPS coordinates we found embedded in profile pics on the site.</p>
 <p>Eventually we landed a support person called Maya Here's the exchange:</p>
 <p>Maya: <strong><em>Hi, my name is Maya and I will be assisting you today.</em></strong></p>
 <p>Me:<strong> Hi Maya</strong></p>
@@ -81,8 +82,7 @@
 <p>Me: <strong>You don't think being able to pinpoint someone's house is a security risk?</strong></p>
 <p>The support chat was transferred to another assistant called Yoni Rose.</p>
 <p>Yoni Rose: <strong><em>Thank you for contacting Ancestry Support. Please allow me a moment to review your question and respond.</em></strong></p>
-<p>Chat ended due to timeout</p>
-<p>So that's that, kids. There was no email follow up.</p>
+<p>Chat ended due to timeout. There was no email follow up.</p>
             ]]>
         </content>
     </entry>
