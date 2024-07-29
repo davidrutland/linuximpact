@@ -273,6 +273,34 @@
 </image:image>
 </url>
 <url>
+<loc>https://linuximpact.com/easily-convert-web-pages-to-markdown-self-hosted-toollinux/</loc>
+<lastmod>2024-07-29T14:46:40+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/95/watch-2.jpg</image:loc>
+<image:title><![CDATA[A man's arm and wristwatch resting on a laptop keyboard]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/95/clone_markdowndown_git_repository.jpg</image:loc>
+<image:title><![CDATA[linux terminal showing commands and output from cloning markdowndown github repository]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/95/markdowndown_web_interface.jpg</image:loc>
+<image:title><![CDATA[Markdowndown web interface]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/95/retro_markdown.jpg</image:loc>
+<image:title><![CDATA[Screenshot a Linux Impact article rendered as Mardown]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/emulate-game-boy-in-the-linux-terminal/</loc>
+<lastmod>2024-07-29T14:24:35+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/92/linux_terminal_game_boy.jpg</image:loc>
+<image:title><![CDATA[TMNT gameplay with front and back views of the original Game Boy]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://linuximpact.com/forget-net-nanny-pihole-will-keep-your-kids-late-night-activity-in-check/</loc>
 <lastmod>2023-11-10T13:37:14+00:00</lastmod>
 <image:image>
@@ -330,6 +358,42 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/50/IRSSI-on-undernet.png</image:loc>
 <image:title><![CDATA[IRSSI IRC Client on a transparent black background overlaying FresRSS]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/going-going-gone-how-to-easily-install-golang-on-linux/</loc>
+<lastmod>2024-05-24T16:53:23+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/90/greenman.jpg</image:loc>
+<image:title><![CDATA[Traffic signal showing a green man in a hat walking. There is a blue sky in the background]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/90/golang_wget.jpg</image:loc>
+<image:title><![CDATA[using wget to download the golang tarball]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/great-classic-games-play-in-linux-terminal/</loc>
+<lastmod>2024-07-29T14:23:47+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/94/rgb-keyboard.jpg</image:loc>
+<image:title><![CDATA[close-up of multi-coloured brightly lit keyboard]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/94/tui-crt.png</image:loc>
+<image:title><![CDATA[TUI mines in a pseudo CRT terminal ]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/94/colossal-ibm.jpg</image:loc>
+<image:title><![CDATA[Colossal Cave adventure on an antique IBM screen]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/94/terminal-roulette-gameplay.jpg</image:loc>
+<image:title><![CDATA[Terminal roulette graphics]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/94/linux_terminal_game_boy.jpg</image:loc>
+<image:title><![CDATA[Teenaage Mutant ninja turtles played on an emulator in the Linux terminal]]></image:title>
 </image:image>
 </url>
 <url>
@@ -790,6 +854,18 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/62/catalina-desktop.png</image:loc>
 <image:title><![CDATA[macos desktop with calendar and app store open]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/marktext-beautiful-cross-platform-markdown-editor-linux/</loc>
+<lastmod>2024-07-29T14:47:24+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/93/typewriter-2.jpg</image:loc>
+<image:title><![CDATA[typewriter on a wooden desk]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/93//marktext_themes.jpg</image:loc>
+<image:title><![CDATA[Marktext with themes picker open]]></image:title>
 </image:image>
 </url>
 <url>
@@ -1310,6 +1386,22 @@
 <image:image>
 <image:loc>https://linuximpact.com/media/posts/47/root-shell.png</image:loc>
 <image:title><![CDATA[Installing sudo using the root shell]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://linuximpact.com/terminal-roulette-is-a-classic-casino-game-in-your-terminal/</loc>
+<lastmod>2024-05-24T16:53:59+01:00</lastmod>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/91/roulette_sign.jpg</image:loc>
+<image:title><![CDATA[A sign advertising roulette against a blue sky]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/91/roulette_wheel.jpg</image:loc>
+<image:title><![CDATA[A roulette wheel with the ball settled on 25]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://linuximpact.com/media/posts/91/terminal-roulette-gameplay.jpg</image:loc>
+<image:title><![CDATA[terminal approximation of a roulette board and roulette wheel having lost $250]]></image:title>
 </image:image>
 </url>
 <url>
